@@ -1796,35 +1796,35 @@ magic_xp_effect = {
 			limit = { trait = magic_potential_1 }
 			custom_tooltip = {
 				text = gain_magic_xp_tt
-				change_variable = { which = "magicxp" value = 10 }
+				change_variable = { which = "magicxp" value = 1 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_2 }
 			custom_tooltip = {
 				text = gain_magic_xp_tt
-				change_variable = { which = "magicxp" value = 20 }
+				change_variable = { which = "magicxp" value = 2 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_3 }
 			custom_tooltip = {
 				text = gain_magic_xp_tt
-				change_variable = { which = "magicxp" value = 30 }
+				change_variable = { which = "magicxp" value = 3 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_4 }
 			custom_tooltip = {
 				text = gain_magic_xp_tt
-				change_variable = { which = "magicxp" value = 50 }
+				change_variable = { which = "magicxp" value = 5 }
 			}
 		}
 		else = {
 			#Fallback
 			custom_tooltip = {
 				text = gain_magic_xp_tt
-				change_variable = { which = "magicxp" value = 10 }
+				change_variable = { which = "magicxp" value = 1 }
 			}
 		}
 		if = {
@@ -1832,7 +1832,7 @@ magic_xp_effect = {
 				trait = creature_slann
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 30 }
+				change_variable = { which = "magicxp" value = 3 }
 			}
 		}
 		if = {
@@ -1840,7 +1840,7 @@ magic_xp_effect = {
 				is_college_of_magic_member = yes
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 20 }
+				change_variable = { which = "magicxp" value = 2 }
 			}
 		}
 		#Check for levelup
@@ -1856,35 +1856,35 @@ magic_xp_major_effect = {
 			limit = { trait = magic_potential_1 }
 			custom_tooltip = {
 				text = gain_magic_xp_major_tt
-				change_variable = { which = "magicxp" value = 30 }
+				change_variable = { which = "magicxp" value = 3 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_2 }
 			custom_tooltip = {
 				text = gain_magic_xp_major_tt
-				change_variable = { which = "magicxp" value = 60 }
+				change_variable = { which = "magicxp" value = 6 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_3 }
 			custom_tooltip = {
 				text = gain_magic_xp_major_tt
-				change_variable = { which = "magicxp" value = 90 }
+				change_variable = { which = "magicxp" value = 9 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_4 }
 			custom_tooltip = {
 				text = gain_magic_xp_major_tt
-				change_variable = { which = "magicxp" value = 120 }
+				change_variable = { which = "magicxp" value = 15 }
 			}
 		}
 		else = {
 			#Fallback
 			custom_tooltip = {
 				text = gain_magic_xp_major_tt
-				change_variable = { which = "magicxp" value = 30 }
+				change_variable = { which = "magicxp" value = 3 }
 			}
 		}
 		if = {
@@ -1892,7 +1892,7 @@ magic_xp_major_effect = {
 				trait = creature_slann
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 120 }
+				change_variable = { which = "magicxp" value = 15 }
 			}
 		}
 		if = {
@@ -1900,7 +1900,7 @@ magic_xp_major_effect = {
 				is_college_of_magic_member = yes
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 60 }
+				change_variable = { which = "magicxp" value = 6 }
 			}
 		}
 		#Check for levelup
@@ -1916,35 +1916,35 @@ magic_xp_massive_effect = {
 			limit = { trait = magic_potential_1 }
 			custom_tooltip = {
 				text = gain_magic_xp_massive_tt
-				change_variable = { which = "magicxp" value = 90 }
+				change_variable = { which = "magicxp" value = 9 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_2 }
 			custom_tooltip = {
 				text = gain_magic_xp_massive_tt
-				change_variable = { which = "magicxp" value = 120 }
+				change_variable = { which = "magicxp" value = 18 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_3 }
 			custom_tooltip = {
 				text = gain_magic_xp_massive_tt
-				change_variable = { which = "magicxp" value = 160 }
+				change_variable = { which = "magicxp" value = 27 }
 			}
 		}
 		else_if = {
 			limit = { trait = magic_potential_4 }
 			custom_tooltip = {
 				text = gain_magic_xp_massive_tt
-				change_variable = { which = "magicxp" value = 200 }
+				change_variable = { which = "magicxp" value = 45 }
 			}
 		}
 		else = {
 			#Fallback
 			custom_tooltip = {
 				text = gain_magic_xp_massive_tt
-				change_variable = { which = "magicxp" value = 90 }
+				change_variable = { which = "magicxp" value = 9 }
 			}
 		}
 		if = {
@@ -1952,7 +1952,7 @@ magic_xp_massive_effect = {
 				trait = creature_slann
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 200 }
+				change_variable = { which = "magicxp" value = 45 }
 			}
 		}
 		if = {
@@ -1960,7 +1960,7 @@ magic_xp_massive_effect = {
 				is_college_of_magic_member = yes
 			}
 			hidden_tooltip = {
-				change_variable = { which = "magicxp" value = 160 }
+				change_variable = { which = "magicxp" value = 18 }
 			}
 		}
 		#Check for levelup
