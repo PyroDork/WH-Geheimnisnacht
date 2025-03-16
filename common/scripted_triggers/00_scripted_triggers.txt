@@ -7764,3 +7764,21 @@ have_duplicate_smith_artifacts_flag_expensive_optionC_trigger = {
        	}
     }
 }
+
+cop_assassins_appropriate_target_trigger = {
+	is_within_diplo_range = ROOT
+	is_quest_target = no
+	same_realm = ROOT
+	is_offmap_ruler = no
+	OR = {
+		primary_title = { lower_real_tier_than = KING } #Cult too weak to kill Kings or higher
+		is_ruler = no
+	}
+	NOT = {
+		OR = {
+			who = c_90000 #No killing Malekith
+			who = c_90300 #No killing Morathi
+		}
+	}
+}
+

@@ -524,6 +524,14 @@ character_event = {
 					}
 				}
 			}
+			cult_of_pleasure = {
+				event_target:target_province = {
+					add_province_modifier = {
+						name = secret_slaanesh_community
+						duration = -1
+					}
+				}
+			}
 			cult_of_undivided = {
 				event_target:target_province = {
 					add_province_modifier = {
@@ -586,28 +594,28 @@ society_quest_event = {
                     AND = {
                         ROOT = { society_member_of = cult_of_nurgle }
                         NOR = {
-                            religion = khorne
+                            religion = nurgle
                             has_province_modifier = secret_nurgle_community
                         }
                     }
                     AND = {
                         ROOT = { society_member_of = cult_of_tzeentch }
                         NOR = {
-                            religion = khorne
+                            religion = tzeentch
                             has_province_modifier = secret_tzeentch_community
                         }
                     }
                     AND = {
                         ROOT = { society_member_of = cult_of_slaanesh }
                         NOR = {
-                            religion = khorne
+                            religion = slaanesh
                             has_province_modifier = secret_slaanesh_community
                         }
                     }
                     AND = {
                         ROOT = { society_member_of = cult_of_undivided }
                         NOR = {
-                            religion = khorne
+                            religion = chaos
                             has_province_modifier = secret_undivided_community
                         }
                     }
@@ -3848,14 +3856,35 @@ character_event = {
 
 	is_triggered_only = yes
 
-	option = {
-		name = EVTOPTA_MNM_7832 #event option if standard event
+		option = {
+		name = {
+			trigger = { FROM = { society_member_of = cult_of_pleasure } }
+			text = EVTOPTA_MNM_7832_COP #event option if standard event
+		}
+
+		name = {
+			trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+			text = EVTOPTA_MNM_7832 #event option if standard event
+		}
+	
 		trigger = {
 			event_target:corrupt_priest_target = {
 				NOT = { has_opinion_modifier = { who = event_target:corrupt_priest_spell_caster modifier = opinion_successful_corruption } }
 			}
 		}
-		custom_tooltip = { text = EVTOPTA_MNM_7832_TOOLTIP }
+		custom_tooltip = { text = 
+		
+		name = {
+		trigger = { FROM = { society_member_of = cult_of_pleasure } }
+		text = EVTOPTA_MNM_7832_TOOLTIP_COP
+		}
+	
+		name = {
+		trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+		text = EVTOPTA_MNM_7832_TOOLTIP 
+		}
+		
+		}
 		reverse_opinion = {
 			who = event_target:corrupt_priest_target
 			modifier = opinion_successful_corruption
@@ -6738,7 +6767,18 @@ character_event = { #child
 	is_triggered_only = yes
 
 	option = {
-		name = MNM.7503.a
+	
+	name = {
+		trigger = { FROM = { society_member_of = cult_of_pleasure } }
+		text = MNM.7503.COP.a
+	}
+	
+	name = {
+		trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+		text = MNM.7503.a
+	}
+	
+	
 		FROM = {
 			hidden_effect = { character_event = { id = DR_cults.7506 } }
 			if = {
@@ -7350,9 +7390,16 @@ character_event = {
 				same_society_as = ROOT
 			}
 			save_event_target_as = grand_enchanter
+			save_event_target_as = grand_master
 		}
-
 		random_list = {
+			15 = {
+				modifier = {
+					factor = 0
+					NOT = {society_member_of = cult_of_pleasure}
+				}
+				character_event = { id = DR_cult_of_pleasure.8002} #Cult of Pleasure assassination mission
+			}
 			10 = {
 				modifier = {
 					factor = 0
@@ -7435,7 +7482,16 @@ character_event = {
                                     }
                                 }
                                 AND = {
-                                    ROOT = { society_member_of = cult_of_slaanesh }
+									OR = {
+										ROOT = { society_member_of = cult_of_slaanesh }
+										AND = {
+											ROOT = { society_member_of = cult_of_pleasure }
+											OR = {
+												c_90300 = {is_alive = no}
+												ROOT = {religion = cadai}
+											}
+										}
+									}
                                     NOR = {
                                         religion = slaanesh
                                         has_province_modifier = secret_slaanesh_community
@@ -7461,7 +7517,24 @@ character_event = {
 				}
 				modifier = {
 					factor = 0
-					society_rank == 1
+					
+					NOT = {
+						OR = {
+							society_rank >= 2
+							AND = {
+								society_member_of = cult_of_pleasure
+								society_rank >= 3
+								NOT = {
+									AND = {
+										religion_group = cytharai_group
+										c_90300 = {
+											is_alive = yes
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 
 				modifier = {
@@ -7639,7 +7712,16 @@ character_event = {
 #Assign event
 society_quest_event = {
 	id = DR_cults.7110
-	desc = EVTDESC_DR_CULTS_7110
+	
+	desc = {
+		trigger = { FROM = { society_member_of = cult_of_pleasure } }
+		text = EVTDESC_DR_CULTS_7110_COP
+	}
+
+desc = {
+		trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+		text = EVTDESC_DR_CULTS_7110
+	}
 
 	is_triggered_only = yes
 
@@ -8724,7 +8806,16 @@ character_event = {
 ## For the character that gets the mission Sacrifice someone
 society_quest_event = {
 	id = DR_cults.7025
-	desc = EVTDESC_MNM_7025
+	desc = {
+		trigger = { FROM = { society_member_of = cult_of_pleasure } }
+		text = EVTDESC_COP_7025
+	}
+
+desc = {
+		trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+		text = EVTDESC_MNM_7025
+	}
+	
 	border = GFX_event_letter_frame_intrigue
 
 	is_triggered_only = yes
@@ -8839,7 +8930,16 @@ character_event = {
 ## For the character that gets the mission Demonic Possession
 society_quest_event = {
 	id = DR_cults.7029
-	desc = EVTDESC_MNM_7029
+	desc = {
+		trigger = { FROM = { society_member_of = cult_of_pleasure } }
+		text = EVTDESC_COP_7029
+	}
+
+	desc = {
+		trigger = { FROM = { NOT = { society_member_of = cult_of_pleasure } } }
+		text = EVTDESC_MNM_7029
+	}
+	
 	border = GFX_event_letter_frame_intrigue
 
 	is_triggered_only = yes
@@ -9507,7 +9607,10 @@ character_event = {
 	is_in_society = yes
 
 	trigger = {
-		society_member_of = cult_of_slaanesh
+		OR = {
+			society_member_of = cult_of_slaanesh
+			society_member_of = cult_of_pleasure
+		}
 		NOT = { is_inaccessible_trigger = yes }
 		NOT = { trait = celibate }
 		is_ill = no
