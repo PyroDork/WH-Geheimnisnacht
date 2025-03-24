@@ -2064,9 +2064,9 @@ province;red;green;blue;x;x
 2063;170;0;157;Southern Sea;x
 2064;128;87;44;Southern Sea;x #2
 2065;2;108;175;Southern Sea;x #3
-2066;86;21;151;Kraga Ser;x #
-2067;2;30;25;Spite Peak;x # 
-2068;44;18;23;Mount Doom;x #
+2066;80;173;171;Coast of Albion;x # REMOVE HISTORY
+2067;83;179;177;Lands End;x # REMOVE HISTORY
+2068;82;34;25;Lands End;x # REMOVE HISTORY
 2069;170;27;152;Snake Valley;x #
 2070;128;24;24;Mount Serpes;x #
 2071;44;33;153;Magma Valley;x # 
@@ -2102,12 +2102,12 @@ province;red;green;blue;x;x
 2101;126;105;79;Karak Lazu;x
 2102;42;99;78;Cloudtop;x
 2103;168;93;77;Sabre Mountain;x
-2104;126;90;204;Mountains of Thjazi;x
+2104;86;21;151;Kraga Ser;x
 2105;0;204;67;Khuuitan Shelf;x
 2106;85;99;141;Ymirdrak;x
-2107;127;102;14;Mountains of Naglfari;x
+2107;2;30;25;Spite Peak;x
 2108;169;105;142;Athel Loren;x
-2109;1;108;15;Ulfwerenar Mountains;x
+2109;44;18;23;Mount Doom;x
 2110;43;111;143;Trollheim Mountains;x
 2111;85;114;16;Lithridrom;x
 2112;127;117;144;Mountains of Hel;x
@@ -2412,7 +2412,7 @@ province;red;green;blue;x;x
 2411;104;191;246;Blackwood;x
 2412;234;222;83;Wisp Marshes;x
 2413;96;222;3;Barrowlands;x
-2414;227;169;14;Gwron;x
+2414;232;220;82;Gwron;x
 2415;111;164;53;Bol-A-Hat;x
 2416;170;118;170;Beast Peaks;x
 2417;91;158;100;Krak the Wanderer;x
@@ -2444,3 +2444,100 @@ province;red;green;blue;x;x
 2443;104;72;21;Dalekland;x
 2444;71;42;138;Strovengaard;x
 2445;71;131;184;Olricost;x
+2446;69;171;196;Tiaran Mutanbo;x
+2447;71;175;201;Tiarteber;x
+2448;65;162;186;Dabnolar;x
+2449;173;40;63;Duakka;x
+2450;176;40;64;Baliztli;x
+2451;133;153;9;Nechulzi;x
+2452;145;115;6;Kocc;x
+2453;87;194;82;Piraicoatl;x
+2454;88;196;83;Raielinli;x
+2455;167;24;184;Dacai;x
+2456;174;61;227;Nahuatl;x
+2457;90;201;85;Mazall;x
+2458;109;122;37;Damoquezli;x
+2459;166;59;217;Navocaja;x
+2460;168;59;219;Gomiz;x
+2461;32;181;30;Kronac;x
+2462;31;179;30;Miremoot;x
+2463;30;171;28;Neurac;x
+2464;195;188;70;Whale Rocks;x
+2465;196;188;70;Bale Isle;x
+2466;224;167;14;Kronsbog;x
+2467;73;78;184;Irost;x
+2468;29;171;28;Eight Bogs;x
+2469;111;165;53;Giants Causeway;x
+2470;32;179;30;Wyrdfens;x
+2471;46;237;123;Trogmeet;x
+2472;47;240;124;Muddy Point;x
+2473;105;247;172;Beast Peaks;x
+2474;104;239;171;Bleakcoast;x
+2475;222;247;15;Dunleadhe;x
+2476;107;252;175;Ogden;x #Og Scairn
+2477;209;232;14;Umber;x
+2478;215;240;15;Nagdobhe;x
+2479;101;240;166;Nagronath;x
+2480;194;185;69;Moegryn;x
+2481;207;197;74;Balemoor;x
+2482;201;192;72;Baleaill;x
+2483;204;195;73;Daligen;x
+2484;214;203;76;Plenydd;x #Caer Plenydd
+2485;217;206;77;Plenecnoc;x
+2486;209;198;74;Drakcoill;x
+2487;230;218;81;Oilstre;x
+2488;219;208;78;Lugnaquilla;x
+2489;199;190;71;Alawn;x
+2490;208;198;74;Salt Barrows;x
+2491;212;201;75;Balecliffs;x
+2492;222;210;78;Rakkenmoor;x
+2493;224;213;79;Morranfen;x
+2494;227;215;80;Isle of Avalon;x
+2495;100;237;165;Mragnir;x
+2496;91;214;150;Dungalls;x
+2497;85;199;139;Keyler;x
+2498;95;224;156;Fagmarr;x
+2499;89;209;146;Annack;x
+2500;94;222;155;Iskergow;x
+2501;87;204;142;Lorm Valley;x
+2502;102;242;168;Mearghaim;x
+2503;90;212;148;Harkoner;x
+2504;92;217;151;Dochallen;x
+2505;93;219;153;Unraighe;x
+2506;96;227;158;Maighluin;x
+2507;88;207;144;Jordenvik;x
+2508;86;201;140;Tettenmarc;x
+2509;98;232;162;Eiriby;x
+2510;96;230;160;Mangerholm;x
+2511;95;230;160;Handenfell;x
+2512;99;235;163;Bjornsland;x
+2513;71;76;179;Norcadwor;x
+2514;72;78;184;Surcadwor;x
+2515;65;70;166;Sodorcodmier;x
+2516;64;69;163;Barra;x
+2517;68;74;173;Sye;x
+2518;67;72;171;Mislay;x
+2519;66;71;168;Varran;
+2520;72;77;181;Tory Island;x
+2521;197;219;14;Glades of Mist;x
+2522;187;209;13;Muinnemear;x
+2523;181;201;13;Currach;x
+2524;183;204;13;Muincaill;x
+2525;190;212;13;Callann;x
+2526;165;184;13;Tamarra;x
+2527;156;173;13;Meidhe;x
+2528;199;222;14;Meiddenaech;x
+2529;154;171;12;Connochmar;x
+2530;179;199;13;Connochlain;x
+2531;170;189;13;Mournin Hills;x
+2532;163;181;13;Forest of Sorrows;x
+2533;158;176;13;Scathsliabh;x
+2534;149;166;12;Challan;x
+2535;185;207;13;Scathenmer;x
+2536;70;75;176;Chaerie;x
+2537;146;163;12;Ulain Barrows;x
+2538;161;179;13;Ulavan;x
+2539;177;196;13;Finirey;x
+2540;173;191;13;Dubhlein;x
+2541;175;194;13;Mithorien;x
+2542;167;186;13;Ystan Dar;x

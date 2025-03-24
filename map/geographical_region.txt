@@ -225,7 +225,7 @@ world_karaz_ankor_northern_holds = {
 
 world_karaz_ankor_southern_holds = {
 	duchies = {
-		d_barak_varr d_kogan d_vala_azril_ungol d_karak_azul d_haraz d_death_pass d_grungozar d_karak_azgalzul d_volkn d_mad_dog_pass d_karag_shathur d_langkt_orrud d_ekrund d_komar d_mount_doom d_karag_orrud d_mount_serpes
+		d_barak_varr d_kogan d_vala_azril_ungol d_karak_azul d_haraz d_death_pass d_grungozar d_karak_azgalzul d_volkn d_mad_dog_pass d_karag_shathur d_langkt_orrud d_ekrund d_komar
 	}
 }
 
@@ -388,7 +388,7 @@ world_new_world = {
 
 world_albion = {
 	duchies = {
-		d_the_lowlands d_morien d_aeryn d_urquhart_marches
+		d_the_lowlands d_aeryn d_morien d_urquhart_marches d_bale_isles d_troglands d_wyrdfenne d_boghuedha d_dunogden d_ochness d_lower_albany d_high_albany d_harkness d_jordallen d_eiremarc d_alawnuedha d_rakkeryn d_plennydd d_cawdor d_toryenne d_mede d_muinnen d_callanoch d_connoch d_ulain d_mithorien d_daulster
 	}
 }
 

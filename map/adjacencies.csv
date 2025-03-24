@@ -135,7 +135,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1772;1773;sea;1942;-1;-1;-1;-1;Xocibiki-Tabazco
 1776;1773;sea;1942;-1;-1;-1;-1;Amazoc-Tabazco
 1780;1775;sea;2074;-1;-1;-1;-1;Tecnotica-Olquetzchihuitl
-1809;1813;major_river;1820;-1;-1;-1;-1;Qu'ittax-Tecihuitl
+1809;1813;major_river;1821;-1;-1;-1;-1;Qu'ittax-Tecihuitl
 819;820;sea;1848;-1;-1;-1;-1;Tor Martel-Carmandois
 2372;1274;sea;2189;-1;-1;-1;-1;Direbogs-Pigbarter
 2368;1295;sea;2180;-1;-1;-1;-1;Karngorge-Perik
@@ -148,7 +148,21 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 577;575;sea;2057;-1;-1;-1;-1;Delamata-Liburni
 2405;2404;sea;2057;-1;-1;-1;-1;Isle of Wights-Great Ogham
 2405;2406;sea;2057;-1;-1;-1;-1;Isle of Wights-Mudwalls
-2408;2411;sea;2180;-1;-1;-1;-1;Ochness-Blackwood
+2480;2482;sea;1825;-1;-1;-1;-1;Moegryn-Baleaill
+2480;2414;sea;1825;-1;-1;-1;-1;Moegryn-Gwron
+2464;2465;sea;1825;-1;-1;-1;-1;Whale Rocks-Bale Isle
+2465;2470;sea;1825;-1;-1;-1;-1;Bale Isle-Wyrdfens
+2465;2471;sea;1825;-1;-1;-1;-1;Bale Isle-Trogmeet
+2514;2515;sea;2068;-1;-1;-1;-1;Surcadwor-Sodorcodmier
+2514;2516;sea;2068;-1;-1;-1;-1;Surcadwor-Barra
+2515;2516;sea;2068;-1;-1;-1;-1;Sodorcodmier-Barra
+2515;2513;sea;2066;-1;-1;-1;-1;Sodorcodmier-Norcadwor
+2518;2517;sea;2066;-1;-1;-1;-1;Mislay-Sye
+2517;2519;sea;2066;-1;-1;-1;-1;Sye-Varran
+2518;2519;sea;2066;-1;-1;-1;-1;Mislay-Varran
+2512;2509;sea;2066;-1;-1;-1;-1;Bjornsland-Eiriby
+2495;2507;sea;2066;-1;-1;-1;-1;Mragnir-Jordallen
+2534;2533;sea;1865;-1;-1;-1;-1;Challan-Scathsliabh
 2002;2010;portage;203;-1;-1;-1;-1;Talabec-Urskoy
 2228;2375;;;-1;-1;-1;-1;Dynarstmire-Under-Tobaro
 574;2375;;;-1;-1;-1;-1;Tobaro-Under-Tobaro

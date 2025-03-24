@@ -13,7 +13,29 @@
 
 
 region_albion = {
-	duchies = { d_the_lowlands d_aeryn d_morien d_urquhart_marches }
+	duchies = { d_the_lowlands d_aeryn d_morien d_urquhart_marches d_bale_isles d_troglands d_wyrdfenne d_boghuedha d_dunogden d_ochness }
+}
+region_albany = {
+	duchies = { d_lower_albany d_high_albany d_harkness d_jordallen d_eiremarc }
+	provinces = { 2512 2495 }
+}
+region_morien = {
+	duchies = { d_morien d_alawnuedha d_rakkeryn d_plennydd }
+}
+region_aeryn = {
+	duchies = { d_muinnen d_mede d_connoch d_callanoch d_ulain d_mithorien d_daulster }
+}
+region_cawdor = {
+	duchies = { d_cawdor }
+}
+region_nagranoth = {
+	provinces = { 2479 }
+}
+region_tory = {
+	provinces = { 2520 }
+}
+region_toryennes = {
+	provinces = { 2517 2518 2519 }
 }
 region_kuldevind = {
 	provinces = { 1200 }
