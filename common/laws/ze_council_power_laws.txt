@@ -141,6 +141,23 @@ laws = {
 				value = 10			
 				title = e_bretonnia	
 			}
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { is_vampire_visible_trigger = yes }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asrai_group }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { OR = { culture_group = dwarf_group
+							culture_group = dwarf_chaos_group } }
+			 }
 			additive_modifier = { 
 				value = 10			
 				holder_scope = { 
@@ -318,6 +335,15 @@ laws = {
 		default_selection = {
 			factor = 0
 			
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { OR = { culture_group = dwarf_group
+							culture_group = dwarf_chaos_group } }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
 			additive_modifier = { 
 				value = 10			
 				OR = {
@@ -480,6 +506,26 @@ laws = {
 		default_selection = {
 			factor = 0
 			
+			additive_modifier = {
+				value = 10
+				holder_scope = {
+					culture_group = bretonnian_group
+					is_feudal = yes
+				}
+			}
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { OR = { culture_group = dwarf_group
+							culture_group = dwarf_chaos_group } }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { is_vampire_visible_trigger = yes }
+			 }
 			additive_modifier = { 
 				value = 10			
 				OR = {
@@ -638,6 +684,10 @@ laws = {
 		default_selection = {
 			factor = 0
 			
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
 			additive_modifier = { 
 				value = 10			
 				OR = {
@@ -794,6 +844,22 @@ laws = {
 		
 		default_selection = {
 			factor = 0
+			additive_modifier = {
+				value = 10
+				NOT = { title = e_bretonnia }
+				holder_scope = {
+					religion_group = old_world_group
+					is_feudal = yes
+				}
+			}
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { is_vampire_visible_trigger = yes }
+			 }
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
 			
 			additive_modifier = { 
 				value = 10			
@@ -953,6 +1019,10 @@ laws = {
 		default_selection = {
 			factor = 0
 			
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
 			additive_modifier = { 
 				value = 10			
 				OR = {
@@ -1109,12 +1179,28 @@ laws = {
 		
 		default_selection = {
 			factor = 0
+			additive_modifier = {
+				value = 10
+				NOT = { title = e_bretonnia }
+				holder_scope = {
+					religion_group = old_world_group
+					is_feudal = yes
+				}
+			}
+			 additive_modifier = {
+				 value = 10
+				holder_scope = { culture_group = asur_group }
+			 }
 			additive_modifier = { 
 				value = 10			
 				OR = {
 					holder_scope = { is_nomadic = yes }	
 				}
 			}
+			# additive_modifier = {
+				# value = 10
+				# title = e_hre
+			# }
 		}
 		
 		allow = {
