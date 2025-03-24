@@ -1,4 +1,4 @@
-# e_lustria
+# e_lustria lustria_expansion
 500.1.1 = {
     law = enatic_succession
     law = succ_primogeniture

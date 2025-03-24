@@ -1,0 +1,5 @@
+# e_lustria lustria_expansion
+1999.1.1 = {
+	liege = d_navaco
+    holder = 2554
+}

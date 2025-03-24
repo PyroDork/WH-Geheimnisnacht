@@ -1,0 +1,5 @@
+# d_rakkeryn e_albion k_morien albion_expansion
+1989.1.1 = {
+	liege = d_rakkeryn
+    holder = 5532
+}

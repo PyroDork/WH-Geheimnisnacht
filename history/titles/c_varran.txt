@@ -1,0 +1,5 @@
+# d_toryenne e_albion k_cadwor albion_expansion
+1993.11.26 = {
+    holder = 151
+	liege = d_toryenne
+}

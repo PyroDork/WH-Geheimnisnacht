@@ -872,3 +872,82 @@
 		death = yes
 	}
 }
+5531 = {
+	name = "Eramon"
+	dynasty = 97032
+	culture = fimir
+	religion = chaos
+	martial = 8
+	diplomacy = 9
+	stewardship = 4
+	intrigue = 4
+	learning = 1
+	add_trait = creature_fimir
+	add_trait = grey_eminence
+	add_trait = inspiring_leader
+	add_trait = strategist
+	add_trait = zealous
+	add_trait = hardy
+	1970.6.22 = {
+		birth = yes
+	}
+	2053.2.22 = {
+		death = yes
+	}
+}
+5532 = {
+	name = "Fragark"
+	dynasty = 97032
+	culture = fimir
+	religion = chaos
+	martial = 8
+	diplomacy = 9
+	stewardship = 4
+	intrigue = 4
+	learning = 1
+	add_trait = creature_fimir
+	add_trait = tough_soldier
+	add_trait = craven
+	add_trait = lustful
+	add_trait = psychopath
+	1970.6.22 = {
+		birth = yes
+	}
+	2053.2.22 = {
+		death = yes
+	}
+}
+5533 = {
+	name = "Monnarion"
+	dynasty = 97030
+	female = yes
+	culture = fimir
+	religion = chaos
+	martial = 8
+	diplomacy = 9
+	stewardship = 4
+	intrigue = 4
+	learning = 1
+	add_trait = creature_fimir
+	add_trait = tough_soldier
+	add_trait = fimir_maergh
+	add_trait = lore_chaos
+	add_trait = magic_potential_2
+	add_trait = diligent
+	add_trait = greedy
+	add_trait = lustful
+	add_trait = kind
+	1980.6.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2053.2.22 = {
+		death = yes
+	}
+}

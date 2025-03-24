@@ -1,15 +1,99 @@
-#STYGIA
+#Albion Proper
 technology = {
 	titles = {
 		d_the_lowlands
 		d_morien
 		d_aeryn
 		d_urquhart_marches
+		d_wyrdfenne
+		d_boghuedha
+		d_dunogden
+		d_ochness
+		d_bale_isle
 	}
 	2000 = {
 		military = 1.25
 		economy = 0.75
 		culture = 1.5
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+#morien
+technology = {
+	titles = {
+		d_morien
+		d_plennydd
+		d_alawnuedha
+		d_rakkeryn
+	}
+	2000 = {
+		military = 1.45
+		economy = 0.65
+		culture = 1.8
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+#aeryn
+technology = {
+	titles = {
+		d_muinnen
+		d_mede
+		d_connoch
+		d_ulain
+		d_daulster
+		d_mithorien
+	}
+	2000 = {
+		military = 1.45
+		economy = 0.65
+		culture = 1.8
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+#albany
+technology = {
+	titles = {
+		d_harkness
+		d_jordallen
+		d_lower_albany
+		d_high_albany
+		d_eiremarc
+		d_cawdor
+		d_toryenne
+	}
+	2000 = {
+		military = 1.25
+		economy = 1.35
+		culture = 1.5
+	}
+	2800 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+#Albion Greenskins
+technology = {
+	titles = {
+		d_troglands
+		d_callanoch
+	}
+	2000 = {
+		military = 0.25
+		economy = 0.55
+		culture = 0
 	}
 	2800 = {
 		military = 5.0

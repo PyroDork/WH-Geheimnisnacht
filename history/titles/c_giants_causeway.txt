@@ -1,0 +1,4 @@
+#  e_albion k_albion albion_expansion
+1993.11.26 = {
+    holder = 150
+}

@@ -1,0 +1,4 @@
+# e_lustria lustria_expansion
+1947.1.1 = {
+    holder = 2555
+}

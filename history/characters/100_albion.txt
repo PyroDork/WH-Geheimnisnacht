@@ -938,7 +938,7 @@
 	name = Maelgwyn
 	dynasty = 87708
 	culture = albion_main
-	religion = old_faith
+	religion = chaos
 	dna = eefamjgiekl
 	martial = 3
 	diplomacy = 3
@@ -960,9 +960,8 @@
 
 133 = {
 	name = Cathán
-	dynasty = 87717
 	culture = albion_main
-	religion = old_faith
+	religion = chaos
 	female = yes
 	dna = fhaeonpbjgg
 	martial = 7
@@ -988,7 +987,7 @@
 	name = Gwena
 	dynasty = 87708
 	culture = albion_main
-	religion = old_faith
+	religion = chaos
 	female = yes
 	dna = oldicofibko
 	father = 132
@@ -1003,6 +1002,504 @@
 	add_trait = greedy
 	add_trait = arbitrary
 	1994.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+
+135 = {
+	name = Ruaidri 
+	dynasty = 87806
+	culture = albion_albany
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 5
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = content
+	add_trait = patient
+	add_trait = gregarious
+	add_trait = brave
+	add_trait = just
+	add_trait = quick
+	add_trait = fair
+	add_trait = weak
+	father = 136
+	1973.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+
+136 = {
+	name = Muirdedach
+	dynasty = 87806
+	culture = albion_albany
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 3
+	diplomacy = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 4
+	add_trait = creature_human
+	add_trait = charismatic_negotiator
+	add_trait = gregarious
+	add_trait = just
+	add_trait = fair
+	add_trait = strong
+	1933.7.1 = {
+		birth = yes
+	}
+	1989.1.1 = {
+		death = yes
+	}
+}
+137 = {
+	name = Toidenbach 
+	dynasty = 87806
+	culture = albion_albany
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 5
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = grey_eminence
+	father = 136
+	1949.6.1 = {
+		birth = yes
+	}
+	1988.11.26 = {
+		death = yes
+	}
+}
+138 = {
+	name = Garthnaith 
+	dynasty = 87806
+	culture = albion_albany
+	religion = chaos
+	martial = 9
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = naive_appeaser
+	add_trait = duelist
+	add_trait = scarred
+	add_trait = one_eyed
+	add_trait = arbitrary
+	add_trait = quick
+	father = 137
+	1969.6.1 = {
+		birth = yes
+	}
+	2020.11.26 = {
+		death = yes
+	}
+}
+139 = {
+	name = Agrafin
+	dynasty = 87806
+	culture = albion_albany
+	religion = chaos
+	martial = 5
+	diplomacy = 6
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = patient
+	add_trait = temperate
+	add_trait = arbitrary
+	father = 137
+	1969.6.1 = {
+		birth = yes
+	}
+	2020.11.26 = {
+		death = yes
+	}
+}
+
+140 = {
+	name = Ainmere 
+	dynasty = 87807
+	culture = albion_albany
+	religion = old_faith
+	martial = 6
+	diplomacy = 6
+	stewardship = 6
+	intrigue = 8
+	learning = 1
+	add_trait = creature_human
+	add_trait = deceitful
+	1990.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+141 = {
+	name = Canuall 
+	dynasty = 87808
+	culture = albion_albany
+	religion = old_faith
+	martial = 5
+	diplomacy = 6
+	stewardship = 0
+	intrigue = 1
+	learning = 8
+	add_trait = creature_human
+	add_trait = scholarly_theologian
+	add_trait = magic_potential_2
+	add_trait = lore_life
+	1981.7.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+142 = {
+	name = Ferchair 
+	dynasty = 87799
+	culture = albion_albany
+	religion = old_faith
+	martial = 10
+	diplomacy = 6
+	stewardship = 0
+	intrigue = 1
+	learning = 8
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = magic_potential_2
+	add_trait = strong
+	add_trait = wroth
+	add_trait = cruel
+	add_trait = stubborn
+	add_trait = psychopath
+	1971.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+143 = {
+	name = "Áedán"
+	dynasty = 87799
+	culture = albion_albany
+	religion = old_faith
+	martial = 6
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 1
+	learning = 3
+	add_trait = creature_human
+	add_trait = hardy
+	add_trait = stubborn
+	father = 142
+	1988.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+144 = {
+	name = Dargart 
+	dynasty = 87799
+	culture = albion_albany
+	religion = old_faith
+	martial = 6
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 1
+	learning = 3
+	add_trait = creature_human
+	add_trait = hardy
+	father = 142
+	1989.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+145 = {
+	name = Echmarcach 
+	dynasty = 87798
+	culture = albion_albany
+	religion = old_faith
+	martial = 6
+	diplomacy = 6
+	stewardship = 8
+	intrigue = 1
+	learning = 6
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	1979.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+146 = {
+	name = "Scáthach"
+	dynasty = 87805
+	female = yes
+	culture = albion_albany
+	religion = old_faith
+	martial = 6
+	diplomacy = 6
+	stewardship = 8
+	intrigue = 1
+	learning = 7
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = mystic
+	add_trait = magic_potential_1
+	add_trait = lore_death
+	1981.7.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+
+147 = {
+	name = Gawain 
+	dynasty = 87803
+	culture = albion_albany
+	religion = chaos
+	martial = 3
+	diplomacy = 1
+	stewardship = 2
+	intrigue = 9
+	learning = 7
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = defender
+	add_trait = ambitious
+	add_trait = chaos_knight
+	add_trait = uncouth
+	1975.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+148 = {
+	name = Briannach 
+	dynasty = 87806
+	culture = albion_albany
+	religion = old_faith
+	martial = 5
+	diplomacy = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = administrator
+	add_trait = craven
+	add_trait = fair
+	add_trait = weak
+	father = 136
+	1974.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+149 = {
+	name = Emrys 
+	dynasty = 87790
+	culture = albion_main
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = shrewd
+	1974.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+150 = {
+	name = Cassa 
+	dynasty = 87789
+	culture = albion_main
+	religion = chaos
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = gluttonous
+	add_trait = diligent
+	1976.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+151 = {
+	name = Oromer 
+	culture = albion_albany
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = mastermind_theologian
+	add_trait = content
+	add_trait = kind
+	add_trait = magic_potential_2
+	add_trait = lore_life
+	add_trait = lore_beasts
+	health = 13
+	1976.7.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+152 = {
+	name = Ardelech 
+	dynasty = 87796
+	culture = albion_albany
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = magic_potential_1
+	add_trait = hunchback
+	1968.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+
+153 = {
+	name = Cynfellyn
+	dynasty = 87809
+	culture = albion_morien
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	health = 8
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = magic_potential_1
+	add_trait = gout
+	add_trait = shrewd
+	add_trait = stressed
+	add_trait = is_fat
+	add_trait = gamer
+	1958.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+154 = {
+	name = Rhoderech
+	dynasty = 87809
+	culture = albion_morien
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = magic_potential_1
+	add_trait = robust
+	father = 153
+	1976.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+155 = {
+	name = Maderevech
+	dynasty = 87809
+	culture = albion_morien
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_3
+	add_trait = paranoid
+	add_trait = deceitful
+	add_trait = organizer
+	father = 153
+	1978.7.1 = {
 		birth = yes
 	}
 	2067.11.26 = {

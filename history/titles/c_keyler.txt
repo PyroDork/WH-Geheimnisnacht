@@ -1,0 +1,4 @@
+# d_high_albany e_albion k_albany albion_expansion
+2008.1.1 = {
+    holder = 140
+}

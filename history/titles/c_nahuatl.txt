@@ -1,0 +1,5 @@
+# e_lustria lustria_expansion
+1947.1.1 = {
+	liege = d_nahuazal
+    holder = 2555
+}

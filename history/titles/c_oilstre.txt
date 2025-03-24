@@ -1,0 +1,8 @@
+# d_plennydd e_albion k_morien albion_expansion
+1982.11.26 = {
+    holder = 153
+	liege = d_plennydd
+}
+2005.1.1 = {
+    holder = 155
+}

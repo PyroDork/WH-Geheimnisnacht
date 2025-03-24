@@ -1,0 +1,9 @@
+# d_high_albany e_albion k_albany albion_expansion
+1949.1.1 = {
+	liege = d_high_albany
+    holder = 136
+}
+
+1989.1.1 = {
+    holder = 135
+}

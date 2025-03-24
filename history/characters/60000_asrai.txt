@@ -2331,3 +2331,29 @@
 		death = yes
 	}
 }
+60073 = {
+	name = Mathandor
+	dynasty = 6164
+	dna = jomhdkndpcj
+	culture = loren
+	religion = asrai_cadai
+	martial = 6
+	diplomacy = 7
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	add_trait = creature_elf
+	add_trait = elusive_shadow
+	add_trait = humble
+	add_trait = cruel
+	add_trait = greedy
+	1579.10.1 = {
+		birth = yes
+	}
+	2009.1.1 = {
+		immortal_age = 25
+	}
+	2553.10.1 = {
+		death = yes
+	}
+}

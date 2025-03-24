@@ -1,0 +1,5 @@
+# d_harkness e_albion k_albany albion_expansion
+1999.1.1 = {
+	liege = d_harkness
+    holder = 146
+}
