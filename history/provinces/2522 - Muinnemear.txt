@@ -1,0 +1,15 @@
+# c_muinnemear albion_additions k_aeryn
+
+# County Title
+title = c_muinnemear
+
+# Settlements
+max_settlements = 5
+
+b_muinnemear = tribal
+b_tarren_ogham = temple
+# Misc
+culture = albion_aeryn
+religion = old_faith
+terrrain = farmlands
+#History

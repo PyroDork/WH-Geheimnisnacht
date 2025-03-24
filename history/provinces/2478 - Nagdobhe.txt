@@ -1,0 +1,14 @@
+# c_nagdobhe albion_additions k_albion
+
+# County Title
+title = c_nagdobhe
+
+# Settlements
+max_settlements = 3
+b_nagdobhe = tribal
+#b_naerr_torr = temple
+
+# Misc
+culture = albion_main
+religion = chaos
+#History

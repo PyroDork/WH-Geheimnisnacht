@@ -1,0 +1,15 @@
+# c_varran albion_additions k_cawdori
+
+# County Title
+title = c_varran
+
+# Settlements
+max_settlements = 2
+
+b_varran_ogham = temple
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

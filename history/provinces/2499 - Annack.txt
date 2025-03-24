@@ -1,0 +1,23 @@
+# c_annack albion_additions k_albany
+
+# County Title
+title = c_annack
+
+# Settlements
+max_settlements = 3
+
+b_caer_annack = castle
+b_annagevan = temple
+
+# Misc
+culture = albion_albany
+religion = chaos
+terrain = hills
+#History
+1.1.1= {
+	b_caer_annack = ca_wall_1
+	b_caer_annack = ca_keep_1
+	b_caer_annack = ca_wall_2
+	b_caer_annack = ca_keep_2
+	b_caer_annack = ca_culture_pictish_1
+}

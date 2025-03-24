@@ -4,7 +4,7 @@
 title = c_great_ogham
 
 # Settlements
-max_settlements = 4
+max_settlements = 5
 
 b_ormsaraidh = tribal
 b_great_ogham = temple

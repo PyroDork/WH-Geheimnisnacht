@@ -1,0 +1,14 @@
+# c_dochallen albion_additions k_albany
+
+# County Title
+title = c_dochallen
+
+# Settlements
+max_settlements = 3
+
+b_dochallen = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith 
+#History

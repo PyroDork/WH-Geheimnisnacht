@@ -1,0 +1,14 @@
+# c_ulain_barrows albion_additions k_aeryn
+
+# County Title
+title = c_ulain_barrows
+
+# Settlements
+max_settlements = 3
+
+b_ulain_barrows = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

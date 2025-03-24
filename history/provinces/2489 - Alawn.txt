@@ -1,17 +1,15 @@
-# c_gwron
+# c_alawn albion_additions k_morien
 
 # County Title
-title = c_gwron
+title = c_alawn
 
 # Settlements
 max_settlements = 3
 
-b_gwron = tribal
-#b_alawn = city
-#b_plennydd = temple
+b_alawn = tribal
 
 # Misc
 culture = albion_morien
 religion = old_faith
-
+terrain = hills
 #History

@@ -1,0 +1,14 @@
+# c_bleakcoast albion_additions k_albion
+
+# County Title
+title = c_bleakcoast
+
+# Settlements
+max_settlements = 4
+
+b_bleakcoast = tribal
+
+# Misc
+culture = albion_main
+religion = vampiric
+#History

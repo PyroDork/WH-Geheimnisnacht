@@ -1,0 +1,15 @@
+# c_barra albion_additions k_cawdori
+
+# County Title
+title = c_barra
+
+# Settlements
+max_settlements = 2
+
+b_barra = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

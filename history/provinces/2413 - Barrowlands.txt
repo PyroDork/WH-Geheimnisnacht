@@ -11,7 +11,7 @@ b_beranbyrig = tribal
 #b_cairnbarrow = temple
 
 # Misc
-culture = albion_main
-religion = old_faith
+culture = fimir
+religion = chaos
 
 #History

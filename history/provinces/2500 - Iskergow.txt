@@ -1,0 +1,23 @@
+# c_iskergow albion_additions k_albany
+
+# County Title
+title = c_iskergow
+
+# Settlements
+max_settlements = 5
+
+b_caer_klint = castle
+b_iskergow = city
+b_gowaglen = temple
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrrain = farmlands
+#History
+
+1.1.1= {
+	b_caer_klint = ca_shipyard_1
+	b_caer_klint = ca_keep_1
+	b_caer_klint = ca_wall_1
+}

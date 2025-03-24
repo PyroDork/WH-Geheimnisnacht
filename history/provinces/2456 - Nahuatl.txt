@@ -1,0 +1,18 @@
+# c_nahuatl Lustria k_spektazuma
+
+# County Title
+title = c_nahuatl
+
+# Settlements
+max_settlements = 2
+
+b_nahuatl = tribal
+#b_spellcuih = {}
+#b_nocaltetlal = {}
+#b_msidi = {}
+
+# Misc
+culture = orc_savage
+religion = greenskin_gods
+terrain = marsh
+#History

@@ -1,0 +1,18 @@
+# c_navocaja Lustria k_spektazuma
+
+# County Title
+title = c_navocaja
+
+# Settlements
+max_settlements = 2
+
+b_navocaja = tribal
+#b_nmelici = {}
+#b_danhuate = {}
+#b_totlchitl = {}
+
+# Misc
+culture = orc_savage
+religion = greenskin_gods
+terrain = marsh
+#History

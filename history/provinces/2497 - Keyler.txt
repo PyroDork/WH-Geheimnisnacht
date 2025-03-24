@@ -1,0 +1,15 @@
+# c_keyler albion_additions k_albany
+
+# County Title
+title = c_keyler
+
+# Settlements
+max_settlements = 2
+
+b_caerkeyl = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrain = hills
+#History

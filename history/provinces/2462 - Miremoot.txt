@@ -1,0 +1,14 @@
+# c_miremoot albion_additions k_albion
+
+# County Title
+title = c_miremoot
+
+# Settlements
+max_settlements = 1
+b_miremoot = tribal
+
+# Misc
+culture = albion_main
+religion = old_faith
+terrain = marsh
+#History

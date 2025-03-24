@@ -1,0 +1,16 @@
+# c_eiriby albion_additions k_albany
+
+# County Title
+title = c_eiriby
+
+# Settlements
+max_settlements = 4
+
+b_caer_eirik = castle
+b_eiriby = city
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+
+#History

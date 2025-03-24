@@ -1,0 +1,15 @@
+# c_surcadwor albion_additions k_cawdori
+
+# County Title
+title = c_surcadwor
+
+# Settlements
+max_settlements = 3
+
+b_surcadwor = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

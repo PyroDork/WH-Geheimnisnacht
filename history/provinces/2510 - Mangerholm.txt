@@ -1,0 +1,15 @@
+# c_mangerholm albion_additions k_albany
+
+# County Title
+title = c_mangerholm
+
+# Settlements
+max_settlements = 1
+
+b_mangerholm = tribal
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = impassable_mountains
+#History

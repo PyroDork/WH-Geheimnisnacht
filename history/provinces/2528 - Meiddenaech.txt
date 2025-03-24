@@ -1,0 +1,15 @@
+# c_meiddenaech albion_additions k_aeryn
+
+# County Title
+title = c_meiddenaech
+
+# Settlements
+max_settlements = 2
+
+b_meiddenaech = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+terrain = marsh
+#History

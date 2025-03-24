@@ -1,0 +1,14 @@
+# c_eight_bogs albion_additions k_albion
+
+# County Title
+title = c_eight_bogs
+
+# Settlements
+max_settlements = 2
+b_eight_bogs = tribal
+
+# Misc
+culture = albion_main
+religion = old_faith
+terrain = marsh
+#History

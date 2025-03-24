@@ -1,0 +1,16 @@
+# c_rakkenmoor albion_additions k_morien
+
+# County Title
+title = c_rakkenmoor
+
+# Settlements
+max_settlements = 3
+
+b_rakkenmoor = tribal
+b_ard_kaligha = temple
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = marsh
+#History

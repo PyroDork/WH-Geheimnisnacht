@@ -1,0 +1,14 @@
+# c_callann albion_additions k_aeryn
+
+# County Title
+title = c_callann
+
+# Settlements
+max_settlements = 3
+
+b_callann = tribal
+
+# Misc
+culture = goblin_hill
+religion = greenskin_gods
+#History

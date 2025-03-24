@@ -1,0 +1,16 @@
+# c_giants_causeway albion_additions k_albion
+
+# County Title
+title = c_giants_causeway
+
+# Settlements
+max_settlements = 1
+b_giants_causeway = tribal
+#b_laichen = {}
+#b_nreorch = {}
+
+# Misc
+culture = albion_main
+religion = chaos
+terrain = impassable_mountains
+#History

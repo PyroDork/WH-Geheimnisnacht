@@ -1,0 +1,15 @@
+# c_trogmeet albion_additions k_albion
+
+# County Title
+title = c_trogmeet
+
+# Settlements
+max_settlements = 3
+b_trogmeet = tribal
+b_troggemer = temple
+
+# Misc
+culture = orc_iron
+religion = greenskin_gods
+terrain = hills
+#History

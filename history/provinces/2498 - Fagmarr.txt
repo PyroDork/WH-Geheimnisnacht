@@ -1,0 +1,15 @@
+# c_fagmarr albion_additions k_albany
+
+# County Title
+title = c_fagmarr
+
+# Settlements
+max_settlements = 3
+
+b_caer_fagmarr = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrain = forest
+#History

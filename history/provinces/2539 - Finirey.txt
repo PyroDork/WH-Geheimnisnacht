@@ -1,0 +1,14 @@
+# c_finirey albion_additions k_aeryn
+
+# County Title
+title = c_finirey
+
+# Settlements
+max_settlements = 2
+
+b_finirey = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

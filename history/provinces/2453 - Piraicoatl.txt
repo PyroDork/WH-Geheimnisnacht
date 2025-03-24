@@ -1,0 +1,17 @@
+# c_piraicoatl Lustria k_tlanxla
+
+# County Title
+title = c_piraicoatl
+
+# Settlements
+max_settlements = 3
+
+b_piraicoatl = tribal
+b_natlicatl = temple
+#b_mitl_ictli = {}
+
+# Misc
+culture = miyan
+religion = kukaili
+terrain = marsh
+#History

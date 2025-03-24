@@ -1,0 +1,15 @@
+# c_meidhe albion_additions k_aeryn
+
+# County Title
+title = c_meidhe
+
+# Settlements
+max_settlements = 3
+
+b_meidhe = tribal
+b_ogham_ard_kin = temple
+
+# Misc
+culture = orc_main
+religion = greenskin_gods
+#History

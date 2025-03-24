@@ -1,0 +1,14 @@
+# c_bjornsland albion_additions k_albany
+
+# County Title
+title = c_bjornsland
+
+# Settlements
+max_settlements = 4
+
+b_bjornsland = tribal
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+#History

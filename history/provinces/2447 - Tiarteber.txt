@@ -1,0 +1,15 @@
+# c_tiarteber Lustria k_hualotal
+
+# County Title
+title = c_tiarteber
+
+# Settlements
+max_settlements = 2
+
+b_tiarteber = tribal
+
+# Misc
+culture = amazon_tiaran
+religion = amazon
+
+#History

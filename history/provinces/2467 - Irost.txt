@@ -1,0 +1,14 @@
+# c_irost albion_additions k_albion
+
+# County Title
+title = c_irost
+
+# Settlements
+max_settlements = 3
+b_irost = tribal
+
+# Misc
+culture = albion_main
+religion = old_faith
+terrain = hills
+#History

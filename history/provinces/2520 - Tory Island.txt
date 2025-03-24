@@ -1,0 +1,15 @@
+# c_tory_island albion_additions k_cawdori
+
+# County Title
+title = c_tory_island
+
+# Settlements
+max_settlements = 4
+
+b_tory_island = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

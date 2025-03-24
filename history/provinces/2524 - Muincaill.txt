@@ -1,0 +1,15 @@
+# c_muincaill albion_additions k_aeryn
+
+# County Title
+title = c_muincaill
+
+# Settlements
+max_settlements = 3
+
+b_muincaill = tribal
+
+# Misc
+culture = fimir
+religion = chaos
+terrrain = woods
+#History

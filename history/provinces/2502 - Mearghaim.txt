@@ -1,0 +1,15 @@
+# c_mearghaim albion_additions k_albany
+
+# County Title
+title = c_mearghaim
+
+# Settlements
+max_settlements = 2
+
+b_mearghaim = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrain = hills
+#History

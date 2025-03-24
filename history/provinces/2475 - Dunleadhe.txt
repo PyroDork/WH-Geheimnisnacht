@@ -1,0 +1,16 @@
+# c_ogden albion_additions k_albion
+
+# County Title
+title = c_dunleadhe
+
+# Settlements
+max_settlements = 5	
+
+b_dunleadhe = castle
+b_caer_ledemehe = temple
+b_muchbarrow = temple
+
+# Misc
+culture = albion_main
+religion = chaos
+#History

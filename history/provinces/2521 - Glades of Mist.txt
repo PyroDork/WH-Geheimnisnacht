@@ -1,0 +1,15 @@
+# c_glades_of_mist albion_additions k_aeryn
+
+# County Title
+title = c_glades_of_mist
+
+# Settlements
+max_settlements = 2
+
+b_glades_of_mist = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+terrrain = marsh
+#History

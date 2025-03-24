@@ -1,0 +1,14 @@
+# c_whale_rocks albion_additions k_morien
+
+# County Title
+title = c_whale_rocks
+
+# Settlements
+max_settlements = 1
+
+b_whale_rocks = tribal
+
+# Misc
+culture = albion_morien
+religion = old_faith
+#History

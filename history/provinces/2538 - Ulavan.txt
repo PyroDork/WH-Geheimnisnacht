@@ -1,0 +1,14 @@
+# c_ulavan albion_additions k_aeryn
+
+# County Title
+title = c_ulavan
+
+# Settlements
+max_settlements = 4
+
+b_ulavan = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

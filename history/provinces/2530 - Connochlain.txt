@@ -1,0 +1,15 @@
+# c_connochlain albion_additions k_aeryn
+
+# County Title
+title = c_connochlain
+
+# Settlements
+max_settlements = 2
+
+b_connochlain = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+terrain = marsh
+#History

@@ -1,0 +1,14 @@
+# c_dubhlein albion_additions k_aeryn
+
+# County Title
+title = c_dubhlein
+
+# Settlements
+max_settlements = 3
+
+b_dubhlein = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

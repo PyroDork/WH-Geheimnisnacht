@@ -1,0 +1,15 @@
+# c_mislay albion_additions k_cawdori
+
+# County Title
+title = c_mislay
+
+# Settlements
+max_settlements = 3
+
+b_mislay = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

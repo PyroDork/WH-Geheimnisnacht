@@ -1,0 +1,16 @@
+# c_handenfell albion_additions k_albany
+
+# County Title
+title = c_handenfell
+
+# Settlements
+max_settlements = 2
+
+b_handenfell = tribal
+b_liisgant = temple
+
+# Misc
+culture = fjarmann
+religion = norscan_gods
+terrain = hills
+#History

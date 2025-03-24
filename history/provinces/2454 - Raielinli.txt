@@ -1,0 +1,15 @@
+# c_raielinli Lustria k_tlanxla
+
+# County Title
+title = c_raielinli
+
+# Settlements
+max_settlements = 2
+
+b_raielinli = tribal
+
+# Misc
+culture = miyan
+religion = kukaili
+terrain = marsh
+#History

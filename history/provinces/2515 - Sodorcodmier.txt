@@ -1,0 +1,15 @@
+# c_sodorcodmier albion_additions k_cawdori
+
+# County Title
+title = c_sodorcodmier
+
+# Settlements
+max_settlements = 2
+
+b_sodorcodmier = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+
+#History

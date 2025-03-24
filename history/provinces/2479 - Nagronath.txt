@@ -1,0 +1,15 @@
+# c_nagronath albion_additions k_albion
+
+# County Title
+title = c_nagronath
+
+# Settlements
+max_settlements = 3
+
+b_nagronath = castle
+b_airdenmor = city
+
+# Misc
+culture = ganethi
+religion = anath_raema
+#History

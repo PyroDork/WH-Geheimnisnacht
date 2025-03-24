@@ -1,0 +1,14 @@
+# c_kronsbog albion_additions k_albion
+
+# County Title
+title = c_kronsbog
+
+# Settlements
+max_settlements = 2
+b_kronsbog = tribal
+
+# Misc
+culture = albion_main
+religion = old_faith
+terrain = marsh
+#History

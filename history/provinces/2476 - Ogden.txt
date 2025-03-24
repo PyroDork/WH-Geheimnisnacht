@@ -1,0 +1,15 @@
+# c_ogden albion_additions k_albion
+
+# County Title
+title = c_ogden
+
+# Settlements
+max_settlements = 3
+
+b_ogden = tribal
+b_og_scairn = temple
+
+# Misc
+culture = albion_main
+religion = chaos
+#History

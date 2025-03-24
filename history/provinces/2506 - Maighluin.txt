@@ -1,0 +1,15 @@
+# c_maighluin albion_additions k_albany
+
+# County Title
+title = c_maighluin
+
+# Settlements
+max_settlements = 1
+
+b_maighluin = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith 
+terrain = marsh
+#History

@@ -1,0 +1,16 @@
+# c_ystan_dar albion_additions k_aeryn
+
+# County Title
+title = c_ystan_dar
+
+# Settlements
+max_settlements = 3
+
+b_itharic = tribal
+b_ystan_dar = temple
+
+# Misc
+culture = loren
+religion = asrai_cadai
+terrain = forest
+#History

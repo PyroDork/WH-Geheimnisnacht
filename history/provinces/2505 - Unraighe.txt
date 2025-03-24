@@ -1,0 +1,15 @@
+# c_unraighe albion_additions k_albany
+
+# County Title
+title = c_unraighe
+
+# Settlements
+max_settlements = 2
+
+b_caer_unra = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith 
+terrain = forest
+#History

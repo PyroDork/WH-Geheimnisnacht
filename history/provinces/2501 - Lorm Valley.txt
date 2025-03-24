@@ -1,0 +1,15 @@
+# c_lorm_valley albion_additions k_albany
+
+# County Title
+title = c_lorm_valley
+
+# Settlements
+max_settlements = 3
+
+b_lorm_valley = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrain = forest
+#History

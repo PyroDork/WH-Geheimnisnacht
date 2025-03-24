@@ -1,0 +1,14 @@
+# c_bale_isle albion_additions k_morien
+
+# County Title
+title = c_bale_isle
+
+# Settlements
+max_settlements = 4
+
+b_balebog = tribal
+b_baleful_ogham = temple
+# Misc
+culture = albion_morien
+religion = old_faith
+#History

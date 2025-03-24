@@ -1,0 +1,17 @@
+# c_damoquezli Lustria k_spektazuma
+
+# County Title
+title = c_damoquezli
+
+# Settlements
+max_settlements = 1
+
+b_damoquezli = tribal
+#b_nirco = {}
+#b_balcoatlcualila = {}
+
+# Misc
+culture = orc_savage
+religion = greenskin_gods
+terrain = hills
+#History

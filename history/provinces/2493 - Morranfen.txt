@@ -1,0 +1,15 @@
+# c_morranfen albion_additions k_morien
+
+# County Title
+title = c_morranfen
+
+# Settlements
+max_settlements = 2
+
+b_morranfen = tribal
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = marsh
+#History

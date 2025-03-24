@@ -1,0 +1,15 @@
+# c_balemoor albion_additions k_aeryn
+
+# County Title
+title = c_balemoor
+
+# Settlements
+max_settlements = 2
+
+b_balemoor = tribal
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = marsh
+#History

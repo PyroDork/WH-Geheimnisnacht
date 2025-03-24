@@ -1,0 +1,15 @@
+# c_tamarra albion_additions k_aeryn
+
+# County Title
+title = c_tamarra
+
+# Settlements
+max_settlements = 4
+
+b_fortress_of_tamar = tribal
+#b_tamarra = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

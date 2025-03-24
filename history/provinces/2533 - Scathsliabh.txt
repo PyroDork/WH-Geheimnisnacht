@@ -1,0 +1,14 @@
+# c_scathsliabh albion_additions k_aeryn
+
+# County Title
+title = c_scathsliabh
+
+# Settlements
+max_settlements = 4
+
+b_scathsliabh = castle
+b_scathed_ogham = temple
+# Misc
+culture = albion_aeryn
+religion = vampiric
+#History

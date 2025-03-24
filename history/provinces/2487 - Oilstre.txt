@@ -1,0 +1,16 @@
+# c_oilstre albion_additions k_morien
+
+# County Title
+title = c_oilstre
+
+# Settlements
+max_settlements = 2
+
+b_oilstre = tribal
+b_tuoroe_ogham = temple
+
+# Misc
+culture = albion_morien
+religion = old_faith
+terrain = hills
+#History

@@ -1,0 +1,14 @@
+# c_moegryn albion_additions k_morien
+
+# County Title
+title = c_moegryn
+
+# Settlements
+max_settlements = 1
+
+b_moegryn = tribal
+
+# Misc
+culture = albion_morien
+religion = old_faith
+#History

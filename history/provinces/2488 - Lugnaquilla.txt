@@ -1,0 +1,15 @@
+# c_lugnaquilla albion_additions k_morien
+
+# County Title
+title = c_lugnaquilla
+
+# Settlements
+max_settlements = 2
+
+b_lugnaquilla = tribal
+
+# Misc
+culture = goblin_hill
+religion = greenskin_gods
+terrain = hills
+#History

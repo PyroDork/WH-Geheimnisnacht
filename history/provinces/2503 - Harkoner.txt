@@ -1,0 +1,16 @@
+# c_harkoner albion_additions k_albany
+
+# County Title
+title = c_harkoner
+
+# Settlements
+max_settlements = 4
+
+b_harkoner = tribal
+b_navaloch = temple
+
+# Misc
+culture = albion_albany
+religion = old_faith 
+terrain = forest
+#History

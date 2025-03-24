@@ -1,0 +1,14 @@
+# c_currach albion_additions k_aeryn
+
+# County Title
+title = c_currach
+
+# Settlements
+max_settlements = 4
+
+b_currach = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

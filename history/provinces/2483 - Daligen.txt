@@ -1,0 +1,14 @@
+# c_daligen albion_additions k_morien
+
+# County Title
+title = c_daligen
+
+# Settlements
+max_settlements = 3
+
+b_daligen = tribal
+
+# Misc
+culture = albion_morien
+religion = chaos
+#History

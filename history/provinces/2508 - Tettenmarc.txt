@@ -1,0 +1,15 @@
+# c_tettenmarc albion_additions k_albany
+
+# County Title
+title = c_tettenmarc
+
+# Settlements
+max_settlements = 3
+
+b_tettenmarc = tribal
+
+# Misc
+culture = fjarmann
+religion = norscan_gods 
+
+#History

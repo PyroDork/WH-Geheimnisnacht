@@ -1,0 +1,14 @@
+# c_muddy_point albion_additions k_albion
+
+# County Title
+title = c_muddy_point
+
+# Settlements
+max_settlements = 2
+b_muddy_point = tribal
+
+# Misc
+culture = orc_iron
+religion = greenskin_gods
+
+#History

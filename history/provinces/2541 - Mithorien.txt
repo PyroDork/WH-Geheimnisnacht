@@ -1,0 +1,17 @@
+# c_mithorien albion_additions k_aeryn
+
+# County Title
+title = c_mithorien
+
+# Settlements
+max_settlements = 4
+
+b_athel_mithos = tribal
+b_mithorien = temple
+
+# Misc
+culture = loren
+religion = asrai_cadai
+terrain = forest
+
+#History

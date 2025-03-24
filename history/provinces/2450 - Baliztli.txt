@@ -1,0 +1,18 @@
+# c_baliztli Lustria k_hualotal
+
+# County Title
+title = c_baliztli
+
+# Settlements
+max_settlements = 1
+
+b_baliztli = tribal
+#b_nechennocht = {}
+#b_dolarca = {}
+#b_homozliztli = {}
+
+# Misc
+culture = goblin_forest
+religion = greenskin_gods
+
+#History

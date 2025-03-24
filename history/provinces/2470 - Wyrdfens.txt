@@ -1,0 +1,17 @@
+# c_wyrdfens albion_additions k_albion
+
+# County Title
+title = c_wyrdfens
+
+# Settlements
+max_settlements = 2
+
+b_wyrdfens = tribal
+#b_laichen = {}
+#b_nreorch = {}
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = marsh
+#History

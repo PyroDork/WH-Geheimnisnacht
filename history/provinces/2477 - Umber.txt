@@ -1,0 +1,19 @@
+# c_umber albion_additions k_albion
+
+# County Title
+title = c_umber
+
+# Settlements
+max_settlements = 4
+b_umber = tribal
+b_umber_torr = temple
+#b_aird_an_umb = {}
+#b_vaerne = {}
+#b_dontard = {}
+#b_peny = {}
+#b_haford = {}
+
+# Misc
+culture = albion_main
+religion = chaos
+#History

@@ -1,0 +1,14 @@
+# c_neurac albion_additions k_albion
+
+# County Title
+title = c_neurac
+
+# Settlements
+max_settlements = 4
+b_neurac = tribal
+
+# Misc
+culture = albion_main
+religion = old_faith
+terrain = farmlands
+#History

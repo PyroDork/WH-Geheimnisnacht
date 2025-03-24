@@ -1,0 +1,16 @@
+# c_jordenvik albion_additions k_albany
+
+# County Title
+title = c_jordenvik
+
+# Settlements
+max_settlements = 4
+
+b_caer_jorvac = castle
+b_jordenvik = city
+
+# Misc
+culture = fjarmann
+religion = norscan_gods 
+
+#History

@@ -1,0 +1,15 @@
+# c_plenecnoc albion_additions k_morien
+
+# County Title
+title = c_plenecnoc
+
+# Settlements
+max_settlements = 3
+
+b_plenecnoc = tribal
+
+# Misc
+culture = fimir
+religion = chaos
+terrain = hills
+#History

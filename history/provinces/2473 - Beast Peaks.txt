@@ -1,0 +1,14 @@
+# c_beast_peaks albion_additions k_albion
+
+# County Title
+title = c_beast_peaks
+
+# Settlements
+max_settlements = 2
+
+b_beast_peaks = tribal
+
+# Misc
+culture = albion_main
+religion = vampiric
+#History

@@ -1,0 +1,14 @@
+# c_mournin_hills albion_additions k_aeryn
+
+# County Title
+title = c_mournin_hills
+
+# Settlements
+max_settlements = 2
+
+b_mournin_hills = tribal
+
+# Misc
+culture = albion_aeryn
+religion = old_faith
+#History

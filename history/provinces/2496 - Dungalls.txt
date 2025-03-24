@@ -1,0 +1,15 @@
+# c_dungalls albion_additions k_albany
+
+# County Title
+title = c_dungalls
+
+# Settlements
+max_settlements = 2
+
+b_dungalls = tribal
+
+# Misc
+culture = albion_albany
+religion = old_faith
+terrain = hills
+#History
