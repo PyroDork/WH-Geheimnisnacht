@@ -1,4 +1,4 @@
-# c_ganaina
+# c_ganaina k_amazonia
 
 # County Title
 title = c_ganaina
@@ -18,6 +18,13 @@ culture = amazon_main
 religion = amazon
 terrain = jungle
 #History
+1.1.1 = {
+	build_wonder = wonder_ganaina
+	set_wonder_stage = 2
+    build_wonder_upgrade = upgrade_sacrificial_altar
+	build_wonder_upgrade = upgrade_fountain_ganaina
+}
+
 2000.1.15 = {
     b_ganaina = tb_ganaina
 }

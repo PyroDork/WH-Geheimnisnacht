@@ -1,0 +1,18 @@
+# c_nechulzi Lustria k_hualotal
+
+# County Title
+title = c_nechulzi
+
+# Settlements
+max_settlements = 2
+
+b_nechulzi = tribal
+#b_nechennocht = {}
+#b_dolarca = {}
+#b_homozliztli = {}
+
+# Misc
+culture = miyan
+religion = kukaili
+terrain = marsh
+#History

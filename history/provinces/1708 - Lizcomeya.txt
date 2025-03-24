@@ -1,12 +1,13 @@
-# c_lizcomeya
+# c_lizcomeya k_amazonia
 
 # County Title
 title = c_lizcomeya
 
 # Settlements
-max_settlements = 1
+max_settlements = 3
 
 b_lizcomeya = tribal
+b_pisuco = temple
 
 # Misc
 culture = amazon_main

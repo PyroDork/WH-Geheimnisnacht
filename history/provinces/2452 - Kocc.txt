@@ -1,0 +1,17 @@
+# c_kocc Lustria k_hualotal
+
+# County Title
+title = c_kocc
+
+# Settlements
+max_settlements = 1
+
+b_kocc = tribal
+#b_kojato = {}
+#b_chamaari = {}
+
+# Misc
+culture = goblin_forest
+religion = greenskin_gods
+
+#History

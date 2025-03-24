@@ -1,0 +1,18 @@
+# c_duakka Lustria k_hualotal
+
+# County Title
+title = c_duakka
+
+# Settlements
+max_settlements = 1
+
+b_duakka = castle
+#b_xochimital = {}
+#b_cuzcol = {}
+#b_homolual = {}
+
+# Misc
+culture = lizardman
+religion = old_ones
+
+#History

@@ -1,13 +1,14 @@
-# c_zalli
+# c_zalli k_amazonia
 
 # County Title
 title = c_zalli
 
 # Settlements
-max_settlements = 2
+max_settlements = 3
 
 b_zalli = tribal
 #b_coa_moxich = city
+b_lixolinecatl = temple
 
 # Misc
 culture = amazon_main

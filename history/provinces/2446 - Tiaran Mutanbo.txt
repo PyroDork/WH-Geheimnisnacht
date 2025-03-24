@@ -1,0 +1,14 @@
+# c_tiaran_mutanbo Lustria k_hualotal
+
+# County Title
+title = c_tiaran_mutanbo
+
+# Settlements
+max_settlements = 4
+
+b_tiaran_mutanbo = tribal
+b_temple_of_serena = temple
+# Misc
+culture = amazon_tiaran
+religion = amazon
+#History

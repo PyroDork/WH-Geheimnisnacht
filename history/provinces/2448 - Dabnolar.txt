@@ -1,18 +1,15 @@
-# c_nochi
+# c_dabnolar Lustria k_hualotal
 
 # County Title
-title = c_nochi
+title = c_dabnolar
 
 # Settlements
 max_settlements = 3
 
-b_nochi = tribal
-#b_ramana = city
-#b_mitla = temple
+b_dabnolar = tribal
 
 # Misc
 culture = amazon_tiaran
 religion = amazon
-terrain = jungle
-
+terrain = marsh
 #History

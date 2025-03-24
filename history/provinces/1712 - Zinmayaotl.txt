@@ -1,14 +1,14 @@
-# c_zinmayaotl
+# c_zinmayaotl k_amazonia
 
 # County Title
 title = c_zinmayaotl
 
 # Settlements
-max_settlements = 3
+max_settlements = 4
 
 b_zinmayaotl = tribal
 #b_xoi = city
-#b_tiatlalzaha = temple
+b_tiatlalzaha = temple
 
 # Misc
 culture = amazon_main
