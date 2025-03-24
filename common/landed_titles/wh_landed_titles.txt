@@ -207,6 +207,24 @@ e_albion = {
 				b_hahyrst = {}
 				b_marthy = {}
 			}
+			c_kronac = { # 2461
+				color={ 23 174 25 }
+				color2={ 255 255 255 }
+
+				b_kronac = {}
+				b_kronac_ogham = {}
+				b_peit_mearghais = {}
+				b_limemoor = {}
+				b_mhuddly = {}
+			}
+			c_miremoot = { # 2462
+				color={ 3 174 25 }
+				color2={ 255 255 255 }
+
+				b_miremoot = {}
+				b_mire_ogham = {}
+				b_darkmoor = {}
+			}
 			c_isle_of_wights = { # 2405
 				color={ 227 89 14 }
 				color2={ 255 255 255 }
@@ -219,6 +237,13 @@ e_albion = {
 				b_tahyrst = {}
 				b_cabrycg = {}
 			}
+		}
+		d_troglands = {
+			color={ 34 251 121 }
+			color2={ 255 255 255 }
+
+			capital = 2471 # c_trogmeet
+			
 			c_mudwalls = { # 2406
 				color={ 47 241 125 }
 				color2={ 255 255 255 }
@@ -229,7 +254,159 @@ e_albion = {
 				b_tydfairf = {}
 				b_aben = {}
 				b_haburh = {}
+			}
+			c_muddy_point = { # 2472
+				color={ 34 251 121 }
+				color2={ 255 255 255 }
+
+				b_muddy_point = {}
+				b_dun_mudd = {}
+				b_crannogfer = {}
+				b_cranbur = {}
+			}
+			c_trogmeet = { # 2471
+				color={ 34 251 121 }
+				color2={ 255 255 255 }
+
+				b_trogmeet = {}
+				b_hog_hall = {}
+				b_troggemer = {}
+				b_laden = {}
+				b_abenhemener = {}
 				b_ponteg = {}
+			}
+		}
+		d_boghuedha = {
+			color={ 224 168 24 }
+			color2={ 255 255 255 }
+
+			capital = 2463 # c_neurac
+			
+			ostermarker = "Neusland"
+			middenlander = "Neusland"
+			sylvanian = "Neusland"
+			wissenlander = "Neusland"
+			mootlander = "Neusland"
+			westerlander = "Neusland"
+			averlander = "Neusland"
+			nordlander = "Neusland"
+			reiklander = "Neusland"
+			sollander = "Neusland"
+			drakwalder = "Neusland"
+			hochlander = "Neusland"
+			ostlander = "Neusland"
+			neueslander = "Neusland"
+			talabeclander = "Neusland"
+			stirlander = "Neusland"
+			c_neurac = { # 2463
+				color={ 224 168 24 }
+				color2={ 255 255 255 }
+				ostermarker = "Neusland"
+				middenlander = "Neusland"
+				sylvanian = "Neusland"
+				wissenlander = "Neusland"
+				mootlander = "Neusland"
+				westerlander = "Neusland"
+				averlander = "Neusland"
+				nordlander = "Neusland"
+				reiklander = "Neusland"
+				sollander = "Neusland"
+				drakwalder = "Neusland"
+				hochlander = "Neusland"
+				ostlander = "Neusland"
+				neueslander = "Neusland"
+				talabeclander = "Neusland"
+				stirlander = "Neusland"
+				b_neurac = {
+					ostermarker = "Neusport"
+					middenlander = "Neusport"
+					sylvanian = "Neusport"
+					wissenlander = "Neusport"
+					mootlander = "Neusport"
+					westerlander = "Neusport"
+					averlander = "Neusport"
+					nordlander = "Neusport"
+					reiklander = "Neusport"
+					sollander = "Neusport"
+					drakwalder = "Neusport"
+					hochlander = "Neusport"
+					ostlander = "Neusport"
+					neueslander = "Neusport"
+					talabeclander = "Neusport"
+					stirlander = "Neusport"
+				}
+				b_saraidh = {}
+				b_neue_ogham = {}
+				b_peit_margas = {}
+				b_niumoor = {}
+				b_amon_torr = {}
+				b_lahurd = {}
+			}
+			c_kronsbog = { # 2466
+				color={ 202 168 24 }
+				color2={ 255 255 255 }
+				ostermarker = "Kronsborg"
+				middenlander = "Kronsborg"
+				sylvanian = "Kronsborg"
+				wissenlander = "Kronsborg"
+				mootlander = "Kronsborg"
+				westerlander = "Kronsborg"
+				averlander = "Kronsborg"
+				nordlander = "Kronsborg"
+				reiklander = "Kronsborg"
+				sollander = "Kronsborg"
+				drakwalder = "Kronsborg"
+				hochlander = "Kronsborg"
+				ostlander = "Kronsborg"
+				neueslander = "Kronsborg"
+				talabeclander = "Kronsborg"
+				stirlander = "Kronsborg"
+				b_kronsbog = {
+					ostermarker = "Kronsborg"
+					middenlander = "Kronsborg"
+					sylvanian = "Kronsborg"
+					wissenlander = "Kronsborg"
+					mootlander = "Kronsborg"
+					westerlander = "Kronsborg"
+					averlander = "Kronsborg"
+					nordlander = "Kronsborg"
+					reiklander = "Kronsborg"
+					sollander = "Kronsborg"
+					drakwalder = "Kronsborg"
+					hochlander = "Kronsborg"
+					ostlander = "Kronsborg"
+					neueslander = "Kronsborg"
+					talabeclander = "Kronsborg"
+					stirlander = "Kronsborg"
+				}
+				b_kromraidh = {}
+				b_kromogham = {}
+				b_fherenbog = {}
+			}
+			c_irost = { # 2467
+				color={ 203 188 24 }
+				color2={ 255 255 255 }
+				b_irost = {}
+				b_ironleah = {}
+				b_iroden_ogham = {}
+				b_peit_veneghar = {}
+				b_iron_hills = {}
+			}
+			c_eight_bogs = { # 2468
+				color={ 203 135 24 }
+				color2={ 255 255 255 }
+				dwarf_main = "Karak-Eight-Bogs"
+				dwarf_chaos = "Karak-Eight-Bogs"
+				dwarf_norse = "Karak-Eight-Bogs"
+				b_eight_bogs = {
+					dwarf_main = "Karak-Eight-Bogs"
+					dwarf_chaos = "Karak-Eight-Bogs"
+					dwarf_norse = "Karak-Eight-Bogs"
+				}
+				b_ormuedhe = {}
+				b_boggemarn = {}
+				b_lamadhe = {}
+				b_vumurr = {}
 			}
 		}
 		d_aeryn = {
@@ -250,17 +427,17 @@ e_albion = {
 				b_cotenb = {}
 				b_bawold = {}
 			}
-			c_barrowlands = { # 2413
-				color={ 96 222 3 }
+			c_bol_a_hat = { # 2415
+				color={ 111 164 53 }
 				color2={ 255 255 255 }
 
-				b_beranbyrig = {}
-				b_dubh_artach = {}
-				b_cairnbarrow = {}
-				b_conshroud = {}
-				b_mawold = {}
-				b_wahyrst = {}
-				b_batun = {}
+				b_bol_a_hat = {}
+				b_coire_bhreacain = {}
+				b_achadh_nam_blath = {}
+				b_an_carn_dubh = {}
+				b_saham = {}
+				b_colwe = {}
+				b_llandy = {}
 			}
 			c_blackwood = { # 2411
 				color={ 104 191 246 }
@@ -274,6 +451,19 @@ e_albion = {
 				b_pafeld = {}
 				b_pamor = {}
 			}
+			c_giants_causeway = { # 2469
+				color={ 94 181 226 }
+				color2={ 255 255 255 }
+
+				b_giants_causeway = {}
+			}
+		}
+		d_wyrdfenne = {
+			color={ 224 212 73 }
+			color2={ 255 255 255 }
+
+			capital = 2412 # c_wisp_marshes
+
 			c_wisp_marshes = { # 2412
 				color={ 234 222 83 }
 				color2={ 255 255 255 }
@@ -286,20 +476,60 @@ e_albion = {
 				b_tone = {}
 				b_llynne = {}
 			}
-		}
-		d_morien = {
-			color={ 120 193 33 }
-			color2={ 255 255 255 }
-
-			capital = 2407 # c_hunndaidh
-
-			c_hunndaidh = { # 2407
-				color={ 110 203 28 }
+			c_barrowlands = { # 2413
+				color={ 96 222 3 }
 				color2={ 255 255 255 }
 
+				b_beranbyrig = {}
+				b_dubh_artach = {}
+				b_cairnbarrow = {}
+				b_conshroud = {}
+				b_mawold = {}
+				b_wahyrst = {}
+				b_batun = {}
+			}
+			c_wyrdfens = { # 2470
+				color={ 76 192 8 }
+				color2={ 255 255 255 }
+
+				b_wyrdfens = {}
+				b_laichen = {}
+				b_nreorch = {}
+			}
+		}
+		d_dunogden = {
+			color={ 130 203 28 }
+			color2={ 255 255 255 }
+
+			capital = 2475 # c_dunleadhe
+
+			c_dunleadhe = { # 2475
+				color={ 130 203 28 }
+				color2={ 255 255 255 }
+
+				b_dunleadhe = {}
+				b_caer_ledemehe = {}
+				b_muchbarrow = {}
+				b_shroudlech = {}
+				b_askan_ad_wold = {}
+				b_marhut = {}
+				b_lashkmarch = {}
+			}
+			c_ogden = { # 2476
+				color={ 130 213 38 }
+				color2={ 255 255 255 }
 				holy_site = old_faith
 				holy_site = old_faith_reformed
 
+				b_ogden = {}
+				b_og_scairn = {}
+				b_dunn_marcath = {}
+				b_cairnnarien = {}
+				b_kacmallien = {}
+			}
+			c_hunndaidh = { # 2407
+				color={ 110 203 28 }
+				color2={ 255 255 255 }
 				b_hunndaidh = {}
 				b_lonely_ogben = {}
 				b_calgarraidh = {}
@@ -308,8 +538,15 @@ e_albion = {
 				b_neyly = {}
 				b_llanfech = {}
 			}
+		}
+		d_urquhart_marches = {
+			color={ 90 163 33 }
+			color2={ 255 255 255 }
+
+			capital = 2409 # c_bleakmoor
+
 			c_bleakmoor = { # 2409
-				color={ 104 246 171 }
+				color={ 90 163 33 }
 				color2={ 255 255 255 }
 
 				b_meadarloch = {}
@@ -320,6 +557,32 @@ e_albion = {
 				b_penman = {}
 				b_llane = {}
 			}
+			c_bleakcoast = { # 2474
+				color={ 84 246 171 }
+				color2={ 255 255 255 }
+
+				b_bleakcoast = {}
+				b_murrolk = {}
+				b_boynoe = {}
+				b_larkow = {}
+				b_wafferyrd = {}
+			}
+			c_beast_peaks = { # 2473
+				color={ 124 246 151 }
+				color2={ 255 255 255 }
+
+				b_beast_peaks = {}
+				b_mealach = {}
+				b_ghudaich = {}
+				b_muschadh = {}
+			}
+		}
+		d_ochness = {
+			color={ 204 227 14 }
+			color2={ 255 255 255 }
+
+			capital = 2477 # c_umber
+
 			c_ochness = { # 2408
 				color={ 204 227 14 }
 				color2={ 255 255 255 }
@@ -329,14 +592,74 @@ e_albion = {
 				b_aird_an_teine = {}
 				b_caerne = {}
 				b_pontard = {}
+			}
+			c_nagdobhe = { # 2478
+				color={ 204 207 14 }
+				color2={ 255 255 255 }
+
+				b_nagdobhe = {}
+				b_naerr_torr = {}
+				b_aird_an_lamonm = {}
+				b_alawarn = {}
+				b_manaaford = {}
+			}
+			c_umber = { # 2477
+				color={ 204 187 14 }
+				color2={ 255 255 255 }
+
+				b_umber = {}
+				b_umber_torr = {}
+				b_aird_an_umb = {}
+				b_vaerne = {}
+				b_dontard = {}
 				b_peny = {}
 				b_haford = {}
 			}
 		}
-		d_urquhart_marches = {
+	}
+	c_nagronath = { # 2479
+		color={ 73 78 184 }
+		color2={ 255 255 255 }
+
+		b_nagronath = {}
+		b_umberriuth = {}
+		b_airdenmor = {}
+		b_marrachemar = {}
+	}
+	c_mragnir = { # 2495
+		color={ 73 78 184 }
+		color2={ 255 255 255 }
+
+		b_mragnir = {}
+		b_ladenkild = {}
+		b_ardenborg = {}
+		b_eirikfjord = {}
+	}
+	c_bjornsland = { # 2495
+		color={ 73 78 184 }
+		color2={ 255 255 255 }
+
+		b_bjornsland = {}
+		b_ladenvirik = {}
+		b_orkney = {}
+		b_smarakborg = {}
+		b_madelvik = {}
+	}
+	#c_harkemer
+	k_morien = {
+		color={ 217 179 9 }
+		color2={ 255 255 255 }
+
+		capital = 2414 # c_gwron
+		chaos = 100
+		tzeentch = 100
+		nurgle = 100
+		slaanesh = 100
+		khorne = 100
+		d_morien = {
 			color={ 217 179 9 }
 			color2={ 255 255 255 }
-
+			albion_main = "Gwronnar"
 			capital = 2414 # c_gwron
 
 			c_gwron = { # 2414
@@ -344,24 +667,702 @@ e_albion = {
 				color2={ 255 255 255 }
 
 				b_gwron = {}
-				b_alawn = {}
-				b_plennydd = {}
+				b_caer_gwron = {}
+				b_glennydd = {}
 				b_wadun = {}
 				b_mafeld = {}
 				b_llanda = {}
 				b_caerphy = {}
 			}
-			c_bol_a_hat = { # 2415
-				color={ 111 164 53 }
+			c_moegryn = { # 2480
+				color={ 252 169 14 }
 				color2={ 255 255 255 }
 
-				b_bol_a_hat = {}
-				b_coire_bhreacain = {}
-				b_achadh_nam_blath = {}
-				b_an_carn_dubh = {}
-				b_saham = {}
-				b_colwe = {}
-				b_llandy = {}
+				b_moegryn = {}
+				b_caer_moegryn = {}
+				b_illaw = {}
+			}
+			c_baleaill = { # 2482
+				color={ 212 169 14 }
+				color2={ 255 255 255 }
+
+				b_baleaill = {}
+				b_aird_an_balemon = {}
+				b_mclenny = {}
+				b_mackenny = {}
+				b_muscande = {}
+			}
+			c_daligen = { # 2483
+				color={ 212 139 14 }
+				color2={ 255 255 255 }
+
+				b_daligen = {}
+				b_kafeld = {}
+				b_ellame = {}
+				b_maerphy = {}
+			}
+		}
+		d_alawnuedha = {
+			color={ 123 201 72 }
+			color2={ 255 255 255 }
+			capital = 2489 # c_alawn
+
+			c_alawn = { # 2489
+				color={ 123 201 72 }
+				color2={ 255 255 255 }
+
+				b_alawn = {}
+				b_caer_alawn = {}
+				b_deaghels = {}
+				b_marklow = {}
+				b_eargh_rath = {}
+			}
+			c_salt_barrows = { # 2490
+				color={ 123 201 72 }
+				color2={ 255 255 255 }
+
+				b_salt_barrows = {}
+				b_sammarech = {}
+				b_ennismarach = {}
+				b_meargh_tothe = {}
+				b_mondairi = {}
+			}
+			c_balecliffs = { # 2490
+				color={ 123 201 72 }
+				color2={ 255 255 255 }
+
+				b_balecliffs = {}
+				b_daelih = {}
+				b_ma_sleibhe = {}
+				b_nahahilde = {}
+			}
+		}
+		d_plennydd = {
+			color={ 185 139 45 }
+			color2={ 255 255 255 }
+			albion_main = "Plenydd"
+			capital = 2484 # c_plennydd
+
+			c_plennydd = { # 2484
+				color={ 185 139 45 }
+				color2={ 255 255 255 }
+				albion_main = "Plenydd"
+
+				b_plennydd = {}
+				b_caer_plenydd = {}
+				b_ardmaghan = {}
+				b_lanyard = {}
+				b_ad_naien = {}
+				b_llachan = {}
+				b_mechenmar = {}
+			}
+			c_plenecnoc = { # 2485
+				color={ 185 109 35 }
+				color2={ 255 255 255 }
+
+				b_plenecnoc = {}
+				b_crannopelen = {}
+				b_ardemach = {}
+				b_ad_jachen = {}
+				b_kilmeena = {}
+			}
+			c_drakcoill = { # 2486
+				color={ 195 109 45 }
+				color2={ 255 255 255 }
+
+				b_drakcoill = {}
+				b_sulcoit = {}
+				b_leathebairhe = {}
+				b_mul = {}
+			}
+			c_oilstre = { # 2487
+				color={ 230 218 81 }
+				color2={ 255 255 255 }
+
+				b_oilstre = {}
+				b_tuoroe_ogham = {}
+				b_melech_ele = {}
+				b_uilliden = {}
+			}
+		}
+		d_rakkeryn = {
+			color={ 163 217 56 }
+			color2={ 255 255 255 }
+			capital = 2492 # c_rakkenmoor
+
+			c_rakkenmoor = { # 2492
+				color={ 163 217 56 }
+				color2={ 255 255 255 }
+
+				b_rakkenmoor = {}
+				b_rakerard = {}
+				b_ard_kaligha = {}
+				b_ad_belium = {}
+				b_macharamemer = {}
+			}
+			c_morranfen = { # 2493
+				color={ 143 217 56 }
+				color2={ 255 255 255 }
+
+				b_morranfen = {}
+				b_fennec_ogham = {}
+				b_ad_lan = {}
+				b_mnochlan = {}
+			}
+		}
+		d_bale_isles = {
+			color={ 190 182 159 }
+			color2={ 255 255 255 }
+			capital = 2465 # c_rakkenmoor
+
+			c_bale_isle = { # 2465
+				color={ 190 182 159 }
+				color2={ 255 255 255 }
+
+				b_balebog = {}
+				b_morochmar = {}
+				b_baleful_ogham = {}
+				b_neren = {}
+				b_ad_mellach = {}
+				b_balecoast = {}
+			}
+			c_whale_rocks = { # 2464
+				color={ 120 182 159 }
+				color2={ 255 255 255 }
+
+				b_whale_rocks = {}
+				b_thrashing_rapids = {}
+				b_marachamar = {}
+				b_nochlan = {}
+			}
+		}
+	}
+	k_albany = {
+		color={ 52 80 33 }
+		color2={ 255 255 255 }
+
+		capital = 2500 # c_iskergow
+		chaos = 100
+		tzeentch = 100
+		nurgle = 100
+		slaanesh = 100
+		khorne = 100
+		d_high_albany = {
+			color={ 42 90 28 }
+			color2={ 255 255 255 }
+			capital = 2500 # c_iskergow
+
+			c_iskergow = { # 2500
+				color={ 42 90 28 }
+				color2={ 255 255 255 }
+
+				b_iskergow = {}
+				b_caer_klint = {}
+				b_glen_givet = {}
+				b_balloch = {}
+				b_gowaglen = {}
+				b_mavanac = {}
+				b_machan_torr = {}
+			}
+			c_annack = { # 2499
+				color={ 42 120 28 }
+				color2={ 255 255 255 }
+
+				b_caer_annack = {}
+				b_annack = {}
+				b_meglen = {}
+				b_caer_mcnavicle = {}
+				b_annagevan = {}
+			}
+			c_fagmarr = { # 2498
+				color={ 42 90 58 }
+				color2={ 255 255 255 }
+
+				b_caer_fagmarr = {}
+				b_fagmarr = {}
+				b_runsinane = {}
+				b_maginsinane = {}
+				b_mcewmans = {}
+			}
+			c_keyler = { # 2497
+				color={ 12 90 28 }
+				color2={ 255 255 255 }
+
+				b_caerkeyl = {}
+				b_keyler = {}
+				b_durraighame = {}
+				b_kochlan = {}
+			}
+			c_dungalls = { # 2496
+				color={ 12 210 28 }
+				color2={ 255 255 255 }
+
+				b_dungalls = {}
+				b_dunroche = {}
+				b_dungall_ogham = {}
+				b_mhochollar = {}
+			}
+		}
+		d_lower_albany = {
+			color={ 62 130 18 }
+			color2={ 255 255 255 }
+			capital = 2501 # c_lorm_valley
+
+			c_lorm_valley = { # 2501
+				color={ 62 130 18 }
+				color2={ 255 255 255 }
+
+				b_lorm_valley = {}
+				b_klinit = {}
+				b_macharecm = {}
+				b_nalloch = {}
+			}
+			c_mearghaim = { # 2502
+				color={ 32 130 18 }
+				color2={ 255 255 255 }
+
+				b_mearghaim = {}
+				b_mearghaim_ogham = {}
+				b_darakmac = {}
+				b_ard_lochen = {}
+			}
+		}
+		d_harkness = {
+			color={ 65 140 48 }
+			color2={ 255 255 255 }
+			capital = 2501 # c_lorm_valley
+
+			c_harkoner = { # 2503
+				color={ 65 140 48 }
+				color2={ 255 255 255 }
+
+				b_harkoner = {}
+				b_caer_machn = {}
+				b_ma_mleidhe = {}
+				b_navaloch = {}
+				b_angmarri = {}
+			}
+			c_dochallen = { # 2504
+				color={ 45 159 45 }
+				color2={ 255 255 255 }
+
+				b_dochallen = {}
+				b_caer_dochallen = {}
+				b_uiskergow = {}
+				b_mulster = {}
+				b_omber = {}
+			}
+			c_unraighe = { # 2505
+				color={ 45 180 48 }
+				color2={ 255 255 255 }
+
+				b_unraighe = {}
+				b_caer_unra = {}
+				b_mcjeckna = {}
+				b_sydden = {}
+				b_mhochall = {}
+			}
+			c_maighluin = { # 2506
+				color={ 42 5 18 }
+				color2={ 255 255 255 }
+
+				b_maighluin = {}
+				b_maighfenn = {}
+				b_laichemfenn = {}
+			}
+		}
+		d_jordallen = {
+			color={ 3 183 200 }
+			color2={ 255 255 255 }
+			capital = 2507 # c_jordenvik
+			fjarmann = "Jordenvik"
+			c_jordenvik = { # 2507
+				color={ 3 183 200 }
+				color2={ 255 255 255 }
+				fjarmann = "Jordallen"
+				b_jordenvik = {fjarmann = "Jordallen"}
+				b_caer_jorvac = {}
+				b_ma_neidhe = {}
+				b_ungalec = {}
+				b_wer = {}
+			}
+			c_tettenmarc = { # 2508
+				color={ 35 183 200 }
+				color2={ 255 255 255 }
+				b_tettenmarc = {}
+				b_tettecalc = {}
+				b_caer_tetten = {}
+				b_belamur = {}
+			}
+		}
+		d_eiremarc = {
+			color={ 5 173 160 }
+			color2={ 255 255 255 }
+			capital = 2509 # c_eiriby
+			fjarmann = "Eiriby"
+			c_eiriby = { # 2509
+				color={ 5 173 160 }
+				color2={ 255 255 255 }
+				b_eiriby = {}
+				b_caer_eirik = {}
+				b_eisland = {}
+				b_medevik = {}
+				b_dilense = {}
+				b_mudhlin = {}
+			}
+			c_mangerholm = { # 2510
+				color={ 5 153 160 }
+				color2={ 255 255 255 }
+				b_mangerholm = {}
+				b_mangerdon = {}
+				b_ilhen_ogham = {}
+			}
+			c_handenfell = { # 2511
+				color={ 5 193 130 }
+				color2={ 255 255 255 }
+				b_handenfell = {}
+				b_millense = {}
+				b_handenborg = {}
+				b_liisgant = {}
+				b_nulisk = {}
+				b_mnardenborg = {}
+			}
+		}
+	}
+	k_cadwori = {
+		color={ 69 130 176 }
+		color2={ 255 255 255 }
+
+
+		capital = 2513 # c_norcadwor
+		chaos = 5
+		tzeentch = 100
+		nurgle = 5
+		slaanesh = 5
+		khorne = 5
+		fjarmann = "Caedreyjar"
+		d_cawdor = {
+			color={ 59 110 156 }
+			color2={ 255 255 255 }
+			capital = 2513 # c_norcadwor
+			fjarmann = "Caedreyjar"
+			c_norcadwor = { # 2513
+				color={ 59 110 156 }
+				color2={ 255 255 255 }
+				b_norcadwor = {}
+				b_caer_cawdor = {}
+				b_jisley = {}
+				b_milhine = {}
+				b_mallan = {}
+			}
+			c_surcadwor = { # 2514
+				color={ 79 110 156 }
+				color2={ 255 255 255 }
+				b_surcadwor = {}
+				b_caer_surcadwor = {}
+				b_mislew = {}
+				b_coll = {}
+				b_ard_noriel = {}
+			}
+			c_sodorcodmier = { # 2515
+				color={ 79 110 176 }
+				color2={ 255 255 255 }
+				b_sodorcodmier = {}
+				b_caer_codmier = {}
+				b_codmily = {}
+			}
+			c_barra = { # 2516
+				color={ 79 130 176 }
+				color2={ 255 255 255 }
+				b_barra = {}
+				b_caer_barra = {}
+				b_memily = {}
+			}
+		}
+		d_toryenne = {
+			color={ 59 160 156 }
+			color2={ 255 255 255 }
+			capital = 2520 # c_tory_island
+			c_tory_island = { # 2520
+				fjarmann = "Toryegge"
+				color={ 59 160 156 }
+				color2={ 255 255 255 }
+				b_tory_island = {
+				fjarmann = "Toryegge"
+				}
+				b_ard_tory = {}
+				b_tory_ogham = {}
+				b_marghen_ard = {}
+				b_kallum = {}
+				b_vellum = {}
+			}
+			c_sye = { # 2517
+				color={ 49 150 146 }
+				color2={ 255 255 255 }
+				b_sye = {
+				}
+				b_caersye = {}
+				b_allan = {}
+				b_margne = {}
+			}
+			c_mislay = { # 2518
+				color={ 39 130 136 }
+				color2={ 255 255 255 }
+				b_mislay = {}
+				b_machmachallan = {}
+				b_nallechemener = {}
+				b_lausse = {}
+				b_mistten_ogham = {}
+			}
+			c_varran = { # 2519
+				color={ 39 160 136 }
+				color2={ 255 255 255 }
+				b_varran = {}
+				b_varran_ogham = {}
+				b_mestetecen = {}
+				b_burr = {}
+			}
+		}
+	}
+	k_aeryn = {
+		color={ 72 172 125 }
+		color2={ 255 255 255 }
+
+
+		capital = 2522 # c_muinnemear
+		chaos = 5
+		tzeentch = 5
+		nurgle = 5
+		slaanesh = 5
+		khorne = 5
+		d_muinnen = {
+			color={ 75 187 125 }
+			color2={ 255 255 255 }
+			capital = 2522 # c_muinnemear
+			c_muinnemear = { # 2522
+				color={ 75 187 125 }
+				color2={ 255 255 255 }
+				b_muinnemear = {}
+				b_tarren_ogham = {}
+				b_cadchenhol = {}
+				b_arklow = {}
+				b_duncallan = {}
+				b_mocmarren = {}
+				b_dunmorren = {}
+			}
+			c_glades_of_mist = { # 2521
+				color={ 55 187 145 }
+				color2={ 255 255 255 }
+				b_glades_of_mist = {}
+				b_mistengal = {}
+				b_machhemar = {}
+				b_hallow = {}
+			}
+			
+			c_currach = { # 2523
+				color={ 95 187 165 }
+				color2={ 255 255 255 }
+				b_currach = {}
+				b_caercurr = {}
+				b_ard_mac_makken = {}
+				b_makken_torr = {}
+				b_aeilien = {}
+			}	
+			c_muincaill = { # 2523
+				color={ 55 187 165 }
+				color2={ 255 255 255 }
+				b_muincaill = {}
+				b_muinfenn = {}
+				b_muinmoor = {}
+				b_atolmorr = {}
+			}
+			c_finirey = { # 2539
+				color={ 70 184 70 }
+				color2={ 255 255 255 }
+				b_finirey = {}
+				b_reymell = {}
+				b_ducallmareth = {}
+				b_maramaken = {}
+			}	
+			c_isle_of_avalon = { # 2494
+				color={ 70 184 70 }
+				color2={ 255 255 255 }
+				b_isle_of_avalon = {}
+				b_excaliber = {}
+				b_duncallmorr = {}
+			}	
+		}
+		d_mede = {
+			color={ 142 174 108 }
+			color2={ 255 255 255 }
+			capital = 2526 # c_tamarra
+			c_tamarra = { # 2526
+				color={ 142 174 108 }
+				color2={ 255 255 255 }
+				b_fortress_of_tamar = {}
+				b_tamarra = {}
+				b_burtan_ogham = {}
+				b_markenlow = {}
+				b_boann = {}
+				b_dunkaren = {}
+			}
+			c_meidhe = { # 2527
+				color={ 172 174 103 }
+				color2={ 255 255 255 }
+				b_meidhe = {}
+				b_ogham_ard_kin = {}
+				b_clanmult = {}
+				b_dunlough = {}
+				b_moaenn = {}
+			}
+			c_meiddenaech = { # 2528
+				color={ 200 174 108 }
+				color2={ 255 255 255 }
+				b_meiddenaech = {}
+				b_caermeid = {}
+				b_mukmallen = {}
+			}
+			c_dubhlein = { # 2540
+				color={ 112 184 70 }
+				color2={ 255 255 255 }
+				b_dubhlein = {}
+				b_dubelin = {}
+				b_mcducall = {}
+				b_ambelen = {}
+				b_dunbarrow = {}
+			}
+		}
+		d_callanoch = {
+			color={ 112 184 70 }
+			color2={ 255 255 255 }
+			capital = 2525 # c_callann
+			c_callann = { # 2525
+				color={ 112 184 70 }
+				color2={ 255 255 255 }
+				b_callann = {}
+				b_mudelin = {}
+				b_amagan_ogham = {}
+				b_muill = {}
+			}
+			c_lugnaquilla = { # 2488
+				color={ 185 119 45 }
+				color2={ 255 255 255 }
+
+				b_lugnaquilla = {}
+				b_doonagore = {}
+				b_pulnabrone = {}
+				b_lamafer = {}
+			}
+		}
+		d_connoch = {
+			color={ 162 144 60 }
+			color2={ 255 255 255 }
+			capital = 2529 # c_connochmar
+			c_connochmar = { # 2529
+				color={ 162 144 60 }
+				color2={ 255 255 255 }
+				b_connochmar = {}
+				b_marrenmargh = {}
+				b_marren_ogham = {}
+				b_hulle = {}
+				b_ma_kleidhe = {}
+			}
+			c_connochlain = { # 2530
+				color={ 192 144 60 }
+				color2={ 255 255 255 }
+				b_connochlain = {}
+				b_marrenard = {}
+				b_hulle_torr = {}
+			}
+			c_balemoor = { # 2481
+				color={ 222 169 14 }
+				color2={ 255 255 255 }
+
+				b_balemoor = {}
+				b_balemawn = {}
+				b_velemen = {}
+				b_kdamun = {}
+			}
+		}
+		d_ulain = {
+			color={ 94 152 215 }
+			color2={ 255 255 255 }
+			capital = 2538 # c_ulavan
+			c_ulavan = { # 2538
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_ulavan = {}
+				b_ulaimarr = {}
+				b_uladen_ogham = {}
+				b_muilg = {}
+				b_clanchomar = {}
+			}
+			c_ulain_barrows = { # 2537
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_ulain_barrows = {}
+				b_barrowden = {}
+				b_murreighm = {}
+				b_uille = {}
+				b_connorard = {}
+			}
+		}
+		d_daulster = {
+			color={ 94 152 215 }
+			color2={ 255 255 255 }
+			capital = 2533 # c_scathsliabh
+			c_forest_of_sorrows = { # 2532
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_forest_of_sorrows = {}
+				b_connogaech = {}
+				b_caer_aech = {}
+				b_dark_ogham = {}
+			}
+			c_scathsliabh = { # 2533
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_scathsliabh = {}
+				b_scathsen = {}
+				b_scathed_ogham = {}
+				b_mull = {}
+				b_black_ogham = {}
+			}
+			c_mournin_hills = { # 2531
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_mournin_hills = {}
+				b_laghen = {}
+				b_aechmorr = {}
+			}
+			c_challan = { # 2534
+				color={ 94 152 215 }
+				color2={ 255 255 255 }
+				b_challan = {}
+				b_malgen = {}
+				b_damanor = {}
+			}
+		}
+		d_mithorien = {
+			color={ 20 196 144 }
+			color2={ 255 255 255 }
+			capital = 2541 # c_scathsliabh
+			c_mithorien = { # 2541
+				color={ 20 196 144 }
+				color2={ 255 255 255 }
+				b_mithorien = {}
+				b_athel_mithos = {}
+				b_lorei = {}
+				b_ogham_ard_mithos = {}
+				b_gormon = {}
+			}
+			c_ystan_dar = { # 2542
+				color={ 20 196 104 }
+				color2={ 255 255 255 }
+				b_ystan_dar = {}
+				b_itharic = {}
+				b_mythos = {}
+				b_tasteryn = {}
 			}
 		}
 	}
@@ -16910,6 +17911,97 @@ e_lustria = {
 				b_cuzcito = {}
 			}
 		}
+		d_nalixo = {
+			color={ 138 134 49 }
+			color2={ 255 255 255 }
+
+			capital = 1712 # c_zinmayaotl
+
+			fjarmann = "Haed Systir"
+
+			c_zinmayaotl = { # 1712
+				color={ 128 144 44 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Haed Systur"
+
+				b_zinmayaotl = {}
+				b_xoi = {}
+				b_tiatlalzaha = {}
+				b_linat = {}
+				b_zatlcuih = {}
+				b_telapan = {}
+				b_chitl_hitl = {}
+			}
+			c_cuauhlotl = { # 1711
+				color={ 86 141 171 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Umferd Systir"
+
+				b_cuauhlotl = {}
+				b_ahuacoc = {}
+				b_cuauhtlachmict = {}
+				b_tezchi = {}
+				b_hucuzca = {}
+				b_chacuita = {}
+				b_caja = {}
+			}
+			c_tetla = { # 1710
+				color={ 44 138 43 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Dularfulla Systir"
+
+				b_tetla = {}
+				b_tuparo = {}
+				b_cuauhtlinat = {}
+				b_nelcoatl = {}
+				b_tupachu = {}
+				b_toch_itz = {}
+				b_tlixi = {}
+			}
+		}
+	}
+	k_zarmuda = {
+		color={ 54 41 98 }
+		color2={ 255 255 255 }
+
+		capital = 1781 # c_zarmuda
+
+		sartosan_tilean = "Dreaded Isles"
+		sartosan_norscan = "Dreaded Isles"
+		sartosan_arabyan = "Dreaded Isles"
+		d_zarmuda = {
+			color={ 54 41 98 }
+			color2={ 255 255 255 }
+
+			capital = 1781 # c_zarmuda
+
+			sartosan_tilean = "Monkeigh Island"
+			sartosan_norscan = "Monkeigh Island"
+			sartosan_arabyan = "Monkeigh Island"
+
+			c_zarmuda = { # 1781
+				color={ 44 51 93 }
+				color2={ 255 255 255 }
+
+				sartosan_tilean = "Monkeigh Island"
+				sartosan_norscan = "Monkeigh Island"
+				sartosan_arabyan = "Monkeigh Island"
+				b_zarmuda = {
+					sartosan_tilean = "Monkeigh Head"
+					sartosan_norscan = "Monkeigh Head"
+					sartosan_arabyan = "Monkeigh Head"
+				}
+				b_xi_i = {}
+				b_huitlxitli = {}
+				b_tolcatlyaotl = {}
+				b_catlite = {}
+				b_chicahua = {}
+				b_liztiazatl = {}
+			}
+		}
 		d_hojemur = {
 			color={ 12 23 95 }
 			color2={ 255 255 255 }
@@ -16991,6 +18083,78 @@ e_lustria = {
 				}
 			}
 		}
+		d_quetzlpan = {
+			color={ 12 8 220 }
+			color2={ 255 255 255 }
+
+			capital = 1770 # c_quetzl
+
+			fjarmann = "Sidasta Systur"
+
+			c_quetzl = { # 1770
+				color={ 2 18 215 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Sidasta Systur"
+				ostermarker = "Grafston"
+				middenlander = "Grafston"
+				sylvanian = "Grafston"
+				wissenlander = "Grafston"
+				mootlander = "Grafston"
+				westerlander = "Grafston"
+				averlander = "Grafston"
+				nordlander = "Grafston"
+				reiklander = "Grafston"
+				sollander = "Grafston"
+				drakwalder = "Grafston"
+				hochlander = "Grafston"
+				ostlander = "Grafston"
+				neueslander = "Grafston"
+				talabeclander = "Grafston"
+				stirlander = "Grafston"
+				sudenburger = "Grafston"
+
+				b_quetzl = {
+					ostermarker = "Grafston"
+					middenlander = "Grafston"
+					sylvanian = "Grafston"
+					wissenlander = "Grafston"
+					mootlander = "Grafston"
+					westerlander = "Grafston"
+					averlander = "Grafston"
+					nordlander = "Grafston"
+					reiklander = "Grafston"
+					sollander = "Grafston"
+					drakwalder = "Grafston"
+					hochlander = "Grafston"
+					ostlander = "Grafston"
+					neueslander = "Grafston"
+					talabeclander = "Grafston"
+					stirlander = "Grafston"
+					sudenburger = "Grafston"
+				}
+				b_acoacimetl = {}
+				b_huacatlcotli = {}
+				b_mahuicoh = {}
+				b_huixa = {}
+				b_atlxizo = {}
+				b_talmici = {}
+			}
+			c_yukka = { # 1771
+				color={ 44 21 88 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Thraell Systir"
+
+				b_yukka = {}
+				b_ululhuan = {}
+				b_cozahcayotl = {}
+				b_i_cen = {}
+				b_klahiye = {}
+				b_nochxo = {}
+				b_tliti = {}
+			}
+		}
 		d_kavanna = {
 			color={ 96 14 221 }
 			color2={ 255 255 255 }
@@ -17068,156 +18232,6 @@ e_lustria = {
 				b_cualcoe = {}
 				b_atlmihuitz = {}
 				b_zilotl = {}
-			}
-		}
-		d_nalixo = {
-			color={ 138 134 49 }
-			color2={ 255 255 255 }
-
-			capital = 1712 # c_zinmayaotl
-
-			fjarmann = "Haed Systir"
-
-			c_zinmayaotl = { # 1712
-				color={ 128 144 44 }
-				color2={ 255 255 255 }
-
-				fjarmann = "Haed Systur"
-
-				b_zinmayaotl = {}
-				b_xoi = {}
-				b_tiatlalzaha = {}
-				b_linat = {}
-				b_zatlcuih = {}
-				b_telapan = {}
-				b_chitl_hitl = {}
-			}
-			c_cuauhlotl = { # 1711
-				color={ 86 141 171 }
-				color2={ 255 255 255 }
-
-				fjarmann = "Umferd Systir"
-
-				b_cuauhlotl = {}
-				b_ahuacoc = {}
-				b_cuauhtlachmict = {}
-				b_tezchi = {}
-				b_hucuzca = {}
-				b_chacuita = {}
-				b_caja = {}
-			}
-			c_tetla = { # 1710
-				color={ 44 138 43 }
-				color2={ 255 255 255 }
-
-				fjarmann = "Dularfulla Systir"
-
-				b_tetla = {}
-				b_tuparo = {}
-				b_cuauhtlinat = {}
-				b_nelcoatl = {}
-				b_tupachu = {}
-				b_toch_itz = {}
-				b_tlixi = {}
-			}
-		}
-		d_quetzlpan = {
-			color={ 12 8 220 }
-			color2={ 255 255 255 }
-
-			capital = 1770 # c_quetzl
-
-			fjarmann = "Sidasta Systur"
-
-			c_quetzl = { # 1770
-				color={ 2 18 215 }
-				color2={ 255 255 255 }
-
-				fjarmann = "Sidasta Systur"
-				ostermarker = "Grafston"
-				middenlander = "Grafston"
-				sylvanian = "Grafston"
-				wissenlander = "Grafston"
-				mootlander = "Grafston"
-				westerlander = "Grafston"
-				averlander = "Grafston"
-				nordlander = "Grafston"
-				reiklander = "Grafston"
-				sollander = "Grafston"
-				drakwalder = "Grafston"
-				hochlander = "Grafston"
-				ostlander = "Grafston"
-				neueslander = "Grafston"
-				talabeclander = "Grafston"
-				stirlander = "Grafston"
-				sudenburger = "Grafston"
-
-				b_quetzl = {
-					ostermarker = "Grafston"
-					middenlander = "Grafston"
-					sylvanian = "Grafston"
-					wissenlander = "Grafston"
-					mootlander = "Grafston"
-					westerlander = "Grafston"
-					averlander = "Grafston"
-					nordlander = "Grafston"
-					reiklander = "Grafston"
-					sollander = "Grafston"
-					drakwalder = "Grafston"
-					hochlander = "Grafston"
-					ostlander = "Grafston"
-					neueslander = "Grafston"
-					talabeclander = "Grafston"
-					stirlander = "Grafston"
-					sudenburger = "Grafston"
-				}
-				b_acoacimetl = {}
-				b_huacatlcotli = {}
-				b_mahuicoh = {}
-				b_huixa = {}
-				b_atlxizo = {}
-				b_talmici = {}
-			}
-			c_yukka = { # 1771
-				color={ 44 21 88 }
-				color2={ 255 255 255 }
-
-				fjarmann = "Thraell Systir"
-
-				b_yukka = {}
-				b_ululhuan = {}
-				b_cozahcayotl = {}
-				b_i_cen = {}
-				b_klahiye = {}
-				b_nochxo = {}
-				b_tliti = {}
-			}
-		}
-		d_zarmuda = {
-			color={ 54 41 98 }
-			color2={ 255 255 255 }
-
-			capital = 1781 # c_zarmuda
-
-			sartosan_tilean = "Monkeigh Island"
-			sartosan_norscan = "Monkeigh Island"
-			sartosan_arabyan = "Monkeigh Island"
-
-			c_zarmuda = { # 1781
-				color={ 44 51 93 }
-				color2={ 255 255 255 }
-
-				b_zarmuda = {
-					sartosan_tilean = "Monkeigh Head"
-					sartosan_norscan = "Monkeigh Head"
-					sartosan_arabyan = "Monkeigh Head"
-				}
-				b_xi_i = {}
-				b_huitlxitli = {}
-				b_tolcatlyaotl = {}
-				b_catlite = {}
-				b_chicahua = {}
-				b_liztiazatl = {}
 			}
 		}
 	}
@@ -17776,19 +18790,29 @@ e_lustria = {
 				b_laqtupirc = {}
 				b_tlaoxtepec = {}
 			}
-			c_nochi = { # 1786
-				color={ 44 66 223 }
+			c_duakka = { # 2449
+				color={ 175 39 62 }
 				color2={ 255 255 255 }
 
-				fjarmann = "Vid Ana"
+				cathayan = "Duamalong"
+				living_jade = "Duamalong"
 
-				b_nochi = {}
-				b_ramana = {}
-				b_mitla = {}
-				b_uhtlpil = {}
-				b_xoc_atlnat = {}
-				b_cacauhcoy = {}
-				b_lotlnoch = {}
+				b_duakka = {}
+				b_xochimital = {}
+				b_cuzcol = {}
+				b_homolual = {}
+			}
+			c_baliztli = { # 2450
+				color={ 185 39 62 }
+				color2={ 255 255 255 }
+
+				cathayan = "Balizha"
+				living_jade = "Balizha"
+
+				b_baliztli = {}
+				b_nochimital = {}
+				b_duzcol = {}
+				b_zomolual = {}
 			}
 			c_tianquizco = { # 1788
 				color={ 128 72 224 }
@@ -17804,6 +18828,58 @@ e_lustria = {
 				b_xochipilli = {}
 				b_pilxi = {}
 			}
+		}
+		d_tiezutli = {
+			color={ 145 52 73 }
+			color2={ 255 255 255 }
+
+			capital = 2446 # c_tiaran_mutanbo
+
+			amazon_tiaran = "Tie'ran"
+			amazon_main = "Tie'ran"
+			living_jade = "Tierdyon"
+			cathayan = "Tierdyon"
+
+			c_tiaran_mutanbo = { # 2446
+				color={ 128 189 179 }
+				color2={ 255 255 255 }
+
+				amazon_tiaran = "Tie'ran"
+				amazon_main = "Tie'ran"
+				living_jade = "Tierdyon"
+				cathayan = "Tierdyon"
+
+				b_tiaran_mutanbo = {
+					amazon_tiaran = "Tie'ran"
+					amazon_main = "Tie'ran"
+					living_jade = "Tierdyon"
+					cathayan = "Tierdyon"
+				}
+				b_temple_of_serena = { short_name = yes}
+				b_sereniutl = {}
+				b_sereschinutl = {}
+				b_tiereschem = {}
+				b_lizonetl = {}
+				b_niminel = {}
+			}
+			c_tiarteber = { # 2447
+				color={ 128 189 179 }
+				color2={ 255 255 255 }
+
+				b_tiarteber = {}
+				b_hill_of_serena = {}
+				b_semenitzl = {}
+				b_kiliminel = {}
+			}
+			c_dabnolar = { # 2448
+				color={ 128 189 179 }
+				color2={ 255 255 255 }
+
+				b_dabnolar = {}
+				b_nolarmez = {}
+				b_semencoatal = {}
+				b_kelem_mutanbo = {}
+			}
 			c_tunsuca = { # 1727
 				color={ 128 189 179 }
 				color2={ 255 255 255 }
@@ -17817,6 +18893,20 @@ e_lustria = {
 				b_cuicahual = {}
 				b_tenochte = {}
 				b_limilel = {}
+			}
+			c_nochi = { # 1786
+				color={ 44 66 223 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Vid Ana"
+
+				b_nochi = {}
+				b_ramana = {}
+				b_mitla = {}
+				b_uhtlpil = {}
+				b_xoc_atlnat = {}
+				b_cacauhcoy = {}
+				b_lotlnoch = {}
 			}
 		}
 		d_mecanzu = {
@@ -17861,6 +18951,17 @@ e_lustria = {
 				b_qisi = {}
 				b_tomoka = {}
 			}
+			c_kocc = { # 2452
+				color={ 67 167 191 }
+				color2={ 255 255 255 }
+
+				cathayan = "Qoccmar"
+				living_jade = "Qoccmar"
+
+				b_kocc = {}
+				b_kojato = {}
+				b_chamaari = {}
+			}
 		}
 		d_toxi = {
 			color={ 138 137 14 }
@@ -17883,6 +18984,17 @@ e_lustria = {
 				b_momozliztli = {}
 				b_i_li = {}
 				b_uhtltlitzinliz = {}
+			}
+			c_nechulzi = { # 2451
+				color={ 128 147 9 }
+				color2={ 255 255 255 }
+
+				fjarmann = "Nechalar"
+
+				b_nechulzi = {}
+				b_nechennocht = {}
+				b_dolarca = {}
+				b_homozliztli = {}
 			}
 			c_tlepitzalo = { # 1787
 				color={ 86 69 96 }
@@ -18976,6 +20088,64 @@ e_lustria = {
 				b_mongapar = {}
 			}
 		}
+		d_navaco = {
+			color={ 12 83 95 }
+			color2={ 255 255 255 }
+
+			capital = 2459 # c_navocaja
+
+			c_navocaja = { # 2459
+				color={ 12 83 95 }
+				color2={ 255 255 255 }
+
+				b_navocaja = {}
+				b_nmelici = {}
+				b_danhuate = {}
+				b_totlchitl = {}
+			}
+			c_gomiz = { # 2460
+				color={ 17 93 105 }
+				color2={ 255 255 255 }
+
+				b_gomiz = {}
+				b_kelici = {}
+				b_vanhuate = {}
+				b_notlchitl = {}
+			}
+		}
+		d_nahuazal = {
+			color={ 23 73 95  }
+			color2={ 255 255 255 }
+
+			capital = 2456 # c_nahuatl
+			c_nahuatl = { # 2456
+				color={ 23 73 95 }
+				color2={ 255 255 255 }
+
+				b_nahuatl = {}
+				b_miscidi = {}
+				b_nocapar = {}
+				b_jixatia = {}
+				b_lemoxia = {}
+			}
+			c_mazall = { # 2457
+				color={ 25 68 95 }
+				color2={ 255 255 255 }
+
+				b_mazall = {}
+				b_spellcuih = {}
+				b_nocaltetlal = {}
+				b_msidi = {}
+			}
+			c_damoquezli = { # 2458
+				color={ 35 68 95 }
+				color2={ 255 255 255 }
+
+				b_damoquezli = {}
+				b_nirco = {}
+				b_balcoatlcualila = {}
+			}
+		}
 		d_haco = {
 			color={ 54 35 68 }
 			color2={ 255 255 255 }
@@ -19201,6 +20371,49 @@ e_lustria = {
 				b_hitl_za = {}
 				b_xiuhcualmizin = {}
 				b_villa = {}
+			}
+			c_dacai = { # 2455
+				color={ 170 24 187 }
+				color2={ 255 255 255 }
+
+				b_dacai = {}
+				b_natlcal = {}
+				b_mitl_ictli = {}
+			}
+		}
+		d_piraixamaro = {
+			color={ 185 54 232 }
+			color2={ 255 255 255 }
+
+			fjarmann = "Piranha Swamps"
+			living_jade = "Piranha Swamps"
+			cathayan = "Piranha Swamps"
+			amazon_main = "Piranha Swamps"
+			amazon_tiaran = "Piranha Swamps"
+			orc_savage = "Piranha Swamps"
+			goblin_forest = "Piranha Swamps"
+
+			capital = 2453 # c_piraicoatl
+
+			c_piraicoatl = { # 2453
+				color={ 86 192 81 }
+				color2={ 255 255 255 }
+
+				b_piraicoatl = {}
+				b_vointtlah = {}
+				b_natlicatl = {}
+				b_duitltochhualne = {}
+				b_machuara = {}
+			}
+			c_raielinli = { # 2453
+				color={ 86 192 81 }
+				color2={ 255 255 255 }
+
+				b_raielinli = {}
+				b_mointtlah = {}
+				b_vatlicatl = {}
+				b_tochhualne = {}
+				b_nachuara = {}
 			}
 			c_canchu = { # 1699
 				color={ 86 192 81 }
@@ -22825,9 +24038,9 @@ k_doom_march = {
 		color={ 143 71 36 }
 		color2={ 255 255 255 }
 
-		capital = 2068 # c_mount_doom
+		capital = 2109 # c_mount_doom
 
-		c_mount_doom = { # 2068
+		c_mount_doom = { # 2109
 			color={ 143 71 36 }
 			color2={ 255 255 255 }
 
@@ -22841,7 +24054,7 @@ k_doom_march = {
 			b_sudclaw = {}
 			b_shuntclaw = {}
 		}
-		c_spite_peak = { # 2067
+		c_spite_peak = { # 2107
 			color={ 111 53 22 }
 			color2={ 255 255 255 }
 			skaven_main = "Spite Claw"
