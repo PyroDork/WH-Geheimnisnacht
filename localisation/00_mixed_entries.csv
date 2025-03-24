@@ -2,6 +2,8 @@
 # MIXED ENTRIES #
 #################
 ###ÄNSI
+sacrifices_needed;Old Ones Sacrifices Needed;;;;;;;;;;;;;x
+sacrifices_needed_sotek;Lizardmen Sacrifices Needed;;;;;;;;;;;;;x
 BRETCAPCHANGE_DESC;It's Long been customary to move the Court of the Royarch To one of his Dwellings to bolster the legitemacy of His Dukedom, so your newfound court has come to you with proposal to move the capital of the realm;;;;;;;;;;;;;x
 IMPCAPCHANGE_DESC;Your Councilors have come with Proposal to change the Imperial capital to better administer the realm.;;;;;;;;;;;;;x
 ASURCAPCHANGE_DESC;Your Councilors have come with Proposal to change the capital to better administer the realm.;;;;;;;;;;;;;x
@@ -136,6 +138,7 @@ critical_failure_tip;Critical Failure!;;;;;;;;;x
 great_success_tip;Great Success!;;;;;;;;;x
 failure_tip;Failure;;;;;;;;;x
 success_tip;Success!;;;;;;;;;x
+dynasty_head_holds_kislev_tip;Dynasty Head's Primary title is Kislev;;;;;;;;;x
 #
 schemer_deceitful;You have Scheming Qualities;;;;;;;;;;;;;;x
 offmap_likes_despoiler;Likes Despoiler;;;;;;;;;;;;;x
@@ -282,6 +285,10 @@ no_desecrated_altar_6;Desecrated Altar;;;;;;;;;x
 no_desecrated_altar_7;Desecrated Altar;;;;;;;;;x
 no_desecrated_altar_8;Desecrated Altar;;;;;;;;;x
 no_desecrated_altar_desc;There is a surfeit of Gods in the Old World each with its own shrines, altars and holy places. But the Beastmen despoil all, taking the sacred grounds and dedicating it to the Ruinous Powers and so Chaos Corruption spreads.;;;;;;;;;x
+upgrade_fountain_ganaina;Fountain of Eternal Youth of Ganaina;;;;;;;;;x
+upgrade_fountain_ganaina_desc;For the Amazons, being allowed to drink from the Fountain of Youth is the reward for faithful service to the Sisterhood. Anyone who performs their duty well is allowed this elixir of life, for without it, the Amazons would likely perish from extinction. The Fountain is guarded day and night by the Totem Guardians, and it is a strict ceremonial procedure for each member of the Sisterhood to sip from it once every year.;;;;;;;;;x
+wonder_ganaina;Fortress-Temple of Genaina;;;;;;;;;x
+wonder_ganaina_desc;Fortress-Temple of Genaina;;;;;;;;;x
 wonder_karak_eightpeaks;Karak Eight Peaks;;;;;;;;;x
 wonder_karak_eightpeaks_desc;Karak Eight Peaks, also known as Vala-Azril-Ungol ("Queen of the Silver Depths" in Khazalid), was one of the greatest Dwarf holds, rivaling even Karaz-a-Karak in size and power. It was located in a great bowl-shaped valley, ringed by eight high peaks. Above the surface, walls encompassed a vast area, but most of the city was built below ground. Below the earth, the city was a made up of courts and plazas with great vaulted ceilings, and further below, the tombs of the Dwarf kings and deep mines. Its fall to a combined Skaven-Night Goblin invasion meant the end of the Dwarf Golden Age. Since then, many a member of Clan Angrund has tried to reclaim their ancestral homeland from the vermin infesting it, unsuccessfully..;;;;;;;;;x
 wonder_slayer_keep;Slayer Keep;;;;;;;;;x
@@ -2483,6 +2490,7 @@ EVTOPTAsorcererapprentice7;I'll teach [From.GetHerHim] about caution.;;;;;;;;;;;
 EVTOPTBsorcererapprentice7;A mage must keep an open mind and experiment new things.;;;;;;;;;;;;;;
 EVTOPTCsorcererapprentice7;One cannot channel the arcane powers without focus and discipline.;;;;;;;;;;;;;;
 EVTOPTDsorcererapprentice7;It is time to test [From.GetHerHim].;;;;;;;;;;;;;;
+EVTOPTSentToCollege;Lets see if magic college will take [From.GetHerHim]...;;;;;;;;;;;;;;
 EVTDESCsorcererapprentice70001;Your [GetFromRelation] is spending a lot of time teaching you of how a mage should be cautious. Of how tricky and deceitful daemons are and of how so easily a spell can turn in a catastrophe fore everyone involved.;;;;;;;;;;;;;;
 EVTOPTAsorcererapprentice70001;I'll try and be careful.;;;;;;;;;;;;;;
 EVTDESCsorcererapprentice70002;Your [GetFromRelation] is spending a lot of time teaching you of how a mage should be bold and inventing. Of how you shouldn't just learn from [From.GetHerHim], but search your own knowledge and create new ways of turning the Winds.;;;;;;;;;;;;;;

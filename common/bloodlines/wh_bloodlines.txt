@@ -399,6 +399,21 @@ miska = { #71023 #She needs some descendents to be related to the Bokhas in the 
 	flags = { historical_bloodline magic_bloodline_female_kislev always_transfer }
 	active = {
 		OR = {
+			custom_tooltip = {
+				text = dynasty_head_holds_kislev_tip
+				dynasty_head = {
+					OR = {
+						e_kislev = {
+							is_primary_holder_title = yes
+							hidden_tooltip = { holder_scope={ character = PREVPREV } }
+						}
+						k_kislev = {
+							is_primary_holder_title = yes
+							hidden_tooltip = { holder_scope={ character = PREVPREV } }
+						}
+					}
+				}
+			}
 			dynasty = 31174
 			dynasty = 31005
 		}

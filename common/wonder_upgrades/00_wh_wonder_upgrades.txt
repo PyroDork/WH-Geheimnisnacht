@@ -2548,7 +2548,10 @@ upgrade_underway_zhufbar = { #Apply ungdrin_ankor modifier to counties 442, 441,
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2569,7 +2572,10 @@ upgrade_underway_everpeak = { #Apply ungdrin_ankor modifier to counties 451, 452
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2590,7 +2596,10 @@ upgrade_underway_gunbad = { #Apply ungdrin_ankor modifier to counties 450, 449, 
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2611,7 +2620,10 @@ upgrade_underway_hornhold = { #Apply ungdrin_ankor modifier to counties 653, 647
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2632,7 +2644,10 @@ upgrade_underway_coppermountain = { #Apply ungdrin_ankor modifier to counties 64
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2653,7 +2668,10 @@ upgrade_underway_blackcrag = { #Apply ungdrin_ankor modifier to counties 465, 73
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2674,7 +2692,10 @@ upgrade_underway_8peaks = { #Apply ungdrin_ankor modifier to counties 467, 729, 
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2695,7 +2716,10 @@ upgrade_underway_ironpeak = { #Apply ungdrin_ankor modifier to counties 470, 469
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2716,7 +2740,10 @@ upgrade_underway_mistymountain = { #Apply ungdrin_ankor modifier to counties 781
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2737,7 +2764,10 @@ upgrade_underway_slayerkeep = { #Apply ungdrin_ankor modifier to counties 436, 4
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2758,7 +2788,10 @@ upgrade_underway_karakungor = { #Red Eye Mountain; Apply ungdrin_ankor modifier 
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2779,7 +2812,10 @@ upgrade_underway_karagdum = { #Apply ungdrin_ankor modifier to counties 1105, 11
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2800,7 +2836,10 @@ upgrade_underway_krakadrak = { #Apply ungdrin_ankor modifier to counties 117, 10
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2821,7 +2860,10 @@ upgrade_underway_krakaornsmotek = { #Apply ungdrin_ankor modifier to counties 87
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2842,7 +2884,10 @@ upgrade_underway_krakauntylum = { #Apply ungdrin_ankor modifier to county 59 app
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
 	}
 }
@@ -2863,8 +2908,40 @@ upgrade_underway_krakaungrim = { #Apply ungdrin_ankor modifier to counties 26, 4
 	build_time = 24
 	gold_cost_flat = 450
 	gold_cost_ticking = 2
-		flags = {
+	owner_modifier = {
+		custom_modifier_text = underway_tt
+	}
+	flags = {
 		is_singular
+	}
+}
+#Old Ones Buildings
+#Fountain of Youth of Ganaina
+upgrade_fountain_ganaina = {
+	picture = GFX_upgrade_icon_crates
+	show_in_history = yes
+	allow = {
+		culture_group = amazon_group
+		FROMFROM = { location = { province = 1763 } }
+	}
+	potential = { }
+	active = {
+		culture_group = amazon_group
+	}
+	flags = {
+		is_singular
+	}
+	build_time = 24
+	gold_cost_flat = 250
+	gold_cost_ticking = 2
+	local_modifier = {
+		gunpowder_offensive = 0.2
+		gunpowder_defensive = 0.2
+		artillery_offensive = 0.2
+		artillery_defensive = 0.2
+	}
+	owner_modifier = {
+	
 	}
 }
 #Generic Karak Buildings

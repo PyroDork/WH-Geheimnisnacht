@@ -1882,11 +1882,11 @@ character_event = {
 
     desc = {
         text = EVTDESC_HF_10040_A
-        trigger = { has_religion_matching_joined_warrior_lodge_trigger = yes }
+        trigger = { has_religion_matching_joined_warrior_society_trigger = yes }
     }
     desc = {
         text = EVTDESC_HF_10040_B
-        trigger = { has_religion_matching_joined_warrior_lodge_trigger = no }
+        trigger = { has_religion_matching_joined_warrior_society_trigger = no }
     }
 
     picture = {
@@ -1922,7 +1922,7 @@ character_event = {
 			is_member_of_any_piratic_society_trigger = no
 		}
         if = { #To punish characters of the "wrong" religion...
-            limit = { has_religion_matching_joined_warrior_lodge_trigger = no }
+            limit = { has_religion_matching_joined_warrior_society_trigger = no }
             custom_tooltip = { text = EVTOPTA_HF_10040_piety_loss_tt }
             piety =-150
         }

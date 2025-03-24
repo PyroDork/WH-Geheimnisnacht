@@ -72,7 +72,12 @@
 569 = { name = "Riela" culture = amazon_main }
 570 = { name = "Geirfridur" culture = amazon_main }
 571 = { name = "Manya" culture = amazon_main }
-572 = { name = "Peshiphelia" culture = amazon_main }
-573 = { name = "Jonheidur" culture = amazon_main }
-574 = { name = "Rouda" culture = amazon_main }
-575 = { name = "Thirza" culture = amazon_main }
+572 = { name = "Peshiphelia" culture = amazon_tiaran }
+573 = { name = "Jonheidur" culture = amazon_tiaran }
+574 = { name = "Rouda" culture = amazon_tiaran }
+575 = { name = "Thirza" culture = amazon_tiaran }
+576 = { name = "Mutanbo" culture = amazon_tiaran }
+577 = { name = "Daniyena" culture = amazon_tiaran }
+578 = { name = "Ataneba" culture = amazon_tiaran }
+579 = { name = "Asthura" culture = amazon_tiaran }
+580 = { name = "Tamakonda" culture = amazon_tiaran }

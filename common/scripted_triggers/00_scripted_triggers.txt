@@ -192,12 +192,7 @@ has_unpleasant_personality_trigger = {
 has_impious_trait_trigger = {
 	OR = {
 		trait = cynical
-		# trait = bad_priest_christian
-		# trait = bad_priest_muslim
-		# trait = bad_priest_norse
-		# trait = bad_priest_tengri
-		# trait = bad_priest_zoroastrian
-		# trait = bad_priest_aztec
+		trait = bad_priest
 		trait = hedonist
 		trait = lustful
 		trait = cannibal_trait
@@ -1486,8 +1481,8 @@ can_be_spiritual_trigger = {
 	}
 
 	OR = {
-		#NOT = { religion_group = muslim }
-		#NOT = { liege = { religion_group = muslim } }
+		NOT = { religion_group = ormazd_gods_group }
+		NOT = { liege = { religion_group = ormazd_gods_group } }
 		trait = grey_seer
 		trait = creature_slann
 		trait = khemri_liche_priest
@@ -4203,7 +4198,7 @@ local_third_party_score_great_trigger = {
 }
 
 # For checking the Chinese Emperor's likes & dislikes
-is_liked_by_Cathay_trigger = {
+is_liked_by_cathay_trigger = {
 	liked_by_offmap = {
         type = offmap_cathay
     }
@@ -4218,7 +4213,7 @@ is_liked_by_Cathay_trigger = {
     }
 }
 
-is_disliked_by_Cathay_trigger = {
+is_disliked_by_cathay_trigger = {
 	disliked_by_offmap = {
         type = offmap_cathay
     }
@@ -4233,7 +4228,7 @@ is_disliked_by_Cathay_trigger = {
     }
 }
 
-is_liked_and_disliked_by_Cathay = {
+is_liked_and_disliked_by_cathay = {
     disliked_by_offmap = {
         type = offmap_cathay
     }
@@ -5112,6 +5107,52 @@ root_has_terrible_opinion_modifier_of_this_extended_trigger = {
 	}
 }
 
+this_has_terrible_opinion_modifier_of_prev_extended_trigger = {
+	OR = {
+		#Personal grievances.
+
+		has_opinion_modifier = { who = PREV modifier = opinion_hate }
+		has_opinion_modifier = { who = PREV modifier = opinion_tortured_me }
+		has_opinion_modifier = { who = PREV modifier = opinion_mutilated_me }
+		has_opinion_modifier = { who = PREV modifier = opinion_imprisoned }
+		has_opinion_modifier = { who = PREV modifier = attempted_murder }
+
+		#Family grievances
+		has_opinion_modifier = { who = PREV modifier = opinion_tortured_family }
+		has_opinion_modifier = { who = PREV modifier = opinion_tortured_close_kin }
+		has_opinion_modifier = { who = PREV modifier = opinion_mutilated_family }
+		has_opinion_modifier = { who = PREV modifier = opinion_mutilated_close_kin }
+		has_opinion_modifier = { who = PREV modifier = opinion_executed_child }
+
+		has_opinion_modifier = { who = PREV modifier = attempted_murder_of_spouse }
+		has_opinion_modifier = { who = PREV modifier = attempted_murder_of_child }
+		has_opinion_modifier = { who = PREV modifier = attempted_murder_of_parent }
+		has_opinion_modifier = { who = PREV modifier = attempted_murder_of_sibling }
+	}
+}
+prev_has_terrible_opinion_modifier_of_this_extended_trigger = {
+	OR = {
+		#Personal grievances.
+
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_hate }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_tortured_me }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_mutilated_me }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_imprisoned }
+		reverse_has_opinion_modifier = { who = PREV modifier = attempted_murder }
+
+		#Family grievances
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_tortured_family }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_tortured_close_kin }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_mutilated_family }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_mutilated_close_kin }
+		reverse_has_opinion_modifier = { who = PREV modifier = opinion_executed_child }
+
+		reverse_has_opinion_modifier = { who = PREV modifier = attempted_murder_of_spouse }
+		reverse_has_opinion_modifier = { who = PREV modifier = attempted_murder_of_child }
+		reverse_has_opinion_modifier = { who = PREV modifier = attempted_murder_of_parent }
+		reverse_has_opinion_modifier = { who = PREV modifier = attempted_murder_of_sibling }
+	}
+}
 # Hardcoded trigger for Coronation alert. Only used (except where referenced in script) for that alert, on top of the "potential" for the coronation decision. If it does not exist, only the decision potential is used
 needs_coronation_trigger = {
 	age >= 16
@@ -6450,14 +6491,7 @@ preferred_gender_based_on_laws_trigger = {
 }
 
 has_bad_priest_trait_trigger = {
-	OR = {
-		trait = bad_priest_christian
-		trait = bad_priest_muslim
-		trait = bad_priest_norse
-		trait = bad_priest_tengri
-		trait = bad_priest_zoroastrian
-		trait = bad_priest_aztec
-	}
+	trait = bad_priest
 }
 
 # Referenced by the "button_rename" button in the character view

@@ -16,55 +16,65 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-    name = EVTOPTCCGS.2.b # Blood for the blood god, skulls for the skull throne!
-	trigger={ society_member_of = warband_of_khorne }
-	change_society_currency = -1000
-	piety=-250
-	religion = khorne
+		name = EVTOPTCCGS.2.b # Blood for the blood god, skulls for the skull throne!
+		trigger={ society_member_of = warband_of_khorne }
+		change_society_currency = -1000
+		piety=-250
+		norscan_convert_effect = yes
+		religion = khorne
+		norscan_convert_effect = yes
 	}
 
 	option = {
-	name = EVTOPTCCGS.2.c # I deserve the best and most of this world, and Slaanesh will grant me them all.
-	trigger={ 
-	society_member_of = warband_of_slaanesh 
-	society_currency >= 1000
-	}
-	change_society_currency = -1000
-	piety=-250
-	religion = slaanesh
-	}
-
-	option = {
-	name = EVTOPTCCGS.3.a # This world reeks of death, why not embrace it?
-	trigger={ 
-	society_member_of = warband_of_nurgle 
-	society_currency >= 1000
-	}
-	change_society_currency = -1000
-	piety=-250
-	religion = nurgle
+		name = EVTOPTCCGS.2.c # I deserve the best and most of this world, and Slaanesh will grant me them all.
+		trigger={ 
+		society_member_of = warband_of_slaanesh 
+		society_currency >= 1000
+		}
+		change_society_currency = -1000
+		piety=-250
+		norscan_convert_effect = yes
+		religion = slaanesh
+		norscan_convert_effect = yes
 	}
 
 	option = {
-	name = EVTOPTCCGS.3.b # The world is ever changing, and everyone conspires against you, Tzeentch offers assistance against the growing tide.
-	trigger={ 
-	society_member_of = warband_of_tzeentch 
-	society_currency >= 1000
+		name = EVTOPTCCGS.3.a # This world reeks of death, why not embrace it?
+		trigger={ 
+		society_member_of = warband_of_nurgle 
+		society_currency >= 1000
+		}
+		change_society_currency = -1000
+		piety=-250
+		norscan_convert_effect = yes
+		religion = nurgle
+		norscan_convert_effect = yes
 	}
-	religion = tzeentch
-	change_society_currency = -1000
-	piety=-250
+
+	option = {
+		name = EVTOPTCCGS.3.b # The world is ever changing, and everyone conspires against you, Tzeentch offers assistance against the growing tide.
+		trigger={ 
+		society_member_of = warband_of_tzeentch 
+		society_currency >= 1000
+		}
+		norscan_convert_effect = yes
+		religion = tzeentch
+		norscan_convert_effect = yes
+		change_society_currency = -1000
+		piety=-250
 	}
 	option = {
-	name = EVTOPTCCGS.2.a # I will follow the dark gods.
-	if={limit={not={society_member_of = warband_of_chaos }}
-	piety=-1000
-	}
-	else={
-	change_society_currency = -1000
-	piety=-250
-	}
-	religion = chaos
+		name = EVTOPTCCGS.2.a # I will follow the dark gods.
+		if={limit={not={society_member_of = warband_of_chaos }}
+		piety=-1000
+		}
+		else={
+		change_society_currency = -1000
+		piety=-250
+		}
+		norscan_convert_effect = yes
+		religion = chaos
+		norscan_convert_effect = yes
 		ai_chance = {
 			factor = 1
 			modifier = {

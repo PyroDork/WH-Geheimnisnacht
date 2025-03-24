@@ -3241,7 +3241,7 @@ character_event = {
 			}
 			NOT = { trait = possessed }
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		piety = 100
 		event_target:scoped_WL_co_hunter = { 
 			death = { death_reason = death_accident_generic_beast }
@@ -3260,7 +3260,7 @@ character_event = {
 			}
 			NOT = { trait = possessed }
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		custom_tooltip = { text = TT_EVTOPTBHF25615 }
 		if = { 
 			limit = { NOT = { trait = wounded } } 

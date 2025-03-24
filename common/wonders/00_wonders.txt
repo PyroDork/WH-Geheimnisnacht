@@ -103,6 +103,7 @@
 # A11. Mourkhain
 # A12. Nagashizzar
 
+# OO1. Ganaina Ziggurat
 ###################################################################
 
 #Metropolitan
@@ -8598,6 +8599,114 @@ wonder_massif_orcal= {
 		owner_modifier = {
 			retinuesize_perc = 0.05
 			monthly_character_prestige = 0.4
+		}
+	}
+}
+# OO1
+wonder_ganaina = {
+	allow_coastal = no
+	picture = GFX_wonder_strip_aztec_pyramid
+	potential = {
+		religion_group = old_ones_group
+	}
+	active = {
+		ROOT = {
+			religion_group = old_ones_group
+		}
+	}
+	flags = {
+		is_destructible
+		burial_ground
+		cost_high
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_mythological_beast
+		upgrade_hidden_room
+		upgrade_sacrificial_altar
+		upgrade_necropolis
+		upgrade_traps
+		upgrade_fountain_ganaina
+
+		# OTHER:
+		upgrade_spikes
+		upgrade_hypocausts
+		upgrade_retinue
+		upgrade_road_tolls
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 200
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+			local_movement_speed = 0.2
+		}
+		owner_modifier = {
+			retinuesize_perc = 0.05
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 200
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			retinuesize_perc = 0.05
+			monthly_character_prestige = 0.2
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			retinuesize_perc = 0.04
+			monthly_character_prestige = 0.2
+			monthly_character_piety = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			retinuesize_perc = 0.04
+			monthly_character_prestige = 0.2
+			monthly_character_piety = 0.2
 		}
 	}
 }

@@ -948,40 +948,10 @@ defined_text = {
 		localisation_key = String_nun
 	}
 	text = {
-		trigger = { trait = muni }
-		localisation_key = String_muni
-	}
-	text = {
-		trigger = { trait = aryika }
-		localisation_key = String_aryika
-	}
-	text = {
-		trigger = { trait = bhikkhu }
-		localisation_key = String_bhikkhu
-	}
-	text = {
-		trigger = { trait = bhikkhuni }
-		localisation_key = String_bhikkhuni
-	}
-	text = {
-		trigger = { trait = sanyasi }
-		localisation_key = String_sanyasi
-	}
-	text = {
-		trigger = { trait = sanyasini }
-		localisation_key = String_sanyasini
-	}
-	text = {
 		trigger = { 
 			NOR = { 
 				trait = monk 
-				trait = nun 
-				trait = muni 
-				trait = aryika 
-				trait = bhikkhu 
-				trait = bhikkhuni 
-				trait = sanyasi 
-				trait = sanyasini 
+				trait = nun
 			} 
 		}
 		localisation_key = String_ascetic
@@ -1134,7 +1104,9 @@ defined_text = {
 	text = {
 		trigger = { 
 			OR = {
-				trait = lunatic
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
 				trait = possessed
 				trait = rabies
 			}
@@ -1556,19 +1528,43 @@ defined_text = {
 		localisation_key = INSULT_LUGUBRIOUS
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			} 
+		}
 		localisation_key = INSULT_DEMENTED
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			} 
+		}
 		localisation_key = INSULT_CRAZED
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			} 
+		}
 		localisation_key = INSULT_CRAZY
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			} 
+		}
 		localisation_key = INSULT_DEMONIC
 	}
 	text = {
@@ -1601,11 +1597,23 @@ defined_text = {
 		localisation_key = INSULT_LUGUBRIOUS
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			}
+		}
 		localisation_key = INSULT_LUNATIC
 	}
 	text = {
-		trigger = { trait = lunatic }
+		trigger = { 
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			} 
+		}
 		localisation_key = INSULT_BAT
 	}
 	text = {
@@ -1722,92 +1730,6 @@ defined_text = {
 
 ###SOCIETIES###
 
-#defined_text = {
-#	name = GetSocietyNameCap # Returns the name of target's society with inital Capital letter
-#
-#	text = {
-#		localisation_key = the_assassins
-#		trigger = { society_member_of = the_assassins }
-#	}
-#	text = {
-#		localisation_key = the_satanists
-#		trigger = { society_member_of = the_satanists }
-#	}
-#	text = {
-#		localisation_key = the_bacchants
-#		trigger = { society_member_of = the_bacchants }
-#	}
-#	text = {
-#		localisation_key = the_cold_ones
-#		trigger = { society_member_of = the_cold_ones }
-#	}
-#	text = {
-#		localisation_key = the_trollcrafters
-#		trigger = { society_member_of = the_trollcrafters }
-#	}
-#	text = {
-#		localisation_key = the_cult_of_kali
-#		trigger = { society_member_of = the_cult_of_kali }
-#	}
-#	text = {
-#		localisation_key = the_plaguebringers
-#		trigger = { society_member_of = the_plaguebringers }
-#	}
-#	text = {
-#		localisation_key = monastic_order_benedictine
-#		trigger = {
-#			society_member_of = monastic_order_benedictine
-#			NOT = {
-#				has_alternate_start_parameter = { key = religion_names value = random }
-#			}
-#		}
-#	}
-#	text = {
-#		localisation_key = monastic_order_benedictine
-#		trigger = {
-#			society_member_of = monastic_order_benedictine
-#			has_alternate_start_parameter = { key = religion_names value = random }
-#		}
-#	}
-#	text = {
-#		localisation_key = monastic_order_dominican
-#		trigger = { society_member_of = monastic_order_dominican }
-#	}
-#	text = {
-#		localisation_key = monastic_order_orthodox
-#		trigger = { society_member_of = monastic_order_orthodox }
-#	}
-#	text = {
-#		localisation_key = monastic_order_nestorian
-#		trigger = { society_member_of = monastic_order_nestorian }
-#	}
-#	text = {
-#		localisation_key = monastic_order_monophysite
-#		trigger = { society_member_of = monastic_order_monophysite }
-#	}
-#	text = {
-#		localisation_key = monastic_order_jain
-#		trigger = { society_member_of = monastic_order_jain }
-#	}
-#	text = {
-#		localisation_key = monastic_order_hindu
-#		trigger = { society_member_of = monastic_order_hindu }
-#	}
-#	text = {
-#		localisation_key = monastic_order_buddhist
-#		trigger = { society_member_of = monastic_order_buddhist }
-#	}
-#	text = {
-#		localisation_key = monastic_order_stoics
-#		trigger = { society_member_of = monastic_order_stoics }
-#	}
-#	text = {
-#		localisation_key = hermeticsCap
-#		trigger = { society_member_of = hermetics }
-#	}
-#}
-
-
 defined_text = {
 	name = GetDWReasonToJoin # Returns a phrase along the lines of "cure my lover" or "help me win on the battlefield"
 
@@ -1862,67 +1784,7 @@ defined_text = {
 		localisation_key = String_Satan
 		trigger = {
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists
-			OR = {
-				religion_group = christian
-				religion_group = jewish_group
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Iblis
-		trigger = {
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists
-			religion_group = muslim
-		}
-	}
-	text = {
-		localisation_key = String_Ahriman
-		trigger = {
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists
-			OR = {
-				religion_group = zoroastrian_group
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Chernobog
-		trigger = { society_member_of = the_cold_ones
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		}
-	}
-	text = {
-		localisation_key = String_Kali
-		trigger = { society_member_of = the_cult_of_kali 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		}
-	}
-	text = {
-		localisation_key = String_Erlik
-		trigger = { society_member_of = the_plaguebringers 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		}
-	}
-	text = {
-		localisation_key = String_Hel
-		trigger = { society_member_of = the_trollcrafters 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		}
-	}
-	text = {
-		localisation_key = String_Bacchus
-		trigger = { society_member_of = the_bacchants 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		}
-	}
-	text = {
-		localisation_key = String_Cagn
-		trigger = { society_member_of = the_vodouns
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			religion_group = old_world_group
 		}
 	}
 	fallback_text = {
@@ -1936,58 +1798,11 @@ defined_text = {
 	text = {
 		localisation_key = String_black_magic
 		trigger = { 
-			society_member_of = the_satanists 
-			religion_group = christian
+			religion_group = old_world_group
 		} 
 	}
-	text = {
-		localisation_key = String_sihr
-		trigger = { 
-			society_member_of = the_satanists 
-			religion_group = muslim
-		} 
-	}
-	text = {
-		localisation_key = String_Qliphoth
-		trigger = { 
-			society_member_of = the_satanists 
-			religion_group = jewish_group
-		} 
-	}
-	text = {
+	fallback_text = {
 		localisation_key = String_black_magic
-		trigger = {
-			society_member_of = the_satanists
-			OR = {
-				religion_group = zoroastrian_group
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-			}
-		}
-	}
-	text = {
-		localisation_key = String_koldovstvo
-		trigger = { society_member_of = the_cold_ones } 
-	}
-	text = {
-		localisation_key = String_seiðr
-		trigger = { society_member_of = the_trollcrafters } 
-	}
-	text = {
-		localisation_key = String_black_magic
-		trigger = { society_member_of = the_plaguebringers } 
-	}
-	text = {
-		localisation_key = String_dark_tantras
-		trigger = { society_member_of = the_cult_of_kali } 
-	}
-	text = {
-		localisation_key = String_sorcery
-		trigger = { society_member_of = the_bacchants } 
-	}
-	text = {
-		localisation_key = String_vodoun_sorcery
-		trigger = { society_member_of = the_vodouns } 
 	}
 }
 
@@ -1998,57 +1813,35 @@ defined_text = {
 		localisation_key = String_demon
 		trigger = {
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists
-			OR = {
-				religion_group = christian
-				religion_group = jewish_group
-				religion_group = zoroastrian_group
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-			}
+			religion_group = old_world_group
+		} 
+	}
+	text = {
+		localisation_key = String_vodoun_demon
+		trigger = { religion = akghan
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
 	text = {
 		localisation_key = String_jinn
 		trigger = { 
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists 
-			religion_group = muslim
-		} 
-	}
-	text = {
-		localisation_key = String_likho
-		trigger = { society_member_of = the_cold_ones 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			religion_group = ormazd_gods_group
 		} 
 	}
 	text = {
 		localisation_key = String_jotun
-		trigger = { society_member_of = the_trollcrafters 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = string_karaoglan
-		trigger = { society_member_of = the_plaguebringers 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = String_rakshasa
-		trigger = { society_member_of = the_cult_of_kali 
+		trigger = { 
+			OR={
+				religion = norscan_gods 
+				religion = norscan_gods_reformed
+			}
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
 	text = {
 		localisation_key = String_satyr
-		trigger = { society_member_of = the_bacchants 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = String_vodoun_demon
-		trigger = { society_member_of = the_vodouns
+		trigger = { religion = asrai_cadai  
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
@@ -2064,57 +1857,35 @@ defined_text = {
 		localisation_key = String_demons
 		trigger = {
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists
-			OR = {
-				religion_group = christian
-				religion_group = jewish_group
-				religion_group = zoroastrian_group
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-			}
+			religion_group = old_world_group
+		} 
+	}
+	text = {
+		localisation_key = String_vodoun_demons
+		trigger = { religion = akghan
+			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
 	text = {
 		localisation_key = String_jinns
 		trigger = { 
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-			society_member_of = the_satanists 
-			religion_group = muslim
-		} 
-	}
-	text = {
-		localisation_key = String_likhos
-		trigger = { society_member_of = the_cold_ones 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+			religion_group = ormazd_gods_group
 		} 
 	}
 	text = {
 		localisation_key = String_jotnar
-		trigger = { society_member_of = the_trollcrafters 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = string_karaoglanlar 
-		trigger = { society_member_of = the_plaguebringers 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = String_rakshasas
-		trigger = { society_member_of = the_cult_of_kali 
+		trigger = {
+			OR={
+				religion = norscan_gods 
+				religion = norscan_gods_reformed
+			}
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
 	text = {
 		localisation_key = String_satyrs
-		trigger = { society_member_of = the_bacchants 
-			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		} 
-	}
-	text = {
-		localisation_key = String_vodoun_demons
-		trigger = { society_member_of = the_vodouns
+		trigger = { religion = asrai_cadai  
 			NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		} 
 	}
@@ -2248,60 +2019,8 @@ defined_text = { #Does not work for jain and buddhist
 		trigger = {
 			OR = {
 				society_member_of = monastic_order_dominican
-				society_member_of = monastic_order_benedictine
-				society_member_of = monastic_order_orthodox 
-				society_member_of = monastic_order_nestorian 
-				society_member_of = monastic_order_monophysite 
 			}
 			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Vishnu
-		trigger = {
-			OR = {
-				trait = smartist_hindu
-				trait = vaishnavist_hindu 
-			}
-			society_member_of = monastic_order_hindu
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Devi
-		trigger = {
-			OR = {
-				trait = smartist_hindu
-				trait = shaktist_hindu 
-			}
-			society_member_of = monastic_order_hindu
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Shiva
-		trigger = {
-			OR = {
-				trait = smartist_hindu
-				trait = shaivist_hindu 
-			}
-			society_member_of = monastic_order_hindu
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = string_god_random
-		trigger = {
-			OR = {				
-				society_member_of = monastic_order_stoics
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 		}
@@ -2310,84 +2029,14 @@ defined_text = { #Does not work for jain and buddhist
 
 defined_text = {
 	name = GetMOSaint
-	
-	text = {
-		localisation_key = String_Saint_Benedict
-		trigger = { society_member_of = monastic_order_benedictine
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Saint_Dominic
-		trigger = { society_member_of = monastic_order_dominican 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Saint_Basil
-		trigger = { society_member_of = monastic_order_orthodox 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}	
-	text = {
-		localisation_key = String_Saint_Abraham
-		trigger = { society_member_of = monastic_order_nestorian 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}	
-	text = {
-		localisation_key = String_Saint_Anthony
-		trigger = { society_member_of = monastic_order_monophysite 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Buddha
-		trigger = { society_member_of = monastic_order_buddhist 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Adi_Shankara
-		trigger = { society_member_of = monastic_order_hindu 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Acharya_Kundakunda
-		trigger = { society_member_of = monastic_order_jain 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Zeno
-		trigger = { society_member_of = monastic_order_stoics
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
 	text = {
 		localisation_key = string_saint_generic
 		trigger = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
+	}
+	fallback_text = {
+		localisation_key = string_saint_generic #fallback, in case it fails to find relevant info
 	}
 }
 
@@ -2397,131 +2046,31 @@ defined_text = {
 	text = {
 		localisation_key = String_monastery
 		trigger = {
-			OR = {
-				society_member_of = monastic_order_dominican
-				society_member_of = monastic_order_benedictine
-				society_member_of = monastic_order_orthodox 
-				society_member_of = monastic_order_nestorian 
-				society_member_of = monastic_order_monophysite 
-			}
+			religion = grail
 		}
 	}
-	text = {
-		localisation_key = String_matha
-		trigger = { society_member_of = monastic_order_hindu }
-	}
-	text = {
-		localisation_key = String_agora
-		trigger = { society_member_of = monastic_order_stoics }
-	}
-	text = {
-		localisation_key = String_temple
-		trigger = {
-			OR = {
-				society_member_of = monastic_order_jain
-				society_member_of = monastic_order_buddhist
-			}
-		}
+	fallback_text = {
+		localisation_key = String_temple #fallback, in case it fails to find relevant info
 	}
 }
 
 defined_text = {
 	name = GetMOCode
-
-	text = {
-		localisation_key = String_the_Rule_of_Saint_Benedict
-		trigger = { society_member_of = monastic_order_benedictine 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_the_Rule_of_Saint_Augustine
-		trigger = { society_member_of = monastic_order_dominican 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_the_Rule_of_Saint_Basil
-		trigger = { society_member_of = monastic_order_orthodox 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}	
-	text = {
-		localisation_key = String_the_Rule_of_Saint_Abraham
-		trigger = { society_member_of = monastic_order_nestorian 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}	
-	text = {
-		localisation_key = String_the_Rule_of_Saint_Anthony
-		trigger = { society_member_of = monastic_order_monophysite 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}		
-	text = {
-		localisation_key = String_the_Noble_Eightfold_Path
-		trigger = { society_member_of = monastic_order_buddhist 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_the_four_Purusartha
-		trigger = { society_member_of = monastic_order_hindu 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_the_Anuvrata
-		trigger = { society_member_of = monastic_order_jain 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_the_Aretai
-		trigger = { society_member_of = monastic_order_stoics
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
 	text = {
 		localisation_key = string_the_code
 		trigger = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
+	fallback_text = {
+		localisation_key = string_the_code #fallback, in case it fails to find relevant info
+	}
 }
 
 defined_text = {
 	name = GetMOPenanceMeditation
-	text = {
-		localisation_key = String_doing_penance
-		trigger = { is_christian_monastic_member_trigger = yes }
-	}
-	text = {
-		localisation_key = String_in_meditation
-		trigger = { 
-			OR = { 
-				society_member_of = monastic_order_stoics
-				is_dharmic_monastic_member_trigger = yes 
-			}
-		}
+	fallback_text = {
+		localisation_key = String_doing_penance #fallback, in case it fails to find relevant info
 	}
 }
 
@@ -2530,195 +2079,33 @@ defined_text = {
 	text = {
 		localisation_key = String_Gods_blessing_upon_thee
 		trigger = {
-			is_christian_monastic_member_trigger = yes
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 		}
 	}
-	text = {
-		localisation_key = String_Peace_be_upon_you
-		trigger = {
-			OR = {
-				society_member_of = monastic_order_stoics
-				is_dharmic_monastic_member_trigger = yes
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
+	fallback_text = {
+		localisation_key = String_Peace_be_upon_you #fallback, in case it fails to find relevant info
 	}
 }
 
 defined_text = {
 	name = GetMOFarewell
 	text = {
-		localisation_key = String_Go_with_God
-		trigger = {
-			is_christian_monastic_member_trigger = yes
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Shubhaste_panthanah_santu
-		trigger = {
-			is_dharmic_monastic_member_trigger = yes
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Go_in_peace
-		trigger = {
-			society_member_of = monastic_order_stoics
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
 		localisation_key = String_Go_with_God_random
 		trigger = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
+	fallback_text = {
+		localisation_key = String_Go_in_peace #fallback, in case it fails to find relevant info
+	}
 }
 
 defined_text = {
 	name = GetSRGreeting 
-	text = {
-		localisation_key = String_Gods_blessing_upon_thee
-		trigger = { 
-			OR = {
-				is_christian_secret_religious_society_member_trigger = yes 
-				society_member_of = secret_religious_society_yazidi
-				society_member_of = secret_religious_society_druze
-				society_member_of = secret_religious_society_mazdaki
-				society_member_of = secret_religious_society_manichean
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_As_salam_alaykum
-		trigger = { 
-			is_muslim_secret_religious_society_member_trigger = yes 
-			NOR = {
-				society_member_of = secret_religious_society_yazidi
-				society_member_of = secret_religious_society_druze
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Peace_be_upon_you
-		trigger = {
-			OR = {
-				is_indian_secret_religious_society_member_trigger = yes 
-				is_bon_secret_religious_society_member_trigger = yes
-				is_taoist_secret_religious_society_member_trigger = yes
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Shalom_aleikhem
-		trigger = { is_jewish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Hamazor_hama_asho_bed
-		trigger = { is_zoroastrian_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Allfathers_strength
-		trigger = { is_norse_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Svarogs_blessings
-		trigger = { is_slavic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Ancestors_blessings
-		trigger = { is_tengri_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Dievas_blessings
-		trigger = { is_baltic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Ukkos_blessings
-		trigger = { is_finnish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Ancestors_blessings
-		trigger = { is_west_african_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Zuns_blessings
-		trigger = { is_zun_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Huitzilopochtlis_strength_to_you
-		trigger = { is_aztec_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Gods_protect_you
-		trigger = { is_hellenic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
+	fallback_text = {
+		localisation_key = String_Gods_blessing_upon_thee #fallback, in case it fails to find relevant info
 	}
 	
 }
@@ -2726,151 +2113,13 @@ defined_text = {
 defined_text = {
 	name = GetSRFarewell
 	text = {
-		localisation_key = String_Go_with_God
-		trigger = { 
-			OR = {
-				is_christian_secret_religious_society_member_trigger = yes 
-				society_member_of = secret_religious_society_yazidi
-				society_member_of = secret_religious_society_druze
-				society_member_of = secret_religious_society_mazdaki
-				society_member_of = secret_religious_society_manichean
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_May_Allah_guide_you
-		trigger = { 
-			is_muslim_secret_religious_society_member_trigger = yes 
-			NOR = {
-				society_member_of = secret_religious_society_yazidi
-				society_member_of = secret_religious_society_druze
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Shubhaste_panthanah_santu
-		trigger = { is_indian_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_May_Yehovah_guide_you
-		trigger = { is_jewish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Humata_Hukta_Huvarashta
-		trigger = { is_zoroastrian_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_the_Gods_protect_you
-		trigger = { 
-			OR = {
-				is_norse_secret_religious_society_member_trigger = yes 
-				is_hellenic_secret_religious_society_member_trigger = yes 
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_May_the_Gods_protect_you
-		trigger = { is_slavic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_the_Ancestors_guide_you
-		trigger = { is_tengri_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_the_Gods_protect_you
-		trigger = { is_baltic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_the_Gods_protect_you
-		trigger = { is_finnish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_the_Ancestors_guide_you
-		trigger = { is_west_african_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_May_Zun_illuminate_your_path
-		trigger = { is_zun_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-
-	text = {
-		localisation_key = String_Fire_and_blood
-		trigger = { is_aztec_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	
-	text = {
-		localisation_key = String_May_the_Ancestors_guide_you
-		trigger = {
-			OR = {
-				is_bon_secret_religious_society_member_trigger = yes
-				is_taoist_secret_religious_society_member_trigger = yes
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	
-	text = {
 		localisation_key = String_Go_with_God_random
 		trigger = { 
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
+	}
+	fallback_text = {
+		localisation_key = String_May_the_Gods_protect_you #fallback, in case it fails to find relevant info
 	}
 }
 
@@ -2879,138 +2128,6 @@ defined_text = {
 	text = {
 		localisation_key = String_Cross
 		trigger = { is_christian_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_crescent
-		trigger = { is_muslim_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_six_pointed_star
-		trigger = { is_jewish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_figurine_of_Buddha
-		trigger = { true_religion_buddhist_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_figurine_of_Ganesha
-		trigger = { true_religion_hindu_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_figurine_of_jain_god
-		trigger = { true_religion_jain_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_fire_symbol
-		trigger = { true_religion_group_zoroastrian_group_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Thors_hammer
-		trigger = { is_norse_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_hatchet_amulet
-		trigger = { is_slavic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_world_tree_symbol
-		trigger = { is_baltic_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_life_tree_symbol
-		trigger = { is_tengri_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Ukkos_hammer
-		trigger = { is_finnish_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_ancestors_symbol
-		trigger = { 
-			OR = {
-				is_west_african_secret_religious_society_member_trigger = yes 
-				is_hellenic_secret_religious_society_member_trigger = yes 
-			}
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_sun_symbol
-		trigger = { is_zun_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Fire_and_blood
-		trigger = { is_aztec_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Animal_made_of_bread
-		trigger = { is_bon_secret_religious_society_member_trigger = yes 
-			NOT = {
-				has_alternate_start_parameter = { key = religion_names value = random }
-			}
-		}
-	}
-	text = {
-		localisation_key = String_Yinyang_symbol
-		trigger = { is_taoist_secret_religious_society_member_trigger = yes 
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
@@ -8642,7 +7759,7 @@ defined_text = {
 	# "As we discuss [adventurous_spirit.GetHerHis] travels to the [the_protector_general.Offmap.GetFullName] [adventurous_spirit.GetSheHe] speaks passionately about [adventurous_spirit.GetChineseConvoTopic]"
 	text = {
 		localisation_key = String_such_a_wealthy_realm
-		trigger = { china_is_fine_trigger = yes }
+		trigger = { cathay_is_fine_trigger = yes }
 	}
 	text = {
 		localisation_key = String_such_white_papers
@@ -8693,16 +7810,6 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_the_artistic_sensibility
-	}
-	text = {
-		localisation_key = String_friendly_to_outsiders
-		trigger = {
-			offmap_china = {
-				offmap_ruler = {
-					culture = mongol
-				}
-			}
-		}
 	}
 }
 
@@ -9856,14 +8963,14 @@ defined_text = {
 		localisation_key = String_End_Unrest
 		trigger = {
 			prev_status = china_unrest
-			china_is_suffering_trigger = no
+			cathay_is_suffering_trigger = no
 		}
 	}
 	text = {
 		localisation_key = String_End_Unrest_Worsened
 		trigger = {
 			prev_status = china_unrest
-			china_is_suffering_trigger = yes
+			cathay_is_suffering_trigger = yes
 		}
 	}
 	text = {
@@ -10880,7 +9987,11 @@ defined_text = {
 	text = {
 		localisation_key = String_i_see_them_everywhere
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			}
 		}
 	}
 	fallback_text = {
@@ -14416,7 +13527,6 @@ defined_text = {
 	text = {
 		trigger = { 
 			ROOT = { 
-				religion = norse_pagan_reformed
 				NOR = { 
 					has_religion_feature = religion_matriarchal 
 					has_religion_feature = religion_equal
@@ -14428,7 +13538,6 @@ defined_text = {
 	text = {
 		trigger = { 
 			ROOT = { 
-				religion = norse_pagan_reformed
 				OR = { 
 					has_religion_feature = religion_matriarchal 
 					has_religion_feature = religion_equal
@@ -14436,78 +13545,6 @@ defined_text = {
 			} 
 		}
 		localisation_key = string_reformed_religion_norse_equal
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = tengri_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_tengri
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = slavic_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_slavic
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = baltic_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_baltic
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = finnish_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_finnish
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = west_african_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_west_african
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = zun_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_zunist
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = bon_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_bon
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = aztec_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_aztec
-	}
-	text = {
-		trigger = { 
-			ROOT = { 
-				religion = hellenic_pagan_reformed
-			} 
-		}
-		localisation_key = string_reformed_religion_hellenic
 	}
 }
 
@@ -15176,7 +14213,11 @@ defined_text = {
 
 	text = {
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
+			}
 		}
 		localisation_key = GetNatureLunatic
 	}
@@ -15205,7 +14246,9 @@ defined_text = {
 				trait = diligent
 				trait = patient
 				trait = charitable
-				trait = lunatic
+				trait = lunatic_1
+				trait = lunatic_2
+				trait = lunatic_3
 				trait = zealous
 				trait = honest
 			}

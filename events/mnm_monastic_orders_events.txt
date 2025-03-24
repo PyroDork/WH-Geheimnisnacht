@@ -7874,7 +7874,7 @@ character_event = {
     	name = EVTOPTC_MNM_4212
     	set_character_flag = 4212_pranked_them_flag
 
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1

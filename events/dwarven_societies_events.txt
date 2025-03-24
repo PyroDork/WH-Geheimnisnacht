@@ -1665,8 +1665,6 @@ character_event = {
     			10 = { add_trait = genius }
     			10 = { add_trait = quick }
     			10 = { add_trait = shrewd }
-    			10 = { trigger = { NOT = { religion_group = muslim } } add_trait = scholar }
-    			10 = { trigger = { religion_group = muslim } add_trait = faqih }
     			10 = { add_trait = mystic }
     			10 = { add_trait = gardener }
     			10 = { trigger = { has_dlc = Reapers} add_trait = physician }
@@ -10372,7 +10370,7 @@ character_event = {
     	has_minor_title = title_runesmith_apprentice
 		NOR = {
 			death_no_trace_trigger = yes
-			death_in_china_trigger = yes
+			death_in_cathay_trigger = yes
 		}
     }
 

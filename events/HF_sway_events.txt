@@ -10717,7 +10717,7 @@ character_event = {
 			has_character_flag = flag_appeaser_option_lunatic
 		}
 		name = EVTOPTCHFP21104_LUNATIC
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		if = {
 			limit = {
 				persistent_event_target:sway_target = { trait = trusting }

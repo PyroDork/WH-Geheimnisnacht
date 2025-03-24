@@ -129,3 +129,6 @@ nurglegiftgiving_cooldown = {
 election_timer = {
   icon = 1
 }
+misaligned_lizardmen_cooldown = {
+  icon = 1
+}

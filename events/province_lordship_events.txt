@@ -222,8 +222,8 @@ province_event = {
 
 	trigger = {
 		owner = {
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = jewish_group }
+			NOT = { religion_group = ormazd_gods_group }
+			NOT = { religion_group = dwarf_gods_group }
 		}
 		any_province_lord = {
 			is_republic = yes

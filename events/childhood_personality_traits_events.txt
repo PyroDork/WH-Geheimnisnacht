@@ -564,7 +564,7 @@ character_event = {
 
 	min_age = 6
 	max_age = 16
-	religion_group = christian
+	religion_group = old_world_group
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -1774,10 +1774,10 @@ character_event = {
 
 	trigger = {
 		NOT = {
-			religion_group = muslim
+			religion_group = ormazd_gods_group
 		}
 		NOT = {
-			religion_group = indian_group
+			religion_group = oriental_gods_group
 		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -1890,7 +1890,7 @@ character_event = {
 	}
 }
 
-### Zealous - Muslim ###
+### Zealous - ormazd_gods_group ###
 character_event = {
 	id = 1632
 	desc = "EVTDESC1632"
@@ -1898,7 +1898,7 @@ character_event = {
 
 	min_age = 6
 	max_age = 16
-	religion_group = muslim
+	religion_group = ormazd_gods_group
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -3057,7 +3057,7 @@ character_event = {
 
 	trigger = {
 		NOT = {
-			religion_group = muslim
+			religion_group = ormazd_gods_group
 		}
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -3170,7 +3170,7 @@ character_event = {
 	}
 }
 
-### Cynical Child - Muslim ###
+### Cynical Child - ormazd_gods_group ###
 character_event = {
 	id = 1732
 	desc = "EVTDESC1732"
@@ -3178,7 +3178,7 @@ character_event = {
 
 	min_age = 6
 	max_age = 16
-	religion_group = muslim
+	religion_group = ormazd_gods_group
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -3520,7 +3520,7 @@ character_event = {
 		num_traits = 4
 		trait = homosexual
 		NOT = {
-			religion_group = muslim
+			religion_group = ormazd_gods_group
 		}
 		NOT = { has_character_flag = is_child_of_destiny }
 	}
@@ -3544,7 +3544,7 @@ character_event = {
 	}
 }
 
-### Remove Homosexual - Muslim ###
+### Remove Homosexual - ormazd_gods_group ###
 character_event = {
 	id = 1986
 	desc = "EVTDESC1986"
@@ -3560,8 +3560,8 @@ character_event = {
 		num_traits = 4
 		trait = homosexual
 		OR = {
-			religion_group = muslim
-			religion_group = indian_group
+			religion_group = ormazd_gods_group
+			religion_group = oriental_gods_group
 		}
 		NOT = { has_character_flag = is_child_of_destiny }
 	}
@@ -3651,7 +3651,7 @@ character_event = {
 		num_traits = 4
 		trait = homosexual
 		NOT = {
-			religion_group = muslim
+			religion_group = ormazd_gods_group
 		}
 		NOT = { has_character_flag = is_child_of_destiny }
 	}
@@ -4492,7 +4492,7 @@ character_event = {
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
 		NOT = {
-			religion_group = muslim
+			religion_group = ormazd_gods_group
 		}
 		NOT = { has_character_flag = is_child_of_destiny }
 	}
@@ -4589,7 +4589,7 @@ character_event = {
 
 	min_age = 6
 	max_age = 11
-	religion_group = christian
+	religion_group = old_world_group
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -4736,7 +4736,7 @@ character_event = {
 
 	trigger = {
 		has_guardian = yes
-		#religion_group = christian
+		#religion_group = old_world_group
 		NOT = { trait = zealous }
 		NOT = { trait = cynical }
 		NOT = { personality_traits = 5 }
@@ -5070,7 +5070,7 @@ character_event = {
 	}
 }
 
-# If we're Catholic and our enemies are Catholic, why are we fighting?
+# If we're sigmarite and our enemies are sigmarite, why are we fighting?
 character_event = {
 	id = 1914
 	desc = "EVTDESC1914"
@@ -5078,7 +5078,7 @@ character_event = {
 
 	min_age = 11
 	max_age = 16
-	religion = catholic
+	religion = sigmarite
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -5087,10 +5087,10 @@ character_event = {
 		has_guardian = yes
 		NOT = { trait = cynical }
 		guardian = {
-			religion = catholic
+			religion = sigmarite
 			OR = {
-				any_current_enemy = { religion = catholic }
-				any_liege = { any_current_enemy = { religion = catholic } }
+				any_current_enemy = { religion = sigmarite }
+				any_liege = { any_current_enemy = { religion = sigmarite } }
 			}
 		}
 		NOT = { personality_traits = 5 }
@@ -5188,7 +5188,7 @@ character_event = {
 
 	min_age = 11
 	max_age = 16
-	religion_group = christian
+	religion_group = old_world_group
 	lacks_dlc = "Conclave"
 
 	is_triggered_only = yes
@@ -5605,7 +5605,7 @@ character_event = {
 
 	trigger = {
 		has_guardian = yes
-		NOT = { religion_group = indian_group }
+		NOT = { religion_group = oriental_gods_group }
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
 		NOT = { trait = temperate }
@@ -5712,9 +5712,9 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		OR = {
-			religion_group = christian
-			religion_group = muslim
-			religion_group = jewish_group
+			religion_group = old_world_group
+			religion_group = ormazd_gods_group
+			religion_group = dwarf_gods_group
 		}
 		NOT = { trait = cynical }
 		NOT = { trait = craven }
@@ -5840,7 +5840,7 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			religion = cathar
+			religion = false_grail
 			factor = 3
 		}
 		modifier = {

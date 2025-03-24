@@ -457,6 +457,22 @@ complacent = {
 	combat_rating = -10
 }
 
+amazon_kalith = { #Sayyid equivalents for ormazdics
+	####Most
+	is_visible = {
+		religion_visible_trait = yes
+	}
+	potential = { religion_group = old_ones_group }
+	enatic = yes
+	opposites = {
+		non_ormazd_sayyid
+		ormazd_mirza
+	}
+	religious = yes
+	amazon_opinion = 5
+	customizer = yes
+}
+
 disinherited_amazon = {
 	is_visible = {
 		visible_trait = yes

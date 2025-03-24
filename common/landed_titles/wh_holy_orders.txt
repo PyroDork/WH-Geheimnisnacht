@@ -1301,3 +1301,36 @@ d_hashishin = {
 
 	mercenary_type = hashishin_composition
 }
+#Old Gods
+d_kalim_devouts = {
+	color = { 160 160 160 }
+	color2 = { 255 255 255 }
+
+	#graphical_culture = holygfx
+
+	capital = 1763 #c_ganaina
+
+	title = "KALIMASTER"
+	title_female = "KALIMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	# Always exists
+	landless = yes
+	holy_order = yes
+	gain_effect = {
+	
+	}
+	mercenary_type = d_nordsee_marines_modifier
+
+	# Parent Religion
+	religion = amazon
+	culture = amazon_main
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	# Extra income due to donations, etc
+	monthly_income = 3 # (Must be an integer between 1 and 512)
+
+	strength_growth_per_century = 0.5
+}

@@ -2464,7 +2464,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_TOG_656
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		set_character_flag = feast_lunatic
 		hidden_tooltip = {
 			liege = {
@@ -2567,7 +2567,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_TOG_657
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1

@@ -1167,7 +1167,12 @@ character_event = {
 				OR = {
 					trait = resilient
 					immortal = yes
-					NOT = { age = 45 }
+					AND = {
+						trait = creature_human
+						NOT = {
+							age = 45
+						}
+					}
 				}
 
 			}
@@ -1448,7 +1453,12 @@ character_event = {
 				OR = {
 					trait = resilient
 					immortal = yes
-					NOT = { age = 45 }
+					AND = {
+						trait = creature_human
+						NOT = {
+							age = 45
+						}
+					}
 				}
 
 			}
@@ -1667,7 +1677,12 @@ character_event = {
 				OR = {
 					trait = resilient
 					immortal = yes
-					NOT = { age = 45 }
+					AND = {
+						trait = creature_human
+						NOT = {
+							age = 45
+						}
+					}
 				}
 			}
 			add_trait = pregnant
@@ -2833,7 +2848,12 @@ character_event = {
 				OR = {
 					trait = resilient
 					immortal = yes
-					NOT = { age = 45 }
+					AND = {
+						trait = creature_human
+						NOT = {
+							age = 45
+						}
+					}
 				}
 
 			}
@@ -3059,7 +3079,12 @@ character_event = {
 				OR = {
 					trait = resilient
 					immortal = yes
-					NOT = { age = 45 }
+					AND = {
+						trait = creature_human
+						NOT = {
+							age = 45
+						}
+					}
 				}
 
 			}

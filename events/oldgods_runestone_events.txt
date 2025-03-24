@@ -306,7 +306,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_TOG_501
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1

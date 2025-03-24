@@ -1,3 +1,271 @@
+#Norscan to Chaos Effect
+norscan_convert_effect = {
+	if = {
+		limit = { 
+			OR = {
+				religion = norscan_gods
+				religion = norscan_gods_reformed
+			}
+		}
+		if = { 
+			limit = {
+				NOR = {	
+					trait = norscan_patron_kharneth
+					trait = norscan_patron_shornaal
+					trait = norscan_patron_tchar
+					trait = norscan_patron_nurgleth
+				}
+			}
+			if = { 
+				limit = {
+					trait = mark_chaos
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = champion_undivided
+				}
+				set_character_flag = chaos_champ
+			}
+			if = { 
+				limit = {
+					trait = chaos_chosen
+				}
+				set_character_flag = chaos_chosen
+			}
+		}
+		else_if = { 
+			limit = {
+				trait = norscan_patron_kharneth
+			}
+			if = { 
+				limit = {
+					trait = mark_khorne
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = mark_khorne
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = champion_khorne
+				}
+				set_character_flag = chaos_champ
+			}
+			if = { 
+				limit = {
+					trait = chosen_khorne
+				}
+				set_character_flag = chaos_chosen
+			}
+			
+		}
+		else_if = { 
+			limit = {
+				trait = norscan_patron_shornaal
+			}
+			if = { 
+				limit = {
+					trait = mark_slaanesh
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = champion_slaanesh
+				}
+				set_character_flag = chaos_champ
+			}
+			if = { 
+				limit = {
+					trait = chosen_slaanesh
+				}
+				set_character_flag = chaos_chosen
+			}
+		}
+		else_if = { 
+			limit = {
+				trait = norscan_patron_tchar
+			}
+			if = { 
+				limit = {
+					trait = mark_tzeentch
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = champion_tzeentch
+				}
+				set_character_flag = chaos_champ
+			}
+			if = { 
+				limit = {
+					trait = chosen_tzeentch
+				}
+				set_character_flag = chaos_chosen
+			}
+		}
+		else_if = { 
+			limit = {
+				trait = norscan_patron_nurgleth
+			}
+			if = { 
+				limit = {
+					trait = mark_nurgle
+				}
+				set_character_flag = chaos_mark
+			}
+			if = { 
+				limit = {
+					trait = champion_nurgle
+				}
+				set_character_flag = chaos_champ
+			}
+			if = { 
+				limit = {
+					trait = chosen_nurgle
+				}
+				set_character_flag = chaos_chosen
+			}
+		}
+	}
+	else_if = { 
+		limit = {
+			religion = khorne
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_mark 
+			}
+			add_trait = mark_khorne
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_champ 
+			}
+			add_trait = champion_khorne
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_chosen 
+			}
+			add_trait = chosen_khorne
+		}
+		clr_character_flag = mark_chaos
+		clr_character_flag = chaos_champ
+		clr_character_flag = chaos_chosen
+	}
+	else_if = { 
+		limit = {
+			religion = slaanesh
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_mark 
+			}
+			add_trait = mark_slaanesh
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_champ 
+			}
+			add_trait = champion_slaanesh
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_chosen 
+			}
+			add_trait = chosen_slaanesh
+		}
+		clr_character_flag = mark_chaos
+		clr_character_flag = chaos_champ
+		clr_character_flag = chaos_chosen
+	}
+	else_if = { 
+		limit = {
+			religion = nurgle
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_mark 
+			}
+			add_trait = mark_nurgle
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_champ 
+			}
+			add_trait = champion_nurgle
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_chosen 
+			}
+			add_trait = chosen_nurgle
+		}
+		clr_character_flag = mark_chaos
+		clr_character_flag = chaos_champ
+		clr_character_flag = chaos_chosen
+	}
+	else_if = { 
+		limit = {
+			religion = tzeentch
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_mark 
+			}
+			add_trait = mark_tzeentch
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_champ 
+			}
+			add_trait = champion_tzeentch
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_chosen 
+			}
+			add_trait = chosen_tzeentch
+		}
+		clr_character_flag = mark_chaos
+		clr_character_flag = chaos_champ
+		clr_character_flag = chaos_chosen
+	}
+	else_if = { 
+		limit = {
+			religion = chaos
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_mark 
+			}
+			add_trait = mark_chaos
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_champ 
+			}
+			add_trait = champion_undivided
+		}
+		if = { 
+			limit = {
+				has_character_flag = chaos_chosen 
+			}
+			add_trait = chaos_chosen
+		}
+		clr_character_flag = mark_chaos
+		clr_character_flag = chaos_champ
+		clr_character_flag = chaos_chosen
+	}
+}
 ##Daemon Creation
 create_bloodletter_effect = {
 	remove_race_trait_effect = yes
@@ -2619,3 +2887,4 @@ spawn_magic_creature_effect = {
 		}
 	}
 }
+

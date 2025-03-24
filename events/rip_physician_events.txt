@@ -4659,7 +4659,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTV_RIP_11053
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			event_target:recruited_physician_target = { has_character_flag = physician_horse_md }
 		}

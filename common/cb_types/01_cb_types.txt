@@ -4545,15 +4545,8 @@ offmap_submission = {
 			if = {
 				limit = {
 					has_dlc = "Legacy of Rome"
-					OR = {
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
-					}
-						OR = {
-							religion_group = christian
-							religion = hellenic_pagan
-							religion = hellenic_pagan_reformed
-						}
+					has_landed_title = e_the_empire
+					religion_group = old_world_group
 				}
 				hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
 			}
@@ -5225,7 +5218,7 @@ invasion_of_cathay_cb = {
 									is_ruler = no
 									is_primary_heir = no
 								}
-								leave_court_for_china_effect = yes
+								leave_court_for_cathay_effect = yes
 							}
 						}
 						any_child = {
@@ -5234,7 +5227,7 @@ invasion_of_cathay_cb = {
 									is_ruler = no
 									is_primary_heir = no
 								}
-								leave_court_for_china_effect = yes
+								leave_court_for_cathay_effect = yes
 							}
 						}
 						abdicate = yes
@@ -6836,11 +6829,7 @@ flower_war_cb = {
 	can_use = {
 		ROOT = {
 			has_dlc = "Holy Fury"
-			OR = {
-				has_religion_feature = religion_ritual_sacrifice
-				religion = aztec
-				religion = aztec_reformed
-			}
+			has_religion_feature = religion_ritual_sacrifice
 			NOT = { has_religion_feature = religion_peaceful } #Aztecs could reform as Peaceful.
 			NOT = { same_realm = FROM }
 			NOT = { is_liege_or_above = FROM }
@@ -6863,11 +6852,7 @@ flower_war_cb = {
 	}
 	is_valid = {
 		ROOT = {
-			OR = {
-				has_religion_feature = religion_ritual_sacrifice
-				religion = aztec
-				religion = aztec_reformed
-			}
+			has_religion_feature = religion_ritual_sacrifice
 			trait = bloodthirsty_gods_3
 		}
 	}
@@ -7014,15 +6999,8 @@ flower_war_cb = {
 			if = {
 				limit = {
 					has_dlc = "Legacy of Rome"
-					OR = {
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
-					}
-						OR = {
-							religion_group = christian
-							religion = hellenic_pagan
-							religion = hellenic_pagan_reformed
-						}
+					has_landed_title = e_the_empire
+					religion_group = old_world_group
 				}
 				hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
 			}
@@ -7475,15 +7453,8 @@ childrens_crusade = {
 			if = {
 				limit = {
 					has_dlc = "Legacy of Rome"
-					OR = {
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
-					}
-						OR = {
-							religion_group = christian
-							religion = hellenic_pagan
-							religion = hellenic_pagan_reformed
-						}
+					has_landed_title = e_the_empire
+					religion_group = old_world_group
 				}
 				hidden_tooltip = { character_event = { id = LoR.30 days = 12 } }
 			}
@@ -8540,11 +8511,8 @@ depose_impious_pope = {
 
 	is_valid = {
 		FROM = {
-			trait = bad_priest_christian
-			hidden_tooltip = {
-				religion = catholic
-				has_landed_title = k_papal_state
-			}
+			trait = bad_priest
+			controls_religion = yes
 			independent = yes
 		}
 	}

@@ -1132,7 +1132,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB61150
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1
@@ -1159,7 +1159,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB61151
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1
@@ -1205,7 +1205,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB61152
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1
@@ -1405,7 +1405,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB61165
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1

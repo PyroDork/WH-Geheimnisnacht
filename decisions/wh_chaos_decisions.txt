@@ -5587,8 +5587,10 @@ offmap_decisions = {
 					remove_race_trait_effect = yes
 				}
 				add_trait = undivided_demon
-				add_trait = prince_undivided
+				norscan_convert_effect = yes
 				religion = chaos
+				norscan_convert_effect = yes
+				add_trait = prince_undivided
 				character_event = { id = schaosfl.8005 }
 			}
 		}
@@ -7032,8 +7034,10 @@ offmap_decisions = {
 					remove_race_trait_effect = yes
 				}
 				add_trait = khorne_demon
-				add_trait = prince_khorne
+				norscan_convert_effect = yes
 				religion = khorne
+				norscan_convert_effect = yes
+				add_trait = prince_khorne
 				character_event = { id = schaosfl.8005 }
 			}
 		}
@@ -8457,8 +8461,10 @@ offmap_decisions = {
 					remove_race_trait_effect = yes
 				}
 				add_trait = nurgle_demon
-				add_trait = prince_nurgle
+				norscan_convert_effect = yes
 				religion = nurgle
+				norscan_convert_effect = yes
+				add_trait = prince_nurgle
 				character_event = { id = schaosfl.8005 }
 			}
 		}
@@ -9819,8 +9825,10 @@ offmap_decisions = {
 					remove_race_trait_effect = yes
 				}
 				add_trait = slaanesh_demon
-				add_trait = prince_slaanesh
+				norscan_convert_effect = yes
 				religion = slaanesh
+				norscan_convert_effect = yes
+				add_trait = prince_slaanesh
 				character_event = { id = schaosfl.8005 }
 			}
 		}
@@ -11165,8 +11173,10 @@ offmap_decisions = {
 					remove_race_trait_effect = yes
 				}
 				add_trait = tzeentch_demon
-				add_trait = prince_tzeentch
+				norscan_convert_effect = yes
 				religion = tzeentch
+				norscan_convert_effect = yes
+				add_trait = prince_tzeentch
 				character_event = { id = schaosfl.8005 }
 			}
 		}

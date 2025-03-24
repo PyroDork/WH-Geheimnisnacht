@@ -2877,12 +2877,12 @@ feudal_elective = {
 			}
 			FROM = {
 				OR = {
-					trait = sympathy_christendom
-					trait = sympathy_islam
-					trait = sympathy_judaism
-					trait = sympathy_zoroastrianism
-					trait = sympathy_pagans
-					trait = sympathy_indian
+					trait = sympathy_old_world_group
+					trait = sympathy_ormazd_gods_group
+					trait = sympathy_dwarf_gods_group
+					trait = sympathy_cadai_group
+					trait = sympathy_oriental_gods_group
+					trait = sympathy_halfling_gods_group
 				}
 			}
 		}
@@ -2941,10 +2941,7 @@ feudal_elective = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_pope
 			NOT = { character = FROM } #Do not judge yourself.
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_pope
@@ -2954,7 +2951,7 @@ feudal_elective = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_patriarch
 			NOT = { character = FROM } #Do not judge yourself.
-			religion = orthodox
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_patriarch
@@ -3902,28 +3899,28 @@ tanistry = {
 			NOT = { religion_group = cadai_group }
 			NOR = {
 				AND = {
-					trait = sympathy_christendom
+					trait = sympathy_old_world_group
 					FROM = { religion_group = old_world_group }
 				}
 				AND = {
-					trait = sympathy_islam
+					trait = sympathy_ormazd_gods_group
 					FROM = { religion_group = ormazd_gods_group }
 				}
 				AND = {
-					trait = sympathy_pagans
-					FROM = { religion_group = chaos_gods_group }
+					trait = sympathy_halfling_gods_group
+					FROM = { religion_group = halfling_gods_group }
 				}
 				AND = {
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group }
+					trait = sympathy_cadai_group
+					FROM = { religion_group = cadai_group }
 				}
 				AND = {
-					trait = sympathy_judaism
+					trait = sympathy_dwarf_gods_group
 					FROM = { religion_group = dwarf_gods_group }
 				}
 				AND = {
-					trait = sympathy_indian
-					FROM = { religion_group = cadai_group }
+					trait = sympathy_oriental_gods_group
+					FROM = { religion_group = oriental_gods_group }
 				}
 			}
 			FROM = {
@@ -4759,8 +4756,6 @@ tanistry = {
 			is_adult = yes
 			OR = {
 				NOT = { is_close_relative = FROM }
-				religion = zoroastrian
-				religion = messalian
 				has_religion_feature = religion_holy_family
 				has_religion_feature = religion_feature_zun
 			}
@@ -4806,8 +4801,6 @@ tanistry = {
 			is_adult = yes
 			OR = {
 				NOT = { is_close_relative = FROM }
-				religion = zoroastrian
-				religion = messalian
 				has_religion_feature = religion_holy_family
 				has_religion_feature = religion_feature_zun
 			}
@@ -5850,15 +5843,6 @@ tanistry = {
 				trait = shieldmaiden
 			}
 		}
-		additive_modifier = { #Praised for being a saoshyant_descendant
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_saoshyant_descendant_positive
-			NOT = { character = FROM } #Do not judge yourself.
-			religion_group = zoroastrian_group
-			FROM = {
-				trait = saoshyant_descendant
-			}
-		}
 		additive_modifier = { #Praised for being Adventurer
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_adventurer_positive
@@ -6243,10 +6227,7 @@ tanistry = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_pope
 			NOT = { character = FROM } #Do not judge yourself.
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_pope
@@ -6256,7 +6237,7 @@ tanistry = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_patriarch
 			NOT = { character = FROM } #Do not judge yourself.
-			religion = orthodox
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_patriarch
@@ -7136,30 +7117,26 @@ elective_gavelkind = {
 			localisation_key = tooltip_feudal_elector_vote_heathen
 			NOT = { has_religion_feature = religion_cosmopolitan }
 			NOT = { has_religion_feature = religion_dogmatic }
-			NOT = { religion_group = cadai_group }
+			NOT = { religion_group = cytharai_group }
 			NOR = {
 				AND = {
-					trait = sympathy_christendom
+					trait = sympathy_old_world_group
 					FROM = { religion_group = old_world_group }
 				}
 				AND = {
-					trait = sympathy_islam
+					trait = sympathy_ormazd_gods_group
 					FROM = { religion_group = ormazd_gods_group }
 				}
 				AND = {
-					trait = sympathy_pagans
-					FROM = { religion_group = chaos_gods_group }
+					trait = sympathy_halfling_gods_group
+					FROM = { religion_group = halfling_gods_group }
 				}
 				AND = {
-					trait = sympathy_zoroastrianism
-					FROM = { religion_group = zoroastrian_group }
-				}
-				AND = {
-					trait = sympathy_judaism
+					trait = sympathy_dwarf_gods_group
 					FROM = { religion_group = dwarf_gods_group }
 				}
 				AND = {
-					trait = sympathy_indian
+					trait = sympathy_cadai_group
 					FROM = { religion_group = cadai_group }
 				}
 			}
@@ -9526,10 +9503,7 @@ elective_gavelkind = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_pope
 			NOT = { character = FROM } #Do not judge yourself.
-			OR = {
-				religion = catholic
-				religion = fraticelli
-			}
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_pope
@@ -9539,7 +9513,7 @@ elective_gavelkind = {
 			value = 10
 			localisation_key = tooltip_feudal_elector_vote_baptized_by_patriarch
 			NOT = { character = FROM } #Do not judge yourself.
-			religion = orthodox
+			religion_group = old_world_group
 			religion = FROM
 			FROM = {
 				trait = baptized_by_patriarch

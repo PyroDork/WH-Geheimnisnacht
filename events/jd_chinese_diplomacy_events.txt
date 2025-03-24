@@ -905,7 +905,7 @@ character_event = {
 }
 
 
-### Hidden start for Mini-Expedition to China #### (random event, fired from yearly pulse)
+### Hidden start for Mini-Expedition to cathay #### (random event, fired from yearly pulse)
 character_event = {
     id = JD.10009
     hide_window = yes
@@ -948,15 +948,15 @@ character_event = {
 
     weight_multiplier = {
         factor = 1
-        modifier = { # more likely if China is doing great
+        modifier = { # more likely if cathay is doing great
             factor = 1.5
             cathay_is_fine_trigger = yes
         }
-        modifier = { # less likely if China is NOT doing great
+        modifier = { # less likely if cathay is NOT doing great
             factor = 0.5
             cathay_is_suffering_trigger = yes
         }
-        modifier = { # less likely if China is isolationist
+        modifier = { # less likely if cathay is isolationist
             factor = 0.5
             offmap_cathay = { has_policy = cathay_isolationist }
         }
@@ -999,7 +999,7 @@ character_event = {
                 NOT = { has_character_flag = wants_to_travel_1 }
                 NOT = { has_character_flag = wants_to_travel_2 }
                 NOT = { has_character_flag = originated_from_cathayan_court }
-                is_liked_by_China_trigger = yes
+                is_liked_by_cathay_trigger = yes
             }
             save_event_target_as = adventurous_spirit
             set_character_flag = wants_to_travel_0
@@ -1020,7 +1020,7 @@ character_event = { #ping event
 	}
 }
 
-#Your courtier wants to travel to China!
+#Your courtier wants to travel to cathay!
 character_event = {
     id = JD.10011
 	has_dlc = "Jade Dragon"
@@ -1351,11 +1351,11 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.2
-                    is_liked_by_China_trigger = yes
+                    is_liked_by_cathay_trigger = yes
                 }
                 modifier = {
                     factor = 1.2
-                    is_disliked_by_China_trigger = no
+                    is_disliked_by_cathay_trigger = no
                 }
 
                 if = {
@@ -1404,11 +1404,11 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.1
-                    is_liked_by_China_trigger = yes
+                    is_liked_by_cathay_trigger = yes
                 }
                 modifier = {
                     factor = 1.1
-                    is_disliked_by_China_trigger = no
+                    is_disliked_by_cathay_trigger = no
                 }
                 trigger = {
                     is_alive = yes
@@ -1459,11 +1459,11 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.1
-                    is_liked_by_China_trigger = no
+                    is_liked_by_cathay_trigger = no
                 }
                 modifier = {
                     factor = 1.1
-                    is_disliked_by_China_trigger = yes
+                    is_disliked_by_cathay_trigger = yes
                 }
                 trigger = {
                     is_alive = yes
@@ -1521,11 +1521,11 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.1
-                    is_liked_by_China_trigger = no
+                    is_liked_by_cathay_trigger = no
                 }
                 modifier = {
                     factor = 1.5
-                    is_disliked_by_China_trigger = yes
+                    is_disliked_by_cathay_trigger = yes
                 }
                 trigger = {
                     is_alive = yes
@@ -1552,15 +1552,15 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.1
-                    is_liked_by_China_trigger = yes
+                    is_liked_by_cathay_trigger = yes
                 }
                 modifier = {
                     factor = 0.9
-                    is_liked_by_China_trigger = no
+                    is_liked_by_cathay_trigger = no
                 }
                 modifier = {
                     factor = 0.5
-                    is_disliked_by_China_trigger = yes
+                    is_disliked_by_cathay_trigger = yes
                 }
 
                 trigger = {
@@ -1577,15 +1577,15 @@ character_event = {
                 }
                 modifier = {
                     factor = 1.2
-                    is_liked_by_China_trigger = yes
+                    is_liked_by_cathay_trigger = yes
                 }
                 modifier = {
                     factor = 0.9
-                    is_liked_by_China_trigger = no
+                    is_liked_by_cathay_trigger = no
                 }
                 modifier = {
                     factor = 0.1
-                    is_disliked_by_China_trigger = yes
+                    is_disliked_by_cathay_trigger = yes
                 }
 
                 trigger = {
@@ -1926,7 +1926,7 @@ character_event = {
     }
 }
 
-character_event = { # Special case 1 - The courtier you sent away to China has returned with a lover/spouse
+character_event = { # Special case 1 - The courtier you sent away to cathay has returned with a lover/spouse
     id = JD.10018
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_10018
@@ -1973,7 +1973,7 @@ character_event = { # Special case 1 - The courtier you sent away to China has r
         clr_character_flag = is_sending_someone_to_cathay
     }
 }
-character_event = { # Special case 2 - The courtier you sent away to China has returned but wants to go back
+character_event = { # Special case 2 - The courtier you sent away to cathay has returned but wants to go back
     id = JD.10019
 	has_dlc = "Jade Dragon"
     desc = EVTDESC_JD_10019
@@ -1981,7 +1981,7 @@ character_event = { # Special case 2 - The courtier you sent away to China has r
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
 
-    option = { #They go back to China, forever
+    option = { #They go back to cathay, forever
         name = {
             text = EVTOPTA_JD_10019
             trigger = {
@@ -4477,7 +4477,7 @@ character_event = {
 	}
 }
 
-letter_event = {			#China finds out
+letter_event = {			#cathay finds out
 	id = JD.70003
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70003
@@ -4516,7 +4516,7 @@ letter_event = {			#China finds out
 	}
 }
 
-character_event = {			#China does not find out
+character_event = {			#cathay does not find out
 	id = JD.70004
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70004
@@ -4578,7 +4578,7 @@ character_event = {			#China does not find out
 }
 
 
-character_event = {			#You let China know
+character_event = {			#You let cathay know
 	id = JD.70005
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70005
@@ -4615,7 +4615,7 @@ character_event = {			#You let China know
 	}
 }
 
-character_event = {			#You let China know but the noble escapes
+character_event = {			#You let cathay know but the noble escapes
 	id =  JD.70008
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70008
@@ -4647,7 +4647,7 @@ character_event = {			#You let China know but the noble escapes
 	}
 }
 
-character_event = {			#China Assassinates the noble
+character_event = {			#cathay Assassinates the noble
 	id = JD.70009
 	has_dlc = "Jade Dragon"
 	desc = EVTDESC_JD_70009
@@ -4701,7 +4701,7 @@ character_event = {			#China Assassinates the noble
 	}
 }
 
-#Inform of China's response to you breaking free via decision, first ping to get Governor's portrait
+#Inform of cathay's response to you breaking free via decision, first ping to get Governor's portrait
 character_event = {
     id = JD.60010
 	has_dlc = "Jade Dragon"

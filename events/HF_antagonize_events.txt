@@ -2598,7 +2598,7 @@ character_event = {
 
 	option = { #Special option. - Lunatic character starts duel!
 		name = EVTOPTLUAHF22022
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		custom_tooltip = { text = tooltip_22022_Y }
 		trigger = {
 			OR = {
@@ -2680,7 +2680,7 @@ character_event = {
 			}
 			is_evil_trigger = no
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		FROM = {
 			show_scope_change = no
 			opinion = {
@@ -2707,7 +2707,7 @@ character_event = {
 			}
 			is_evil_trigger = no
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		tiered_prestige_reward_effect = yes
 		tooltip = { FROM = { give_nickname = nick_the_knight_of_turnips } }
 		FROM = {
@@ -6693,7 +6693,7 @@ character_event = {
 				trait = lunatic_3
 			}
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		tiered_prestige_reward_effect = yes
 		hidden_tooltip = {
 			FROM = { character_event = { id = HF.22132 } } #Notify
@@ -6743,7 +6743,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTAHF22132
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		ai_chance = { factor = 10 }
 	}
 }
@@ -6772,7 +6772,7 @@ character_event = {
 				trait = lunatic_3
 			}
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		tiered_prestige_reward_effect = yes
 		ai_chance = { factor = 30 }
 	}

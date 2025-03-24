@@ -271,7 +271,7 @@ character_event = {
 
 	is_triggered_only = yes
 
-	option = { #Christianity
+	option = { #old_world_groupity
 		name = {
 			text = EVTOPTAHF23003
 			trigger = {
@@ -656,40 +656,6 @@ character_event = {
 				factor = 1.5
 				any_courtier_or_vassal = {
 					religion_group = cytharai_group
-				}
-			}
-		}
-	}
-	option = { #Pagans - Just for Random World.
-		name = {
-			text = EVTOPTCHF23004
-			trigger = {
-				is_alternate_start = no
-			}
-		}
-		name = {
-			text = EVTOPTCHF23004_ALT
-			trigger = {
-				is_alternate_start = yes
-			}
-		}
-		trigger = {
-			NOT = { religion_group = pagan_group } #Random World safety check.
-		}
-		add_trait = sympathy_pagans
-		clr_character_flag = flag_picking_sympathy
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 1.5
-				any_demesne_province = {
-					religion_group = pagan_group
-				}
-			}
-			modifier = {
-				factor = 1.5
-				any_courtier_or_vassal = {
-					religion_group = pagan_group
 				}
 			}
 		}
@@ -1690,7 +1656,12 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion_group = pagan_group
+		OR = {
+			religion = norscan_gods_reformed
+			religion = northern_gods_reformed
+			religion = old_faith_reformed
+			religion = atruhayid_reformed
+		}
 		has_religion_feature = religion_no_leader
 		NOR = {
 			trait = pagan_branch_1
@@ -3032,7 +3003,12 @@ character_event = {
 
 	trigger = {
 		is_adult = yes
-		religion_group = pagan_group
+		OR = {
+			religion = norscan_gods_reformed
+			religion = northern_gods_reformed
+			religion = old_faith_reformed
+			religion = atruhayid_reformed
+		}
 		has_religion_feature = religion_no_leader
 		NOR = {
 			trait = pagan_branch_1
@@ -3589,30 +3565,15 @@ character_event = {
 	id = HF.23101
 	desc = {
 		trigger = {
-			religion_group = christian
-		}
-		text = EVTDESCAHF23101
-	}
-	desc = {
-		trigger = {
-			NOR = {
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				religion_group = christian
+			NOT = {
+				religion_group = old_world_group
 			}
 		}
 		text = EVTDESCBHF23101
 	}
 	desc = {
 		trigger = {
-			OR = {
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
+			religion_group = old_world_group
 		}
 		text = EVTDESCCHF23101
 	}
@@ -3624,14 +3585,14 @@ character_event = {
 
 	trigger = {
 		NOT = {
-			religion = catholic #Would not consider it.
+			religion = vampiric #Would not consider it.
 		}
 	}
 	option = { #Burn it all!
 		name = {
 			text = EVTOPTAHF23101_A
 			trigger = {
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		name = {
@@ -3642,7 +3603,7 @@ character_event = {
 					secret_religion = hellenic_pagan_reformed
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -3669,7 +3630,7 @@ character_event = {
 		name = {
 			text = EVTOPTBHF23101_A
 			trigger = {
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		name = {
@@ -3680,7 +3641,7 @@ character_event = {
 					secret_religion = hellenic_pagan_reformed
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -3714,7 +3675,7 @@ character_event = {
 			modifier = {
 				factor = 0.1
 				NOT = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -3727,7 +3688,7 @@ narrative_event = {
 	title = EVTTITLEAHF23102
 	desc = {
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		text = EVTDESCAHF23102
 	}
@@ -3738,7 +3699,7 @@ narrative_event = {
 				secret_religion = hellenic_pagan_reformed
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		text = EVTDESCBHF23102
@@ -3764,7 +3725,7 @@ narrative_event = {
 		name = {
 			text = EVTOPTAHF23102_A
 			trigger = {
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		name = {
@@ -3775,7 +3736,7 @@ narrative_event = {
 					secret_religion = hellenic_pagan_reformed
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -3792,20 +3753,20 @@ narrative_event = {
 		}
 		custom_tooltip = { text = tooltip_HF23102_A }
 		if = {
-			limit = { NOT = { religion_group = christian } }
+			limit = { NOT = { religion_group = old_world_group } }
 			tiered_piety_reward_effect = yes
 		}
 		if = {
-			limit = { religion_group = christian }
+			limit = { religion_group = old_world_group }
 			tiered_piety_negative_effect = yes
 		}
 		hidden_tooltip = {
 			any_vassal = {
 				limit = {
-					religion_group = christian
+					religion_group = old_world_group
 					NOR = {
-						secret_religion_group = muslim
-						secret_religion_group = pagan_group
+						secret_religion_group = ormazd_gods_group
+						secret_religion_group = chaos_gods_group
 					}
 				}
 				opinion = {
@@ -3822,14 +3783,14 @@ narrative_event = {
 					}
 				}
 			}
-			333 = {
-				if = { #If Rome is Christian, peasant revolt is inevitable.
-					limit = { religion_group = christian }
+			370 = {
+				if = { #If Rome is old_world_group, peasant revolt is inevitable.
+					limit = { religion_group = old_world_group }
 					province_event = { id = HF.23104 days = 5 }
 				}
-				if = { #If Rome is not Christian, the survivors will turn to the Emperor's religion if he forsakes Christianity later.
-					limit = { NOT = { religion_group = christian } }
-					333 = { set_province_flag = flag_rome_primed_for_conversion }
+				if = { #If Rome is not old_world_group, the survivors will turn to the Emperor's religion if he forsakes old_world_groupity later.
+					limit = { NOT = { religion_group = old_world_group } }
+					370 = { set_province_flag = flag_rome_primed_for_conversion }
 				}
 				any_province_holding = {
 					limit = { holding_type = temple }
@@ -3853,7 +3814,7 @@ narrative_event = {
 	title = EVTTITLEAHF23102
 	desc = {
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		text = EVTDESCAHF23102
 	}
@@ -3864,7 +3825,7 @@ narrative_event = {
 				secret_religion = hellenic_pagan_reformed
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		text = EVTDESCBHF23102
@@ -3890,7 +3851,7 @@ narrative_event = {
 		name = {
 			text = EVTOPTAHF23103_A
 			trigger = {
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 		name = {
@@ -3898,7 +3859,7 @@ narrative_event = {
 			trigger = {
 				NOR = {
 					religion = FROM
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -3907,14 +3868,14 @@ narrative_event = {
 			trigger = {
 				religion = FROM
 				NOT = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
 	}
 }
 
-#Christian peasants rise up after the great fire settles.
+#old_world_group peasants rise up after the great fire settles.
 province_event = {
 	id = HF.23104
 	desc = EVTDESCHF23104
@@ -3945,7 +3906,7 @@ province_event = {
 			character_event = {
 			  id = aiclean.31
 			}
-			set_character_flag = roman_christian_revolter
+			set_character_flag = roman_old_world_group_revolter
 
 			create_title = {
 				tier = DUKE
@@ -3953,7 +3914,7 @@ province_event = {
 				temporary = yes
 				rebel = yes
 				culture = ROOT
-				name = "ROMAN_CHRISTIAN_REVOLT"
+				name = "ROMAN_old_world_group_REVOLT"
 				holder = THIS
 			}
 
@@ -4013,7 +3974,7 @@ province_event = {
 					top_liege = {
 						reverse_war = {
 							target = PREVPREVPREV
-							casus_belli = roman_christian_revolt
+							casus_belli = roman_old_world_group_revolt
 							thirdparty_title = ROOT # The county...
 							tier = DUKE # ... but really the de jure duchy
 						}
@@ -4061,11 +4022,11 @@ character_event = {
 
 	trigger = {
 		has_dlc = "Holy Fury"
-		religion_group = christian
+		religion_group = old_world_group
 		OR = {
 			culture = greek
 			culture = italian
-			culture = roman
+			culture = lucian
 		}
 	}
 
@@ -4245,8 +4206,8 @@ letter_event = {
 		if = {
 			limit = {
 				OR = {
-					religion_group = christian
-					religion_group = muslim
+					religion_group = old_world_group
+					religion_group = ormazd_gods_group
 					religion_group = jewish_group
 				}
 			}
@@ -4503,12 +4464,12 @@ narrative_event = {
 			piety = 750
 		}
 		if = {
-			limit = { 333 = { has_province_flag = flag_rome_primed_for_conversion } }
-			333 = { religion = FROM }
+			limit = { 370 = { has_province_flag = flag_rome_primed_for_conversion } }
+			370 = { religion = FROM }
 		}
 		if = { #Facilitate restoration for the AI by making it take over all owned holy sites.
 			limit = {
-				333 = {
+				370 = {
 					top_liege = { character = FROM }
 					any_province_holding = {
 						holding_type = temple
@@ -4522,7 +4483,7 @@ narrative_event = {
 					}
 				}
 			}
-			333 = {
+			370 = {
 				random_province_holding = {
 					limit = {
 						holding_type = temple
@@ -4764,8 +4725,8 @@ narrative_event = {
 						is_merchant_republic = yes
 					}
 					OR = {
-						religion_group = christian
-						religion_group = muslim
+						religion_group = old_world_group
+						religion_group = ormazd_gods_group
 						religion_group = jewish_group
 					}
 				}
@@ -4783,7 +4744,7 @@ narrative_event = {
 				preferred_limit = {
 					is_powerful_vassal = yes
 					ai = no
-					religion_group = christian
+					religion_group = old_world_group
 				}
 				preferred_limit = {
 					is_powerful_vassal = yes
@@ -4800,7 +4761,7 @@ narrative_event = {
 				}
 				preferred_limit = {
 					is_powerful_vassal = yes
-					religion_group = christian
+					religion_group = old_world_group
 				}
 				preferred_limit = {
 					is_powerful_vassal = yes
@@ -4828,8 +4789,8 @@ narrative_event = {
 				religion  = hellenic_pagan_reformed
 			}
 			OR = {
-				religion_group = christian
-				religion_group = muslim
+				religion_group = old_world_group
+				religion_group = ormazd_gods_group
 				religion_group = jewish_group
 			}
 		}
@@ -4841,8 +4802,8 @@ narrative_event = {
 			NOR = {
 				religion = hellenic_pagan
 				religion  = hellenic_pagan_reformed
-				religion_group = christian
-				religion_group = muslim
+				religion_group = old_world_group
+				religion_group = ormazd_gods_group
 				religion_group = jewish_group
 			}
 		}
@@ -4862,8 +4823,8 @@ character_event = {
 	trigger = {
 		liege = { character = event_target:scoped_hellenic_emperor }
 		OR = {
-			religion_group = christian
-			religion_group = muslim
+			religion_group = old_world_group
+			religion_group = ormazd_gods_group
 			religion_group = jewish_group
 		}
 	}
@@ -4879,8 +4840,8 @@ character_event = {
 						is_merchant_republic = yes
 					}
 					OR = {
-						religion_group = christian
-						religion_group = muslim
+						religion_group = old_world_group
+						religion_group = ormazd_gods_group
 						religion_group = jewish_group
 					}
 				}
@@ -4909,8 +4870,8 @@ character_event = {
 						is_theocracy = no
 						prisoner = no
 						OR = {
-							religion_group = christian
-							religion_group = muslim
+							religion_group = old_world_group
+							religion_group = ormazd_gods_group
 							religion_group = jewish_group
 						}
 						NOT = { character = ROOT }
@@ -4939,8 +4900,8 @@ letter_event = {
 	trigger = {
 		vassal_of = event_target:scoped_hellenic_emperor
 		OR = {
-			religion_group = christian
-			religion_group = muslim
+			religion_group = old_world_group
+			religion_group = ormazd_gods_group
 			religion_group = jewish_group
 		}
 	}
@@ -4994,8 +4955,8 @@ character_event = {
 	trigger = {
 		liege = { character = event_target:scoped_hellenic_emperor }
 		OR = {
-			religion_group = christian
-			religion_group = muslim
+			religion_group = old_world_group
+			religion_group = ormazd_gods_group
 			religion_group = jewish_group
 		}
 	}
@@ -5230,35 +5191,24 @@ character_event = {
 	}
 }
 
-# Roman Renaissance: Christian moralizers.
+# Roman Renaissance: old_world_group moralizers.
 character_event = {
 	id = HF.23119
 	desc = {
 		trigger = {
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
+			religion_group = old_world_group
 		}
 		text = EVTDESCAHF23119
 	}
 	desc = {
 		trigger = {
-			NOR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				religion_group = christian
+			NOT = {
+				religion_group = old_world_group
 			}
 		}
 		text = EVTDESCBHF23119
 	}
-	desc = {
-		trigger = {
-			religion_group = christian
-		}
-		text = EVTDESCCHF23119
-	}
-	picture = GFX_evt_christian_exodus
+	picture = GFX_evt_old_world_group_exodus
 	border = GFX_event_normal_frame_religion
 
 	is_triggered_only = yes
@@ -5267,51 +5217,40 @@ character_event = {
 		name = {
 			text = EVTOPTAHF23119_A
 			trigger = {
-				OR = {
-					religion = hellenic_pagan
-					religion = hellenic_pagan_reformed
-				}
+				religion_group = old_world_group
 			}
 		}
 		name = {
 			text = EVTOPTAHF23119_B
 			trigger = {
-				NOR = {
-					religion = hellenic_pagan
-					religion = hellenic_pagan_reformed
-					religion_group = christian
+				NOT = {
+					religion_group = old_world_group
 				}
-			}
-		}
-		name = {
-			text = EVTOPTAHF23119_C
-			trigger = {
-				religion_group = christian
 			}
 		}
 		custom_tooltip = { text = tooltip_HF23119_A }
 		scaled_wealth = { value = -0.5 min = -150 max = -300 }
 		if = {
-			limit = { religion_group = christian }
+			limit = { religion_group = old_world_group }
 			tiered_piety_negative_effect = yes
 		}
 		hidden_tooltip = {
 			any_realm_province = {
 				if = {
 					limit = {
-						culture_group = latin
-						NOT = { distance = { where = 333 distance = 300 } }
+						culture_group = imperial_group
+						NOT = { distance = { where = 370 distance = 300 } }
 					}
 					random = {
 						chance = 25
-						culture = roman
+						culture = lucian
 					}
 				}
 				if = {
 					limit = {
-						culture = roman
-						ROOT = { OR = { religion = hellenic_pagan religion = hellenic_pagan_reformed } }
-						NOT = { distance = { where = 333 distance = 300 } }
+						culture = lucian
+						ROOT = { religion_group = old_world_group }
+						NOT = { distance = { where = 370 distance = 300 } }
 					}
 					random = {
 						chance = 25
@@ -5319,7 +5258,7 @@ character_event = {
 					}
 				}
 			}
-			333 = { province_event = { id = HF.23121 days = 300 random = 300 } } #Embracing debauchery causes the Bacchants to reappear.
+			#370 = { province_event = { id = HF.23121 days = 300 random = 300 } } #Embracing debauchery causes the Bacchants to reappear.
 		}
 		ai_chance = {
 			factor = 50
@@ -5330,30 +5269,19 @@ character_event = {
 		name = {
 			text = EVTOPTBHF23119_A
 			trigger = {
-				OR = {
-					religion = hellenic_pagan
-					religion = hellenic_pagan_reformed
-				}
+				religion_group = old_world_group
 			}
 		}
 		name = {
 			text = EVTOPTBHF23119_B
 			trigger = {
-				NOR = {
-					religion = hellenic_pagan
-					religion = hellenic_pagan_reformed
-					religion_group = christian
+				NOT = {
+				religion_group = old_world_group
 				}
 			}
 		}
-		name = {
-			text = EVTOPTBHF23119_C
-			trigger = {
-				religion_group = christian
-			}
-		}
 		if = {
-			limit = { religion_group = christian }
+			limit = { religion_group = old_world_group }
 			tiered_piety_reward_effect = yes
 		}
 		ai_chance = {
@@ -5361,412 +5289,6 @@ character_event = {
 		}
 	}
 }
-
-#######################
-# Myrmidons - Hellenic Holy Order
-#######################
-# Notification event
-narrative_event = {
-	id = HF.23120
-	title = d_myrmidons
-	desc = EVTDESCHF23120
-
-	picture = GFX_evt_hellenic_temple
-
-	only_playable = yes
-	hide_from = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTA_HO_100
-		trigger = {
-			religion = hellenic_pagan_reformed
-		}
-	}
-	option = {
-		name = EVTOPTB_HO_100
-		trigger = {
-			religion_group = pagan_group
-			NOT = { religion = hellenic_pagan_reformed }
-		}
-	}
-	option = {
-		name = EVTOPTC_HO_100
-		trigger = {
-			NOT = { religion_group = pagan_group }
-		}
-	}
-}
-
-#######################
-# The Rise of the Bacchants
-#######################
-#Rome: Province event to spread the secret cult. (fired either after a victorious Hellenic Civil War or after delving in the classics).
-province_event = {
-	id = HF.23121
-	hide_window = yes
-
-	trigger = {
-		has_dlc = "Mystics"
-		NOT = { #Not if somebody else did it in the meantime.
-			is_society_rank_full = {
-				society = the_bacchants
-				rank = 4
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	immediate = {
-		set_global_flag = flag_restored_bacchants
-		random_list = { #setup the Grand Magus
-			50 = {
-				create_character = {
-					random_traits = yes
-					dynasty = random
-					religion = FROM
-					culture = reman
-					female = no
-					age = 26
-					trait = creature_human
-				}
-				new_character = {
-					add_trait = hedonist
-					join_society = the_bacchants
-					set_society_grandmaster = yes # Set character as Grand Master
-					add_society_currency_massive_effect = yes
-					add_society_currency_massive_effect = yes
-					if = {
-						limit = { NOT = { has_global_flag = hellenic_reformation } }
-						religion = hellenic_pagan
-					}
-					if = {
-						limit = { has_global_flag = hellenic_reformation }
-						religion = hellenic_pagan_reformed
-					}
-				}
-			}
-			50 = {
-				create_character = {
-					random_traits = yes
-					dynasty = random
-					religion = FROM
-					culture = reman
-					female = yes
-					age = 26
-					trait = creature_human
-				}
-				new_character = {
-					add_trait = hedonist
-					join_society = the_bacchants
-					set_society_grandmaster = yes # Set character as Grand Master
-					add_society_currency_massive_effect = yes
-					add_society_currency_massive_effect = yes
-					religion = hellenic_pagan
-				}
-			}
-		}
-		random_playable_ruler = { #setup the Followers
-			limit = {
-				ai = yes
-				is_adult = yes
-				controls_religion = no
-				has_bacchants_prerequisites = yes
-			}
-			preferred_limit = {
-				lower_tier_than = KING
-				culture = roman
-				religion_openly_hellenic_or_reformed_trigger = yes
-				trait = hedonist
-			}
-			preferred_limit = {
-				lower_tier_than = KING
-				religion_openly_hellenic_or_reformed_trigger = yes
-				trait = hedonist
-			}
-			preferred_limit = {
-				religion_openly_hellenic_or_reformed_trigger = yes
-				trait = hedonist
-			}
-			preferred_limit = {
-				religion_openly_hellenic_or_reformed_trigger = yes
-			}
-			preferred_limit = {
-				OR = {
-					secret_religion = hellenic_pagan
-					secret_religion = hellenic_pagan_reformed
-				}
-			}
-			join_society = the_bacchants
-			random_playable_ruler = { #setup the Followers
-				limit = {
-					ai = yes
-					is_adult = yes
-					controls_religion = no
-					has_bacchants_prerequisites = yes
-					NOT = { character = PREV }
-				}
-				preferred_limit = {
-					lower_tier_than = KING
-					culture = roman
-					religion_openly_hellenic_or_reformed_trigger = yes
-					trait = hedonist
-				}
-				preferred_limit = {
-					lower_tier_than = KING
-					religion_openly_hellenic_or_reformed_trigger = yes
-					trait = hedonist
-				}
-				preferred_limit = {
-					religion_openly_hellenic_or_reformed_trigger = yes
-					trait = hedonist
-				}
-				preferred_limit = {
-					religion_openly_hellenic_or_reformed_trigger = yes
-				}
-				preferred_limit = {
-					OR = {
-						secret_religion = hellenic_pagan
-						secret_religion = hellenic_pagan_reformed
-					}
-				}
-				join_society = the_bacchants
-				add_society_currency_medium_effect = yes
-				random_playable_ruler = { #setup the Followers
-					limit = {
-						ai = yes
-						is_adult = yes
-						controls_religion = no
-						has_bacchants_prerequisites = yes
-						NOT = { character = PREV }
-						NOT = { character = PREVPREV }
-					}
-					preferred_limit = {
-						lower_tier_than = KING
-						culture = reman
-						religion_openly_hellenic_or_reformed_trigger = yes
-						trait = hedonist
-					}
-					preferred_limit = {
-						lower_tier_than = KING
-						religion_openly_hellenic_or_reformed_trigger = yes
-						trait = hedonist
-					}
-					preferred_limit = {
-						religion_openly_hellenic_or_reformed_trigger = yes
-						trait = hedonist
-					}
-					preferred_limit = {
-						religion_openly_hellenic_or_reformed_trigger = yes
-					}
-					preferred_limit = {
-						OR = {
-							religion = norscan_gods
-							religion = norscan_gods_reformed
-						}
-					}
-					join_society = the_bacchants
-					add_society_currency_medium_effect = yes
-					random_playable_ruler = { #setup the Followers
-						limit = {
-							ai = yes
-							is_adult = yes
-							controls_religion = no
-							has_bacchants_prerequisites = yes
-							NOT = { character = PREV }
-							NOT = { character = PREVPREV }
-							NOT = { character = PREVPREVPREV }
-						}
-						preferred_limit = {
-							lower_tier_than = KING
-							culture = roman
-							religion_openly_hellenic_or_reformed_trigger = yes
-							trait = hedonist
-						}
-						preferred_limit = {
-							lower_tier_than = KING
-							religion_openly_hellenic_or_reformed_trigger = yes
-							trait = hedonist
-						}
-						preferred_limit = {
-							religion_openly_hellenic_or_reformed_trigger = yes
-							trait = hedonist
-						}
-						preferred_limit = {
-							religion_openly_hellenic_or_reformed_trigger = yes
-						}
-						preferred_limit = {
-							OR = {
-								religion = norscan_gods
-								religion = norscan_gods_reformed
-							}
-						}
-						join_society = the_bacchants
-						add_society_currency_medium_effect = yes
-						random_playable_ruler = { #setup the Followers
-							limit = {
-								ai = yes
-								is_adult = yes
-								controls_religion = no
-								has_bacchants_prerequisites = yes
-								NOT = { character = PREV }
-								NOT = { character = PREVPREV }
-								NOT = { character = PREVPREVPREV }
-								NOT = { character = PREVPREVPREVPREV }
-							}
-							preferred_limit = {
-								lower_tier_than = KING
-								culture = roman
-								religion_openly_hellenic_or_reformed_trigger = yes
-								trait = hedonist
-							}
-							preferred_limit = {
-								lower_tier_than = KING
-								religion_openly_hellenic_or_reformed_trigger = yes
-								trait = hedonist
-							}
-							preferred_limit = {
-								religion_openly_hellenic_or_reformed_trigger = yes
-								trait = hedonist
-							}
-							preferred_limit = {
-								religion_openly_hellenic_or_reformed_trigger = yes
-							}
-							preferred_limit = {
-								OR = {
-									religion = norscan_gods
-									religion = norscan_gods_reformed
-								}
-							}
-							join_society = the_bacchants
-							add_society_currency_medium_effect = yes
-						}
-					}
-				}
-			}
-		}
-		any_player = {
-			limit = {
-				OR = {
-					religion = norscan_gods
-					religion = norscan_gods_reformed
-					is_within_diplo_range = ROOT
-				}
-			}
-			narrative_event = { id = HF.23122 }
-		}
-	}
-}
-#Players notified.
-narrative_event = {
-	id = HF.23122
-	title = EVTTITLEHF23122
-	desc = EVTDESCHF23122
-	hide_from = yes
-	hide_new = yes
-
-	picture = GFX_evt_bacchants_initiation
-
-	only_playable = yes
-	hide_from = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTAHF23122
-		trigger = {
-			society_member_of = the_bacchants
-		}
-	}
-	option = {
-		name = EVTOPTBHF23122
-		trigger = {
-			NOT = { society_member_of = the_bacchants }
-		}
-	}
-}
-#Players notified.
-narrative_event = {
-	id = HF.23123
-	title = EVTTITLEHF23123
-	desc = EVTDESCHF23123
-	hide_from = yes
-	hide_new = yes
-
-	picture = GFX_evt_library
-
-	only_playable = yes
-	hide_from = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = EVTOPTAHF23123
-		trigger = {
-			OR = {
-				society_member_of = monastic_order_stoics
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
-				can_join_society = monastic_order_stoics
-			}
-		}
-		if = {
-			limit = {
-				NOT = { society_member_of = monastic_order_stoics }
-				can_join_society = monastic_order_stoics
-			}
-			join_society = monastic_order_stoics
-		}
-	}
-	option = {
-		name = EVTOPTBHF23123
-		trigger = {
-			NOR = {
-				society_member_of = monastic_order_stoics
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-				secret_religion = hellenic_pagan
-				secret_religion = hellenic_pagan_reformed
-			}
-		}
-	}
-}
-
-#POWER: Culture Convert County
-#Notification for ruler who performs the power
-character_event = {
-	id = HF.23124
-	picture = GFX_evt_hippodrome_byzantine
-	desc = EVTDESCHF23124
-	border = GFX_event_normal_frame_diplomacy
-
-	is_triggered_only = yes
-
-	notification = yes
-
-	option = {
-		name = EXCELLENT
-	}
-}
-
-#Notification event for county owner if different from user
-character_event = {
-	id = HF.23125
-	picture = GFX_evt_hippodrome_byzantine
-	desc = EVTDESCHF23125
-	border = GFX_event_normal_frame_diplomacy
-
-	is_triggered_only = yes
-
-	option = {
-		name = I_SEE
-	}
-}
-
 ####################################################################################################
 
 #Hellenic Dedicated Temples.
@@ -6337,428 +5859,6 @@ character_event = {
 		name = EVTOPT_TEMPLE_BACK_TO_SELECTION
 		custom_tooltip = { text = EVTOPT_TEMPLE_BACK_TO_SELECTION_TT }
 		hidden_effect = { character_event = { id = HF.23200 } }
-	}
-}
-
-#On_startup: Hidden event on AltStart applying the Cosmopolitan/Dogmatic effects on customized religions.
-character_event = {
-	id = HF.23205
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_save_game = no
-		has_landed_title = c_roma
-	}
-	immediate = {
-		if = {
-			limit = { catholic = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = catholic }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { orthodox = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = orthodox }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { miaphysite = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = miaphysite }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { nestorian = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = nestorian }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { sunni = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = sunni }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { shiite = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = shiite }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { ibadi = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = ibadi }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { jewish = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = jewish }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { samaritan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = samaritan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { karaite = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = karaite }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { hindu = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = hindu }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { buddhist = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = buddhist }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { jain = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = jain }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { taoist = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = taoist }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { zoroastrian = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = zoroastrian }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { mazdaki = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = mazdaki }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { manichean = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = manichean }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { khurmazta = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = khurmazta }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { bon = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = bon }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { aztec = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = aztec }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { norse_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = norse_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { zun_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = zun_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { slavic_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = slavic_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { baltic_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = baltic_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { west_african_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = west_african_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { tengri_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = tengri_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { finnish_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = finnish_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { hellenic_pagan = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = hellenic_pagan }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { catholic = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = catholic }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { orthodox = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = orthodox }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { miaphysite = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = miaphysite }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { nestorian = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = nestorian }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { sunni = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = sunni }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { shiite = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = shiite }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { ibadi = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = ibadi }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { jewish = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = jewish }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { samaritan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = samaritan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { karaite = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = karaite }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { hindu = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = hindu }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { buddhist = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = buddhist }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { jain = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = jain }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { taoist = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = taoist }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { zoroastrian = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = zoroastrian }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { mazdaki = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = mazdaki }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { manichean = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = manichean }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { khurmazta = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = khurmazta }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { bon = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = bon }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { aztec = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = aztec }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { norse_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = norse_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { zun_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = zun_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { slavic_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = slavic_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { baltic_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = baltic_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { west_african_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = west_african_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { tengri_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = tengri_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { finnish_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = finnish_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { hellenic_pagan = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = hellenic_pagan }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-
 	}
 }
 
@@ -8373,7 +7473,7 @@ character_event = {
 				FROM = { owner = { has_religion_feature = religion_feature_bon } }
 				FROM = {
 					owner = {
-						religion_group = pagan_group
+						religion_group = chaos_gods_group
 						is_reformed_religion = no
 						NOT = { has_religion_feature = religion_patriarchal } #Random World Checks.
 						NOT = { has_religion_feature = religion_matriarchal }
@@ -13536,7 +12636,7 @@ character_event = {
 	trigger = {
 		has_dlc = "Holy Fury"
 		OR = {
-			NOT = { religion_group = pagan_group }
+			NOT = { religion_group = chaos_gods_group }
 			is_reformed_religion = yes
 		}
 		FROM = {

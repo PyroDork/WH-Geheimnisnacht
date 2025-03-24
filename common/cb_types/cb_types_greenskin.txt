@@ -2090,13 +2090,15 @@ waaagh_war = {
 		ROOT = {
 			higher_tier_than = BARON
 			government=greenskin_waagh_government
-			any_war = {
-				using_cb = waaagh_war
-				war_score >= -50
-			}
 			OR={
-				ai=no
-				has_character_modifier=waaagh_fervor_exhaustion
+				any_war = {
+					using_cb = waaagh_war
+					war_score >= -50
+				}
+				AND = {
+					ai = yes
+					NOT = { has_character_modifier=waaagh_fervor_exhaustion }
+				}
 			}
 		}
 	}

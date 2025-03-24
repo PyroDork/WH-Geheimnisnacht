@@ -21,6 +21,8 @@ wont_let_spouse_touch_me;Won't Let Spouse Touch Me;;;;;;;;;;;;;
 hidden_extra_tribute;Hidden Tribute;;;;;;;;;;;;;
 pillage_cooldown;Pillaged;;;;;;;;;;;;;
 stop_burning_land;Stop Burning Land;;;;;;;;;;;;;
+#Wonder Upgrades
+underway_tt;Establishes Underway connections to nearby major Holds increasing movement speed to those holds;;;;;;;;;;;;;
 #
 # armor ARTEFACTS DEFENSIVE BUFF
 #

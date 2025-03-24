@@ -2243,7 +2243,7 @@ character_event = {
 				trait = lunatic_3
 			}
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		random_list = {
 			80 = {
 	if = {

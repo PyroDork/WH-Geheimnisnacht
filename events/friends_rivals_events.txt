@@ -827,7 +827,7 @@ character_event = { # Relay event for rulers
 							NOT = { is_rival = PREV }
 							OR = {
 								trait = chaste
-								religion_group = muslim
+								religion_group = ormazd_gods_group
 							}
 							trait = shy
 						}
@@ -906,7 +906,7 @@ character_event = { # Relay event for rulers
 				NOT = { is_rival = event_target:lustful_courtier }
 				OR = {
 					trait = chaste
-					religion_group = muslim
+					religion_group = ormazd_gods_group
 				}
 				trait = shy
 			}

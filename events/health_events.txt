@@ -4214,7 +4214,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6362
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		job_spymaster = {
 			death = {
 				death_reason = death_murder_unknown

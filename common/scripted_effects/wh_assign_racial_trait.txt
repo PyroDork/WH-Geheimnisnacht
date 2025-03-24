@@ -299,36 +299,53 @@ new_character_effect = {
 			break = yes
 		}
 		else_if = {
-			limit = {
-				culture = amazon_main
-				is_female = no
+			if = {
+				limit = {
+					culture_group = amazon_group
+					is_female = yes
+				}
+				remove_trait = creature_human
+				add_trait = creature_amazon
+				character_event = { id = wh_magic_law.40 days = 2 }
+				if = {
+					limit = {
+						culture_group = amazon_group
+					}
+					set_graphical_culture = amazon_main
+				}
 			}
 			if = {
 				limit = {
-					NOT = {
+					culture_group = amazon_group
+					is_female = no
+				}
+				if = {
+					limit = {
+						NOT = {
+							liege = {
+								religion = amazon
+								culture_group = amazon_group
+							}
+						}
 						liege = {
-							religion = amazon
-							culture = amazon_main
+							is_human = yes
 						}
 					}
 					liege = {
-						is_human = yes
+						ROOT = {
+							culture = PREV
+							religion = PREV
+						}
 					}
 				}
-				liege = {
-					ROOT = {
-						culture = PREV
-						religion = PREV
-					}
+				else = {
+					add_trait = in_stock
+					add_trait = disinherited_amazon
+					set_character_flag = disinherited_by_amazon_laws
 				}
+				set_graphical_culture = amazon_main
+				break = yes
 			}
-			else = {
-				add_trait = in_stock
-				add_trait = disinherited_amazon
-				set_character_flag = disinherited_by_amazon_laws
-			}
-			set_graphical_culture = amazon_main
-			break = yes
 		}
 		else_if = {
 			limit = {
@@ -373,6 +390,14 @@ new_character_effect = {
 		else_if = {
 			limit = {
 				culture_group = bretonnian_group
+			}
+			if = {
+				limit = {
+					has_character_flag = noble
+				}
+				remove_trait = peasant
+				remove_trait = clergy
+				add_trait = noble
 			}
 			if = {
 				limit = {
@@ -1053,21 +1078,6 @@ new_character_effect = {
 				set_graphical_culture = umbrian
 				break = yes
 			}
-		}
-		break = yes
-	}
-	else_if = {
-		limit = {
-			culture_group = amazon_group
-			is_female = yes
-		}
-		add_trait = creature_amazon
-		character_event = { id = wh_magic_law.40 days = 2 }
-		if = {
-			limit = {
-				culture = amazon_main
-			}
-			set_graphical_culture = amazon_main
 		}
 		break = yes
 	}
@@ -1969,6 +1979,14 @@ new_character_effect = {
 		}
 		add_trait = creature_fimir
 		set_graphical_culture = fimir
+		if = {
+			limit = {
+				is_female = no
+				has_character_flag = noble
+			}
+			add_trait = fimir_noble
+			break = yes
+		}
 		if = {
 			limit = {
 				is_female = yes

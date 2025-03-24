@@ -3577,22 +3577,19 @@ government_flavor = {
 	 trigger = {
 		religion_group = old_world_group
 		controls_religion = yes
-		#NOT = { trait = bad_priest_christian }
+		NOT = { trait = bad_priest}
 	}
 }
 
-#government_flavor = {
-#	name = gov_bad_pope
-#	graphics = GFX_evt_pope_feast
-#	priority = 4
-#	trigger = {
-#		OR = {
-#			has_landed_title = k_papal_state
-#			has_landed_title = d_fraticelli
-#		}
-#		trait = bad_priest_christian
-#	}
-#}
+government_flavor = {
+	name = gov_bad_pope
+	graphics = GFX_evt_pope_feast
+	priority = 4
+	trigger = {
+		controls_religion = yes
+		trait = bad_priest
+	}
+}
 
 #government_flavor = {
 #	name = gov_confucian

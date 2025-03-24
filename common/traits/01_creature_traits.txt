@@ -269,6 +269,9 @@ creature_amazon = {
 	cannot_marry = yes
 	customizer = no
 	infidel_opinion = -20
+	health = 2
+	combat_rating = 10
+	fertility = -0.2
 }
 creature_nehekharan = {
 	potential = {

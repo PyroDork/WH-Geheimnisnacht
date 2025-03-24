@@ -1623,35 +1623,35 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				FROM = { religion_group = pagan_group }
+				FROM = { religion_group = old_world_group }
 				NOT = {
-					trait = sympathy_pagans
+					trait = sympathy_old_world_group
 					FROM = { religion_group = ROOT }
 				}
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_old_world_group
 		}
 
 		if = {
 			limit = {
-				FROM = { religion_group = muslim }
+				FROM = { religion_group = ormazd_gods_group }
 				NOT = {
-					trait = sympathy_islam
+					trait = sympathy_ormazd_gods_group
 					FROM = { religion_group = ROOT }
 				}
 			}
-			add_trait = sympathy_islam
+			add_trait = sympathy_ormazd_gods_group
 		}
 
 		if = {
 			limit = {
-				FROM = { religion_group = indian_group }
+				FROM = { religion_group = oriental_gods_group }
 				NOT = {
-					trait = sympathy_indian
+					trait = sympathy_oriental_gods_group
 					FROM = { religion_group = ROOT }
 				}
 			}
-			add_trait = sympathy_indian
+			add_trait = sympathy_oriental_gods_group
 		}
 	}
 	#Leave for different religion

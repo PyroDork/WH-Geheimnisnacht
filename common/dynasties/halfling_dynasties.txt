@@ -146,3 +146,4 @@
 79528 = { name = "Apacan" culture = miyan }
 79529 = { name = "Ihuacan" culture = miyan }
 79530 = { name = "Tlumala" culture = miyan }
+79531 = { name = "Praichalas" culture = miyan }

@@ -28,6 +28,20 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_nakai"
+		texturefile = "gfx/traits/special_char_nakai.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kroxigor"
+		texturefile = "gfx/traits/special_char_kroxigor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_creature_slann"
 		texturefile = "gfx/traits/creature_slann.dds"
 		noOfFrames = 1

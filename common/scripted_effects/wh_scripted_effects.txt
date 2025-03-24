@@ -4844,8 +4844,6 @@ set_amazon_male_to_female = {
 			}
 		}
 		set_gender = female
-		culture = amazon_main
-		religion = amazon
 		remove_trait = in_stock
 		remove_trait = disinherited_amazon
 		clr_character_flag = disinherited_by_amazon_laws

@@ -2160,7 +2160,7 @@ gender_laws = {
 			modifier = {
 				factor = 0
 				holder_scope = {
-					culture = amazon_main
+					culture_group = amazon_group
 				}
 			}
 			modifier = {
@@ -2250,7 +2250,7 @@ gender_laws = {
 
 			modifier = {
 				factor = 0
-				culture = amazon_main
+				culture_group = amazon_group
 			}
 		}
 	}
@@ -2323,7 +2323,7 @@ gender_laws = {
 						has_bloodline_flag = matrilineal_bloodline
 					}
 					has_law = enatic_succession
-					culture = amazon_main
+					culture_group = amazon_group
 					AND = {
 						OR = {
 							has_law = true_cognatic_succession
@@ -2342,12 +2342,12 @@ gender_laws = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { culture = amazon_main }
-				}
+				NOT = { culture_group = amazon_group }
+			}
 			modifier = {
 				factor = 100
-				culture = amazon_main
-				}
+				culture_group = amazon_group
+			}
 		}
 	}
 
@@ -2408,7 +2408,7 @@ gender_laws = {
 					}
 					OR = {
 						has_law = enatic_succession
-						culture = amazon_main
+					culture_group = amazon_group
 						AND = {
 							has_law = true_cognatic_succession
 							is_female = yes
@@ -2444,7 +2444,7 @@ gender_laws = {
 				}
 				OR = {
 					has_law = enatic_succession
-					culture = amazon_main
+					culture_group = amazon_group
 					AND = {
 						has_law = true_cognatic_succession
 						is_female = yes

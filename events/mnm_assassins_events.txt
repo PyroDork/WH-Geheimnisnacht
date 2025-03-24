@@ -4285,8 +4285,8 @@ character_event = {
 								is_evil_trigger = yes
 								trait = zealous
 							}
-							NOT = { religion = ormazd }
-							any_realm_province = { religion = ormazd }
+							NOT = { culture = ormazd }
+							any_realm_province = { culture = eshin }
 						}
 					}
 				}
@@ -4349,7 +4349,10 @@ character_event = {
 		}
 
 		if = { #Fallback
-			limit = { NOT = { event_target:assassins_target = { always = yes } } }
+			limit = { 
+				NOT = { event_target:assassins_target = { always = yes } } 
+				society_member_of = the_assassins
+			}
 			random_playable_ruler = {
 				limit = {
 					assassins_appropriate_target_trigger = yes
@@ -4360,6 +4363,38 @@ character_event = {
 								assassins_appropriate_target_trigger = yes
 								NOT = { religion = ormazd }
 								NOT = { society_member_of = the_assassins }
+
+								OR = {
+									is_evil_trigger = yes
+									trait = zealous
+								}
+							}
+						}
+						OR = {
+							is_evil_trigger = yes
+							trait = zealous
+						}
+					}
+				}
+				save_event_target_as = assassins_target
+				set_character_flag = assassins_target_fallback
+			}
+		}
+		if = { #Fallback
+			limit = { 
+				NOT = { event_target:assassins_target = { always = yes } } 
+				society_member_of = eshin_society
+			}
+			random_playable_ruler = {
+				limit = {
+					assassins_appropriate_target_trigger = yes
+					is_member_of_any_murderous_society=no
+					OR = {
+						NOT = {
+							any_playable_ruler = {
+								assassins_appropriate_target_trigger = yes
+								NOT = { culture = eshin }
+								NOT = { society_member_of = eshin_society }
 
 								OR = {
 									is_evil_trigger = yes
@@ -4479,14 +4514,30 @@ society_quest_event = {
 
 	immediate = { #For loc
 		hidden_effect = {
-			event_target:assassins_target = {
-				any_war = {
-					limit = { defender = { religion = ormazd } }
-					defender = { save_event_target_as = shiite_defender }
+			if = {
+				limit = {event_target:grand_master={society_member_of=the_assassins } }
+				event_target:assassins_target = {
+					any_war = {
+						limit = { defender = { religion = ormazd } }
+						defender = { save_event_target_as = shiite_defender }
+					}
+					any_realm_province = {
+						limit = { religion = ormazd }
+						save_event_target_as = shiite_province
+					}
 				}
-				any_realm_province = {
-					limit = { religion = ormazd }
-					save_event_target_as = shiite_province
+			}
+			else = {
+				limit = {event_target:grand_master={society_member_of=the_assassins } }
+				event_target:assassins_target = {
+					any_war = {
+						limit = { defender = { culture_group = skaven_group } }
+						defender = { save_event_target_as = shiite_defender }
+					}
+					any_realm_province = {
+						limit = { culture_group = skaven_group }
+						save_event_target_as = shiite_province
+					}
 				}
 			}
 		}

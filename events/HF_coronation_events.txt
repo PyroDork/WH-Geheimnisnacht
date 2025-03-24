@@ -612,7 +612,7 @@ letter_event = {
 				}
 				modifier = {
 					factor = 1.5
-					trait = bad_priest_christian
+					trait = bad_priest
 				}
 				FROM = { letter_event = { id = HF.20203 } } #Priest asks for small donation.
 			}
@@ -705,7 +705,7 @@ letter_event = {
 					factor = 0
 					OR = {
 						trait = cynical
-						trait = bad_priest_christian
+						trait = bad_priest
 					}
 				}
 				modifier = {
@@ -718,7 +718,7 @@ letter_event = {
 				}
 				modifier = {
 					factor = 0.5
-					trait = bad_priest_christian
+					trait = bad_priest
 				}
 				modifier = { 	#Supported Lector more likely to ask for little
 					factor = 1.5
@@ -1016,7 +1016,7 @@ letter_event = {
 				}
 				modifier = {
 					factor = 0.25
-					trait = bad_priest_christian
+					trait = bad_priest
 				}
 				modifier = {
 					factor = 0.25
@@ -1030,7 +1030,7 @@ letter_event = {
 				}
 				modifier = {
 					factor = 0
-					NOT = { trait = bad_priest_christian }
+					NOT = { trait = bad_priest }
 					NOT = { trait = hedonist }
 				}
 				modifier = {
@@ -1800,7 +1800,7 @@ letter_event = {
 				modifier = {
 					factor = 0
 					NOR = {
-						 trait = bad_priest_christian
+						 trait = bad_priest
 						 trait = hedonist
 					}
 				}
@@ -7533,11 +7533,11 @@ letter_event = {
 			months = 4
 			who = FROM
 		}
-		add_trait = travelling #Foreign King's travel is longer, it needs a regent, as if it were a pilgrimage.
-		#add_character_modifier = {
-		#	name = out_traveling
-		#	duration = 45
-		#}
+		#add_trait = travelling #Foreign King's travel is longer, it needs a regent, as if it were a pilgrimage.
+		add_character_modifier = {
+			name = out_traveling
+			duration = 45
+		}
 		ai_chance = {
 			factor = 70
 		}
@@ -12371,6 +12371,7 @@ character_event = {
 			has_landed_title = k_cult_of_sigmar
 			has_landed_title = k_cult_of_ulric
 			has_landed_title = k_cult_of_taal_and_rhya
+			has_landed_title = k_cult_of_morr
 		}
 		is_save_game = no
 		has_dlc = "Holy Fury"
@@ -12390,8 +12391,6 @@ character_event = {
 				is_feudal = yes
 				NOT = { government = order_government }
 				higher_real_tier_than = DUKE
-				#NOT = { has_character_flag = is_charlemagne }
-				#NOT = { has_character_flag = is_carloman }
 				NOT = { trait = crowned_by_priest }
 				NOT = { trait = crowned_by_bishop }
 				NOT = { trait = crowned_by_pope }
@@ -12413,6 +12412,7 @@ character_event = {
 								religion_head = { has_landed_title = k_cult_of_sigmar }
 								religion_head = { has_landed_title = k_cult_of_ulric }
 								religion_head = { has_landed_title = k_cult_of_taal_and_rhya }
+								religion_head = { has_landed_title = k_cult_of_morr }
 							}
 							#has_landed_title = e_latin_empire #Disavowed historically.
 						}
@@ -12460,6 +12460,7 @@ character_event = {
 							religion_head = { has_landed_title = k_cult_of_sigmar }
 							religion_head = { has_landed_title = k_cult_of_ulric }
 							religion_head = { has_landed_title = k_cult_of_taal_and_rhya }
+							religion_head = { has_landed_title = k_cult_of_morr }
 						}
 						tier = EMPEROR
 					}
@@ -12484,6 +12485,7 @@ character_event = {
 									has_landed_title = k_cult_of_sigmar
 									has_landed_title = k_cult_of_ulric
 									has_landed_title = k_cult_of_taal_and_rhya
+									has_landed_title = k_cult_of_morr
 							 	}
 							}
 						}
@@ -12510,12 +12512,15 @@ character_event = {
 								has_minor_title = title_lector
 								has_landed_title = d_arch_lectory_nuln
 								has_landed_title = d_arch_lectory_talabheim
+								any_claim = { title = k_cult_of_sigmar } #Antipope
+								any_claim = { title = k_cult_of_ulric } #Antipope
 							}
 							NOR = {
 								has_landed_title = k_cult_of_sigmar
 								has_landed_title = k_cult_of_ulric
 								has_landed_title = k_cult_of_taal_and_rhya
-							 }
+									has_landed_title = k_cult_of_morr
+							}
 						}
 					}
 					add_trait = crowned_by_priest
@@ -12568,19 +12573,20 @@ character_event = {
 	immediate = {
 		random_realm_character = {
 			limit = {
-			is_theocracy = yes
-			religion = ROOT
-			OR = {
-				higher_real_tier_than = BARON
-				has_minor_title = title_lector
-				has_landed_title = d_arch_lectory_nuln
-				has_landed_title = d_arch_lectory_talabheim
+				is_theocracy = yes
+				religion = ROOT
+				OR = {
+					higher_real_tier_than = BARON
+					has_minor_title = title_lector
+					has_landed_title = d_arch_lectory_nuln
+					has_landed_title = d_arch_lectory_talabheim
 				}
-			NOR = {
-				has_landed_title = k_cult_of_sigmar
-				has_landed_title = k_cult_of_ulric
-				has_landed_title = k_cult_of_taal_and_rhya
-			 }
+				NOR = {
+					has_landed_title = k_cult_of_sigmar
+					has_landed_title = k_cult_of_ulric
+					has_landed_title = k_cult_of_taal_and_rhya
+					has_landed_title = k_cult_of_morr
+				}
 			}
 			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = PREV } }
 		}

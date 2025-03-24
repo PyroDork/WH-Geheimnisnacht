@@ -175,7 +175,6 @@ character_event = {
 			#Change succession to Gavelkind (unless Elective or worse) (King/Emperors)
 			#Give Italian lands back (Emperors)
 			#Give Independence to Papacy (Emperors)
-			#Request vassalization (Italian Dukes)
 
 			30 = {
 				#Pay tiered money.
@@ -387,7 +386,7 @@ character_event = {
 			10 = { #Send Son/Daughter to monastery.
 				trigger = {
 					OR = {
-						religion_group = christian
+						religion_group = old_world_group
 						has_religion_feature = religion_monastic
 					}
 					FROM = {
@@ -515,7 +514,7 @@ character_event = {
 				#Force abdication.
 				trigger = {
 					OR = {
-						religion_group = christian
+						religion_group = old_world_group
 						has_religion_feature = religion_monastic
 					}
 					FROM = { higher_real_tier_than = DUKE player_heir = { dynasty = PREV } } #Do not impose a game over.
@@ -699,10 +698,6 @@ character_event = {
 					FROM = { tier = EMPEROR }
 				}
 				modifier = {
-					factor = 1.75
-					FROM = { has_landed_title = e_hre }
-				}
-				modifier = {
 					factor = 1.5
 					tier = KING
 				}
@@ -789,32 +784,15 @@ character_event = {
 			}
 			20 = { #Request Italian Lands.
 				trigger = {
-					religion_group = christian
+					religion = grail
 					is_alternate_start = no #Only matters for historical Papacy.
 					FROM = { #Check if you or your vassals hold lands within Italy
 						higher_real_tier_than = KING
-						OR = {
+						any_vassal = {
 							any_demesne_title = {
-								can_be_given_away = yes
 								OR = {
-									title = d_latium
-									title = d_spoleto
-									title = d_ancona
-									title = d_ferrara
-									title = d_benevento
-									title = c_roma
-								}
-							}
-							any_vassal = {
-								any_demesne_title = {
-									OR = {
-										title = d_latium
-										title = d_spoleto
-										title = d_ancona
-										title = d_ferrara
-										title = d_benevento
-										title = c_roma
-									}
+									title = b_cognac
+									title = b_grand_chapel
 								}
 							}
 						}
@@ -934,93 +912,16 @@ character_event = {
 					factor = 0.7
 					FROM = { primary_title = { has_law = investiture_law_0 } }
 				}
-				#Historical Pope will want historical Vatican lands.
-				modifier = {
-					factor = 1.5
-					has_landed_title = k_papal_state
-					FROM = { has_landed_title = c_roma }
-				}
-				modifier = {
-					factor = 1.5
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_latium
-							any_vassal = { has_landed_title = d_latium }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.45
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_spoleto
-							any_vassal = { has_landed_title = d_spoleto }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.35
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_ancona
-							any_vassal = { has_landed_title = d_ancona }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.25
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_ferrara
-							any_vassal = { has_landed_title = d_ferrara }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.15
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_benevento
-							any_vassal = { has_landed_title = d_benevento }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.25
-					has_landed_title = k_papal_state
-					FROM = { has_landed_title = e_hre }
-				}
 				modifier = { #If Papacy already controls historical provinces, it won't be interested in gaining even more land in Italy.
 					factor = 0
 					AND = {
 						OR = {
-							any_vassal = { has_landed_title = c_roma }
-							has_landed_title = c_roma
+							any_vassal = { has_landed_title = b_cognac }
+							has_landed_title = b_cognac
 						}
 						OR = {
-							any_vassal = { has_landed_title = d_latium }
-							has_landed_title = d_latium
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_spoleto }
-							has_landed_title = d_spoleto
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_ancona }
-							has_landed_title = d_ancona
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_ferrara }
-							has_landed_title = d_ferrara
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_benevento }
-							has_landed_title = d_benevento
+							any_vassal = { has_landed_title = b_grand_chapel }
+							has_landed_title = b_grand_chapel
 						}
 					}
 				}
@@ -1043,10 +944,6 @@ character_event = {
 						who = FROM
 						modifier = opinion_requested_independence
 					}
-				}
-				modifier = {
-					factor = 1.5
-					has_landed_title = k_papal_state
 				}
 				modifier = {
 					factor = 2
@@ -1136,252 +1033,6 @@ character_event = {
 					}
 				}
 				FROM = { letter_event = { id = HFP.23020 } } #I want to be independent.
-			}
-			10 = { #Requests Vassalization.
-				trigger = {
-					religion_group = christian
-					is_alternate_start = no #Only matters for historical Papacy.
-					higher_real_tier_than = DUKE
-					FROM = { #Check if you or your vassals hold lands within Italy
-						OR = {
-							independent = yes
-							liege = { ROOT = { vassal_of = PREV } }
-						}
-						lower_real_tier_than = KING
-						any_neighbor_independent_ruler = { character = ROOT } #Avoid creating messy borders.
-						OR = {
-							any_demesne_title = {
-								OR = {
-									title = d_latium
-									title = d_spoleto
-									title = d_ancona
-									title = d_ferrara
-									title = d_benevento
-									title = c_roma
-								}
-							}
-							any_vassal = {
-								any_demesne_title = {
-									OR = {
-										title = d_latium
-										title = d_spoleto
-										title = d_ancona
-										title = d_ferrara
-										title = d_benevento
-										title = c_roma
-									}
-								}
-							}
-						}
-					}
-				}
-				modifier = {
-					factor = 1.75
-					NOT = {
-						opinion = {
-							who = FROM
-							value = -100
-						}
-					}
-				}
-				modifier = {
-					factor = 1.75
-					NOT = {
-						opinion = {
-							who = FROM
-							value = -80
-						}
-					}
-				}
-				modifier = {
-					factor = 1.5
-					NOT = {
-						opinion = {
-							who = FROM
-							value = -60
-						}
-					}
-				}
-				modifier = {
-					factor = 1.5
-					NOT = {
-						opinion = {
-							who = FROM
-							value = -40
-						}
-					}
-				}
-				modifier = {
-					factor = 1.25
-					NOT = {
-						opinion = {
-							who = FROM
-							value = -20
-						}
-					}
-				}
-				modifier = {
-					factor = 1.25
-					opinion = {
-						who = FROM
-						value = -20
-					}
-				}
-				modifier = {
-					factor = 0.85
-					opinion = {
-						who = FROM
-						value = 20
-					}
-				}
-				modifier = {
-					factor = 0.85
-					opinion = {
-						who = FROM
-						value = 40
-					}
-				}
-				modifier = {
-					factor = 0.75
-					opinion = {
-						who = FROM
-						value = 60
-					}
-				}
-				modifier = {
-					factor = 0.5
-					opinion = {
-						who = FROM
-						value = 80
-					}
-				}
-				modifier = {
-					factor = 0.9
-					FROM = {
-						trait = zealous
-					}
-				}
-				modifier = {
-					factor = 0.9
-					FROM = {
-						trait = baptized_by_pope
-					}
-				}
-				modifier = {
-					factor = 0.9
-					FROM = {
-						piety = 100
-					}
-				}
-				modifier = {
-					factor = 0.9
-					FROM = {
-						piety = 150
-					}
-				}
-				modifier = {
-					factor = 0.8
-					FROM = {
-						piety = 250
-					}
-				}
-				modifier = {
-					factor = 0.7
-					FROM = { primary_title = { has_law = investiture_law_0 } }
-				}
-				#Historical Pope will want control over historical Vatican lands.
-				modifier = {
-					factor = 1.5
-					has_landed_title = k_papal_state
-					FROM = { has_landed_title = c_roma }
-				}
-				modifier = {
-					factor = 1.5
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_latium
-							any_vassal = { has_landed_title = d_latium }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.45
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_spoleto
-							any_vassal = { has_landed_title = d_spoleto }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.35
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_ancona
-							any_vassal = { has_landed_title = d_ancona }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.25
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_ferrara
-							any_vassal = { has_landed_title = d_ferrara }
-						}
-					}
-				}
-				modifier = {
-					factor = 1.15
-					has_landed_title = k_papal_state
-					FROM = {
-						OR = {
-							has_landed_title = d_benevento
-							any_vassal = { has_landed_title = d_benevento }
-						}
-					}
-				}
-				modifier = { #If Papacy already controls historical provinces, it won't be interested in gaining even more land in Italy.
-					factor = 0
-					AND = {
-						OR = {
-							any_vassal = { has_landed_title = c_roma }
-							has_landed_title = c_roma
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_latium }
-							has_landed_title = d_latium
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_spoleto }
-							has_landed_title = d_spoleto
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_ancona }
-							has_landed_title = d_ancona
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_ferrara }
-							has_landed_title = d_ferrara
-						}
-						OR = {
-							any_vassal = { has_landed_title = d_benevento }
-							has_landed_title = d_benevento
-						}
-					}
-				}
-				modifier = {
-					factor = 10
-					has_opinion_modifier = {
-						modifier = opinion_pope_ex_demands_vassalization
-						who = FROM
-					}
-				}
-				FROM = { letter_event = { id = HFP.23022 } } #Request Vassalization.
 			}
 		}
 	}
@@ -2136,7 +1787,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23005
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -2144,8 +1795,8 @@ character_event = {
 		text = EVTDESCBHFP23005
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -2153,7 +1804,7 @@ character_event = {
 	desc = {
 		text = EVTDESCBHFP23005
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -2943,7 +2594,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23007
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -2951,8 +2602,8 @@ character_event = {
 		text = EVTDESCBHFP23007
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -2960,7 +2611,7 @@ character_event = {
 	desc = {
 		text = EVTDESCBHFP23007
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3032,7 +2683,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23009
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3040,8 +2691,8 @@ character_event = {
 		text = EVTDESCAHFP23009
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3049,7 +2700,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23009
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3187,7 +2838,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23011
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3195,8 +2846,8 @@ character_event = {
 		text = EVTDESCAHFP23011
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3204,7 +2855,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23011
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3316,7 +2967,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23013
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3324,8 +2975,8 @@ character_event = {
 		text = EVTDESCAHFP23013
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3333,7 +2984,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23013
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3465,7 +3116,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23015
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3473,8 +3124,8 @@ character_event = {
 		text = EVTDESCBHFP23015
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3482,7 +3133,7 @@ character_event = {
 	desc = {
 		text = EVTDESCBHFP23015
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3556,7 +3207,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23017
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3564,8 +3215,8 @@ character_event = {
 		text = EVTDESCBHFP23017
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3573,7 +3224,7 @@ character_event = {
 	desc = {
 		text = EVTDESCBHFP23017
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -3594,10 +3245,7 @@ letter_event = {
 	border = GFX_event_letter_frame_religion
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		religion = grail
 	}
 	is_triggered_only = yes
 
@@ -3621,259 +3269,16 @@ letter_event = {
 		#First of all, if the Emperor has Rome, it is asked automatically as an additional gift.
 		#Latium Check
 		if  = {
-			limit = { has_landed_title = c_roma }
-			c_roma = {
+			limit = { any_vassal = { has_landed_title = b_grand_chapel } }
+			b_grand_chapel = {
 				grant_title = FROM
-				any_de_jure_vassal = { #Pope vassalizes all vassal titles in the scope
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = { #Pope takes over any titles under the title he's taking over from you.
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
 			}
 		}
-		#Secondly, check for all Duchies within the borders of the historical Donation of Pepin (Latium, Spoleto, Ancona, Ferrara, Benevento).
-		#If the Emperor owns them directly, the Pope takes the title, if his vassals do, said vassals will become the Papacy's vassals.
-		#Latium Check
 		if  = {
-			limit = {
-				any_demesne_title = {
-					can_be_given_away = yes
-					tier = duke
-					title = d_latium
-				}
-			}
-			d_latium = {
+			limit = { has_landed_title = b_grand_chapel }
+			b_grand_chapel = {
 				grant_title = FROM
-				any_de_jure_vassal = {
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
 			}
-			break = yes
-		}
-		if  = {
-			limit = {
-				any_vassal = {
-					lower_tier_than = FROM
-					any_demesne_title = {
-						#can_be_given_away = yes #No need as he will only get vassalized.
-						tier = duke
-						title = d_latium
-					}
-				}
-			}
-			random_vassal = {
-				limit = {
-					has_landed_title = d_latium
-					lower_tier_than = FROM
-				}
-				set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-			}
-			break = yes
-		}
-		#Spoleto Check
-		if  = {
-			limit = {
-				any_demesne_title = {
-					can_be_given_away = yes
-					tier = duke
-					title = d_spoleto
-				}
-			}
-			d_spoleto = {
-				grant_title = FROM
-				any_de_jure_vassal = {
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
-			}
-			break = yes
-		}
-		if  = {
-			limit = {
-				any_vassal = {
-					lower_tier_than = FROM
-					any_demesne_title = {
-						#can_be_given_away = yes
-						tier = duke
-						title = d_spoleto
-					}
-				}
-			}
-			random_vassal = {
-				limit = {
-					has_landed_title = d_spoleto
-					lower_tier_than = FROM
-				}
-				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
-			}
-			break = yes
-		}
-		#Ancona Check
-		if  = {
-			limit = {
-				any_demesne_title = {
-					can_be_given_away = yes
-					tier = duke
-					title = d_ancona
-				}
-			}
-			d_ancona = {
-				grant_title = FROM
-				any_de_jure_vassal = {
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
-			}
-			break = yes
-		}
-		if  = {
-			limit = {
-				any_vassal = {
-					lower_tier_than = FROM
-					any_demesne_title = {
-						#can_be_given_away = yes
-						tier = duke
-						title = d_ancona
-					}
-				}
-			}
-			random_vassal = {
-				limit = {
-					has_landed_title = d_ancona
-					lower_tier_than = FROM
-				}
-				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
-			}
-			break = yes
-		}
-		#Ferrara
-		if  = {
-			limit = {
-				any_demesne_title = {
-					can_be_given_away = yes
-					tier = duke
-					title = d_ferrara
-				}
-			}
-			d_ferrara = {
-				grant_title = FROM
-				any_de_jure_vassal = {
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
-			}
-			break = yes
-		}
-		if  = {
-			limit = {
-				any_vassal = {
-					lower_tier_than = FROM
-					any_demesne_title = {
-						#can_be_given_away = yes
-						tier = duke
-						title = d_ferrara
-					}
-				}
-			}
-			random_vassal = {
-				limit = {
-					has_landed_title = d_ferrara
-					lower_tier_than = FROM
-				}
-				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
-			}
-			break = yes
-		}
-		#Benevento
-		if  = {
-			limit = {
-				any_demesne_title = {
-					can_be_given_away = yes
-					tier = duke
-					title = d_benevento
-				}
-			}
-			d_benevento = {
-				grant_title = FROM
-				any_de_jure_vassal = {
-					limit = {
-						vassal_of = ROOT
-						NOT = { owner =  { character = ROOT } }
-					}
-					set_defacto_liege = FROM
-					hidden_tooltip = { character_event =  { id = HF.20230 } }
-				}
-				any_de_jure_vassal_title = {
-					limit = { owner =  { character = ROOT } }
-					grant_title = FROM
-				}
-			}
-			break = yes
-		}
-		if  = {
-			limit = {
-				any_vassal = {
-					lower_tier_than = FROM
-					any_demesne_title = {
-						#can_be_given_away = yes
-						tier = duke
-						title = d_benevento
-					}
-				}
-			}
-			random_vassal = {
-				limit = {
-					has_landed_title = d_benevento
-					lower_tier_than = FROM
-				}
-				set_defacto_liege = FROM
-				hidden_tooltip = { character_event =  { id = HF.20230 } }
-			}
-			break = yes
 		}
 		ai_chance = { factor = 100 }
 	}
@@ -3913,10 +3318,7 @@ letter_event = {
 	border = GFX_event_letter_frame_religion
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		religion = grail
 	}
 	is_triggered_only = yes
 
@@ -3963,7 +3365,7 @@ character_event = {
 	desc = {
 		text = EVTDESCAHFP23021
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_pope
 	}
@@ -3971,8 +3373,8 @@ character_event = {
 		text = EVTDESCBHFP23021
 		trigger = {
 			NOR = {
-				religion_group = christian
-				religion_group = pagan_group
+				religion_group = old_world_group
+				religion_group = chaos_gods_group
 			}
 		}
 		picture = GFX_evt_bishop
@@ -3980,7 +3382,7 @@ character_event = {
 	desc = {
 		text = EVTDESCBHFP23021
 		trigger = {
-			religion_group = pagan_group
+			religion_group = chaos_gods_group
 		}
 		picture = GFX_evt_tribal_shrine
 	}
@@ -4001,10 +3403,7 @@ letter_event = {
 	border = GFX_event_letter_frame_religion
 
 	trigger = {
-		OR = {
-			religion = catholic
-			religion = fraticelli
-		}
+		religion = grail
 	}
 	is_triggered_only = yes
 
@@ -4179,17 +3578,17 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = christian } #Random World safety check.
+			NOT = { religion_group = old_world_group } #Random World safety check.
 			OR = {
 				any_neighbor_independent_ruler = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 				any_liege = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
-		add_trait = sympathy_christendom
+		add_trait = sympathy_old_world_group
 		clr_character_flag = flag_picking_sympathy
 		ai_chance = {
 			factor = 25
@@ -4197,8 +3596,8 @@ character_event = {
 				factor = 0
 				liege = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_judaism
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
@@ -4206,8 +3605,8 @@ character_event = {
 				factor = 0
 				top_liege = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_judaism
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
@@ -4215,21 +3614,21 @@ character_event = {
 				factor = 0.25
 				spouse = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_judaism
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_demesne_province = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_courtier_or_vassal = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 		}
@@ -4248,17 +3647,17 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = muslim } #Random World safety check.
+			NOT = { religion_group = ormazd_gods_group } #Random World safety check.
 			OR = {
 				any_neighbor_independent_ruler = {
-					religion_group = muslim
+					religion_group = ormazd_gods_group
 				}
 				any_liege = {
-					religion_group = muslim
+					religion_group = ormazd_gods_group
 				}
 			}
 		}
-		add_trait = sympathy_islam
+		add_trait = sympathy_ormazd_gods_group
 		clr_character_flag = flag_picking_sympathy
 		ai_chance = {
 			factor = 25
@@ -4266,8 +3665,8 @@ character_event = {
 				factor = 0
 				liege = {
 					OR = {
-						trait = sympathy_christendom
-						trait = sympathy_judaism
+						trait = sympathy_old_world_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
@@ -4275,8 +3674,8 @@ character_event = {
 				factor = 0
 				top_liege = {
 					OR = {
-						trait = sympathy_christendom
-						trait = sympathy_judaism
+						trait = sympathy_old_world_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
@@ -4284,21 +3683,21 @@ character_event = {
 				factor = 0.25
 				spouse = {
 					OR = {
-						trait = sympathy_christendom
-						trait = sympathy_judaism
+						trait = sympathy_old_world_group
+						trait = sympathy_cadai_group
 					}
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_demesne_province = {
-					religion_group = muslim
+					religion_group = ormazd_gods_group
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_courtier_or_vassal = {
-					religion_group = muslim
+					religion_group = ormazd_gods_group
 				}
 			}
 		}
@@ -4317,17 +3716,17 @@ character_event = {
 			}
 		}
 		trigger = {
-			NOT = { religion_group = jewish_group } #Random World safety check.
+			NOT = { religion_group = cadai_group } #Random World safety check.
 			OR = {
 				any_neighbor_independent_ruler = {
-					religion_group = jewish_group
+					religion_group = cadai_group
 				}
 				any_liege = {
-					religion_group = jewish_group
+					religion_group = cadai_group
 				}
 			}
 		}
-		add_trait = sympathy_judaism
+		add_trait = sympathy_cadai_group
 		clr_character_flag = flag_picking_sympathy
 		ai_chance = {
 			factor = 25
@@ -4335,8 +3734,8 @@ character_event = {
 				factor = 0
 				liege = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_christendom
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_old_world_group
 					}
 				}
 			}
@@ -4344,8 +3743,8 @@ character_event = {
 				factor = 0
 				top_liege = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_christendom
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_old_world_group
 					}
 				}
 			}
@@ -4353,21 +3752,21 @@ character_event = {
 				factor = 0.25
 				spouse = {
 					OR = {
-						trait = sympathy_islam
-						trait = sympathy_christendom
+						trait = sympathy_ormazd_gods_group
+						trait = sympathy_old_world_group
 					}
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_demesne_province = {
-					religion_group = jewish_group
+					religion_group = cadai_group
 				}
 			}
 			modifier = {
 				factor = 1.5
 				any_courtier_or_vassal = {
-					religion_group = jewish_group
+					religion_group = cadai_group
 				}
 			}
 		}
@@ -4377,27 +3776,5 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-	}
-}
-
-#On_startup:Cleanup the Maniots on Charlemagne start if Hellenism is off.
-character_event = {
-	id = HFP.23028
-	hide_window = yes
-	trigger = {
-		has_game_rule = {
-			name = hellenism_rule
-			value = off
-		}
-		NOT = { year = 800 }
-		is_save_game = no
-		is_alternate_start = no
-		has_landed_title = k_papal_state
-	}
-
-	is_triggered_only = yes
-
-	immediate = {
-		478 = { religion = orthodox }
 	}
 }

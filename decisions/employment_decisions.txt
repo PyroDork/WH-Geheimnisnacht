@@ -588,11 +588,11 @@ decisions = {
 			}
 			hidden_tooltip = {
 				new_character = {
+					set_character_flag= noble
 					# Set Racial Trait
 					character_event = {
 						id = aiclean.31
 					}
-					set_character_flag= noble
 					save_event_target_as = invited_character
 				}
 				character_event = { id = NE.1 }

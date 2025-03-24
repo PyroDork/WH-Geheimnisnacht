@@ -45,24 +45,17 @@ ask_for_excommunication_chance = {
 		FROMFROM = { is_theocracy = yes }
 	}
 	#The Papacy will tend to excommunicate bad priests.
-#	additive_modifier = {
-#		value = 15
-#		#No loc needed, it's just for the Pope.
-#		character = FROM
-#		FROMFROM = {
-#			higher_real_tier_than = BARON
-#			is_theocracy = yes
-#
-#	OR = {
-#		trait = bad_priest_christian
-#		trait = bad_priest_muslim
-#		trait = bad_priest_norse
-#		trait = bad_priest_tengri
-#		trait = bad_priest_zoroastrian
-#		trait = bad_priest_aztec
-#	}
-#		}
-#	}
+	additive_modifier = {
+		value = 15
+		#No loc needed, it's just for the Pope.
+		character = FROM
+		FROMFROM = {
+			higher_real_tier_than = BARON
+			is_theocracy = yes
+
+		trait = bad_priest
+		}
+	}
 	#Saintly Bloodline boost.
 	additive_modifier = {
 		value = 5
@@ -455,14 +448,7 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -475,14 +461,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -495,14 +474,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -515,14 +487,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -535,14 +500,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -555,14 +513,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -575,14 +526,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -595,14 +539,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -614,14 +551,7 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -634,14 +564,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -654,14 +577,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -674,14 +590,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -694,14 +603,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -714,14 +616,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 
 				trait = wroth
 			}
@@ -735,14 +630,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -755,14 +643,7 @@ ask_for_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -775,17 +656,11 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -795,17 +670,10 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -815,17 +683,11 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -835,17 +697,11 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -855,17 +711,11 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -875,18 +725,12 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -896,17 +740,11 @@ ask_for_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -915,18 +753,12 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -1209,14 +1041,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -1227,14 +1052,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -1246,14 +1064,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -1264,14 +1075,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -1283,14 +1087,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -1301,14 +1098,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -1320,14 +1110,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -1339,14 +1122,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -1358,14 +1134,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CYNICAL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -1376,14 +1145,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_LUSTFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -1395,14 +1157,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GLUTTONOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -1414,14 +1169,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GREEDY_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -1433,14 +1181,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_SLOTHFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -1452,14 +1193,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_WROTH_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -1471,14 +1205,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ENVIOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -1490,14 +1217,7 @@ ask_for_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PROUD_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -1509,17 +1229,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1528,17 +1242,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1547,17 +1255,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1566,17 +1268,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1585,17 +1281,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1604,17 +1294,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -1622,17 +1306,11 @@ ask_for_excommunication_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -1641,17 +1319,11 @@ ask_for_excommunication_chance = {
 		value = 10
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}
@@ -1697,7 +1369,7 @@ ask_for_invasion_chance = {
 				#OR = {
 					has_claim = k_cult_of_sigmar
 				#	has_claim = d_fraticelli
-				#}
+				}
 			}
 		}
 	}
@@ -2112,14 +1784,7 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -2132,14 +1797,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -2152,14 +1810,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -2172,14 +1823,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -2192,14 +1836,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -2212,14 +1849,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -2232,14 +1862,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -2252,14 +1875,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -2271,14 +1887,7 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -2291,14 +1900,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -2311,14 +1913,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -2331,14 +1926,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -2351,14 +1939,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -2371,14 +1952,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -2391,14 +1965,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -2411,14 +1978,7 @@ ask_for_invasion_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -2431,17 +1991,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -2451,17 +2005,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -2471,17 +2019,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -2491,17 +2033,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -2511,17 +2047,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -2531,17 +2061,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -2551,17 +2075,11 @@ ask_for_invasion_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -2570,17 +2088,11 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -2863,14 +2375,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -2881,14 +2386,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -2900,14 +2398,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -2918,14 +2409,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -2937,14 +2421,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -2955,14 +2432,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -2974,14 +2444,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -2993,14 +2456,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -3012,14 +2468,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CYNICAL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -3030,14 +2479,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_LUSTFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -3049,14 +2491,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GLUTTONOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -3068,14 +2503,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GREEDY_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -3087,14 +2515,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_SLOTHFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -3106,14 +2527,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_WROTH_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -3125,14 +2539,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ENVIOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -3144,14 +2551,7 @@ ask_for_invasion_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PROUD_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -3163,17 +2563,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3182,17 +2576,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3201,17 +2589,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3220,17 +2602,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3239,17 +2615,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3258,17 +2628,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -3276,17 +2640,11 @@ ask_for_invasion_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -3295,17 +2653,11 @@ ask_for_invasion_chance = {
 		value = 10
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}
@@ -3689,14 +3041,7 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -3709,14 +3054,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -3729,14 +3067,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -3749,14 +3080,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -3769,14 +3093,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -3789,14 +3106,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -3809,14 +3119,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -3829,14 +3132,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -3848,14 +3144,7 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -3868,14 +3157,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -3888,14 +3170,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -3908,14 +3183,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -3928,14 +3196,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -3948,14 +3209,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -3968,14 +3222,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -3988,14 +3235,7 @@ ask_for_divorce_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -4008,17 +3248,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -4028,17 +3262,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -4048,17 +3276,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -4068,17 +3290,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -4088,17 +3304,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -4108,17 +3318,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -4128,17 +3332,11 @@ ask_for_divorce_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -4147,17 +3345,11 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -4429,14 +3621,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -4447,14 +3632,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -4466,14 +3644,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -4484,14 +3655,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -4503,14 +3667,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -4521,14 +3678,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -4540,14 +3690,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -4559,14 +3702,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -4578,14 +3714,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CYNICAL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -4596,14 +3725,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_LUSTFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -4615,14 +3737,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GLUTTONOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -4634,14 +3749,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GREEDY_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -4653,14 +3761,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_SLOTHFUL_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -4672,14 +3773,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_WROTH_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -4691,14 +3785,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ENVIOUS_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = envious
 			}
 		}
@@ -4710,14 +3797,7 @@ ask_for_divorce_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PROUD_TARGET
 		FROM = {
 			NOT = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			trait = bad_priest
 				trait = proud
 			}
 		}
@@ -4729,17 +3809,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4748,17 +3822,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4767,17 +3835,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4786,17 +3848,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4805,17 +3861,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4824,17 +3874,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -4842,17 +3886,11 @@ ask_for_divorce_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -4861,17 +3899,11 @@ ask_for_divorce_chance = {
 		value = 10
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}
@@ -5198,14 +4230,7 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -5218,14 +4243,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -5238,14 +4256,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -5258,14 +4269,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -5278,14 +4282,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -5298,14 +4295,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -5318,14 +4308,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -5338,14 +4321,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -5357,14 +4333,7 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -5377,14 +4346,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -5397,14 +4359,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -5417,14 +4372,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -5437,14 +4385,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -5457,14 +4398,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -5477,14 +4411,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -5497,14 +4424,7 @@ ask_to_lift_excommunication_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -5517,17 +4437,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -5537,17 +4451,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -5557,17 +4465,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -5577,17 +4479,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -5597,17 +4493,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -5617,17 +4507,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -5637,17 +4521,11 @@ ask_to_lift_excommunication_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -5656,17 +4534,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -5944,14 +4816,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -5963,14 +4828,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -5983,14 +4841,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -6002,14 +4853,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -6022,14 +4866,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -6041,14 +4878,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -6061,14 +4891,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -6081,14 +4904,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -6101,14 +4917,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -6120,14 +4929,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -6140,14 +4942,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -6160,14 +4955,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -6180,14 +4968,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -6200,14 +4981,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -6220,14 +4994,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -6240,14 +5007,7 @@ ask_to_lift_excommunication_chance = {
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -6260,17 +5020,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6280,17 +5034,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6300,17 +5048,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6320,17 +5062,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6340,17 +5076,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6360,17 +5090,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -6379,17 +5103,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -6399,17 +5117,11 @@ ask_to_lift_excommunication_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}
@@ -6833,14 +5545,7 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -6853,14 +5558,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -6873,14 +5571,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -6893,14 +5584,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -6913,14 +5597,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -6933,14 +5610,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -6953,14 +5623,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -6973,14 +5636,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -6992,14 +5648,7 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -7012,14 +5661,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -7032,14 +5674,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -7052,14 +5687,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -7072,14 +5700,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -7092,14 +5713,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -7112,14 +5726,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -7132,14 +5739,7 @@ ask_for_money_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -7152,17 +5752,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -7172,17 +5766,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -7192,17 +5780,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -7212,17 +5794,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -7232,17 +5808,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -7252,17 +5822,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -7272,17 +5836,11 @@ ask_for_money_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -7291,17 +5849,11 @@ ask_for_money_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -7672,14 +6224,7 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -7692,14 +6237,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -7712,14 +6250,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -7732,14 +6263,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -7752,14 +6276,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -7772,14 +6289,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -7792,14 +6302,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -7812,14 +6315,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -7831,14 +6327,7 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -7851,14 +6340,7 @@ ask_for_crusade_chance = {
 		religion_group = christian #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -7871,14 +6353,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -7891,14 +6366,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -7911,14 +6379,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -7931,14 +6392,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -7951,14 +6405,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -7971,14 +6418,7 @@ ask_for_crusade_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -7991,17 +6431,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -8011,17 +6445,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -8031,17 +6459,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -8051,17 +6473,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -8071,17 +6487,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -8091,17 +6501,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -8111,17 +6515,11 @@ ask_for_crusade_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -8130,17 +6528,11 @@ ask_for_crusade_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -8604,14 +6996,7 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -8624,14 +7009,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -8644,14 +7022,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -8664,14 +7035,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -8684,14 +7048,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -8704,14 +7061,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -8724,14 +7074,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -8744,14 +7087,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -8763,14 +7099,7 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -8783,14 +7112,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -8803,14 +7125,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -8823,14 +7138,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -8843,14 +7151,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -8863,14 +7164,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -8883,14 +7177,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -8903,14 +7190,7 @@ ask_for_claim_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -8923,17 +7203,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -8943,17 +7217,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -8963,17 +7231,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -8983,17 +7245,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -9003,17 +7259,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -9023,17 +7273,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -9043,17 +7287,11 @@ ask_for_claim_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -9062,17 +7300,11 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -9349,14 +7581,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -9367,14 +7592,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -9386,14 +7604,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -9404,14 +7615,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -9423,14 +7627,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -9441,14 +7638,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -9460,14 +7650,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -9479,14 +7662,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -9498,14 +7674,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CYNICAL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -9516,14 +7685,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_LUSTFUL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -9535,14 +7697,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GLUTTONOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -9554,14 +7709,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GREEDY_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -9573,14 +7721,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_SLOTHFUL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -9592,14 +7733,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_WROTH_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -9611,14 +7745,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ENVIOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -9630,14 +7757,7 @@ ask_for_claim_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PROUD_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -9649,17 +7769,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9668,17 +7782,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9687,17 +7795,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9706,17 +7808,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9725,17 +7821,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9744,17 +7834,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -9762,17 +7846,11 @@ ask_for_claim_chance = {
 		value = 5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -9781,17 +7859,11 @@ ask_for_claim_chance = {
 		value = 10
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}
@@ -10136,14 +8208,7 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -10156,14 +8221,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -10176,14 +8234,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -10196,14 +8247,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -10216,14 +8260,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -10236,14 +8273,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -10256,14 +8286,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -10276,14 +8299,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -10295,14 +8311,7 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -10315,14 +8324,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -10335,14 +8337,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -10355,14 +8350,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -10375,14 +8363,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -10395,14 +8376,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -10415,14 +8389,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -10435,14 +8402,7 @@ nominate_bishop_chance = {
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -10455,17 +8415,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		trait = humble
 	}
@@ -10475,17 +8428,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		trait = kind
 	}
@@ -10495,17 +8441,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		trait = patient
 	}
@@ -10515,17 +8454,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		trait = diligent
 	}
@@ -10535,17 +8467,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		trait = charitable
 	}
@@ -10555,17 +8480,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		trait = temperate
 	}
@@ -10575,17 +8493,10 @@ nominate_bishop_chance = {
 		NOT = { character = FROM }
 		religion_group = old_world_group #Reformed Pagans shouldn't use these.
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		trait = chaste
 	}
@@ -10594,17 +8505,10 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE
 		NOT = { character = FROM }
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		trait = zealous
 	}
@@ -10800,14 +8704,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -10818,14 +8715,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -10837,14 +8727,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -10855,14 +8738,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -10874,14 +8750,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -10892,14 +8761,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -10911,14 +8773,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -10930,14 +8785,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -10949,14 +8797,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CYNICAL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = cynical
 			}
 		}
@@ -10967,14 +8808,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_LUSTFUL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = lustful
 			}
 		}
@@ -10986,14 +8820,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GLUTTONOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = gluttonous
 			}
 		}
@@ -11005,14 +8832,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_GREEDY_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = greedy
 			}
 		}
@@ -11024,14 +8844,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_SLOTHFUL_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = slothful
 			}
 		}
@@ -11043,14 +8856,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_WROTH_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = wroth
 			}
 		}
@@ -11062,14 +8868,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ENVIOUS_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = envious
 			}
 		}
@@ -11081,14 +8880,7 @@ nominate_bishop_chance = {
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PROUD_TARGET
 		FROM = {
 			NOT = {
-				#OR = {
-				#	trait = bad_priest_christian
-				#	trait = bad_priest_muslim
-				#	trait = bad_priest_norse
-				#	trait = bad_priest_tengri
-				#	trait = bad_priest_zoroastrian
-				#	trait = bad_priest_aztec
-				#}
+				trait = bad_priest
 				trait = proud
 			}
 		}
@@ -11100,17 +8892,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_HUMBLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = proud
-			#}
+			}
 		}
 		FROMFROM = { trait = humble }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11119,17 +8904,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_KIND_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = envious
-			#}
+			}
 		}
 		FROMFROM = { trait = kind }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11138,17 +8916,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_PATIENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = wroth
-			#}
+			}
 		}
 		FROMFROM = { trait = patient }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11157,17 +8928,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_DILIGENT_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = slothful
-			#}
+			}
 		}
 		FROMFROM = { trait = diligent }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11176,17 +8940,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHARITABLE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = greedy
-			#}
+			}
 		}
 		FROMFROM = { trait = charitable }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11195,17 +8952,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_TEMPERATE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = gluttonous
-			#}
+			}
 		}
 		FROMFROM = { trait = temperate }
 	}
@@ -11213,17 +8963,10 @@ nominate_bishop_chance = {
 		value = -5
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_CHASTE_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = lustful
-			#}
+			}
 		}
 		FROMFROM = { trait = chaste }
 		FROMFROM = { religion_group = old_world_group }  #Reformed Pagans shouldn't use these.
@@ -11232,17 +8975,10 @@ nominate_bishop_chance = {
 		value = -10
 		localisation_key = POPE_AIREASON_MODIFIER_RULER_ZEALOUS_NEGATIVE_TARGET
 		FROM = {
-			#OR = {
-			#	OR = {
-			#		trait = bad_priest_christian
-			#		trait = bad_priest_muslim
-			#		trait = bad_priest_norse
-			#		trait = bad_priest_tengri
-			#		trait = bad_priest_zoroastrian
-			#		trait = bad_priest_aztec
-			#	}
+			OR = {
+				trait = bad_priest
 				trait = cynical
-			#}
+			}
 		}
 		FROMFROM = { trait = zealous }
 	}

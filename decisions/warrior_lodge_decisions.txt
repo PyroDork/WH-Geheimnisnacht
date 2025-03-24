@@ -153,7 +153,7 @@ targeted_decisions={
 			}
 			modifier = {
 				factor = 0.1
-				has_religion_matching_joined_warrior_lodge_trigger = no
+				has_religion_matching_joined_warrior_society_trigger = no
 			}
 		}
 	}
@@ -212,7 +212,7 @@ targeted_decisions={
 			}
 			modifier = {
 				factor = 0.1
-				has_religion_matching_joined_warrior_lodge_trigger = no
+				has_religion_matching_joined_warrior_society_trigger = no
 			}
 		}
 	}
@@ -239,7 +239,7 @@ targeted_decisions={
 
 		allow = {
 			has_society_currency_minor_trigger = yes
-			has_religion_matching_joined_warrior_lodge_trigger = yes
+			has_religion_matching_joined_warrior_society_trigger = yes
 			custom_tooltip = {
 				text = not_already_using_toughness_tt
 				NOT = { has_character_flag = using_toughness }
@@ -299,7 +299,7 @@ targeted_decisions={
 
 		allow = {
 			has_society_currency_minor_trigger = yes
-			has_religion_matching_joined_warrior_lodge_trigger = yes
+			has_religion_matching_joined_warrior_society_trigger = yes
 			custom_tooltip = {
 				text = not_already_going_berserk_tt
 				NOT = { has_character_flag = going_berserk }

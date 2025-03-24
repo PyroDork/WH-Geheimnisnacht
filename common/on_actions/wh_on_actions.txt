@@ -775,7 +775,7 @@ on_character_convert_religion = {
 	events = {
 		ormazd.1 #Adds or removes non_sayyid and non_mirza traits, as appropriate.
 		CC.1 #Remove Religious Cultist etc. modifiers
-		# DR_misc.1150
+		amazon.166
 	}
 }
 

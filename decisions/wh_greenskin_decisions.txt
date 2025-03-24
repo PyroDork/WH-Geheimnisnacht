@@ -1816,19 +1816,18 @@ settlement_decisions = {
 
 		from_potential = {
 			is_ruler = yes
-			NOT={trait=creature_beastman}
-			OR={
-				from={culture_group=asrai_group}
-				from={culture_group=goblin_group}
+			NOR={
+				culture=goblin_forest
+				trait=creature_beastman
 			}
-			not={culture=goblin_forest}
+			OR={
+				culture_group=asrai_group
+				culture_group=goblin_group
+			}
 			OR={
 				ai=no
 				root={location={has_wonder = no}} #To prevent AI from disabling wonder's special units
 			}
-		}
-		potential={
-			ROOT={owner={character=FROM}}
 		}
 		allow = {
 			conditional_tooltip = {

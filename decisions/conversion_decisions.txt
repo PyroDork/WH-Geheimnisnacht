@@ -46,9 +46,11 @@ targetted_decisions = {
 					modifier = ruler_converted_from
 				}
 			}
+			norscan_convert_effect = yes
 			liege = {
 				reverse_religion = ROOT
 			}
+			norscan_convert_effect = yes
 			if = {
 				limit = { higher_tier_than = BARON }
 				hidden_tooltip = {
@@ -114,7 +116,9 @@ targetted_decisions = {
 						modifier = ruler_converted_from
 					}
 				}
+				norscan_convert_effect = yes
 				religion = ROOT
+				norscan_convert_effect = yes
 				if = {
 					limit = { higher_tier_than = BARON }
 					hidden_tooltip = {
@@ -451,7 +455,9 @@ targetted_decisions = {
 			custom_tooltip = { text = local_religion_conversion_tooltip }
 			hidden_tooltip = {
 				capital_scope = {
+					norscan_convert_effect = yes
 					reverse_religion = ROOT
+					norscan_convert_effect = yes
 				}
 			}
 		}

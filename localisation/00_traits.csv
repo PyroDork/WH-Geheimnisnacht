@@ -20,6 +20,15 @@ creature_pig;Pig;;;;;;;;;;;;;
 creature_pig_desc;This pig used to be a person. Oink!;;;;;;;;;;;;;
 creature_monster;Monster;;;;;;;;;;;;;
 creature_monster_desc;This is a savage beast, devoid of intellect.;;;;;;;;;;;;;
+#Lizardmen
+kroxigor;Kroxigor;;;;;;;;;;;;;
+kroxigor_desc;An infrequent spawning, it is rare for more than a handful of Kroxigor to enter the world at the same time. They emerge from the same spawning pools as the Skinks, which may go some way to explain why the two species share another common affinity; like Skinks, Kroxigors are very at home in the water - able to move at speed through waterways or swamps.;;;;;;;;;;;;;
+nakai;Nakai;;;;;;;;;;;;;
+nakai_desc;also called Nakai the Wanderer, is a Lizardmen Kroxigor Ancient. He is a revered creature, regarded by Skink Priests as a powerful jungle-spirit made manifest.;;;;;;;;;;;;;
+#Amazon
+
+amazon_kalith;Kalithana;;;;;;;;;;;;;x
+ormazd_sayyid_desc;This character is generally regarded as a direct descendant of Kalith, the mother of the First queen of Amazonia.;;;;;;;;;;;;;x
 #
 # ESTALIAN/SARTOSAN/TILEAN TRAITS
 #

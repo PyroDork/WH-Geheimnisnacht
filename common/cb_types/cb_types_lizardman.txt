@@ -666,7 +666,7 @@ flower_war_raid = {
 		if = {
 			limit = {
 				FROM = {
-					higher_tier_than = BARON
+					tier = BARON
 				}
 			}
 			ROOT = {
@@ -676,9 +676,7 @@ flower_war_raid = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					higher_tier_than = COUNT
-				}
+				FROM = { tier = COUNT }
 			}
 			ROOT = {
 				set_variable = { which = "sacrifices_needed" value = "18"}
@@ -687,9 +685,7 @@ flower_war_raid = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					higher_tier_than = DUKE
-				}
+				FROM = { tier = DUKE }
 			}
 			ROOT = {
 				set_variable = { which = "sacrifices_needed" value = "27"}
@@ -699,7 +695,10 @@ flower_war_raid = {
 		if = {
 			limit = {
 				FROM = {
-					higher_tier_than = KING
+					OR = {
+						tier = KING
+						tier = EMPEROR
+					}
 				}
 			}
 			ROOT = {

@@ -33,6 +33,16 @@ college_of_magic_imperial = {
 			is_human = yes
 			has_character_flag = founder_of_college_of_magic
 		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
+		}
 		is_bretonnian = no
 		is_vampire_trigger = no
 		open_follower_of_any_chaos_gods = no
@@ -327,6 +337,16 @@ college_of_magic_dynamic_1 = {
 			ai = no
 			hidden_or_open_magic_potential_trigger = yes
 			trait = mage_apprentice
+		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
 		}
 		learning = 5
 		OR = {
@@ -628,6 +648,16 @@ college_of_magic_dynamic_2 = {
 			hidden_or_open_magic_potential_trigger = yes
 			trait = mage_apprentice
 		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
+		}
 		learning = 5
 		OR = {
 			is_human = yes
@@ -927,6 +957,16 @@ college_of_magic_dynamic_3 = {
 			ai = no
 			hidden_or_open_magic_potential_trigger = yes
 			trait = mage_apprentice
+		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
 		}
 		learning = 5
 		OR = {
@@ -1233,6 +1273,16 @@ college_of_magic_dynamic_4 = {
 			is_human = yes
 			has_character_flag = founder_of_college_of_magic
 		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
+		}
 		is_bretonnian = no
 		is_vampire_trigger = no
 		open_follower_of_any_chaos_gods = no
@@ -1527,6 +1577,16 @@ college_of_magic_dynamic_5 = {
 			ai = no
 			hidden_or_open_magic_potential_trigger = yes
 			trait = mage_apprentice
+		}
+		OR = {
+			location = {
+				region = world_old_world
+			}
+			top_liege = {
+				location = {
+					region = world_old_world
+				}
+			}
 		}
 		learning = 5
 		OR = {

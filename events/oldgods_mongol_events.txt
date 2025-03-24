@@ -1679,7 +1679,11 @@ character_event = {
 			has_character_flag = khagan_finishing_nerge
 			NOT = { has_character_flag = feast_lunatic }
 		}
-		trait = lunatic
+		OR = {
+			trait = lunatic_1
+			trait = lunatic_2
+			trait = lunatic_3
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1713,7 +1717,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_656
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		set_character_flag = feast_lunatic
 		hidden_tooltip = {
 			liege = {
@@ -1731,14 +1735,26 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lunatic } }
+					limit = {
+						NOR = {
+							trait = lunatic_1
+							trait = lunatic_2
+							trait = lunatic_3
+						} 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lunatic }
+					limit = { 
+						OR = {
+							trait = lunatic_1
+							trait = lunatic_2
+							trait = lunatic_3
+						} 
+					}
 					opinion = {
 						modifier = opinion_feast_friend
 						who = ROOT
@@ -1748,7 +1764,11 @@ character_event = {
 					limit = {
 						has_character_flag = nerge_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lunatic }
+						NOR = {
+							trait = lunatic_1
+							trait = lunatic_2
+							trait = lunatic_3
+						} 
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -1759,7 +1779,11 @@ character_event = {
 					limit = {
 						has_character_flag = nerge_feast_vassal
 						NOT = { character = ROOT }
-						trait = lunatic
+						OR = {
+							trait = lunatic_1
+							trait = lunatic_2
+							trait = lunatic_3
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_friend
@@ -1783,7 +1807,13 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_657
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = { 
+				OR = {
+					trait = lunatic_1
+					trait = lunatic_2
+					trait = lunatic_3
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -1792,9 +1822,13 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_TOG_657
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
-			trait = lunatic
+		OR = {
+			trait = lunatic_1
+			trait = lunatic_2
+			trait = lunatic_3
+		}
 		}
 		opinion = {
 			modifier = opinion_feast_friend

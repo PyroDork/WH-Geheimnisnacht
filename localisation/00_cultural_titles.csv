@@ -19,6 +19,7 @@ title_commander_imperial_group;Imperial General;;;;;;;;;x
 #
 # GENERAL CULTURAL TITLES
 #
+KALIMASTER;Kalim Sentinel;;;;;;;;;;;;;x
 WARMASTER;Warmaster;;;;;;;;;;;;;x
 title_genghis;Genghis;;;;;;;;;;;;;x
 title_ruler_consort;Ruler Consort;;;;;;;;;;;;;x
@@ -410,6 +411,26 @@ tribal_county_albion_group;Arldom;;;;;;;;;;;;;x
 tribal_duchy_albion_group;High Arldom;;;;;;;;;;;;;x
 tribal_kingdom_albion_group;Kingdom;;;;;;;;;;;;;x
 tribal_empire_albion_group;High Kingdom;;;;;;;;;;;;;x
+feudal_baron_albion_group;Chief;;;;;;;;;;;;;x
+feudal_baron_female_albion_group;Chieftess;;;;;;;;;;;;;x
+feudal_count_albion_group;Arl;;;;;;;;;;;;;x
+feudal_count_female_albion_group;Arla;;;;;;;;;;;;;x
+feudal_duke_albion_group;High Arl;;;;;;;;;;;;;x
+feudal_duke_female_albion_group;High Arla;;;;;;;;;;;;;x
+feudal_king_albion_group;King;;;;;;;;;;;;;x
+feudal_king_female_albion_group;Queen;;;;;;;;;;;;;x
+feudal_emperor_albion_group;High King;;;;;;;;;;;;;x
+feudal_emperor_female_albion_group;High Queen;;;;;;;;;;;;;x
+feudal_barony_of_albion_group;Chiefdom of;;;;;;;;;;;;;x
+feudal_county_of_albion_group;Arldom of;;;;;;;;;;;;;x
+feudal_duchy_of_albion_group;High Arldom of;;;;;;;;;;;;;x
+feudal_kingdom_of_albion_group;Kingdom of;;;;;;;;;;;;;x
+feudal_empire_of_albion_group;High Kingdom of;;;;;;;;;;;;;x
+feudal_barony_albion_group;Chiefdom;;;;;;;;;;;;;x
+feudal_county_albion_group;Arldom;;;;;;;;;;;;;x
+feudal_duchy_albion_group;High Arldom;;;;;;;;;;;;;x
+feudal_kingdom_albion_group;Kingdom;;;;;;;;;;;;;x
+feudal_empire_albion_group;High Kingdom;;;;;;;;;;;;;x
 #Barony;;;;;;;;;;;;;;
 baron_albion_group;Chief;;;;;;;;;;;;;x
 baron_female_albion_group;Chieftess;;;;;;;;;;;;;x

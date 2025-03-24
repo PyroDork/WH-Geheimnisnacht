@@ -42,7 +42,7 @@ character_event = {
 			years = 5			
 		}
 
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 
 		trigger = {
 			OR = {

@@ -258,10 +258,6 @@ character_event = { # Great warrior character arrives
 									male_can_hold_minor_title_trigger = yes
 									female_can_hold_minor_commander_title_trigger = yes
 								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
-								}
 								is_adult = yes
 							}
 							has_character_flag = special_marshal
@@ -419,56 +415,47 @@ character_event = { # Sympathy for founder group
 				is_alive = no
 				OR = {
 					AND = {
-						religion_group = pagan_group
+						religion_group = old_world_group
 						ROOT = {
 							NOR = {
-								religion_group = pagan_group
-								trait = sympathy_pagans
+								religion_group = old_world_group
+								trait = sympathy_old_world_group
 							}
 						}
 					}
 					AND = {
-						religion_group = christian
+						religion_group = ormazd_gods_group
 						ROOT = {
 							NOR = {
-								religion_group = christian
-								trait = sympathy_christendom
+								religion_group = ormazd_gods_group
+								trait = sympathy_ormazd_gods_group
 							}
 						}
 					}
 					AND = {
-						religion_group = muslim
+						religion_group = cadai_group
 						ROOT = {
 							NOR = {
-								religion_group = muslim
-								trait = sympathy_islam
+								religion_group = cadai_group
+								trait = sympathy_cadai_group
 							}
 						}
 					}
 					AND = {
-						religion_group = zoroastrian_group
+						religion_group = dwarf_gods_group
 						ROOT = {
 							NOR = {
-								religion_group = zoroastrian_group
-								trait = sympathy_zoroastrianism
+								religion_group = dwarf_gods_group
+								trait = sympathy_dwarf_gods_group
 							}
 						}
 					}
 					AND = {
-						religion_group = jewish_group
+						religion_group = oriental_gods_group
 						ROOT = {
 							NOR = {
-								religion_group = jewish_group
-								trait = sympathy_judaism
-							}
-						}
-					}
-					AND = {
-						religion_group = indian_group
-						ROOT = {
-							NOR = {
-								religion_group = indian_group
-								trait = sympathy_indian
+								religion_group = oriental_gods_group
+								trait = sympathy_oriental_gods_group
 							}
 						}
 					}
@@ -487,56 +474,47 @@ character_event = { # Sympathy for founder group
 					is_alive = no
 					OR = {
 						AND = {
-							religion_group = pagan_group
+							religion_group = old_world_group
 							ROOT = {
 								NOR = {
-									religion_group = pagan_group
-									trait = sympathy_pagans
+									religion_group = old_world_group
+									trait = sympathy_old_world_group
 								}
 							}
 						}
 						AND = {
-							religion_group = christian
+							religion_group = ormazd_gods_group
 							ROOT = {
 								NOR = {
-									religion_group = christian
-									trait = sympathy_christendom
+									religion_group = ormazd_gods_group
+									trait = sympathy_ormazd_gods_group
 								}
 							}
 						}
 						AND = {
-							religion_group = muslim
+							religion_group = cadai_group
 							ROOT = {
 								NOR = {
-									religion_group = muslim
-									trait = sympathy_islam
+									religion_group = cadai_group
+									trait = sympathy_cadai_group
 								}
 							}
 						}
 						AND = {
-							religion_group = zoroastrian_group
-							ROOT = {
-								NOR = {
-									religion_group = zoroastrian_group
-									trait = sympathy_zoroastrianism
-								}
-							}
-						}
-						AND = {
-							religion_group = jewish_group
+							religion_group = dwarf_gods_group
 							ROOT = {
 								NOR = {
 									religion_group = jewish_group
-									trait = sympathy_judaism
+									trait = sympathy_dwarf_gods_group
 								}
 							}
 						}
 						AND = {
-							religion_group = indian_group
+							religion_group = oriental_gods_group
 							ROOT = {
 								NOR = {
-									religion_group = indian_group
-									trait = sympathy_indian
+									religion_group = oriental_gods_group
+									trait = sympathy_oriental_gods_group
 								}
 							}
 						}
@@ -551,7 +529,7 @@ character_event = { # Sympathy for founder group
 
 	option = {
 		name = EVTOPTC_HF_110
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 
 		trigger = {
 			OR = {
@@ -561,12 +539,6 @@ character_event = { # Sympathy for founder group
 			}
 			NOT = {
 				trait = zealous
-			}
-			event_target:target_bloodline_founder = {
-				NOR = {
-					religion = pagan
-					religion = hellenic_pagan
-				}
 			}
 		}
 
@@ -585,50 +557,42 @@ character_event = { # Sympathy for founder group
 		if = {
 			limit = {
 				event_target:target_bloodline_founder = {
-					religion_group = pagan_group
+					religion_group = old_world_group
 				}
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_old_world_group
 		}
 		else_if = {
 			limit = {
 				event_target:target_bloodline_founder = {
-					religion_group = christian
+					religion_group = ormazd_gods_group
 				}
 			}
-			add_trait = sympathy_christendom
+			add_trait = sympathy_ormazd_gods_group
 		}
 		else_if = {
 			limit = {
 				event_target:target_bloodline_founder = {
-					religion_group = muslim
+					religion_group = dwarf_gods_group
 				}
 			}
-			add_trait = sympathy_islam
+			add_trait = sympathy_dwarf_gods_group
 		}
 		else_if = {
 			limit = {
 				event_target:target_bloodline_founder = {
-					religion_group = jewish_group
+					religion_group = cadai_group
 				}
 			}
-			add_trait = sympathy_judaism
+			add_trait = sympathy_cadai_group
 		}
 		else_if = {
 			limit = {
 				event_target:target_bloodline_founder = {
-					religion_group = zoroastrian_group
+					religion_group = oriental_gods_group
 				}
 			}
-			add_trait = sympathy_zoroastrianism
-		}
-		else_if = {
-			limit = {
-				event_target:target_bloodline_founder = {
-					religion_group = indian_group
-				}
-			}
-			add_trait = sympathy_indian
+			add_trait = sympathy_oriental_gods_group
 		}
 
 		ai_chance = {
@@ -671,7 +635,7 @@ character_event = { # Chance of gaining a personality trait of Founder
 					has_bloodline_flag = saintly_bloodline
 				}
 				ROOT = {
-					religion_group = christian
+					religion_group = old_world_group
 				}
 			}
 			founder = {
@@ -695,7 +659,7 @@ character_event = { # Chance of gaining a personality trait of Founder
 						has_bloodline_flag = saintly_bloodline
 					}
 					ROOT = {
-						religion_group = christian
+						religion_group = old_world_group
 					}
 				}
 				founder = {
@@ -716,7 +680,7 @@ character_event = { # Chance of gaining a personality trait of Founder
 
 	option = {
 		name = EVTOPTC_HF_120
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		trigger = {
 			OR = {
 				trait = lunatic_1
@@ -1018,29 +982,38 @@ character_event = {
 					is_female = yes
 					is_alternate_start = no
 					independent = yes
-					lower_tier_than = EMPEROR
-					religion_group = pagan_group
-					NOT = { realm_size = 120 }
+					lower_tier_than = KING
+					NOT = { realm_size = 80 }
 					NOR = {
-						religion = hellenic_pagan
-						religion = hellenic_pagan_reformed
-						culture = roman
+						culture = myken
+						culture = lucian
 					}
 					OR = {
-						culture_group = south_slavic
-						culture = dalmatian
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
 					}
 					capital_scope = {
-						OR = {
-							de_jure_liege = d_dioclea
-							de_jure_liege = d_rashka
-						}
+						region = world_old_world_border_princes
 					}
 				}
 				FROM = {
+					NOR = {
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
+					}
 					OR = {
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
+						has_landed_title = k_luccini
+						has_landed_title = k_aegos
+						has_landed_title = e_tilea
+						has_landed_title = e_the_empire
 					}
 				}
 			}
@@ -1050,28 +1023,37 @@ character_event = {
 					is_alternate_start = no
 					independent = yes
 					lower_tier_than = EMPEROR
-					religion_group = pagan_group
-					NOT = { realm_size = 120 }
+					NOT = { realm_size = 80 }
 					NOR = {
-						religion = hellenic_pagan
-						religion = hellenic_pagan_reformed
-						culture = roman
+						culture = myken
+						culture = lucian
 					}
 					OR = {
-						culture_group = south_slavic
-						culture = dalmatian
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
 					}
 					capital_scope = {
-						OR = {
-							de_jure_liege = d_dioclea
-							de_jure_liege = d_rashka
-						}
+						region = world_old_world_border_princes
 					}
 				}
 				ROOT = {
+					NOR = {
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
+					}
 					OR = {
-						has_landed_title = e_byzantium
-						has_landed_title = e_roman_empire
+						has_landed_title = k_luccini
+						has_landed_title = k_aegos
+						has_landed_title = e_tilea
+						has_landed_title = e_the_empire
 					}
 				}
 			}
@@ -1086,23 +1068,22 @@ character_event = {
 					is_female = yes
 					is_alternate_start = no
 					independent = yes
-					lower_tier_than = EMPEROR
-					religion_group = pagan_group
-					NOT = { realm_size = 120 }
+					lower_tier_than = KING
+					NOT = { realm_size = 80 }
 					NOR = {
-						religion = hellenic_pagan
-						religion = hellenic_pagan_reformed
-						culture = roman
+						culture = myken
+						culture = lucian
 					}
 					OR = {
-						culture_group = south_slavic
-						culture_group = latin
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
 					}
 					capital_scope = {
-						OR = {
-							de_jure_liege = d_dioclea
-							de_jure_liege = d_rashka
-						}
+						region = world_old_world_border_princes
 					}
 				}
 			}
@@ -1121,23 +1102,22 @@ character_event = {
 					is_female = yes
 					is_alternate_start = no
 					independent = yes
-					lower_tier_than = EMPEROR
-					religion_group = pagan_group
-					NOT = { realm_size = 120 }
+					lower_tier_than = KING
+					NOT = { realm_size = 80 }
 					NOR = {
-						religion = hellenic_pagan
-						religion = hellenic_pagan_reformed
-						culture = roman
+						culture = myken
+						culture = lucian
 					}
 					OR = {
-						culture_group = south_slavic
-						culture_group = latin
+						culture_group = sartosan_group
+						culture = marcheur
+						culture = comarcano
+						culture = asur_colonial
+						culture = oltremari
+						culture = neueslander
 					}
 					capital_scope = {
-						OR = {
-							de_jure_liege = d_dioclea
-							de_jure_liege = d_rashka
-						}
+						region = world_old_world_border_princes
 					}
 				}
 			}
@@ -1224,8 +1204,8 @@ narrative_event = {
 	desc = {
 		trigger = {
 			OR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
+				has_landed_title = k_luccini
+				has_landed_title = k_myken
 			}
 		}
 		text = EVTDESCAHF24012
@@ -1233,8 +1213,8 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
+				has_landed_title = k_luccini
+				has_landed_title = k_myken
 			}
 		}
 		text = EVTDESCBHF24012
@@ -1253,8 +1233,8 @@ narrative_event = {
 		name = EVTOPTAHF24012
 		trigger = {
 			OR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
+				has_landed_title = k_luccini
+				has_landed_title = k_myken
 			}
 		}
 		ai_chance = {
@@ -1265,30 +1245,8 @@ narrative_event = {
 		name = EVTOPTBHF24012
 		trigger = {
 			NOR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
-			}
-			OR = {
-				culture_group = byzantine
-				culture = roman
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-	option = {
-		name = EVTOPTCHF24012
-		trigger = {
-			NOR = {
-				has_landed_title = e_byzantium
-				has_landed_title = e_roman_empire
-				culture_group = byzantine
-				culture = roman
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
+				has_landed_title = k_luccini
+				has_landed_title = k_myken
 			}
 		}
 		ai_chance = {
@@ -2596,13 +2554,13 @@ narrative_event = {
 	desc = EVTDESCHF24032
 	picture = {
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 		}
 		picture = GFX_evt_childrens_crusade
 	}
 	picture = {
 		trigger = {
-			NOT = { religion_group = christian }
+			NOT = { religion_group = old_world_group }
 		}
 		picture = GFX_evt_child_sword
 	}
@@ -2699,7 +2657,7 @@ character_event = {
 	option = {
 		name = EVTOPTAHF24033
 		trigger = {
-			religion_group = christian
+			religion_group = old_world_group
 			is_evil_trigger = no
 			OR = {
 				is_female = no
@@ -3030,7 +2988,7 @@ narrative_event = {
 				limit = { this_has_super_cool_nickname_trigger = no }
 				random_list = {
 					10 = {
-						trigger = { religion_group = christian }
+						trigger = { religion = grail }
 						give_nickname = nick_the_angel
 					}
 					10 = {
@@ -3359,14 +3317,14 @@ narrative_event = {
 		if = {
 			limit = {
 				this_has_super_cool_nickname_trigger = no
-				religion_group = christian
+				religion_group = old_world_group
 			}
 			ROOT = { give_nickname = nick_the_carpenter }
 		}
 		if = {
 			limit = {
 				this_has_super_cool_nickname_trigger = no
-				NOT = { religion_group = christian }
+				NOT = { religion_group = old_world_group }
 			}
 			ROOT = { give_nickname = nick_the_grandiose }
 		}
@@ -5039,7 +4997,7 @@ narrative_event = {
 			ROOT = { give_nickname = nick_the_theologian }
 		}
 		if = {
-			limit = { religion_group = christian }
+			limit = { religion_group = old_world_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5055,7 +5013,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = muslim }
+			limit = { religion_group = ormazd_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5071,7 +5029,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = jewish_group }
+			limit = { religion_group = dwarf_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5087,7 +5045,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = pagan_group }
+			limit = { religion_group = chaos_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5103,7 +5061,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = zoroastrian_group }
+			limit = { religion_group = cadai_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5119,7 +5077,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = indian_group }
+			limit = { religion_group = oriental_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5716,7 +5674,7 @@ narrative_event = {
 			ROOT = { give_nickname = nick_the_zealot }
 		}
 		if = {
-			limit = { religion_group = christian }
+			limit = { religion_group = old_world_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5732,7 +5690,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = muslim }
+			limit = { religion_group = ormazd_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5748,7 +5706,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = jewish_group }
+			limit = { religion_group = dwarf_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5764,7 +5722,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = pagan_group }
+			limit = { religion_group = chaos_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5780,7 +5738,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = zoroastrian_group }
+			limit = { religion_group = cadai_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -5796,7 +5754,7 @@ narrative_event = {
 			}
 		}
 		else_if = {
-			limit = { religion_group = indian_group }
+			limit = { culture_group = oriental_gods_group }
 			if = {
 				limit = { is_female = no }
 				create_bloodline = {
@@ -7571,7 +7529,7 @@ character_event = {
 				NOT = {
 					character = ROOT
 				}
-				religion_group = christian
+				religion_group = old_world_group
 			}
 		}
 	}
@@ -7670,10 +7628,6 @@ character_event = { # Knight character arrives
 								OR = {
 									male_can_hold_minor_title_trigger = yes
 									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
 								}
 								is_adult = yes
 							}
@@ -7808,10 +7762,6 @@ character_event = { # Knight character arrives
 								OR = {
 									male_can_hold_minor_title_trigger = yes
 									female_can_hold_minor_commander_title_trigger = yes
-								}
-								OR = {
-									NOT = { religion = hindu }
-									trait = kshatriya
 								}
 								is_adult = yes
 							}
@@ -11676,1438 +11626,6 @@ character_event = {
 		}
 	}
 }
-
-###########################################################
-
-# Forging Claim on Alexander the Great's Bloodline.
-
-#Opportunity arises.
-narrative_event = {
-	id = HF.24200
-	title = EVTTITLEHF24200
-	desc = EVTDESCAHF24200
-	picture = GFX_evt_hippodrome_byzantine
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	ai = no
-	capable_only = yes
-	prisoner = no
-
-	trigger = {
-		real_tier = EMPEROR
-		prestige = 15000
-		is_adult = yes
-		ai = no
-		is_alternate_start = no
-		NOT = { trait = content }
-		NOT = { has_character_flag = flag_chance_for_alexander_blood } #Opportunity only once per character.
-		NOT = { has_global_flag = flag_alexander_blood_restored } #Bloodline unlocked only once per playthrough.
-		capital_scope = {
-			OR = {
-				region = world_europe_west
-				region = world_europe_north
-				region = world_europe_south
-				region = world_europe_east
-				region = world_asia_minor
-				region = world_middle_east_jerusalem
-				region = world_middle_east_arabia
-			}
-		}
-	}
-
-	weight_multiplier = {
-		days = 1
-
-		modifier = {
-			factor = 0.35
-			capital_scope = {
-				NOR = {
-					region = world_europe_south
-					region = world_asia_minor
-				}
-			}
-		}
-		modifier = {
-			factor = 0.35
-			NOR = {
-				culture_group = latin
-				culture_group = byzantine
-				culture_group = arabic
-			}
-		}
-		modifier = {
-			factor = 0.35
-			NOR = {
-				religion_group = christian
-				religion_group = muslim
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-		modifier = {
-			factor = 3
-			trait = ambitious
-		}
-		modifier = {
-			factor = 2
-			religion_group = christian
-		}
-		modifier = {
-			factor = 3
-			religion = hellenic_pagan_reformed
-		}
-		modifier = {
-			factor = 2
-			religion = hellenic_pagan
-		}
-		modifier = {
-			factor = 3
-			culture = greek
-		}
-		modifier = {
-			factor = 1.5
-			culture_group = latin
-		}
-		modifier = {
-			factor = 0.5
-			age = 50
-		}
-		modifier = {
-			factor = 2
-			trait = brave
-		}
-		modifier = {
-			factor = 2
-			has_education_martial_trigger = yes
-		}
-		modifier = {
-			factor = 2
-			has_lifestyle_martial_trigger = yes
-		}
-		modifier = {
-			factor = 2
-			capital_scope = { region = world_asia_minor }
-		}
-		modifier = {
-			factor = 2
-			trait = scholar
-		}
-		modifier = {
-			factor = 2
-			has_ambition = obj_forge_bloodline
-		}
-		modifier = {
-			factor = 2
-			learning = 8
-		}
-		modifier = {
-			factor = 2
-			learning = 10
-		}
-		modifier = {
-			factor = 2
-			learning = 12
-		}
-		modifier = {
-			factor = 2
-			learning = 14
-		}
-		modifier = {
-			factor = 2
-			learning = 16
-		}
-		modifier = {
-			factor = 2
-			learning = 18
-		}
-		modifier = {
-			factor = 2
-			learning = 20
-		}
-		modifier = {
-			factor = 2
-			learning = 22
-		}
-		modifier = {
-			factor = 2
-			learning = 24
-		}
-		modifier = {
-			factor = 2
-			learning = 26
-		}
-		modifier = {
-			factor = 2
-			learning = 28
-		}
-		modifier = {
-			factor = 2
-			learning = 30
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 22000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 24000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 26000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 28000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 30000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 40000
-		}
-		modifier = {
-			factor = 1.5
-			prestige = 50000
-		}
-		modifier = {
-			factor = 1.5
-			piety = 1000
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-		modifier = {
-			factor = 1.5
-			piety = 1500
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-		modifier = {
-			factor = 1.75
-			piety = 2000
-			OR = {
-				religion = hellenic_pagan
-				religion = hellenic_pagan_reformed
-			}
-		}
-		modifier = {
-			factor = 1.75
-			check_variable = { which = bloodline_won_wars value = 5 }
-		}
-		modifier = {
-			factor = 1.75
-			check_variable = { which = bloodline_won_wars value = 10 }
-		}
-	}
-
-	immediate = {
-		set_character_flag = flag_chance_for_alexander_blood
-	}
-
-	option = { #Pursue.
-		name = EVTOPTAHF24200
-		custom_tooltip = { text = TT_EVTOPTAHF24200 }
-		hidden_tooltip = { narrative_event = { id = HF.24201 days = 25 random = 25 } }
-	}
-	option = { #Abandon.
-		name = EVTOPTBHF24200
-	}
-}
-
-
-#The Tomb of Alexander.
-narrative_event = {
-	id = HF.24201
-	title = EVTTITLEHF24201
-	desc = {
-		trigger = {
-			capital_scope = {
-				OR = {
-					region = world_asia_minor
-					region = world_middle_east_jerusalem
-					region = world_middle_east_arabia
-				}
-			}
-		}
-		text = EVTDESCAHF24201
-	}
-	desc = {
-		trigger = {
-			capital_scope = {
-				NOR = {
-					region = world_asia_minor
-					region = world_middle_east_jerusalem
-					region = world_middle_east_arabia
-				}
-			}
-		}
-		text = EVTDESCBHF24201
-	}
-	picture = GFX_evt_death
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-	}
-
-	#Search for the Tomb. (Intrigue-based)
-	#Forsake search, hire scholars instead. (Learning-based)
-
-	option = { #Intrigue search.
-		name = EVTOPTAHF24201
-		custom_tooltip = { text = TT_EVTOPTAHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24202 } } #Decide budget.
-	}
-	option = { #Learning search.
-		name = EVTOPTBHF24201
-		custom_tooltip = { text = TT_EVTOPTBHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24203 } } #Decide budget.
-	}
-	option = { #Abandon search.
-		name = EVTOPTCHF24201
-		custom_tooltip = { text = TT_EVTOPTCHF24201 }
-		if = {
-			limit = {
-				trait = ambitious
-			}
-			remove_trait = ambitious
-			if = {
-				limit = {
-					NOT = { trait = depressed }
-				}
-				add_trait = depressed
-			}
-		}
-		prestige = -3000
-	}
-}
-
-#Decide budget when searching Alexander's tomb.
-narrative_event = {
-	id = HF.24202
-	title = EVTTITLEHF24201
-	desc  = EVTDESCAHF24202
-	picture = GFX_evt_death
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-	}
-
-	option = {
-		name = EVTOPTAHF24202
-		custom_tooltip = { text = TT_EVTOPTAHF24202 }
-		scaled_wealth = { value = -4 min = -1000 max = -2000 }
-		set_character_flag = flag_alex_tomb_search_high
-	}
-	option = {
-		name = EVTOPTBHF24202
-		custom_tooltip = { text = TT_EVTOPTBHF24202 }
-		scaled_wealth = { value = -3 min = -750 max = -1500 }
-		set_character_flag = flag_alex_tomb_search_medium
-	}
-	option = {
-		name = EVTOPTCHF24202
-		custom_tooltip = { text = TT_EVTOPTCHF24202 }
-		scaled_wealth = { value = -2 min = -500 max = -1000 }
-		set_character_flag = flag_alex_tomb_search_low
-	}
-	option = {
-		name = EVTOPTDHF24202
-		custom_tooltip = { text = TT_EVTOPTDHF24202 }
-		scaled_wealth = { value = -1 min = -250 max = -500 }
-		set_character_flag = flag_alex_tomb_search_cheap
-	}
-	after = {
-		hidden_tooltip = {
-			random_list = {
-				#Success. - Tomb "found"
-				#Failure. - Retry or change approach.
-				40 = { #Success
-					modifier = {
-						factor = 0.1
-						has_character_flag = flag_alex_tomb_search_cheap
-					}
-					modifier = {
-						factor = 0.35
-						has_character_flag = flag_alex_tomb_search_low
-					}
-					modifier = {
-						factor = 0.75
-						has_character_flag = flag_alex_tomb_search_medium
-					}
-					modifier = {
-						factor = 1.25
-						trait = schemer
-					}
-					modifier = {
-						factor = 1.25
-						intrigue = 10
-					}
-					modifier = {
-						factor = 1.25
-						intrigue = 12
-					}
-					modifier = {
-						factor = 1.25
-						intrigue = 14
-					}
-					modifier = {
-						factor = 1.25
-						intrigue = 16
-					}
-					modifier = {
-						factor = 1.25
-						intrigue = 18
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 20
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 22
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 24
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 26
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 28
-					}
-					modifier = {
-						factor = 1.5
-						intrigue = 30
-					}
-					modifier = {
-						factor = 1.75
-						trait = genius
-					}
-					modifier = {
-						factor = 1.5
-						trait = quick
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 8
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 10
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 12
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 14
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 16
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 18
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spymaster
-							intrigue = 20
-						}
-					}
-					modifier = {
-						factor = 0.5
-						capital_scope = {
-							NOR = {
-								region = world_asia_minor
-								region = world_middle_east_jerusalem
-								region = world_middle_east_arabia
-							}
-						}
-					}
-					modifier = {
-						factor = 0.35
-						NOT = {
-							any_realm_province = {
-								OR = {
-									region = world_asia_minor
-									region = world_middle_east_jerusalem
-									region = world_middle_east_arabia
-								}
-							}
-						}
-					}
-					narrative_event = { id = HF.24204 days = 150 random = 250 }
-				}
-				60 = { #Failure
-
-					narrative_event = { id = HF.24205 days = 150 random = 250 }
-				}
-			}
-		}
-	}
-}
-
-#Decide for budget when searching for scholars to forge claim.
-narrative_event = {
-	id = HF.24203
-	title = EVTTITLEHF24203
-	desc = EVTDESCAHF24203
-	picture = GFX_evt_library
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-	}
-
-	option = {
-		name = EVTOPTAHF24203
-		custom_tooltip = { text = TT_EVTOPTAHF24202 }
-		scaled_wealth = { value = -4 min = -1000 max = -2000 }
-		set_character_flag = flag_alex_scholars_search_high
-	}
-	option = {
-		name = EVTOPTBHF24203
-		custom_tooltip = { text = TT_EVTOPTBHF24202 }
-		scaled_wealth = { value = -3 min = -750 max = -1500 }
-		set_character_flag = flag_alex_scholars_search_medium
-	}
-	option = {
-		name = EVTOPTCHF24203
-		custom_tooltip = { text = TT_EVTOPTCHF24202 }
-		scaled_wealth = { value = -2 min = -500 max = -1000 }
-		set_character_flag = flag_alex_scholars_search_low
-	}
-	option = {
-		name = EVTOPTDHF24203
-		custom_tooltip = { text = TT_EVTOPTDHF24202 }
-		scaled_wealth = { value = -1 min = -250 max = -500 }
-		set_character_flag = flag_alex_scholars_search_cheap
-	}
-	after = {
-		hidden_tooltip = {
-			random_list = {
-				#Success. - Claim fabricated.
-				#Failure. - Retry or change approach.
-				40 = { #Success
-					modifier = {
-						factor = 0.1
-						has_character_flag = flag_alex_scholars_search_cheap
-					}
-					modifier = {
-						factor = 0.35
-						has_character_flag = flag_alex_scholars_search_low
-					}
-					modifier = {
-						factor = 0.75
-						has_character_flag = flag_alex_scholars_search_medium
-					}
-					modifier = {
-						factor = 1.25
-						trait = scholar
-					}
-					modifier = {
-						factor = 1.25
-						learning = 10
-					}
-					modifier = {
-						factor = 1.25
-						learning = 12
-					}
-					modifier = {
-						factor = 1.25
-						learning = 14
-					}
-					modifier = {
-						factor = 1.25
-						learning = 16
-					}
-					modifier = {
-						factor = 1.25
-						learning = 18
-					}
-					modifier = {
-						factor = 1.5
-						learning = 20
-					}
-					modifier = {
-						factor = 1.5
-						learning = 22
-					}
-					modifier = {
-						factor = 1.5
-						learning = 24
-					}
-					modifier = {
-						factor = 1.5
-						learning = 26
-					}
-					modifier = {
-						factor = 1.5
-						learning = 28
-					}
-					modifier = {
-						factor = 1.5
-						learning = 30
-					}
-					modifier = {
-						factor = 1.75
-						trait = genius
-					}
-					modifier = {
-						factor = 1.5
-						trait = quick
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 8
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 10
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 12
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 14
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 16
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 18
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_spiritual
-							learning = 20
-						}
-					}
-					modifier = {
-						factor = 1.5
-						culture = greek
-					}
-					narrative_event = { id = HF.24206 days = 150 random = 250 }
-				}
-				60 = { #Failure
-
-					narrative_event = { id = HF.24207 days = 150 random = 250 }
-				}
-			}
-		}
-	}
-}
-
-#The search for Alexander's Tomb was successful. - Establish claim.
-narrative_event = {
-	id = HF.24204
-	title = EVTTITLEHF24201
-	desc = EVTDESCAHF24204
-	picture = GFX_evt_death
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-	}
-
-	option = {
-		name = EVTOPTAHF24204
-		custom_tooltip = { text = TT_EVTOPTAHF24202 }
-		prestige = -10000
-		set_character_flag = flag_alex_prestige_search_high
-	}
-	option = {
-		name = EVTOPTBHF24204
-		custom_tooltip = { text = TT_EVTOPTBHF24202 }
-		prestige = -7500
-		set_character_flag = flag_alex_prestige_search_medium
-	}
-	option = {
-		name = EVTOPTCHF24204
-		custom_tooltip = { text = TT_EVTOPTCHF24202 }
-		prestige = -5000
-		set_character_flag = flag_alex_prestige_search_low
-	}
-	option = {
-		name = EVTOPTDHF24204
-		custom_tooltip = { text = TT_EVTOPTDHF24202 }
-		prestige = -2500
-		set_character_flag = flag_alex_prestige_search_cheap
-	}
-	after = {
-		hidden_tooltip = {
-			random_list = {
-				#Success. - Bloodline created.
-				#Failure. - Retry or change approach.
-				60 = { #Success
-					modifier = {
-						factor = 0.1
-						has_character_flag = flag_alex_prestige_search_cheap
-					}
-					modifier = {
-						factor = 0.35
-						has_character_flag = flag_alex_prestige_search_low
-					}
-					modifier = {
-						factor = 0.75
-						has_character_flag = flag_alex_prestige_search_medium
-					}
-					modifier = {
-						factor = 1.25
-						trait = socializer
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 10
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 12
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 14
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 16
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 18
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 20
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 22
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 24
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 26
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 28
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 30
-					}
-					modifier = {
-						factor = 1.75
-						trait = genius
-					}
-					modifier = {
-						factor = 1.5
-						trait = quick
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 8
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 10
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 12
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 14
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 16
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 18
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 20
-						}
-					}
-					narrative_event = { id = HF.24208 days = 350 random = 450 }
-				}
-				40 = { #Failure
-
-					narrative_event = { id = HF.24209 days = 350 random = 450 }
-				}
-			}
-		}
-	}
-}
-
-#The search for Alexander's Tomb was unsuccessful. - Try again, change approach, or abandon quest.
-narrative_event = {
-	id = HF.24205
-	title = EVTTITLEHF24201
-	desc = EVTDESCAHF24205
-	picture = GFX_evt_death
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-	}
-
-	option = { #Intrigue search.
-		name = EVTOPTAHF24205
-		custom_tooltip = { text = TT_EVTOPTAHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24202 } } #Decide budget.
-	}
-	option = { #Learning search.
-		name = EVTOPTBHF24205
-		custom_tooltip = { text = TT_EVTOPTBHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24203 } } #Decide budget.
-	}
-	option = { #Abandon search.
-		name = EVTOPTCHF24205
-		custom_tooltip = { text = TT_EVTOPTCHF24201 }
-		if = {
-			limit = {
-				trait = ambitious
-			}
-			remove_trait = ambitious
-			if = {
-				limit = {
-					NOT = { trait = depressed }
-				}
-				add_trait = depressed
-			}
-		}
-		prestige = -3000
-	}
-}
-
-#The scholars have established a lineage. - Establish claim.
-narrative_event = {
-	id = HF.24206
-	title = EVTTITLEHF24203
-	desc = EVTDESCAHF24206
-	picture = GFX_evt_library
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-	}
-
-	option = {
-		name = EVTOPTAHF24204
-		custom_tooltip = { text = TT_EVTOPTAHF24202 }
-		prestige = -10000
-		set_character_flag = flag_alex_prestige_search_high
-	}
-	option = {
-		name = EVTOPTBHF24204
-		custom_tooltip = { text = TT_EVTOPTBHF24202 }
-		prestige = -7500
-		set_character_flag = flag_alex_prestige_search_medium
-	}
-	option = {
-		name = EVTOPTCHF24204
-		custom_tooltip = { text = TT_EVTOPTCHF24202 }
-		prestige = -5000
-		set_character_flag = flag_alex_prestige_search_low
-	}
-	option = {
-		name = EVTOPTDHF24204
-		custom_tooltip = { text = TT_EVTOPTDHF24202 }
-		prestige = -2500
-		set_character_flag = flag_alex_prestige_search_cheap
-	}
-	after = {
-		hidden_tooltip = {
-			random_list = { #Basic lower chance if tomb was not found.
-				#Success. - Bloodline created.
-				#Failure. - Retry or change approach.
-				40 = { #Success
-					modifier = {
-						factor = 0.1
-						has_character_flag = flag_alex_prestige_search_cheap
-					}
-					modifier = {
-						factor = 0.35
-						has_character_flag = flag_alex_prestige_search_low
-					}
-					modifier = {
-						factor = 0.75
-						has_character_flag = flag_alex_prestige_search_medium
-					}
-					modifier = {
-						factor = 1.25
-						trait = socializer
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 10
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 12
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 14
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 16
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 18
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 20
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 22
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 24
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 26
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 28
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 30
-					}
-					modifier = {
-						factor = 1.75
-						trait = genius
-					}
-					modifier = {
-						factor = 1.5
-						trait = quick
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 8
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 10
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 12
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 14
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 16
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 18
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 20
-						}
-					}
-					narrative_event = { id = HF.24208 days = 350 random = 450 }
-				}
-				60 = { #Failure
-
-					narrative_event = { id = HF.24209 days = 350 random = 450 }
-				}
-			}
-		}
-	}
-}
-
-#The scholars' search was unsuccessful. - Try again, change approach, or abandon quest.
-narrative_event = {
-	id = HF.24207
-	title = EVTTITLEHF24203
-	desc = EVTDESCAHF24207
-	picture = GFX_evt_death
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-	}
-
-	option = { #Learning search.
-		name = EVTOPTBHF24207
-		custom_tooltip = { text = TT_EVTOPTBHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24203 } } #Decide budget.
-	}
-	option = { #Intrigue search.
-		name = EVTOPTAHF24207
-		custom_tooltip = { text = TT_EVTOPTAHF24201 }
-		hidden_tooltip = { narrative_event = { id = HF.24202 } } #Decide budget.
-	}
-	option = { #Abandon search.
-		name = EVTOPTCHF24207
-		custom_tooltip = { text = TT_EVTOPTCHF24201 }
-		if = {
-			limit = {
-				trait = ambitious
-			}
-			remove_trait = ambitious
-			if = {
-				limit = {
-					NOT = { trait = depressed }
-				}
-				add_trait = depressed
-			}
-		}
-		prestige = -3000
-	}
-}
-
-#Alexander Bloodline gained.
-narrative_event = {
-	id = HF.24208
-	title = EVTTITLEHF24208
-	desc = EVTDESCAHF24208
-	picture = GFX_evt_hippodrome_byzantine
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-		set_global_flag = flag_alexander_blood_restored
-	}
-
-	option = {
-		name = EVTOPTAHF24208
-		if = {
-			limit = { has_nickname = no }
-			ROOT = { give_nickname = nick_the_great }
-		}
-		if = {
-			limit = { is_female = no }
-			create_bloodline = {
-				type = alexander_bloodline_01
-			}
-		}
-		if = {
-			limit = { is_female = yes }
-			create_bloodline = {
-				type = alexander_bloodline_01
-				inheritance = matrilineal
-			}
-		}
-		any_playable_ruler = {
-			limit = {
-				ai = no
-				is_within_diplo_range = ROOT
-			}
-			narrative_event = { id = HF.24210 }
-		}
-	}
-}
-
-#Failed to establish claim. Try again, or abandon quest.
-narrative_event = {
-	id = HF.24209
-	title = EVTTITLEHF24208
-	desc = EVTDESCAHF24209
-	picture = GFX_evt_library
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	immediate = {
-		clr_character_flag = flag_alex_tomb_search_high
-		clr_character_flag = flag_alex_tomb_search_medium
-		clr_character_flag = flag_alex_tomb_search_low
-		clr_character_flag = flag_alex_tomb_search_cheap
-		clr_character_flag = flag_alex_scholars_search_high
-		clr_character_flag = flag_alex_scholars_search_medium
-		clr_character_flag = flag_alex_scholars_search_low
-		clr_character_flag = flag_alex_scholars_search_cheap
-		clr_character_flag = flag_alex_prestige_search_high
-		clr_character_flag = flag_alex_prestige_search_medium
-		clr_character_flag = flag_alex_prestige_search_low
-		clr_character_flag = flag_alex_prestige_search_cheap
-	}
-
-	option = {
-		name = EVTOPTAHF24209
-		custom_tooltip = { text = TT_EVTOPTAHF24202 }
-		prestige = -10000
-		set_character_flag = flag_alex_prestige_search_high
-	}
-	option = {
-		name = EVTOPTBHF24209
-		custom_tooltip = { text = TT_EVTOPTBHF24202 }
-		prestige = -7500
-		set_character_flag = flag_alex_prestige_search_medium
-	}
-	option = {
-		name = EVTOPTCHF24209
-		custom_tooltip = { text = TT_EVTOPTCHF24202 }
-		prestige = -5000
-		set_character_flag = flag_alex_prestige_search_low
-	}
-	option = { #Abandon search.
-		name = EVTOPTDHF24209
-		custom_tooltip = { text = TT_EVTOPTCHF24201 }
-		if = {
-			limit = {
-				trait = ambitious
-			}
-			remove_trait = ambitious
-			if = {
-				limit = {
-					NOT = { trait = depressed }
-				}
-				add_trait = depressed
-			}
-		}
-		prestige = -3000
-		break = yes
-	}
-	after = {
-		hidden_tooltip = {
-			random_list = { #Basic lower chance if tomb was not found.
-				#Success. - Bloodline created.
-				#Failure. - Retry or change approach.
-				40 = { #Success
-					modifier = {
-						factor = 0.1
-						has_character_flag = flag_alex_prestige_search_cheap
-					}
-					modifier = {
-						factor = 0.35
-						has_character_flag = flag_alex_prestige_search_low
-					}
-					modifier = {
-						factor = 0.75
-						has_character_flag = flag_alex_prestige_search_medium
-					}
-					modifier = {
-						factor = 1.25
-						trait = socializer
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 10
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 12
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 14
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 16
-					}
-					modifier = {
-						factor = 1.25
-						diplomacy = 18
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 20
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 22
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 24
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 26
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 28
-					}
-					modifier = {
-						factor = 1.5
-						diplomacy = 30
-					}
-					modifier = {
-						factor = 1.75
-						trait = genius
-					}
-					modifier = {
-						factor = 1.5
-						trait = quick
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 8
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 10
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 12
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 14
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 16
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 18
-						}
-					}
-					modifier = {
-						factor = 1.5
-						any_courtier_or_vassal = {
-							has_job_title = job_chancellor
-							diplomacy = 20
-						}
-					}
-					narrative_event = { id = HF.24208 days = 350 random = 450 }
-				}
-				60 = { #Failure
-
-					narrative_event = { id = HF.24209 days = 350 random = 450 }
-				}
-			}
-		}
-	}
-}
-
-#Players notified of accomplishment.
-narrative_event = {
-	id = HF.24210
-	title = EVTTITLEHF24210
-	desc = EVTDESCAHF24210
-	picture = GFX_evt_hippodrome_byzantine
-	border = GFX_event_narrative_frame_war
-
-	is_triggered_only = yes
-
-	option = {
-		name = {
-			text = EVTOPTAHF24210
-			trigger = {
-				NOT = { dynasty = FROM }
-			}
-		}
-		name = {
-			text = EVTOPTBHF24210
-			trigger = {
-				dynasty = FROM
-			}
-		}
-	}
-}
-
 ###########################################################
 
 # Forging Claim on Ashoka's Bloodline.
@@ -13144,18 +11662,15 @@ narrative_event = {
 	prisoner = no
 
 	trigger = {
-		real_tier = EMPEROR
-		prestige = 15000
+		real_tier = KING
+		prestige = 8000
 		is_adult = yes
 		ai = no
 		is_alternate_start = no
-		religion_group = indian_group
+		culture_group = amazon_group
 		NOT = { trait = content }
 		NOT = { has_character_flag = flag_chance_for_ashoka_blood } #Opportunity only once per character.
 		NOT = { has_global_flag = flag_ashoka_blood_restored } #Bloodline unlocked only once per playthrough.
-		capital_scope = {
-			region = world_india
-		}
 	}
 
 	weight_multiplier = {
@@ -13174,10 +11689,6 @@ narrative_event = {
 		modifier = {
 			factor = 3
 			trait = brave
-		}
-		modifier = {
-			factor = 3
-			religion = buddhist
 		}
 		modifier = {
 			factor = 0.5
@@ -13278,17 +11789,14 @@ narrative_event = {
 		modifier = {
 			factor = 1.5
 			piety = 1000
-			religion = buddhist
 		}
 		modifier = {
 			factor = 1.5
 			piety = 1500
-			religion = buddhist
 		}
 		modifier = {
 			factor = 1.75
 			piety = 2000
-			religion = buddhist
 		}
 		modifier = {
 			factor = 1.75
@@ -15148,8 +13656,8 @@ character_event = { # Mystic character arrives
 				limit = {
 					ROOT = {
 						OR = {
-							religion_group = christian
-							religion_group = muslim
+							religion_group = old_world_group
+							religion_group = ormazd_gods_group
 						}
 					}
 				}
@@ -15159,13 +13667,13 @@ character_event = { # Mystic character arrives
 			else = {
 				random_list = {
 					25 = {
-						religion = zun_pagan
+						religion = norscan_gods
 					}
 					25 = {
-						religion = baltic_pagan
+						religion = old_faith
 					}
 					25 = {
-						religion = slavic_pagan
+						religion = shadowmen
 					}
 					25 = {
 					}
@@ -15265,12 +13773,12 @@ character_event = {
 			is_adult = yes
 			is_alternate_start = no
 			lower_tier_than = EMPEROR
-			religion = catholic
+			religion = sigmarite
 			is_heretic = no
 			piety = 500
 			NOT = { realm_size = 120 }
 			religion_head = {
-				has_landed_title = k_papal_state #Under the real Pope, no imitations.
+				has_landed_title = k_cult_of_sigmar #Under the real Pope, no imitations.
 				NOT = { is_rival = PREV }
 				opinion = { who = PREV value = 25 } #At the very least in somewhat good terms...
 			}
