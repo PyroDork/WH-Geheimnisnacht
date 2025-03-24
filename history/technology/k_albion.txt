@@ -9,7 +9,7 @@ technology = {
 		d_boghuedha
 		d_dunogden
 		d_ochness
-		d_bale_isle
+		d_bale_isles
 	}
 	2000 = {
 		military = 1.25
