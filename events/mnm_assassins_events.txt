@@ -4430,6 +4430,12 @@ character_event = {
 					character_event = { id = MNM.6201 }
 				}
 			}
+			if={limit={event_target:grand_master={society_member_of=cult_of_pleasure}}
+				random_society_member = {
+					limit = { society_rank = { rank == 4 society = cult_of_pleasure } }
+					character_event = { id = MNM.6201 }
+				}
+			}
 		}
 		if = {
 			limit = { NOT = { is_within_diplo_range = event_target:assassins_target } }
@@ -4508,6 +4514,10 @@ society_quest_event = {
 	desc = {
 		trigger = { event_target:assassins_target = { has_character_flag = assassins_target_fallback } }
 		text = EVTDESC_MNM_6202_FALLBACK
+	}
+	desc = {
+		trigger = { is_in_society = cult_of_pleasure }
+		text = EVTDESC_MNM_6202_COP
 	}
 
 	is_triggered_only = yes

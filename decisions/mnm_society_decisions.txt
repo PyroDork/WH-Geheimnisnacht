@@ -1129,9 +1129,15 @@ society_decisions = {
 		ai_check_interval = 36
 
 		potential = {
-			has_dlc = "Mystics"
-			is_member_of_any_murderous_society=yes
-			NOT = {	has_character_flag = assassins_taking_drugs	}
+		
+			AND = {
+				has_dlc = "Mystics"
+				NOT = {	has_character_flag = assassins_taking_drugs	}
+				OR = {
+					is_member_of_any_murderous_society=yes
+					#society_member_of = cult_of_pleasure
+				}	
+			}
 		}
 
 		allow = {
@@ -1493,7 +1499,10 @@ targeted_decisions = {
 			is_playable = yes
 			is_adult = yes
 			prisoner = no
-			is_member_of_any_murderous_society=yes
+			OR = {
+				is_member_of_any_murderous_society=yes
+				society_member_of = cult_of_pleasure
+			}
 			society_rank == 4
 		}
 
@@ -1541,6 +1550,11 @@ targeted_decisions = {
 						has_society_currency_medium_trigger = yes}
 						NOT = { has_character_flag = eshin_marked_someone_for_death }
 					}
+					and={
+						from={society_member_of= cult_of_pleasure
+						has_society_currency_medium_trigger = yes}
+						NOT = { has_character_flag = cop_marked_someone_for_death }
+					}
 				}
 			}
 		}
@@ -1548,10 +1562,6 @@ targeted_decisions = {
 		effect = {
 			custom_tooltip = {
 				text = assassins_mark_for_death_effect_tooltip
-				FROM = {
-					set_character_flag = assassins_marked_someone_for_death
-					character_event = { id = MNM.6842 }
-				}
 				if={limit={from={society_member_of=the_assassins}}
 					set_character_flag = assassins_target_marked_for_death
 					FROM = {
@@ -1565,7 +1575,13 @@ targeted_decisions = {
 						set_character_flag = eshin_marked_someone_for_death
 						character_event = { id = MNM.6842 }
 					}
-					has_character_flag = eshin_marked_someone_for_death
+				}
+				if={limit={from={society_member_of=cult_of_pleasure}}
+					set_character_flag = cop_deathmark
+					FROM = {
+						set_character_flag = cop_marked_someone_for_death
+						character_event = { id = MNM.6842 }
+					}
 				}
 			}
 			FROM = { detract_society_currency_medium_effect = yes }
@@ -1613,7 +1629,10 @@ targeted_decisions = {
 			is_playable = yes
 			is_adult = yes
 			prisoner = no
-			is_member_of_any_murderous_society=yes
+			OR = {
+				is_member_of_any_murderous_society=yes
+				society_member_of = cult_of_pleasure
+			}
 			society_rank == 4
 		}
 
@@ -1621,21 +1640,68 @@ targeted_decisions = {
 			NOT = { character = FROM }
 			is_adult = yes
 			is_within_diplo_range = FROM
-			has_character_flag = assassins_target_marked_for_death
+			OR = {
+				if={
+					limit={
+						has_character_flag = cop_deathmark
+						from={society_member_of=cult_of_pleasure}
+					}
+				}
+				if={
+					limit={
+						has_character_flag = assassins_target_marked_for_death
+						from={society_member_of=the_assassins}
+					}
+				}
+			}
 		}
 
 		allow = {
-			custom_tooltip = {
-				text = assassins_clear_marked_for_death_target_allow_tooltip
-				has_character_flag = assassins_target_marked_for_death
+			if={
+					limit={
+						has_character_flag = cop_deathmark
+						from={society_member_of=cult_of_pleasure}
+					}
+					custom_tooltip = {
+						text = assassins_clear_marked_for_death_target_allow_tooltip
+						has_character_flag = cop_deathmark
+					}
+				}
+			if={
+				limit={
+					has_character_flag = assassins_target_marked_for_death
+					from={society_member_of=the_assassins}
+				}
+				custom_tooltip = {
+					text = assassins_clear_marked_for_death_target_allow_tooltip
+					has_character_flag = assassins_target_marked_for_death
+				}
 			}
 		}
 
 		effect = {
-			custom_tooltip = {
-				text = assassins_clear_marked_for_death_target_effect_tooltip
-				clr_character_flag = assassins_target_marked_for_death
-				FROM = { clr_character_flag = assassins_marked_someone_for_death }
+			if = {
+				limit={
+					has_character_flag = cop_deathmark
+					from={society_member_of=cult_of_pleasure}
+				}
+				custom_tooltip = {
+					text = assassins_clear_marked_for_death_target_effect_tooltip
+					clr_character_flag = cop_deathmark
+					FROM = { clr_character_flag = cop_marked_someone_for_death }
+				}
+			}
+		
+			if = {
+				limit={
+					has_character_flag = assassins_target_marked_for_death
+					from={society_member_of=the_assassins}
+				}
+				custom_tooltip = {
+					text = assassins_clear_marked_for_death_target_effect_tooltip
+					clr_character_flag = assassins_target_marked_for_death
+					FROM = { clr_character_flag = assassins_marked_someone_for_death }
+				}
 			}
 		}
 

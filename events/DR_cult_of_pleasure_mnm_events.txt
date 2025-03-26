@@ -764,10 +764,10 @@ character_event = {
 
 		hidden_effect = { character_event = { id = DR_cult_of_pleasure.7012 days = 35 random = 20 } } #Inductor will get in contact with you
 
-		add_character_modifier = {
-			name = bandaged_arm
-			days = 65
-		}
+		#add_character_modifier = {
+		#	name = bandaged_arm
+		#	days = 65
+		#}
 
 		ai_chance = {
 			factor = 100
@@ -1595,3 +1595,233 @@ letter_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+
+
+
+character_event = {
+	id = cult_of_pleasure.7051
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { 
+				AND = {
+					society_member_of = cult_of_pleasure
+					society_rank >= 3
+					NOT = {
+						AND = {
+							religion_group = cytharai_group
+							c_90300 = {
+								is_alive = yes
+							}
+						}
+					}
+				}
+			}
+		}
+				character_event = { id = cult_of_pleasure.7052 days = 62 random = 16 }
+	}
+}
+
+
+
+
+character_event = {
+	id = cult_of_pleasure.7052
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		set_secret_religion = slaanesh
+	}
+}
+
+
+
+
+#Assassinate a target
+character_event = {
+	id = DR_cult_of_pleasure.8002
+	hide_window = yes
+	is_triggered_only = yes	
+	immediate = {
+		random_list = {
+			#Sorceress who does not work for Cult
+			60 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								AND = {
+									OR = {
+										has_character_modifier = magic_power_3
+										has_character_modifier = magic_power_4
+									}
+								cop_assassins_appropriate_target_trigger = yes
+								NOT = {society_member_of = cult_of_pleasure}
+								}
+							}
+						}
+					}
+				}
+				top_liege = {
+					random_realm_character = {
+						limit = {
+							AND = {
+								OR = {
+									has_character_modifier = magic_power_3
+									has_character_modifier = magic_power_4
+								}
+								cop_assassins_appropriate_target_trigger = yes
+								NOT = {society_member_of = cult_of_pleasure}
+							}
+						}
+						save_event_target_as = assassins_target
+					}
+				}
+			}
+			#rivals and people who committ crimes against the cult leader
+			100 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								cop_assassins_appropriate_target_trigger = yes
+								is_foe = {cult_of_pleasure = {leader}}
+							}
+						}
+					}
+				}
+				random_realm_character = {
+					limit = {
+						cop_assassins_appropriate_target_trigger = yes
+						is_foe = {cult_of_pleasure = {leader}}
+					}
+					save_event_target_as = assassins_target
+				}
+			}
+			100 = { #Sabotoge deathmarked characters by killing useful councilors or commanders
+				modifier = {
+					factor = 0
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								has_character_flag = cop_deathmark
+							}
+						}
+					}
+				}
+				top_liege = {
+					random_realm_character = {
+							limit = {has_character_flag = cop_deathmark}
+						any_courtier = {
+							limit = {
+								AND = {
+									cop_assassins_appropriate_target_trigger = yes
+									NOT = {
+										OR = {
+											society_member_of = cult_of_pleasure
+											who = c_90000 #Even if someone else takes over the cult and he is deposed, Mommy's boy is too important for this
+										}
+									}
+									OR = {
+										AND = {
+											has_position = loyalist
+											is_voter = yes
+										}
+										AND = {
+											has_job_title = job_chancellor
+											diplomacy => 12
+										}
+										AND = {
+											has_job_title = job_marshal
+											martial => 12
+										}	
+										AND = {
+											has_job_title = job_treasurer
+											stewardship => 12
+										}	
+										AND = {
+											has_job_title = job_spymaster
+											intrigue => 12
+										}
+										AND = {
+											has_job_title = job_spiritual
+											learning => 12
+										}	
+										AND = {
+											has_minor_title = title_commander
+											martial => 12
+										}
+									}
+								}
+							}
+							save_event_target_as = assassins_target
+						}
+					}
+				}
+			}
+			200 = { #Kill lower tier deathmarked characters
+				modifier = {
+					factor = 0
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								has_character_flag = cop_deathmark
+								cop_assassins_appropriate_target_trigger = yes
+							}
+						}
+					}
+				}
+				top_liege = {
+					random_realm_character = { 
+						limit = {
+							has_character_flag = cop_deathmark
+							cop_assassins_appropriate_target_trigger = yes
+						}
+						save_event_target_as = assassins_target
+					}
+				}
+			}
+			50 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						liege = {
+							job_spiritual = {
+								AND = {
+									has_job_action = action_hunt_heretics
+									learning = 8
+									NOT = {society_member_of = cult_of_pleasure}
+									cop_assassins_appropriate_target_trigger = yes
+								}
+							}
+						}
+					}
+				}
+				liege = {
+					job_spiritual = {
+						save_event_target_as = assassins_target
+					}
+				}
+			}
+			
+		}
+		if = { #if no other options, kill random person grandmaster does not like
+			limit = { NOT = { event_target:assassins_target = { always = yes } } }
+			top_liege = {
+				random_realm_character = { limit = {
+					cop_assassins_appropriate_target_trigger = yes
+					NOT = {society_member_of = cult_of_pleasure}
+					reverse_opinion = {
+						who = {cult_of_pleasure = {leader}}
+						value < -14
+					}}
+					save_event_target_as = assassins_target
+				}
+			}
+		}
+	}
+}	

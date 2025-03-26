@@ -1455,6 +1455,13 @@ title_decisions = {
 				society_member_of = cult_of_tzeentch
 				society_member_of = cult_of_slaanesh
 				society_member_of = cult_of_undivided
+				AND = {
+					society_member_of = cult_of_pleasure
+					OR = {
+						c_90300 = {is_alive = no}
+						religion = cadai
+					}
+				}
 			}
 		}
 
@@ -1487,7 +1494,16 @@ title_decisions = {
 				}
 				AND = {
 					FROM = {
-						society_member_of = cult_of_slaanesh
+						OR = {
+							society_member_of = cult_of_slaanesh
+							AND = {
+								society_member_of = cult_of_pleasure
+								OR = {
+									c_90300 = {is_alive = no}
+									religion = cadai
+								}
+							}						
+						}
 					}
 					NOT = { location = { religion = slaanesh } }
 					NOT = { location = { has_province_modifier = secret_slaanesh_community } }
@@ -1572,10 +1588,17 @@ society_decisions = {
 				society_member_of = cult_of_tzeentch
 				society_member_of = cult_of_slaanesh
 				society_member_of = cult_of_undivided
+				AND = {
+					society_member_of = cult_of_pleasure
+					OR = {
+						c_90300 = {is_alive = no}
+						religion = cadai
+					}
+				}
 			}
 			OR = {
 				society_rank == 3
-			society_rank == 4
+				society_rank == 4
 			}
 		}
 
@@ -1605,6 +1628,13 @@ society_decisions = {
 				}
 				AND = {
 					society_member_of = cult_of_slaanesh
+					top_liege = {
+						secret_religion = chaos_gods_group
+						NOT = { secret_religion = slaanesh }
+					}
+				}
+				AND = {
+					society_member_of = cult_of_pleasure
 					top_liege = {
 						secret_religion = chaos_gods_group
 						NOT = { secret_religion = slaanesh }
@@ -1748,9 +1778,17 @@ society_decisions = {
 
 		if = {
 			limit = {
-				society_member_of = cult_of_slaanesh
+				OR = {
+					society_member_of = cult_of_slaanesh
+					society_member_of = cult_of_pleasure
+				}
 				top_liege = {
-					NOT = { society_member_of = cult_of_slaanesh }
+					NOT = {
+						OR = {
+							society_member_of = cult_of_slaanesh 
+							society_member_of = cult_of_pleasure
+						}
+					}
 				}
 			}
 			create_random_soldier = {
@@ -1866,7 +1904,10 @@ society_decisions = {
 											AND = {
 												has_province_modifier = secret_slaanesh_community
 												ROOT = {
-													society_member_of = cult_of_slaanesh
+													OR = {
+														society_member_of = cult_of_slaanesh
+														society_member_of = cult_of_pleasure
+													}
 												}
 											}
 

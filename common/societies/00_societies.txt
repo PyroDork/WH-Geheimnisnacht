@@ -9267,7 +9267,7 @@ cult_of_pleasure = {
 			sex_appeal_opinion = 15
 		}
 		decisions = {
-
+			
 		}
 
 		#custom_tooltip = unlockable_DW_powers_at_rank_4;
@@ -9282,7 +9282,7 @@ cult_of_pleasure = {
 			sex_appeal_opinion = 20
 		}
 		decisions = {
-
+			assassins_mark_for_death
 		}
 		obedience_tooltip = obedience_tooltip #this can be unique per rank/society
 		obedient = {

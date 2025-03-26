@@ -496,6 +496,8 @@
 			add_artifact = sulephet_pegasus_mount_morathi
 			add_artifact = amber_amulet_morathi
 			add_artifact = wand_kharaidon_morathi
+			join_society = cult_of_pleasure
+			set_society_grandmaster = yes
 		}
 	}
 	2000.1.1 = {
