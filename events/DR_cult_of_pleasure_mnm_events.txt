@@ -1641,6 +1641,11 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes	
 	immediate = {
+		cult_of_pleasure = {
+			leader = {
+				save_event_target_as = lodge_hero
+			}
+		}
 		random_list = {
 			#Sorceress who does not work for Cult
 			60 = {
@@ -1681,9 +1686,9 @@ character_event = {
 						top_liege = {
 							any_realm_character = {
 								cop_assassins_appropriate_target_trigger = yes
-								is_foe = ROOT
-								society_member_of = cult_of_pleasure
-								is_society_grandmaster = yes
+								event_target:lodge_hero = {
+									is_foe = PREV
+								}
 							}
 						}
 					}
@@ -1691,9 +1696,9 @@ character_event = {
 				random_realm_character = {
 					limit = {
 						cop_assassins_appropriate_target_trigger = yes
-						is_foe = ROOT
-						society_member_of = cult_of_pleasure
-						is_society_grandmaster = yes
+						event_target:lodge_hero = {
+							is_foe = PREV
+						}
 					}
 					save_event_target_as = assassins_target
 				}
