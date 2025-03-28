@@ -1603,24 +1603,23 @@ character_event = {
 	id = cult_of_pleasure.7051
 	hide_window = yes
 	is_triggered_only = yes
+	trigger = { 
+		FROM = { is_society = cult_of_pleasure }
+	}
 	immediate = {
 		if = {
 			limit = { 
-				AND = {
-					society_member_of = cult_of_pleasure
-					society_rank >= 3
-					NOT = {
-						AND = {
-							religion_group = cytharai_group
-							c_90300 = {
-								is_alive = yes
-							}
-						}
+				society_member_of = cult_of_pleasure
+				society_rank >= 3
+				NOT = {
+					religion_group = cytharai_group
+					c_90300 = {
+						is_alive = yes
 					}
 				}
 			}
+			character_event = { id = cult_of_pleasure.7052 days = 62 random = 16 }
 		}
-				character_event = { id = cult_of_pleasure.7052 days = 62 random = 16 }
 	}
 }
 
