@@ -1158,10 +1158,7 @@ character_event = {
 	picture = GFX_evt_secret_ceremony
 	border = GFX_event_normal_frame_intrigue
 
-	desc = {
-		trigger = { }
-		text = EVTDESC_Cult_Of_Pleasure_7017_D
-	}
+	desc = EVTDESC_Cult_Of_Pleasure_7017_D
 
 	is_triggered_only = yes
 
@@ -1652,22 +1649,6 @@ character_event = {
 					NOT = {
 						top_liege = {
 							any_realm_character = {
-								AND = {
-									OR = {
-										has_character_modifier = magic_power_3
-										has_character_modifier = magic_power_4
-									}
-								cop_assassins_appropriate_target_trigger = yes
-								NOT = {society_member_of = cult_of_pleasure}
-								}
-							}
-						}
-					}
-				}
-				top_liege = {
-					random_realm_character = {
-						limit = {
-							AND = {
 								OR = {
 									has_character_modifier = magic_power_3
 									has_character_modifier = magic_power_4
@@ -1675,6 +1656,18 @@ character_event = {
 								cop_assassins_appropriate_target_trigger = yes
 								NOT = {society_member_of = cult_of_pleasure}
 							}
+						}
+					}
+				}
+				top_liege = {
+					random_realm_character = {
+						limit = {
+							OR = {
+								has_character_modifier = magic_power_3
+								has_character_modifier = magic_power_4
+							}
+							cop_assassins_appropriate_target_trigger = yes
+							NOT = {society_member_of = cult_of_pleasure}
 						}
 						save_event_target_as = assassins_target
 					}
@@ -1688,7 +1681,9 @@ character_event = {
 						top_liege = {
 							any_realm_character = {
 								cop_assassins_appropriate_target_trigger = yes
-								is_foe = {cult_of_pleasure = {leader}}
+								is_foe = ROOT
+								society_member_of = cult_of_pleasure
+								is_society_grandmaster = yes
 							}
 						}
 					}
@@ -1696,7 +1691,9 @@ character_event = {
 				random_realm_character = {
 					limit = {
 						cop_assassins_appropriate_target_trigger = yes
-						is_foe = {cult_of_pleasure = {leader}}
+						is_foe = ROOT
+						society_member_of = cult_of_pleasure
+						is_society_grandmaster = yes
 					}
 					save_event_target_as = assassins_target
 				}
@@ -1714,16 +1711,14 @@ character_event = {
 				}
 				top_liege = {
 					random_realm_character = {
-							limit = {has_character_flag = cop_deathmark}
+						limit = {has_character_flag = cop_deathmark}
 						any_courtier = {
 							limit = {
 								AND = {
 									cop_assassins_appropriate_target_trigger = yes
-									NOT = {
-										OR = {
-											society_member_of = cult_of_pleasure
-											who = c_90000 #Even if someone else takes over the cult and he is deposed, Mommy's boy is too important for this
-										}
+									NOR = {
+										society_member_of = cult_of_pleasure
+										character = c_90000 #Even if someone else takes over the cult and he is deposed, Mommy's boy is too important for this
 									}
 									OR = {
 										AND = {
@@ -1806,18 +1801,28 @@ character_event = {
 					}
 				}
 			}
+			random_society_member = {
+				limit = {
+					NOT = { character = ROOT }
+					society_rank == 4
+					same_society_as = ROOT
+				}
+				save_event_target_as = lodge_hero #Character for handing out missions...
+			}
 			
 		}
 		if = { #if no other options, kill random person grandmaster does not like
 			limit = { NOT = { event_target:assassins_target = { always = yes } } }
 			top_liege = {
-				random_realm_character = { limit = {
-					cop_assassins_appropriate_target_trigger = yes
-					NOT = {society_member_of = cult_of_pleasure}
-					reverse_opinion = {
-						who = {cult_of_pleasure = {leader}}
-						value < -14
-					}}
+				random_realm_character = { 
+					limit = {
+						cop_assassins_appropriate_target_trigger = yes
+						NOT = {society_member_of = cult_of_pleasure}
+						reverse_opinion = {
+							who = event_target:lodge_hero
+							value < -14
+						}
+					}
 					save_event_target_as = assassins_target
 				}
 			}
