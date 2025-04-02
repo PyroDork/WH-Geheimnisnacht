@@ -115,7 +115,23 @@ siege_leader = {
 		siege = 0.4
 	}
 }
+# Mechanics
 
+tinkerer_leader = {
+	is_visible = {
+		visible_trait = yes
+	}
+	leader = yes
+	random = no
+
+	command_modifier = {
+		automaton = 0.2
+		siege_tanks = 0.2
+		artillery = 0.05
+		gunpowder = 0.05
+		random = 0.1
+	}
+}
 # Sea Captain
 sea_captain = {
 	is_visible = {

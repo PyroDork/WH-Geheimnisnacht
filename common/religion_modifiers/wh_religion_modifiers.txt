@@ -10,3 +10,8 @@ morr_centralization = {
 	authority = 10
 	years = 20
 }
+arabyan_crusades_humiliation = {
+	authority = -20
+	years = 100
+}
+

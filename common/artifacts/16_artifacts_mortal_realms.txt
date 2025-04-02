@@ -47,7 +47,8 @@
 #	beast_slayer
 #	witch_hunter_rapier
 #######################
-
+# Engineered
+#######################
 # Kislev
 
 fearfrost = {
@@ -490,7 +491,7 @@ silvaron_mount = {
 	flags = { mount horse tier_5 bretonnia }	#CURRENTLY NOT { alive mount_health_8 }
 }
 # HENRI LE MASSIF
-sword_of_heroes = {
+sword_of_heroes_3 = {
 	picture = "GFX_sword_of_heroes"
 	slot = weapon
 	quality = 5
@@ -977,4 +978,61 @@ witch_hunter_rapier = {
 	}
 
 	flags = { weapon combat_weapon sword empire }
+}
+
+engineered_frame = {
+	quality = 5
+	active = {
+		OR = {
+			trait = infirm
+			has_character_flag = character_needs_frame
+			trait = chaos_dwarf_petrification_1
+			trait = chaos_dwarf_petrification_2
+		}
+	}
+	stacking = no
+	diplomacy = 2
+	intrigue = 2
+	stewardship = 3
+	martial = 4
+	learning = 3
+	health = 2.5
+	combat_rating = 75
+	allowed_gift = {
+		always = no
+	}
+	picture = "GFX_engineered_frame"
+}
+engineered_hand = {
+	combat_rating = 18 #old value: 2
+	quality = 2
+	active = {
+		trait = one_handed
+		NOR = {
+			has_artifact = prosthetic_hand_gold
+			has_artifact = prosthetic_hand_metal
+		}
+	}
+	stacking = no
+	allowed_gift = {
+		always = no
+	}
+	picture = "GFX_engineered_arm"
+}
+engineered_leg = {
+	combat_rating = 27 #old value: 3
+	sex_appeal_opinion = 10
+	quality = 2
+	active = {
+		trait = one_legged
+		NOR = {
+			has_artifact = prosthetic_leg
+			has_artifact = engineered_frame
+		}
+	}
+	stacking = no
+	allowed_gift = {
+		always = no
+	}
+	picture = "GFX_engineered_leg"
 }

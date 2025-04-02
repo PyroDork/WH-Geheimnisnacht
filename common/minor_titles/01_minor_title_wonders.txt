@@ -571,6 +571,7 @@ title_custodian_of_the_mosque = {
 		any_realm_wonder = {
 			has_wonder_upgrade = upgrade_custodian_of_the_mosque
 		}
+		religion_group = ormazd_gods_group
 	}
 
 	allowed_to_hold = {
@@ -617,6 +618,7 @@ title_custodian_of_the_temple = {
 		any_realm_wonder = {
 			has_wonder_upgrade = upgrade_custodian_of_temple
 		}
+		religion_group = chaos_gods_group
 	}
 
 	allowed_to_hold = {

@@ -60,6 +60,31 @@ spriteTypes = {
 		name = "GFX_build_smithy"
 		texturefile = "gfx\\interface\\decision_icon_build_laboratory.dds"
 	}
+	#Engineering
+	spriteType = {
+		name = "GFX_engineered_frame"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_exoskeleton.dds"
+	}
+	spriteType = {
+		name = "GFX_engineered_frame_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_exoskeleton_small.dds"
+	}
+	spriteType = {
+		name = "GFX_engineered_leg"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_leg.dds"
+	}
+	spriteType = {
+		name = "GFX_engineered_leg_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_leg_small.dds"
+	}
+	spriteType = {
+		name = "GFX_engineered_arm"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_arm.dds"
+	}
+	spriteType = {
+		name = "GFX_engineered_arm_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\engineered_arm_small.dds"
+	}
 	spriteType = {
 		name = "GFX_light_armour"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\a_chest1.dds"

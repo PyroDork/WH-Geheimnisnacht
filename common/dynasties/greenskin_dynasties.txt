@@ -370,12 +370,12 @@
 		}
 	}
 }
-90329 = { name = "Head Choppas" culture = orc_main }
-90330 = { name = "Tuff Sluggas" culture = orc_main }
-90331 = { name = "Ironboot" culture = orc_main }
-90332 = { name = "Deadfist" culture = orc_main }
+90329 = { name = "Head Choppas" culture = orc_iron }
+90330 = { name = "Tuff Sluggas" culture = orc_iron }
+90331 = { name = "Ironboot" culture = orc_iron }
+90332 = { name = "Deadfist" culture = orc_iron }
 90333 = { name = "Thievin' Bloody Git" culture = orc_main }
-90334 = { name = "Spitspike" culture = orc_main }
+90334 = { name = "Spitspike" culture = orc_iron }
 90335 = { name = "Blood Fang" culture = orc_main }
 90336 = { name = "Fitebringer" culture = orc_main }
 90337 = { name = "Ripper" culture = orc_main }
@@ -522,7 +522,7 @@
 90449 = { name = "Oddmoon" culture = orc_savage }
 90451 = { name = "Squig Fang" culture = orc_savage }
 90452 = { name = "Smash Hand" culture = orc_savage }
-90453 = { name = "Bludcooka" culture = orc_black }
+90453 = { name = "Bludcooka" culture = orc_iron }
 90454 = { name = "Wolfchewa" culture = orc_savage }
 
 #Savage Orc
@@ -1403,3 +1403,7 @@
 92634 = { name = "Frosted Wolfz" culture = goblin_frost }
 92635 = { name = "Frozzentoof" culture = goblin_frost }
 92636 = { name = "Frostwolfaz" culture = orc_frost }
+92637 = { name = "Mud Steala" culture = goblin_seagit }
+92638 = { name = "Mindgoblez" culture = goblin_hill }
+92639 = { name = "Barktoof" culture = goblin_hill }
+92640 = { name = "Moorfang" culture = orc_savage }

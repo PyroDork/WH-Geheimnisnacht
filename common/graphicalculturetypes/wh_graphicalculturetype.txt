@@ -324,6 +324,12 @@ norscangfx = {
 albiongfx = {
 	skin_tone = 0
 }
+albionmoriengfx = {
+	skin_tone = 0
+}
+albionalbynitegfx = {
+	skin_tone = 0
+}
 norscansartosangfx = {
 	skin_tone = 0
 }

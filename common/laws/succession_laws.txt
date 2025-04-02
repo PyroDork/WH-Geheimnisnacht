@@ -771,6 +771,7 @@ succession_laws = {
 				title = k_cult_of_the_lady
 			}
 			holder_scope = {
+				is_feudal = yes
 				OR = {
 					independent = yes
 					NOT = {
@@ -779,20 +780,8 @@ succession_laws = {
 						}
 					}
 				}
-				OR = {
-					NOT = {	religion_group = ormazd_gods_group }
-					has_law = succession_voting_power_1
-					OR = {
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					}
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
 				NOR = {
 					religion_group = necromantic_group
-					religion_group = ormazd_gods_group
 					culture_group = skaven_group
 					culture_group = lizardman_group
 					trait = creature_beastman
@@ -808,7 +797,10 @@ succession_laws = {
 				is_patrician = no
 
 				OR = {
-					NOT = { religion_group = chaos_gods_group }
+					NOR = { 
+						religion_group = ormazd_gods_group
+						religion_group = chaos_gods_group 
+					}
 					is_reformed_religion = yes
 					religion = norscan_gods
 					has_law = succession_voting_power_1
@@ -836,19 +828,6 @@ succession_laws = {
 			}
 			is_primary_type_title = no
 			NOT = { tier = BARON }
-			holder_scope = {
-				OR = {
-					is_feudal = yes
-					has_law = succession_voting_power_1
-					OR = {
-						has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-						has_law = succ_hre_elective
-					}
-					ROOT = {
-						has_title_flag = alternate_hre
-					}
-				}
-			}
 			NOR = {  #Special Elective.
 				title = e_the_empire
 				has_title_flag = alternate_hre
@@ -1308,7 +1287,7 @@ succession_laws = {
 				OR = {
 					AND = {
 						religion_group = necromantic_group
-						is_vampire_visible_trigger = no
+						is_vampire_visible_trigger = yes
 						is_theocracy = no
 					}
 					religion_group = ormazd_gods_group

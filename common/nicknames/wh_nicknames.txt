@@ -1189,3 +1189,24 @@ nick_the_siegemaster = { ##The Siegemaster
 		factor = 1
 	}
 }
+
+nick_vile = { 
+	allow = {
+		age = 80
+		OR = {
+			is_vampire_visible_trigger = yes 
+			trait = lore_necromancy
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 3
+			trait = lore_necromancy
+		}
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+	}
+}

@@ -123,6 +123,16 @@ tuberculosis = { # Weevil Cough
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -353,6 +363,16 @@ typhoid_fever = { # Ochre Pox
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -592,6 +612,16 @@ typhus = { # Grey Fever
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -830,6 +860,16 @@ measles = { #Green Pox
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -1068,6 +1108,16 @@ small_pox = { #Ghoulpox
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -1306,6 +1356,16 @@ syphilis = { #Kruts
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		province_event = {
 			id = RIP.11703 #prosperity ended by epidemic
 		}
@@ -1488,6 +1548,16 @@ dancing_plague = {
 		}
 	}
 	on_province_infection = {
+		if = { limit = { 
+				OR = {
+					culture = nehekharan
+					culture_group = forest_group
+					culture_group = monstrous_group
+				}
+				NOT = { religion = nurgle }
+			}
+			reduce_disease = 1
+		}
 		#province_event = {
 		#	id = RIP.11703 #prosperity ended by epidemic
 		#}

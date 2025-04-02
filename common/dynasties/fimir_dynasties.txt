@@ -30,3 +30,5 @@
 97030 = { name = "Danallech" culture = fimir }
 97031 = { name = "Manglerfang" culture = naga }
 97032 = { name = "Manglerfang" culture = fimir }
+97033 = { name = "Muumra" culture = fimir }
+

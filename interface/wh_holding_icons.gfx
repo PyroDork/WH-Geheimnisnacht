@@ -12612,7 +12612,7 @@ spriteTypes = {
 
 spriteType = {
 	name = "GFX_settlement_castle_fimirgfx"
-	texturefile = "gfx//interface//holdings//fimir//placeholder_tribal_fimir.dds"
+	texturefile = "gfx//interface//holdings//fimir//placeholder_castle_fimir.dds"
 	noOfFrames = 1
 	norefcount = yes
 }
@@ -12709,7 +12709,7 @@ spriteType = {
 
 spriteType = {
 	name = "GFX_settlement_castle_fimirgfx_looted"
-	texturefile = "gfx//interface//holdings//fimir//placeholder_tribal_fimir_looted.dds"
+	texturefile = "gfx//interface//holdings//fimir//placeholder_castle_fimir_looted.dds"
 	noOfFrames = 1
 	norefcount = yes
 }

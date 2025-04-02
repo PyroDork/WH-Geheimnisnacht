@@ -31,7 +31,7 @@ albion_group = {
 		mother_name_chance = 0
 	}
 	albion_albany = {
-		graphical_cultures = { albiongfx northmangfx celticgfx westerngfx }
+		graphical_cultures = { albionalbynitegfx albiongfx northmangfx celticgfx westerngfx }
 
 		color = { 0.1 0.5 0.35 }
 
@@ -60,7 +60,7 @@ albion_group = {
 		mother_name_chance = 0
 	}
 	albion_morien = {
-		graphical_cultures = { albiongfx northmangfx celticgfx westerngfx }
+		graphical_cultures = { albionmoriengfx northmangfx celticgfx westerngfx }
 
 		color = { 0.25 0.7 0.7 }
 

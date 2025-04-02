@@ -5,6 +5,11 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_fimir_cave"
+		texturefile = "gfx/event_pictures/fimir_cave.tga"
+		alwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_evt_adventurers"
 		texturefile = "gfx/event_pictures/adventurers.tga"
 		alwaystransparent = yes

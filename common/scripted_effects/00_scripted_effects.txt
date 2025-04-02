@@ -11297,6 +11297,21 @@ upgrade_education_effect = {
 		brilliant_strategist = {
 			# already maxed
 		}
+		barbarian_1 = {
+			remove_trait = barbarian_1
+			add_trait = barbarian_2
+		}
+		barbarian_2 = {
+			remove_trait = barbarian_2
+			add_trait = barbarian_3
+		}
+		barbarian_3 = {
+			remove_trait = barbarian_3
+			add_trait = barbarian_4
+		}
+		barbarian_4 = {
+			# already maxed
+		}
 
 		### Learning ###
 		detached_priest = {
@@ -12187,12 +12202,41 @@ spawn_great_commander_effect = {
 		remove_trait = tough_soldier
 		remove_trait = skilled_tactician
 		remove_trait = brilliant_strategist
-
-		random_list = {
-			5 = { add_trait = misguided_warrior }
-			10 = { add_trait = tough_soldier }
-			20 = { add_trait = skilled_tactician }
-			30 = { add_trait = brilliant_strategist }
+		remove_trait = barbarian_1
+		remove_trait = barbarian_2
+		remove_trait = barbarian_3
+		remove_trait = barbarian_4
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					culture_group = goblin_group
+					culture_group = orc_group
+					liege = { is_tribal = yes }
+				}
+			}
+			random_list = {
+				1 = { add_trait = misguided_warrior }
+				2 = { add_trait = tough_soldier }
+				6 = { add_trait = skilled_tactician }
+				8 = { add_trait = brilliant_strategist }
+				5 = { add_trait = barbarian_1 }
+				10 = { add_trait = barbarian_2 }
+				20 = { add_trait = barbarian_3 }
+				30 = { add_trait = barbarian_4 }
+			}
+		}
+		else = {
+			random_list = {
+				5 = { add_trait = misguided_warrior }
+				10 = { add_trait = tough_soldier }
+				20 = { add_trait = skilled_tactician }
+				30 = { add_trait = brilliant_strategist }
+			}
 		}
 
 		random_list = { # Flavor Randomization
@@ -12409,8 +12453,26 @@ spawn_fantastic_commander_effect = {
 		remove_trait = misguided_warrior
 		remove_trait = tough_soldier
 		remove_trait = skilled_tactician
+		remove_trait = barbarian_1
+		remove_trait = barbarian_2
+		remove_trait = barbarian_3
 
-		add_trait = brilliant_strategist
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					culture_group = goblin_group
+					culture_group = orc_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_4
+		}
+		else = { add_trait = brilliant_strategist }
 
 		random_list = {
 			20 = {
@@ -16415,12 +16477,28 @@ random_list = {
 			trait = tough_soldier
 		}
 		modifier = {
+			factor = 0.85
+			trait = barbarian_2
+		}
+		modifier = {
+			factor = 0.85
+			trait = barbarian_1
+		}
+		modifier = {
 			factor = 0.75
 			trait = skilled_tactician
 		}
 		modifier = {
 			factor = 0.65
 			trait = brilliant_strategist
+		}
+		modifier = {
+			factor = 0.65
+			trait = barbarian_3
+		}
+		modifier = {
+			factor = 0.65
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.5
@@ -16795,6 +16873,22 @@ random_list = {
 		modifier = {
 			factor = 0.65
 			trait = brilliant_strategist
+		}
+		modifier = {
+			factor = 0.75
+			trait = barbarian_1
+		}
+		modifier = {
+			factor = 0.75
+			trait = barbarian_2
+		}
+		modifier = {
+			factor = 0.75
+			trait = barbarian_3
+		}
+		modifier = {
+			factor = 0.5
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.5
@@ -25054,10 +25148,6 @@ give_smith_artifacts_flag_good_effect = {
 			}
 		}
         add_artifact = armor_tier_2
-        new_artifact = {
-            set_name = artifact_name
-            set_description = artifact_description_smith_tier_2
-        }
     }
     if = {
         limit = {

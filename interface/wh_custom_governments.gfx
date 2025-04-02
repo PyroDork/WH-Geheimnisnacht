@@ -1,5 +1,9 @@
 spriteTypes = {
-
+	#Fimiur
+	spriteType = {
+		name = "GFX_icon_fimir_government_feudal"
+		texturefile = "gfx\\interface\\governments\\government_icon_fimirfeudalgov.dds"
+	}
 	#Asur Government
 	spriteType = {
 		name = "GFX_icon_highborn_government"

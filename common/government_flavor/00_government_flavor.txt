@@ -2086,10 +2086,24 @@ government_flavor = {
 }
 
 government_flavor = {
+	name = gov_fimir_government
+	graphics = GFX_evt_fimir_cave
+	priority = 1
+	trigger = {
+		culture_group = fimir_group
+		OR = {
+			is_tribal = yes
+			is_feudal = yes
+		}
+	}
+}
+
+government_flavor = {
 	name = gov_chaos_host_government
 	graphics = GFX_evt_norscan_town
 	priority = 1
 	trigger = {
+		NOT = {culture_group = fimir_group }
 		government = chaos_host_government
 	}
 }
@@ -3144,6 +3158,7 @@ government_flavor = {
 	graphics = GFX_evt_chaos_warband
 	priority = 2
 	trigger = {
+		NOT = {culture_group = fimir_group }
 		government = chaos_host_government
 		religion = chaos
 

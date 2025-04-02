@@ -4197,8 +4197,10 @@ prosthetic_hand_metal = {
 	quality = 2
 	active = {
 		trait = one_handed
-		NOT = {
+		NOR = {
 			has_artifact = prosthetic_hand_gold
+			has_artifact = engineered_hand
+			has_artifact = prosthetic_hand_metal
 		}
 	}
 	stacking = no
@@ -4213,6 +4215,10 @@ prosthetic_leg_artifact = {
 	quality = 2
 	active = {
 		trait = one_legged
+		NOR = {
+			has_artifact = engineered_leg
+			has_artifact = engineered_frame
+		}
 	}
 	stacking = no
 	allowed_gift = {

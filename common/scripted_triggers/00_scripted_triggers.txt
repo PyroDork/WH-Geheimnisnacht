@@ -626,6 +626,10 @@ has_education_martial_trigger = {
 			trait = tough_soldier
 			trait = skilled_tactician
 			trait = brilliant_strategist
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
+			trait = barbarian_4
 		}
 	}
 }
@@ -843,6 +847,7 @@ can_be_mercenary_leader_allow_trigger = {
 				trait = tough_soldier
 				trait = skilled_tactician
 				trait = brilliant_strategist
+				trait = barbarian_4
 			}
 		}
 	}
@@ -3119,8 +3124,21 @@ has_top_tier_education_trait_trigger = {
 				trait = grey_eminence
 				trait = midas_touched
 				trait = brilliant_strategist
+				trait = barbarian_4
 				trait = mastermind_theologian
 			}
+		}
+	}
+}
+has_lower_than_max_martial = {
+	hidden_trigger = {
+		OR = {
+			trait = misguided_warrior
+			trait = tough_soldier
+			trait = skilled_tactician
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
 		}
 	}
 }
@@ -5520,6 +5538,31 @@ lower_educational_trait_trigger = {
 			}
 		}
 		AND = {
+			trait = barbarian_1
+			ROOT = {
+				OR = {
+					trait = barbarian_2
+					trait = barbarian_3
+					trait = barbarian_4
+				}
+			}
+		}
+		AND = {
+			trait = barbarian_2
+			ROOT = {
+				OR = {
+					trait = barbarian_3
+					trait = barbarian_4
+				}
+			}
+		}
+		AND = {
+			trait = barbarian_3
+			ROOT = {
+				trait = barbarian_4
+			}
+		}
+		AND = {
 			trait = indulgent_wastrel
 			ROOT = {
 				OR = {
@@ -7798,21 +7841,3 @@ have_duplicate_smith_artifacts_flag_expensive_optionC_trigger = {
        	}
     }
 }
-
-cop_assassins_appropriate_target_trigger = {
-	is_within_diplo_range = ROOT
-	is_quest_target = no
-	same_realm = ROOT
-	is_offmap_ruler = no
-	OR = {
-		primary_title = { lower_real_tier_than = KING } #Cult too weak to kill Kings or higher
-		is_ruler = no
-	}
-	NOT = {
-		OR = {
-			who = c_90000 #No killing Malekith
-			who = c_90300 #No killing Morathi
-		}
-	}
-}
-

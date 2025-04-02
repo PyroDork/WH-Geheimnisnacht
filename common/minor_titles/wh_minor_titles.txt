@@ -481,6 +481,11 @@ title_organist_of_praag = {
 		any_realm_wonder = {
 			has_wonder_upgrade = upgrade_organist_of_praag
 		}
+		OR = {
+			religion_group = old_world_group
+			religion = slaanesh
+			culture = gospodar
+		}
 	}
 
 	allowed_to_hold = {

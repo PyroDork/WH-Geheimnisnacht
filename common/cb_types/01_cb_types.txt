@@ -701,6 +701,14 @@ force_vassalization = { # New2
 			OR = {
 				religion = ROOT
 				culture_group = ROOT
+				AND = {
+					ROOT = { religion_group = old_world_group }
+					culture_group = halfling_old_world
+				}
+				AND = {
+					ROOT = { religion = amazon }
+					culture_group = halfling_lustrian
+				}
 			}
 			shares_realm_border_with = ROOT
 		}
@@ -3592,8 +3600,10 @@ tributary_permanent_cb = { # New8
 			ROOT = {
 				is_feudal = yes
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = sigmarite
+					religion = ulrican
+					religion = taalite
+					religion = morrian
 				}
 				NOR = {
 					trait = crowned_by_priest
@@ -6249,8 +6259,10 @@ pepin_religious = {
 			ROOT = {
 				is_feudal = yes
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = sigmarite
+					religion = ulrican
+					religion = taalite
+					religion = morrian
 				}
 				NOR = {
 					trait = crowned_by_priest
@@ -7030,23 +7042,6 @@ flower_war_cb = {
 
 	ai_will_do = {
 		factor = 1
-		modifier = { #Focus on Coronation first.
-			factor = 0.1
-			has_dlc = "Holy Fury"
-			ROOT = {
-				is_feudal = yes
-				OR = {
-					religion = catholic
-					religion = fraticelli
-				}
-				NOR = {
-					trait = crowned_by_priest
-					trait = crowned_by_bishop
-					trait = crowned_by_pope
-					trait = crowned_by_myself
-				}
-			}
-		}
 	}
 }
 
@@ -7985,8 +7980,10 @@ matriarchal_deposition_war = {
 			ROOT = {
 				is_feudal = yes
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = sigmarite
+					religion = ulrican
+					religion = taalite
+					religion = morrian
 				}
 				NOR = {
 					trait = crowned_by_priest
@@ -8462,8 +8459,10 @@ patriarchal_deposition_war = {
 			ROOT = {
 				is_feudal = yes
 				OR = {
-					religion = catholic
-					religion = fraticelli
+					religion = sigmarite
+					religion = ulrican
+					religion = taalite
+					religion = morrian
 				}
 				NOR = {
 					trait = crowned_by_priest
