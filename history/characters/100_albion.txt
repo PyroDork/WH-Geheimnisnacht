@@ -1660,7 +1660,6 @@
 	add_trait = deceitful
 	add_trait = genius
 	add_trait = organizer
-	father = 153
 	1947.7.1 = {
 		birth = yes
 	}
@@ -1714,17 +1713,12 @@
 	add_trait = feeble
 	add_trait = immortal
 	health = 10
-	1981.7.1 = {
+	1950.7.1 = {
 		birth = yes
-		effect = {
 			add_character_modifier = {
 				name = magic_power_2
 				duration = -1
 			}
-		}
-	}
-	1950.7.1 = {
-		birth = yes
 	}
 	2067.11.26 = {
 		death = yes
