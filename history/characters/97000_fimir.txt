@@ -1132,9 +1132,6 @@
 	add_trait = zealous
 	add_trait = lefthanded
 	add_trait = greenskin_gods_gork
-	1937.11.14 = {
-		birth = yes
-	}
 	1966.4.29 = {
 		birth = yes
 		effect = {
