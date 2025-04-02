@@ -661,36 +661,36 @@ character_event = {
 				trait = brave
 				trait = zealous
 				trait = strong
-				trait = brilliant_strategist
+				trait = barbarian_4
 				dynasty = ROOT
 			}
 			preferred_limit = {
 				trait = brave
 				trait = zealous
 				trait = strong
-				trait = brilliant_strategist
+				trait = barbarian_4
 			}
 			preferred_limit = {
 				trait = brave
 				trait = zealous
-				trait = brilliant_strategist
+				trait = barbarian_4
 				dynasty = ROOT
 			}
 			preferred_limit = {
 				trait = brave
 				trait = zealous
-				trait = brilliant_strategist
+				trait = barbarian_4
 			}
 			preferred_limit = {
 				trait = brave
 				trait = zealous
-				trait = skilled_tactician
+				trait = barbarian_3
 				dynasty = ROOT
 			}
 			preferred_limit = {
 				trait = brave
 				trait = zealous
-				trait = skilled_tactician
+				trait = barbarian_3
 			}
 			preferred_limit = {
 				trait = brave

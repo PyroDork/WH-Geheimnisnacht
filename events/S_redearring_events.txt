@@ -540,6 +540,7 @@ character_event = {
 			trait = duelist
 			trait = strong
 			trait = brilliant_strategist
+			trait = barbarian_4
 			trait = shrewd
 			in_command = yes
 			has_focus = focus_war

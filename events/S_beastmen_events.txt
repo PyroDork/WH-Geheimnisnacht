@@ -2479,15 +2479,19 @@ character_event = {
 				trait = stutter }
 			religion = nurgle
 			}
-		AND = { OR = { trait = strong
+		AND = { 
+			OR = { 
+				trait = strong
 				trait = tough
 				trait = hardy
 				trait = genius
 				trait = brilliant
-				trait = brilliant_strategist }
-			religion = chaos
+				trait = brilliant_strategist 
+				trait = barbarian_4 
 			}
+			religion = chaos
 		}
+	}
 	NOT = { trait = bray_shaman }
 	}
 

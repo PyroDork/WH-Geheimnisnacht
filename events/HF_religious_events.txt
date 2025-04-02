@@ -1734,10 +1734,7 @@ character_event = {
 					trait = zealous
 					has_focus = focus_war
 					has_focus = focus_hunting
-					trait = misguided_warrior
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
+					has_education_martial_trigger = yes
 				}
 			}
 			modifier = {
@@ -1761,10 +1758,7 @@ character_event = {
 					any_child = { NOT = { age = 16 } count = 3 }
 					has_focus = focus_family
 					has_focus = focus_carousing
-					trait = misguided_warrior
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
+					has_education_martial_trigger = yes
 				}
 			}
 		}
@@ -3085,10 +3079,7 @@ character_event = {
 					trait = zealous
 					has_focus = focus_war
 					has_focus = focus_hunting
-					trait = misguided_warrior
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
+					has_education_martial_trigger = yes
 				}
 			}
 			modifier = {
@@ -3112,10 +3103,7 @@ character_event = {
 					any_child = { NOT = { age = 16 } count = 3 }
 					has_focus = focus_family
 					has_focus = focus_carousing
-					trait = misguided_warrior
-					trait = tough_soldier
-					trait = skilled_tactician
-					trait = brilliant_strategist
+					has_education_martial_trigger = yes
 				}
 			}
 		}
@@ -14398,6 +14386,21 @@ character_event = {
 				brilliant_strategist = {
 					# already maxed
 				}
+				barbarian_1 = {
+					remove_trait = barbarian_1
+					add_trait = barbarian_2
+				}
+				barbarian_2 = {
+					remove_trait = barbarian_2
+					add_trait = barbarian_3
+				}
+				barbarian_3 = {
+					remove_trait = barbarian_3
+					add_trait = barbarian_4
+				}
+				barbarian_4 = {
+					# already maxed
+				}
 			}
 			clr_character_flag = flag_training_martial_attribute
 			clr_character_flag = flag_training_combat_rating
@@ -14993,6 +14996,35 @@ character_event = {
 			brilliant_strategist = {
 				remove_trait = brilliant_strategist
 				add_trait = skilled_tactician
+			}
+			barbarian_1 = {
+				if = {
+					limit = { trait = shrewd }
+					remove_trait = shrewd
+				}
+				else_if = {
+					limit = { NOR = { trait = dull trait = shrewd } }
+					add_trait = dull
+				}
+				else_if = {
+					limit = { trait = dull NOT = { trait = depressed } }
+					add_trait = depressed
+				}
+				else = {
+					health = -0.75
+				}
+			}
+			barbarian_2 = {
+				remove_trait = barbarian_2
+				add_trait = barbarian_1
+			}
+			barbarian_3 = {
+				remove_trait = barbarian_3
+				add_trait = barbarian_2
+			}
+			barbarian_4 = {
+				remove_trait = barbarian_4
+				add_trait = barbarian_3
 			}
 
 			### Learning ###

@@ -65,6 +65,8 @@ character_event = {
 			OR = {
 				trait = skilled_tactician
 				trait = brilliant_strategist
+				trait = barbarian_3
+				trait = barbarian_4
 				trait = brave
 				trait = strong
 				trait = duelist
@@ -103,6 +105,8 @@ character_event = {
 			NOR = {
 				trait = skilled_tactician
 				trait = brilliant_strategist
+				trait = barbarian_3
+				trait = barbarian_4
 				trait = brave
 				trait = diligent
 				trait = just
@@ -1295,6 +1299,8 @@ character_event = {
 							trait = prince_khorne
 							trait = skilled_tactician
 							trait = brilliant_strategist
+							trait = barbarian_3
+							trait = barbarian_4
 							martial = 15
 						}
 					}
@@ -1586,6 +1592,8 @@ character_event = {
 							trait = prince_khorne
 							trait = skilled_tactician
 							trait = brilliant_strategist
+							trait = barbarian_3
+							trait = barbarian_4
 							martial = 15
 						}
 					}

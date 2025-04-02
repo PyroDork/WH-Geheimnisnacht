@@ -6788,8 +6788,9 @@ character_event = {
 		NOT = {
 			has_character_modifier = friend_martial_timer
 		}
-		NOT = {
+		NOR = {
 			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 		any_friend = {
 			is_adult = yes

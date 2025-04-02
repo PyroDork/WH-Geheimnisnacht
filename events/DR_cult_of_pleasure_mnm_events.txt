@@ -1,4 +1,5 @@
 namespace = DR_cult_of_pleasure
+namespace = cult_of_pleasure
 ###JOINING & RECRUITMENT EVENTS###
 
 #For the recruit: Do you approve of "alternative views"?
@@ -1592,9 +1593,6 @@ letter_event = {
 		ai_chance = { factor = 0 }
 	}
 }
-
-
-
 
 character_event = {
 	id = cult_of_pleasure.7051

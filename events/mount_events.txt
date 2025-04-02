@@ -42,8 +42,8 @@ namespace = market
 # Open Market Window and choose type
 character_event = {
 	id = market.0
-	title = EVTTITLEmarket.1
-	desc = EVTDESCmarket.1
+	title = EVTTITLEmarket.0
+	desc = EVTDESCmarket.0
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
@@ -758,14 +758,7 @@ character_event = {
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
-
-	# BACK
-	option = {
-		name = EVTOPTBACK
-		hidden_tooltip = {
-			character_event = { id = market.8 }
-		}
-	}
+	
 	# Hobby
 	option = {
 		name = EVTOPTAmarket.9

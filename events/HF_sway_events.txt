@@ -1099,6 +1099,10 @@ character_event = {
 						trait = skilled_tactician
 						trait = brilliant_strategist
 						trait = strategist
+						trait = barbarian_1
+						trait = barbarian_2
+						trait = barbarian_4
+						trait = barbarian_3
 					}
 				}
 				persistent_event_target:sway_target = { character_event = { id = HF.21030 } }
@@ -3411,6 +3415,18 @@ character_event = {
 				FROM = { trait = brilliant_strategist }
 			}
 			modifier = {
+				factor = 0.85
+				FROM = { trait = barbarian_2 }
+			}
+			modifier = {
+				factor = 0.75
+				FROM = { trait = barbarian_3 }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { trait = barbarian_4 }
+			}
+			modifier = {
 				factor = 0.5
 				FROM = { trait = strategist }
 			}
@@ -3429,6 +3445,22 @@ character_event = {
 			modifier = {
 				factor = 1.75
 				trait = brilliant_strategist
+			}
+			modifier = {
+				factor = 0.95
+				trait = barbarian_1
+			}
+			modifier = {
+				factor = 1.25
+				trait = barbarian_2
+			}
+			modifier = {
+				factor = 1.5
+				trait = barbarian_3
+			}
+			modifier = {
+				factor = 1.75
+				trait = barbarian_4
 			}
 			modifier = {
 				factor = 0.5
@@ -17633,6 +17665,10 @@ character_event = {
 			modifier = {
 				factor = 1.5
 				FROM = { trait = brilliant_strategist }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = barbarian_4 }
 			}
 			modifier = {
 				factor = 1.5

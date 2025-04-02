@@ -2619,49 +2619,63 @@ character_event = {
 	}
 	option = { #Lure them into an ambush
 		name = EVTOPTBsblooddragons29002
-			trigger = { OR = { trait = quick
-					trait = brilliant
-					trait = genius } }
-			tooltip_info = quick
-			character_event = { id = sblooddragons.29006 days = 1 }
-			hidden_tooltip = {
-					if = { limit = { trait = quick }
-					change_variable = { which = "blood_host_strength" value = 1 } }
-					if = { limit = { trait = brilliant }
-					change_variable = { which = "blood_host_strength" value = 2 } }
-					if = { limit = { trait = genius }
-					change_variable = { which = "blood_host_strength" value = 3 } }
-					any_realm_character = { limit = { has_opinion_modifier = { who = ROOT modifier = opinion_blood_questing }
-								trait = blood_questing
-								trait = vampire_blood_visible
-								has_character_flag = joined_orcs_fight }
-							character_event = { id = sblooddragons.29005 }
-							 }
-					 }
+		trigger = { 
+			OR = { 
+				trait = quick
+				trait = brilliant
+				trait = genius 
+			} 
+		}
+		tooltip_info = quick
+		character_event = { id = sblooddragons.29006 days = 1 }
+		hidden_tooltip = {
+			if = { limit = { trait = quick }
+			change_variable = { which = "blood_host_strength" value = 1 } }
+			if = { limit = { trait = brilliant }
+			change_variable = { which = "blood_host_strength" value = 2 } }
+			if = { limit = { trait = genius }
+			change_variable = { which = "blood_host_strength" value = 3 } }
+			any_realm_character = { 
+				limit = { 
+					has_opinion_modifier = { who = ROOT modifier = opinion_blood_questing }
+					trait = blood_questing
+					trait = vampire_blood_visible
+					has_character_flag = joined_orcs_fight 
+				}
+				character_event = { id = sblooddragons.29005 }
+			}
+		}
 	}
 	option = { #Flank Them
 		name = EVTOPTCsblooddragons29002
 			character_event = { id = sblooddragons.29008 days = 1 }
 			hidden_tooltip = {
-					if = { limit = { trait = brilliant_strategist }
-					change_variable = { which = "blood_host_strength" value = 1 } }
-					if = { limit = { trait = flanker }
-					change_variable = { which = "blood_host_strength" value = 2 } }
-					if = { limit = { trait = trickster }
-					change_variable = { which = "blood_host_strength" value = 1 } }
-					any_realm_character = { limit = { has_opinion_modifier = { who = ROOT modifier = opinion_blood_questing }
-								trait = blood_questing
-								trait = vampire_blood_visible
-								has_character_flag = joined_orcs_fight }
-							character_event = { id = sblooddragons.29007 }
-							 }
-					 }
+				if = { limit = { trait = brilliant_strategist }
+				change_variable = { which = "blood_host_strength" value = 1 } }
+				if = { limit = { trait = barbarian_4 }
+				change_variable = { which = "blood_host_strength" value = 1 } }
+				if = { limit = { trait = flanker }
+				change_variable = { which = "blood_host_strength" value = 2 } }
+				if = { limit = { trait = trickster }
+				change_variable = { which = "blood_host_strength" value = 1 } }
+				any_realm_character = {
+					limit = { 
+						has_opinion_modifier = { who = ROOT modifier = opinion_blood_questing }
+						trait = blood_questing
+						trait = vampire_blood_visible
+						has_character_flag = joined_orcs_fight 
+					}
+					character_event = { id = sblooddragons.29007 }
+				}
+			}
 	}
 	option = { #Charge
 		name = EVTOPTDsblooddragons29002
 			character_event = { id = sblooddragons.29010 days = 1 }
 			hidden_tooltip = {
 					if = { limit = { trait = brilliant_strategist }
+					change_variable = { which = "blood_host_strength" value = 1 } }
+					if = { limit = { trait = barbarian_4 }
 					change_variable = { which = "blood_host_strength" value = 1 } }
 					if = { limit = { trait = aggressive_leader }
 					change_variable = { which = "blood_host_strength" value = 2 } }

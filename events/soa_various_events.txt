@@ -1210,6 +1210,18 @@ character_event = {
 			clear_education_trait = yes
 			add_trait = brilliant_strategist
 		}
+		if = {
+			limit = {
+				OR = {
+					trait = barbarian_1
+					trait = barbarian_2
+					trait = barbarian_3
+				}
+			}
+			clear_education_trait = yes
+			add_trait = barbarian_4
+		}
+
 
 		if = {
 			limit = {

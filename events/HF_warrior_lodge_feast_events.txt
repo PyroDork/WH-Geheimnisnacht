@@ -59,6 +59,7 @@ character_event = {
 				is_strong_trigger = yes
 				trait = duelist
 				trait = skilled_tactician
+				trait = barbarian_4
 				trait = brilliant_strategist
 				combat_rating = 60
 			}
@@ -109,6 +110,8 @@ character_event = {
 					is_strong_trigger = yes
 					trait = duelist
 					trait = skilled_tactician
+					trait = barbarian_3
+					trait = barbarian_4
 					trait = brilliant_strategist
 					combat_rating = 60
 				}

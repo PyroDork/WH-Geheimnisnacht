@@ -1466,6 +1466,9 @@ character_event = {
 			trait = misguided_warrior
 			trait = tough_soldier
 			trait = skilled_tactician
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
 		}
 	}
 
@@ -1493,30 +1496,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_HL_1530
 		set_character_flag = wolf_hunting_instinct_martial_training
-		if = {
-			limit = {
-				trait = misguided_warrior
-			}
-			remove_trait = misguided_warrior
-			add_trait = tough_soldier
-			break = yes
-		}
-		if = {
-			limit = {
-				trait = tough_soldier
-			}
-			remove_trait = tough_soldier
-			add_trait = skilled_tactician
-			break = yes
-		}
-		if = {
-			limit = {
-				trait = skilled_tactician
-			}
-			remove_trait = skilled_tactician
-			add_trait = brilliant_strategist
-			break = yes
-		}
+		upgrade_education_effect = yes
 		if = {
 			limit = { NOT = { trait = trickster } }
 			add_trait = trickster

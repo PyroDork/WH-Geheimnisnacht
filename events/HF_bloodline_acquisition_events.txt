@@ -4070,7 +4070,22 @@ character_event = { # Child of Destiny reaches adulthood
 
 	option = {
 		name = HF_300_OPTA
-		add_trait = brilliant_strategist
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_4
+		}
+		else = {
+			add_trait = brilliant_strategist
+		}
 		add_trait = ambitious
 		prestige = 500
 
