@@ -1434,7 +1434,7 @@
 	intrigue = 4
 	learning = 5
 	add_trait = creature_elf
-	add_trait = intricate_webweaver'
+	add_trait = intricate_webweaver
 	add_trait = humble
 	add_trait = kind
 	add_trait = greedy
