@@ -112,6 +112,7 @@ lore_light_desc;This character can manipulate Hysh, the White Wind of Magic.\n§G
 lore_life_desc;This character can manipulate Ghyran, the Green Wind of Magic.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_heavens_desc;This character can manipulate Azyr, the Blue Wind of Magic.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_death_desc;This character can manipulate Shyish, the Purple Wind of Magic.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
+lore_deep_desc;This character can harness the power of the crushing depths and waves.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_shadows_desc;This character can manipulate Ulgu, the Grey Wind of Magic.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_high_magic_desc;This character can use Qhaysh and manipulate the entire spectrum of magic at once.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_dark_magic_desc;This character can use True Dhar and uses all Winds in their most raw form. Dark Elves are masters of this Lore.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
@@ -119,7 +120,7 @@ lore_chaos_desc;This character knows wide array of spells that uses chaotic mixt
 lore_nurgle_desc;Father of Plagues granted this character selection of spells to spread illness and despair.\n§GSummons Spell Units and Daemons during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_slaanesh_desc;This character can use spells specially crafted by Slaanesh to prey upon mind and passions of [GetHerHis] enemies.\n§GSummons Spell Units and Daemons during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_tzeentch_desc;Tzeentch, lord of magic blessed this character with knowledge of spells of incredible destructive power.\n§GSummons Spell Units and Daemons during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
-lore_ice_desc;This character can use magic of Ice practised by Ice Witches of Kislev.\n§BBattle Magic Pool changes depending on climate of battlefield§!\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
+lore_ice_desc;This character can use magic of ice practised by the Ice Witches of Kislev.\n§BBattle Magic Pool changes depending on climate of battlefield§!\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 lore_necromancy_desc;This character can use spells from dark art of necromancy orignaly created by Nagash.\n§GSummons Spell Units during battles\nWill cause damage to fortifications during sieges§!;;;;;;;;;;;;;x
 beast_transformation;Beast Transformation;;;;;;;;;;;;;x
 beast_transformation_desc;Using the powers of Magic, this character has transformed into a Beast.;;;;;;;;;;;;;x

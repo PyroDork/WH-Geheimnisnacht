@@ -266,9 +266,6 @@ EVTDESCBRETONNIA.19;You rush the dark elves, but the sorceress merely grins wick
 EVTOPTBRETONNIA.23.b;I'm all alone, no one will know if I just ride away...;;;;;;;;;;;;x
 EVTDESCBRETONNIA.23;You know you are not the bravest of knights, but you do try your best. On a solitary ride through the countryside you come across one of your men-at-arms, his weapon sundered, his shield split and his chest carved open. He manages to gasp out an account between fits of coughing, and before he passes you eventually discern that a Norscan berserker had wandered out of the wilderness, raving and cursing in a crude language and slaughtering anyone he sees. He has already slain twenty good men single-handedly, and judging by the screams just over the hill, he's not far off...;;;;;;;;;;;;x
 
-
-#
-
 #Decisions
 virtue_chivalry_decision;Virtue of Chivalry;;;;;;;;;;;;;x
 virtue_chivalry_decision_desc;Take the vow of Chivalry;;;;;;;;;;;;;x
@@ -285,21 +282,6 @@ donate_money_to_the_lady_decision_desc;You'll donate a small amount to the churc
 #
 getting_virtue_tt;Not already acquiring a Virtue;;;;;;;;;;;;;x
 #
-
-#Laws
-lady_religious_elective;The Church of Lady;;;;;;;;;;;;;x
-lady_religious_elective_desc; ;;;;;;;;;;;;;x
-bretonnia_feudal_elective;Bretonnian Monarchy;;;;;;;;;;;;;x
-succ_bretonnia_elective_option;Bretonnian;;;;;;;;;;;;;x
-succ_bretonnia_elective_desc;The ruler and each Bretonnian Duke can nominate a successor from all the Grail Knights. Elective Succession is very popular with the vassals, but they will not approve if their liege personally holds too many elector titles.;;;;;;;;;;;;;x
-#
-clergy;Clergy;;;;;;;;;;;;;x
-clergy_desc;This character belongs to the clergy class of Bretonnia;;;;;;;;;;;;;x
-noble;Noble;;;;;;;;;;;;;x
-noble_desc;This character belongs to the aristocracy of Bretonnia;;;;;;;;;;;;;x
-peasant;Peasant;;;;;;;;;;;;;x
-peasant_desc;This character is a filthy Bretonnian peasant, best be ignored;;;;;;;;;;;;;x
-
 ######################
 #####OFFMAPPOWERS#####
 ######################

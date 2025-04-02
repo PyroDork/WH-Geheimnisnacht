@@ -74,6 +74,7 @@ form_waaagh_info_tooltip;You will be given an Emperor-tier titular version of yo
 form_waaagh_info_tooltip2;This will also give you the option to declare Waaaghs! on other King-tier and above, non-Greenskin characters.\n;;;;;;;;;;;;x
 waaagh_succ_tip;You will gain all the de-jure, held titles under the target Kingdom, and execute their holder(s).\n All the provinces within the target de-jure Kingdom will be converted to your culture and religion, and their holdings converted to tribal holdings.;;;;;;;;;;;;x
 greenskin_purge_mountains_succ_tip;Fighting in mountains is slow and treacherous, resulting in only minor territorial gains. §Y(You will only Gain Target title)§! from [from.GetTitledFirstName]!;;;;;;;;;x
+greenskin_purge_albion_succ_tip;Conquest in albio is slow and treacherous due to lack of access for greenskins to join, resulting in only minor territorial gains. §Y(You will only Gain Target title)§! from [from.GetTitledFirstName]!;;;;;;;;;x
 greenskin_purge_succ_tip;Annexes Controlled Border Territory §Y(OR Close enough to your own border)§! from [from.GetTitledFirstName]!;;;;;;;;;x
 greenskin_warlord_succ_tip;Annexes Controlled deep Border Territory §Y(Greenskins can get more from other Warlike Races)§! from [from.GetTitledFirstName]!;;;;;;;;;x
 greenskin_spiderkult_succ_tip;Annexes the targeted territory.;;;;;;;;;x

@@ -9,7 +9,7 @@ warriors_guild_dawi_stand_together_power_desc;Enables a decision in the §YIntrig
 knights_call_of_the_war_boost_desc;The Drums of War have Sung, the war has begun against a mostly dishonorable enemy. The Nobility of your cause will surely be helped.;;;;;;;;;;;;x
 knights_call_of_the_war;Call of the War;Appel des steppes;Ruf der Steppe;;La llamada de la estepa;;;;;;;;;x
 knights_call_of_the_war_desc;Use your influence with [Root.Society.GetName] to gather any faithful fighters wandering in your realm.;;;;;;;;;;;;x
-knights_call_of_the_war_power_desc;Enables a decision in the §YIntrigue§! menu for members of [Root.Society.GetName] to speed troop recruitment across the realm.;;;;;;;;;;;;x
+knights_call_of_the_war_power_desc;Enables a decision in the §YIntrigue§! menu for members of this society to speed troop recruitment across the realm.;;;;;;;;;;;;x
 dwarf_slayer_king_desc;There are still semi-nomadic bands of warriors wandering.;;;;;;;;;;;;x
 EVTDESC_ULRIC8;Hail, [Root.GetSocietyRank]!\n\nThe Grudge against [my_war_target_holder.GetTitledFirstName] is to be settled, ripe for the grudging! If you seek to impress [Root.Society.GetName], [Root.GetMarchSail] [my_war_target.PrimaryTitle.GetName]!\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 TOOLTIPGRUDGEWARQUEST;The Quest to Settle the Grudge is to be considered Settled, Surely Impressing Warriors Guild;;;;;;;;;;;;x

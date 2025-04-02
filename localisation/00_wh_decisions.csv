@@ -640,7 +640,13 @@ askvampliegedynasty_named;Ask Liege to Join Dynasty;;;;;;;;;;;;;
 use_potion_of_healing_desc;Use Health Potion;;;;;;;;;;;;;
 establish_lahmian_presence;Establish Lahmian Presence;;;;;;;;;;;;;
 establish_lahmian_presence_desc;;;;;;;;;;;;;;
-#
+establish_cathay_link_humans;Establish a link to Cathay;;;;;;;;;;;;;
+establish_cathay_link_humans_desc;Establish a link to Grand Cathay and the Dragon Emperor.;;;;;;;;;;;;;
+establish_cathayan_link_2;Establish a link to Cathay;;;;;;;;;;;;;
+establish_cathayan_link_2_desc;Establish a link to Grand Cathay and the Dragon Emperor.;;;;;;;;;;;;;
+cathayan_link;Cathayan Link;;;;;;;;;;;;;
+cathayan_link_desc;This character has established a communication link between [From.GetHerHim] realm and Grand Cathay in the Far East.;;;;;;;;;;;;;
+
 # MOUNTS
 #
 A_DRAGON_MOUNT;A Dragon Mount;;;;;;;;;;;;x

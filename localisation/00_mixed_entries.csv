@@ -2,6 +2,7 @@
 # MIXED ENTRIES #
 #################
 ###ÄNSI
+title_master_of_the_horse_desc;In certain cultures where a horse is a symbol of power, it is a very important position. Although the Master of the Horse delegates the actual day to day running of the actual stables, much of the prestige of this office comes from the responsibility for the stud.;Ce poste remonte à la République romaine. À cette époque, le cheval était symbole de pouvoir et est il encore très important de nos jours. Bien que le Maître de l'Écurie délègue les affaires quotidiennes des écuries, il a beaucoup de prestige puisqu'il est responsable de la reproduction des chevaux.;Dieses Amt reicht zurück bis in die Zeit der Römischen Republik und es ist - in einer Zeit, in der das Pferd ein Symbol für Stärke ist - noch immer sehr wichtig. Obwohl der Pferdemeister die täglichen Arbeiten der Ställe delegiert, rührt ein Großteil des Ruhmes für sein Amt von der Verantwortung für den Hengst her.;;Este cargo se remonta a los días de la República Romana, y, en esta época en la que el caballo es símbolo de poder, sigue siendo muy importante. Aunque el Maestro Ecuestre delega el funcionamiento diario de las caballerizas, gran parte del prestigio de este departamento proviene de su responsabilidad con los establos.;;;;;;;;;x
 sacrifices_needed;Old Ones Sacrifices Needed;;;;;;;;;;;;;x
 sacrifices_needed_sotek;Lizardmen Sacrifices Needed;;;;;;;;;;;;;x
 BRETCAPCHANGE_DESC;It's Long been customary to move the Court of the Royarch To one of his Dwellings to bolster the legitemacy of His Dukedom, so your newfound court has come to you with proposal to move the capital of the realm;;;;;;;;;;;;;x
@@ -186,8 +187,10 @@ c_irrana_mountains;Irrana Mountains;;;;¡;;;;;;;;;x
 c_irrana_mountains_adj;Irrana Mountainian;;;;¡;;;;;;;;;x
 EVTOPTA320;I serve the will of the gods!;;;;¡;;;;;;;;;x
 EVTOPTA39670;I serve the will of the gods!;;;;¡;;;;;;;;;x
-sword_of_heroes;Sword of Heroes;;;;;;;;;x
-sword_of_heroes_desc;The mighty Sword of Heroes has powerful enchantments against evil bound into it. Forged under the midsummer sun and quenched in Manticore's blood, its long and bloody history has seen its wielders kill many fantastical creatures;;;;;;;;;x
+sword_of_heroes_2;Sword of Heroes;;;;;;;;;x
+sword_of_heroes_desc_2;The mighty Sword of Heroes has powerful enchantments against evil bound into it. Forged under the midsummer sun and quenched in Manticore's blood, its long and bloody history has seen its wielders kill many fantastical creatures;;;;;;;;;x
+sword_of_heroes_3;Sword of Heroes;;;;;;;;;x
+sword_of_heroes_desc_3;The mighty Sword of Heroes has powerful enchantments against evil bound into it. Forged under the midsummer sun and quenched in Manticore's blood, its long and bloody history has seen its wielders kill many fantastical creatures;;;;;;;;;x
 charmed_shield;Charmed Shield;;;;;;;;;x
 charmed_shield_desc;The front of this shield depicts a warrior being blessed by a nameless lady. Its wielder gains protection from the sigil, especially against foes armed with missiles.;;;;;;;;;x
 custom_chainmail;Custom Chainmail;;;;;;;;;x
@@ -359,6 +362,12 @@ nagashizzar;Nagashizzar;;;;;;;;;;;;;x
 nagashizzar_desc;Nagashizzar, the Cursed Pit, is one of the mightiest fortresses the world has ever seen. Built by the tireless labour of countless Undead, the castle rises nearly half a mile over the desert. It was excavated from the living rock of Cripple Peak and the mountain top is its highest spire. Hundreds of other great towers bristle from the mountainside. By night terrible green witchlights burn in their windows.;;;;;;;;;;;;;x
 mourkhain;Morgheim;;;;;;;;;;;;;x
 mourkhain_desc;At the heart of the Marshes of Madness lies the Necropolis known as Morgheim, originally known as the city of Mourkhain. Once the capital of Strygos, Mourkhain was founded by Kadon shortly after he fell under the dominion of the Crown of Sorcery. At one point the Strigoi realm reached as far as the Black Gulf, all controlled from Mourkhain. The Orcs were far from happy at being pushed from the ancestral lands and joined together in a great Waaagh! Led by Warboss Garsnag Craktoof, Mourkhain was sacked, and the power of the Strigoi broken forever. Now known as Morgheim, the city may no longer exert its control across the Badlands but is still a formidable place of lost power.;;;;;;;;;;;;;x
+alcadizar_tomb;The tomb of Alcadizaar the Conqueror;;;;;;;;;;;;;x
+alcadizar_tomb_desc;A large barrow built by Kadon the Mad to house the corpse of Alcadizaar the Conqueror.;;;;;;;;;;;;;x
+strigany_settlements;Strigany settlements;;;;;;;;;;;;;x
+strigany_settlements_desc;A series of ramshackled huts and nomadic caravans of the Strigany dot the landscape.;;;;;;;;;;;;;x
+kadon_tomb;The tomb of Kadon the Mad;;;;;;;;;;;;;x
+kadon_tomb_desc;The same black marble palace Kadon had ruled from had become his tomb.;;;;;;;;;;;;;x
 avelorni_garrison;Avelorni Garrison;;;;;;;;;;;;;x
 avelorni_garrison_desc;;;;;;;;;;;;;;x
 caledori_garrison;Caledori Garrison;;;;;;;;;;;;;x
@@ -378,19 +387,21 @@ sapherian_garrison_desc;;;;;;;;;;;;;;x
 tiranoci_garrison;Tiranoci Garrison;;;;;;;;;;;;;x
 tiranoci_garrison_desc;;;;;;;;;;;;;;x
 eagle_claw_bolt_throwers;Eagle Claw Bolt Throwers;;;;;;;;;;;;;x
-eagle_claw_bolt_throwers_desc;;;;;;;;;;;;;;x
-upgrade_khorne_altar;;;;;;;;;;;;;;x
-upgrade_khorne_altar_desc;;;;;;;;;;;;;;x
-upgrade_tzeentch_altar;;;;;;;;;;;;;;x
-upgrade_tzeentch_altar_desc;;;;;;;;;;;;;;x
-upgrade_nurgle_altar;;;;;;;;;;;;;;x
-upgrade_nurgle_altar_desc;;;;;;;;;;;;;;x
-upgrade_slaanesh_altar;;;;;;;;;;;;;;x
-upgrade_slaanesh_altar_desc;;;;;;;;;;;;;;x
+eagle_claw_bolt_throwers_desc;Eagle Claw Bolt Throwers that not only play pivotal roles upon the battlefield, but also bristle from the sides of Ulthuan's warships and the battlements of her fortresses.;;;;;;;;;;;;;;x
+upgrade_phoenixguard_barracks;Phoenix Guard Barracks;;;;;;;;;;;;;x
+upgrade_phoenixguard_barracks_desc;Deep within the Shrine of Asuryan lies the "Chamber of Days", where the fearsome Phoenix Guard have their headquarters.;;;;;;;;;;;;;x
+upgrade_khorne_altar;Khornate Altar;;;;;;;;;;;;;;x
+upgrade_khorne_altar_desc;Before the altar, those that beg for the Blood God's favour may hear the howl, as back in the Realm of Chaos the Daemons of Khorne are unleashed!;;;;;;;;;;;;;;x
+upgrade_tzeentch_altar;Tzeenchian Altar;;;;;;;;;;;;;x
+upgrade_tzeentch_altar_desc;To stare upon the altar of Tzeentch is for a mortal to lose his mind, as fate's endless possibilities unfurl and the Sky-Sharks are set free.;;;;;;;;;;;;;;x
+upgrade_nurgle_altar;Nurglish Altar;;;;;;;;;;;;;x
+upgrade_nurgle_altar_desc;A platform of rotting flesh, surrounded by a constant drone and buzzing of plump flies, will surely attach the attention of the Plague Daemons.;;;;;;;;;;;;;;x
+upgrade_slaanesh_altar;Slaaneshi Altar;;;;;;;;;;;;;;x
+upgrade_slaanesh_altar_desc;Upon the altar of lust will the vessels of desire entangle. Upon climax, it refashions into a Daemon of Slaanesh.;;;;;;;;;;;;;;x
 daemon_summoners;;;;;;;;;;;;;;x
 daemon_summoners_desc;;;;;;;;;;;;;;x
-zanbaijin_arena;;;;;;;;;;;;;;x
-zanbaijin_arena_desc;;;;;;;;;;;;;;x
+zanbaijin_arena;Zanbaijin Arena;;;;;;;;;;;;;x
+zanbaijin_arena_desc;Mortal followers of the Gods of Chaos have for many years used these ruins as a arena to combt each other and prove themselves to their patrons. Those that are defeated and survive must serve the victor whose fame will quickly spread through the northern Chaos Wastes.;;;;;;;;;;;;;;x
 khorne_quarter;;;;;;;;;;;;;;x
 khorne_quarter_desc;;;;;;;;;;;;;;x
 nurgle_quarter;;;;;;;;;;;;;;x
@@ -399,22 +410,22 @@ tzeentch_quarter;;;;;;;;;;;;;;x
 tzeentch_quarter_desc;;;;;;;;;;;;;;x
 slaanesh_quarter;;;;;;;;;;;;;;x
 slaanesh_quarter_desc;;;;;;;;;;;;;;x
-temple_horned_rat;;;;;;;;;;;;;;x
-temple_horned_rat_desc;;;;;;;;;;;;;;x
-shattered_tower;;;;;;;;;;;;;;x
-shattered_tower_desc;;;;;;;;;;;;;;x
-grey_seer_order;;;;;;;;;;;;;;x
-grey_seer_order_desc;;;;;;;;;;;;;;x
-great_horned_bell;;;;;;;;;;;;;;x
-great_horned_bell_desc;;;;;;;;;;;;;;x
-clan_skyre_district;;;;;;;;;;;;;;x
-clan_skyre_district_desc;;;;;;;;;;;;;;x
-clan_moulder_district;;;;;;;;;;;;;;x
-clan_moulder_district_desc;;;;;;;;;;;;;;x
-clan_pestelins_district;;;;;;;;;;;;;;x
-clan_pestelins_district_desc;;;;;;;;;;;;;;x
-clan_eshin_district;;;;;;;;;;;;;;x
-clan_eshin_district_desc;;;;;;;;;;;;;;x
+temple_horned_rat;The Great Temple of the Horned Rat;;;;;;;;;;;;;;;x
+temple_horned_rat_desc;At the centre of the Skaven city lies the Great Temple of the Horned Rat. It stretches for miles beneath the surface but above ground is marked by a single, cloud-piercing tower reaching high over the desolation of the ruins of the city of Tylos.;;;;;;;;;;;;;;x
+shattered_tower;Shattered Tower;;;;;;;;;;;;;;x
+shattered_tower_desc;The temple, known as the "Shattered Tower," is a piece of madness made manifest, in places marble-white and perfect, whilst in others decrepit and crudely patched together. Masonry from many realms and eras of architecture are stacked atop each other, but for all that it stretches upwards to impossible heights.;;;;;;;;;;;;;;x
+grey_seer_order;Order of the Grey Seers;;;;;;;;;;;;;;x
+grey_seer_order_desc;The Order of the Grey Seers, known officially as the Priesthood of the Horned Rat and informally as the "Grey Seer Clan" among the Skaven, is the main religious organisation of the Under-Empire.;;;;;;;;;;;;;x
+great_horned_bell;Bell of the Horned Rat;;;;;;;;;;;;;;x
+great_horned_bell_desc;At the top of the impossibly high tower reaches from the darkest depths to scrape the sky; at its tip, the Bell of the Horned Rat.;;;;;;;;;;;;;;x
+clan_skyre_district;Clan Skyre District;;;;;;;;;;;;;;x
+clan_skyre_district_desc;Clan Skryre maintains one of its largest engineering colleges in Skavenblight, and many of the clan’s inventions are designed and built here. The Grey Seers call Skavenblight their home, and they exert an inordinate amount of control over the entire metropolis.;;;;;;;;;;;;;;x
+clan_moulder_district;Clan Moulder District;;;;;;;;;;;;;;x
+clan_moulder_district_desc;The quarter of Clan Moulder is rich in commerce. In this quarter Hell-Pit Abominations created by the fervid and distorted minds of their Clan Moulder masters are sold to those who offer the highest bid.;;;;;;;;;;;;;;x
+clan_pestelins_district;Clan Pestelins District;;;;;;;;;;;;;;x
+clan_pestelins_district_desc;The Plague Monks of Clan Pestilens are considered the third most influential political force in Skavenblight. Though their district is small and isolated, the area they inhabit is considered more of a religious quarter then one of commerce like their rivals in Clan Moulder or Clan Skryre.;;;;;;;;;;;;;;x
+clan_eshin_district;Clan Eshin District;;;;;;;;;;;;;;x
+clan_eshin_district_desc;Clan Eshin holds the smallest district out of the four major clans in Skavenblight, but theirs is a highly secretive and hidden location, with only a few knowing of its exact whereabouts.;;;;;;;;;;;;;;x
 ca_mordheim;Mordheim;;;;;;;;;;;;;x
 ca_mordheim_desc;Mordheim, the City of the Damned, the former capital of the Ostermark province that was destroyed by a twin-tailed comet of Warpstone in the year 1999 IC. Once a mighty city that could rival many others within the Empire, Mordheim grew decadent with corruption, and as multitudes gathered for the arrival of the Twin-Tailed Comet, it is said that Sigmar judged them false and destroyed the city, killing all those left within. Now, it is a dead city, where only the foolish, mad or greedy seek to venture forth, either to plunder the riches of the ruins or to covet the green shards of comet-borne Warpstone that lace the entire city with its corruption.;;;;;;;;;;;;;x
 monthly_favour;Monthly Favour;;;;;;;;;;;;;x
@@ -1516,7 +1527,7 @@ tribalize_tooltip_1;There are non-tribal provinces with empty holdings.;;;;;;;;;
 tribalize_tooltip_2;Members from your tribe will occupy feudal provinces.;;;;;;;;;;;;x
 obj_win_war_title;Win a War;;;;;;;;;;;;x
 obj_win_war_desc;[This.GetTitledFirstName] would like to win a war.;;;;;;;;;;;;x
-obj_chaos_dwarf_become_daemonsmith_title; Become a Daemonsmith
+obj_chaos_dwarf_become_daemonsmith_title; Become a Daemonsmith;;;;;;;;;;;;x
 obj_chaos_dwarf_become_daemonsmith_desc;[This.GetTitledFirstName] wants to become a powerful Daemonsmith.;;;;;;;;;;;;x
 DR_obj_win_war;§Y[This.GetTitledFirstName]§! wins a war.;;;;;;;;;;;;x
 tb_argalis;Argalis;;;;;;;;;;;;x

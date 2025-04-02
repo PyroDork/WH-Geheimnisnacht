@@ -278,7 +278,8 @@ depopulated_desc;The province was severely depopulated - it will take years for 
 gun_volley_tactic;Gun Volley;;;;;;;;;;;;x
 magic_barrage_tactic;Magical Barrage;;;;;;;;;;;;x
 artillery_barrage_tactic;Artillery Barrage;;;;;;;;;;;;x
-#
+repeated_charge_tactic;Repeated Charge;;;;;;;;;;;;x
+
 # CULTURE MODIFIERS
 #
 default_culture_modifier;Default Culture Modifier;;;;;;;;;;;;x

@@ -42,20 +42,6 @@ TAMUR5_DESCB;Your body has started visibly rotting but it still manages to regen
 TAMUR5_DESCC;Your body is at it's breaking point no longer regenerating and small parts of your body are already starting to fall off... you might need to start looking for a new host.;;;;;;;;;x
 TAMUR5_DESCD;CURSES! your body no longer is capable of sustaining it self and has finally fully collapsed...;;;;;;;;;x
 TAMUR5_DESCF;The maggots have deeply ingrained onto your body refusing to leave it, you can only surmise this does not mean anything good for your health...;;;;;;;;;x
-#Laws
-dwarf_clan_power_law;Clan Hierarchy;;;;;;;;;x
-dwarf_clan_power_law_0;Warrior Clan;;;;;;;;;x
-dwarf_clan_power_law_1;Elite Clan;;;;;;;;;x
-dwarf_clan_power_law_2;Ranger Clan;;;;;;;;;x
-dwarf_clan_power_law_3;Slayer Clan;;;;;;;;;x
-skaven_clan_power_law;Clan Hierarchy;;;;;;;;;x
-skaven_clan_power_law_desc;The skaven clans structure themselves how ever they wish at all times to represent the needs of their clan leader.;;;;;;;;;x
-skaven_clan_power_law_2;Scavanger Clan;;;;;;;;;x
-skaven_clan_power_law_1;Elite Clan;;;;;;;;;x
-skaven_clan_power_law_0;Skaven Clan;;;;;;;;;x
-skaven_clan_power_law_2_desc;This clan Partakes in scavenging the dead in any battle field they can find on the surface and the underground to strenghten their coffers.;;;;;;;;;x
-skaven_clan_power_law_1_desc;This clan Prides themselves in their elite warriors first and foremost.;;;;;;;;;x
-skaven_clan_power_law_0_desc;This clan is filled with cowardly skaven to the brim to maximize their numbers.;;;;;;;;;x
 #Events
 COLONIALNATIONS_3_DESC;So far governing our lands within [Root.GetRootColonyArea] have been an impossible task and our inaction to appoint an governor has seen a rise of an local magisterate to raise onto effective power of that of an governor.;;;;;;;;;x
 COLONIALNATIONS_3_OPTA;So Be It;;;;;;;;;x
@@ -145,7 +131,7 @@ EVTDESC_Quango_3;The heavens resound to thunderous peals as Quango bursts forth 
 stormfels_group;Piratic;Piratic;Piratic;;Piratic;;;;;;;;;x
 #Wonders
 upgrade_royal_trading_hall;Royal Trading Guild;;;;;;;;x
-upgrade_royal_trading_hall_desc;Long standing Royal Trading guild Ran by the Merchants of Marienburg creating Profits for the Local Lord.;;;;;;;;x
+upgrade_royal_trading_hall_desc;Long standing Royal Trading Guild ran by the Merchants of Marienburg, creating profits for the local lord.;;;;;;;;x
 wonder_norse_heorot;Fortress City Heorot;;;;;;;;x
 wonder_norse_heorot_desc;Greatest City in Norsca and the city that hosts the majestic treasures of High Kings of the old.Buildings and its protective walls in Heorot are made of the distinctive and durable blue-grey rock found only in the mountains north of the city.;;;;;;;;x
 #Government
@@ -160,10 +146,10 @@ gov_hobgoblin_khanate;Hobgoblin Khanate of [GetOnlyDynastyName] Clan;;;;;;;;;;;;
 greenskin_satrapy_government;Greenskin Satrapy;;;;;;;;;;;;;x
 greenskin_satrapy_government_desc;A Slave state managed by greenskins who rely on the Dawi Zharr for patronage and protection in order to maximize production and profits from the slaves present.;;;;;;;;;;;;;x
 #Ambitions
-obj_skaven_become_grey_lord_title;Become Part of Council of Thirteen;;;;;;;;;;;;;x
-obj_skaven_become_grey_lord_desc;Show-off and make-kill room in Council of Thirteen for your conniving-fitting self...;;;;;;;;;;;;;x
+obj_skaven_become_grey_lord_title;Become part of the Council of Thirteen;;;;;;;;;;;;;x
+obj_skaven_become_grey_lord_desc;Show-off and make-kill room in the Council of Thirteen for your conniving-fitting self...;;;;;;;;;;;;;x
 own_8_provinces;Own 8 Provinces;;;;;;;;;;;;;x
-less_than_12_council_members;Less than 12 Council Members Alive;;;;;;;;;;;;;x
+less_than_12_council_members;Less Than 12 Council Members Alive;;;;;;;;;;;;;x
 own_5_neighbour_tributaries_skaven;Have 5 Neighbouring Skaven Culture Group Tributaries;;;;;;;;;;;;;x
 #Regions
 world_under_cathay;Under-Cathay;Under-Cathay;Under-Cathay;;Under-Cathay;;;;;;;;;x
@@ -192,8 +178,8 @@ d_port_royale_adj;Royale;;Royale;;;;;;;;;;;x
 d_nuevo_luccini;Nuevo Luccini;Nuevo Luccini;Nuevo Luccini;;Nuevo Luccini;;;;;;;;;x
 d_nuevo_luccini_adj;Nuevo Luccino;Nuevo Luccino;Nuevo Luccino;;Nuevo Luccino;;;;;;;;;x
 #Decisions
-GetEstablishColonyGeneral;Establish colonial rule on farflung provinces of your empire to soften the governmental stress.;;;;;;;;;;;;;x
-GetBretonColony;The Lady has forseen new lands for our peasants to till upon the horizon. time to send thine peasant's to work for the glory of the lady!;;;;;;;;;;;;;x
+GetEstablishColonyGeneral;Establish colonial rule on farflung provinces of your empire to soften the governmental stress and bureocracy.;;;;;;;;;;;;;x
+GetBretonColony;The Lady has forseen new lands for our peasants to till upon the horizon. Time to send thine peasant's to work for the glory of The Lady!;;;;;;;;;;;;;x
 create_new_colony_2;Establish Colonial Nations;;;;;;;;;;;;;x
 create_new_colony_2_desc;[Root.GetEstablishColony];;;;;;;;;;;;;x
 create_new_colony_3;Establish Colonial Nations;;;;;;;;;;;;;x
@@ -207,15 +193,15 @@ create_new_colony_6_desc;[Root.GetEstablishColony];;;;;;;;;;;;;x
 create_new_colony_7;Establish Colonial Nations;;;;;;;;;;;;;x
 create_new_colony_7_desc;[Root.GetEstablishColony];;;;;;;;;;;;;x
 embrace_colonial_culture_human;Embrace Colonial Culture;;;;;;;;;;;;;x
-embrace_colonial_culture_human_desc;Embrace local customs of the settlers.;;;;;;;;;;;;;x
-meditate_pop_order;Medidate at Place of Power;;;;;;;;;;;;;x
-meditate_pop_chaos;Medidate at Place of Power;;;;;;;;;;;;;x
-meditate_pop_order_desc;Medidate where the Winds of Magic flow the strongest to gain Insight.;;;;;;;;;;;;;x
-meditate_pop_chaos_desc;Medidate where the winds of Chaos flow the strongest to gain Insight.;;;;;;;;;;;;;x
+embrace_colonial_culture_human_desc;Embrace the local customs of the settlers.;;;;;;;;;;;;;x
+meditate_pop_order;Meditate at Place of Power;;;;;;;;;;;;;x
+meditate_pop_chaos;Meditate at Place of Power;;;;;;;;;;;;;x
+meditate_pop_order_desc;Meditate where the Winds of Magic flow the strongest to gain Insight.;;;;;;;;;;;;;x
+meditate_pop_chaos_desc;Meditate where the Winds of Chaos flow the strongest to gain Insight.;;;;;;;;;;;;;x
 corrupt_pop;Corrupt Place of Power;;;;;;;;;;;;;x
 restore_pop;Restore Place of Power;;;;;;;;;;;;;x
 corrupt_pop_desc;Corrupt local magical flow to further the chaotic winds of magic.;;;;;;;;;;;;;x
-restore_pop_desc;Restore Place of Power to Control the chaotic winds of magic better.;;;;;;;;;;;;;x
+restore_pop_desc;Restore this Place of Power to control the chaotic winds of magic better.;;;;;;;;;;;;;x
 #Tributary
 ##Modifiers
 #Opinion modifiers
@@ -223,15 +209,25 @@ opinion_of_malekith;Opinion of Malekith;;;;;;;;;;;;;x
 malekith_opinion;Malekith's Trust;;;;;;;;;;;;;x
 #Modifiers
 drained_place_of_power;Drained Place of Power;;;;;;;;;;;;;x
+drained_place_of_power_desc;This place of power has been drained of it's magical energy. It now remains useless.;;;;;;;;;;;;;x
 active_place_of_power_man;Place of Power;;;;;;;;;;;;;x
+active_place_of_power_man_desc;This place of power is magically active, providing protection against the forces of Chaos. With enough magic power, the owner of this county could corrupt it if they so wished, strengthening the Winds of Chaos around the world... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 inactive_place_of_power_man;Inactive Place of Power;;;;;;;;;;;;;x
+inactive_place_of_power_man_desc;This place of Power remains inactive. With enough magic power, the owner of this county could activate it to weaken the Winds of Chaos around the world. Or corrupt it... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 corrupt_place_of_power_man;Corrupted Place of Power;;;;;;;;;;;;;x
+corrupt_place_of_power_man_desc;This place of Power has been corrupted by the forces of Chaos. With enough magic power, the owner of this county could cleanse it once again to weaken the Winds of Chaos around the World. §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 active_place_of_power_wood;Asrai Place of Power;;;;;;;;;;;;;x
+active_place_of_power_wood_desc;This place of power is magically active, providing protection against the forces of Chaos. With enough magic power, the owner of this county could corrupt it if they so wished, strengthening the Winds of Chaos around the world... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 inactive_place_of_power_wood;Inactive Asrai Place of Power;;;;;;;;;;;;;x
+inactive_place_of_power_wood_desc;This place of Power remains inactive. With enough magic power, the owner of this county could activate it to weaken the Winds of Chaos around the world. Or corrupt it... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 corrupt_place_of_power_wood;Corrupted Asrai Place of Power;;;;;;;;;;;;;x
+corrupt_place_of_power_wood_desc;This place of Power has been corrupted by the forces of Chaos. With enough magic power, the owner of this county could cleanse it once again to weaken the Winds of Chaos around the World. §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 active_place_of_power_elf;Asur Place of Power;;;;;;;;;;;;;x
+active_place_of_power_elf_desc;This place of power is magically active, providing protection against the forces of Chaos. With enough magic power, the owner of this county could corrupt it if they so wished, strengthening the Winds of Chaos around the world... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 inactive_place_of_power_elf;Inactive Asur Place of Power;;;;;;;;;;;;;x
+inactive_place_of_power_elf_desc;This place of Power remains inactive. With enough magic power, the owner of this county could activate it to weaken the Winds of Chaos around the world. Or corrupt it... §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 corrupt_place_of_power_elf;Corrupted Asur Place of Power;;;;;;;;;;;;;x
+corrupt_place_of_power_elf_desc;This place of Power has been corrupted by the forces of Chaos. With enough magic power, the owner of this county could cleanse it once again to weaken the Winds of Chaos around the World. §YTo interact with a Place of Power, right click the county flag.§!;;;;;;;;;;;;;x
 warpstone_meteor_desc;Warpstone Meteor - §GMining Progress([Location.blackstone_mining_progress.GetValue]/15)§!;;;;;;;;;;;;;x
 TRIBUTARY_COLONY_NAME;Colonial Nation;;;;;;;;;;;;;x
 TRIBUTARY_COLONY_PLURAL;Colonial Nations;;;;;;;;;;;;;x

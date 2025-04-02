@@ -328,6 +328,7 @@ currency_name_eshin_society;Sneekyness;;;;;;;;;;;;;x
 #
 # TRIGGERED MODIFIERS DUMP
 #
+election_timer;Time till Next Election;;;;;;;;;;;;;
 doom_very_low;Weak Chaos;;;;;;;;;;;;;
 doom_very_low_desc;Chaos is weak in the world and all its followers find themselves fending for themselves.;;;;;;;;;;;;;
 doom_high;Empowered by Chaos;;;;;;;;;;;;;

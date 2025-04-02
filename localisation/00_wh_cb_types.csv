@@ -3,6 +3,48 @@
 # TRAITS #
 ##########
 ###ÄNSI
+###Black Crusade
+#
+join_black_crusade;Join Black Crusade;;;;;;;;;;;;;x
+join_black_crusade_desc;A Black Crusade is ongoing, we could earn glory by participating. §YNote: Due to hardcoded restrictions you will get no land if you are not the same religion as the crusade caller, instead you will get artefacts and favor with chaos.§!;;;;;;;;;;;;;x
+declare_black_crusade;Declare Black Crusade;;;;;;;;;;;;;x
+declare_black_crusade_desc;If you are strong enough, you may force the hordes of Chaos to a target of your choosing. You must however declare the Black Crusade within 3 years. §YThis will give you a single use of the crusade CB§!;;;;;;;;;;;;;x
+claim_the_mantle_of_the_everchosen;Become the Everchosen;;;;;;;;;;;;;x
+claim_the_mantle_of_the_everchosen_desc;If you are strong enough, you may claim the mantle of the Everchosen.;;;;;;;;;;;;;x
+join_black_crusade_defenders;Join defence against Black Crusade;;;;;;;;;;;;;x
+join_black_crusade_defenders_desc;A Black Crusade is ongoing, we could earn glory by helping.;;;;;;;;;;;;;x
+#
+crusader_king;Chaos Warlord;;;;;;;;x
+crusader_queen;Chaos Warlord;;;;;;;;x
+crusader_king_desc;A great champion of chaos who has shaped his own kingdom out of the lands of the weak southerners.;;;;;;;;x
+crusader_queen_desc;A great champion of chaos who has shaped her own kingdom out of the lands of the weak southerners.;;;;;;;;x
+WAR_NAME_BLACK_CRUSADE;$HOLY_WAR$ for $OTHER_TITLE$;;;;;;;;x
+CB_NAME_CRUSADE;Black Crusade;;;;;;;;x
+#
+there_is_no_everchosen_tt;There is no Everchosen;;;;;;;;x
+there_is_no_self_declared_black_crusade_tt;There is no Chaos ruler planning a Black Crusade;;;;;;;;x
+no_chaos_religious_head_tt;There is no Everchosen or other Religious Head;;;;;;;;x
+can_call_black_crusade_tt;Has been enough time since the last Black Crusade;;;;;;;;x
+can_call_low_doom_black_crusade_tt;Black Crusades can be called at Low Doom once per century;;;;;;;;x
+core_chaos_realms_occupied_tt;Core parts of Norsca or the Chaos Wastes are occupied;;;;;;;;x
+#
+RULE_WARHAMMER_BLACK_CRUSADES;§RWarhammer:§! Black Crusades;;;;;;;;;;;;;x
+RULE_OPTION_BLACK_CRUSADES_DESC;Only Prestigious Chaos Undivided Rulers and the Everchosen can call Black Crusades. Followers of Chaos can then join as allies when the war starts. Only one Black Crusade can be active at a time.;;;;;;;;;;;;;x
+RULE_NO_CAMPAIGN;None;;;;;;;;;;;;;x
+RULE_OPTION_BLACK_CRUSADES_ALL_DESC;Prestigious Chaos Rulers and the Everchosen can call Black Crusades. Followers of Chaos can then join as allies when the war starts. Only one Black Crusade can be active at a time.;;;;;;;;;;;;;x
+#
+opinion_fighting_against_black_crusade;Fighting against Black Crusade;;;;;;;;x
+#
+RULE_WARHAMMER_EVERCHOSEN;§RWarhammer:§! Path of the Everchosen;;;;;;;;;;;;;x
+RULE_OPTION_EVERCHOSEN_DEFAULT_DESC;The Path of the Everchosen is handled through a pilgrimage and story events.\n This is faster and much easier than the extended version.;;;;;;;;;;;;;x
+RULE_OPTION_EXTENDED;Extended;;;;;;;;;;;;;x
+RULE_OPTION_EVERCHOSEN_EXTENDED_DESC;The Path of the Everchosen requires direct action and travelling.\n This is slower and much harder than the default version.;;;;;;;;;;;;;x
+doom_dependent_tt; The Winds of Chaos are strong enough for the Black Crusade to be called.;;;;;;;;;;;;;x
+###Ormazd Cb Types
+WAR_NAME_OJIHAD;$HOLY_WAR$ for $OTHER_TITLE$;;;;;;;;x
+CB_NAME_OJIHAD;Jihadic Invasion;;;;;;;;x
+arabyan_crusades_humiliation;Humiliation of Arabyan Crusades;;;;;;;;;;;;;x
+caliphal_jihad_desc;It's §Y$CLAIMANT$§!'s duty to Carry on the word of Ormazd and Rule the infidels for greater good.;;;;;;;;x
 #
 # AMAZON CB TYPES
 #
@@ -54,6 +96,10 @@ beastman_county_conquest_desc;Beastmen need no excuse to invade new lands. §Y$CL
 beastmancounty_cleanse_desc;Beastmen are vile beasts lurking beneath the cover of caves and forests and will need extra care to get rid of. §Y$CLAIMANT$§! can attack any bordering province and occupy it.;;;;;;;;;;;;;
 CB_NAME_BEASTCOUNTY_CLEANSE;Cleanse [Title.GetBaseName];;;;;;;;;;;;;
 WAR_NAME_BEASTCOUNTY_CLEANSE;$ORDER$$FIRST_ADJ$ Expedition of $OTHER_TITLE$;;;;;;;;;;;;;
+CB_NAME_GSBARONYCLAIM;Cleanse [Title.GetBaseName];;;;;;;;;;;;;
+WAR_NAME_GSBARONYCLAIM;$ORDER$$FIRST_ADJ$ Expedition of $OTHER_TITLE$;;;;;;;;;;;;;
+fimir_cleanse_desc;Cleanse the Fimir filth from these lands so that you may one day settle them with your own people.;;;;;;;;;;;;;;x
+dejure_greenskin_barony_cleanse_desc;Cleanse the Greenskin filth from hiding within these lands.;;;;;;;;;;;;;;x
 #
 # CHAOS CB TYPES
 #

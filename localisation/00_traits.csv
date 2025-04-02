@@ -3,6 +3,15 @@
 # TRAITS #
 ##########
 ###ÄNSI
+#Education Traits
+barbarian_1;Misguided Barbarian;;;;;;;;;;;;;x
+barbarian_1_desc;Misguided Barbarian was trained to wield weapons and raiding but sadly has not proven himself.;;;;;;;;;;;;;x
+barbarian_2;Tough Barbarian;;;;;;;;;;;;;x
+barbarian_2_desc;Barbarian that has undergone several battles;;;;;;;;;;;;;x
+barbarian_3;Barbaric Warrior;;;;;;;;;;;;;x
+barbarian_3_desc;Barbarian veteran of many battles;;;;;;;;;;;;;x
+barbarian_4;Barbaric Warlord;;;;;;;;;;;;;x
+barbarian_4_desc;Barbarian Warlord that has led the front in many wars defeating weaker enemies with ease.;;;;;;;;;;;;;x
 #
 # CREATURE TRAITS
 #
@@ -418,6 +427,8 @@ monster_hunter_desc;This character seeks the most dangerous game.;;;;;;;;;;;;;x
 # 
 # MISC
 #
+tinkerer_leader;Tinkerer;;;;;;;;;;;;;x
+tinkerer_leader_desc;This character is skillfull tinkerer, able to push mechanical constructs beyond their limits in battlefield;;;;;;;;;;;;;x
 sold_into_slavery_desc;;;;;;;;;;;;;;x
 dead_target;;;;;;;;;;;;;;x
 dead_target_desc;;;;;;;;;;;;;;x

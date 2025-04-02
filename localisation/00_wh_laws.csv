@@ -38,68 +38,68 @@ law_marienburg_domination_1_desc;Guilds have been severly weakened and are unabl
 greenskin_power;Greenskin Control;;;;;;;;;;;;x
 greenskin_power_desc;Greenskins don't have the same concept of ruler as the other races, instead the strong rule over the weak. That is the only Greenskin law.\n Each level of this law will be automatically passed to its next level at 500, 1000, 4000 and 8000 piety for each respective level.\n The average time for the next level of the law to be enacted is 1 year, but it can be shortened with certain traits.;;;;;;;;;;;;x
 greenskin_power_0;No Greenskin Control;;;;;;;;;;;;x
-greenskin_power_0_desc;The Greenskins of this tribe don't respect your authority at all. Next level at 500.;;;;;;;;;;;;x
+greenskin_power_0_desc;The Greenskins of this tribe don't respect your authority at all. Next level available at 500.;;;;;;;;;;;;x
 greenskin_power_1;Low Greenskin Control;;;;;;;;;;;;x
-greenskin_power_1_desc;The Greenskins now grudgingly respect your authority. Next level at 1000.;;;;;;;;;;;;x
+greenskin_power_1_desc;The Greenskins now grudgingly respect your authority. Next level available at 1000.;;;;;;;;;;;;x
 greenskin_power_2;Medium Greenskin Control;;;;;;;;;;;;x
-greenskin_power_2_desc;The Greenskins now somewhat respect your authority. Next level at 4000.;;;;;;;;;;;;x
+greenskin_power_2_desc;The Greenskins now somewhat respect your authority. Next level available at 4000.;;;;;;;;;;;;x
 greenskin_power_3;High Greenskin Control;;;;;;;;;;;;x
-greenskin_power_3_desc;The Greenskins now respect your authority. Next level at 8000.;;;;;;;;;;;;x
+greenskin_power_3_desc;The Greenskins now respect your authority. Next level available at 8000.;;;;;;;;;;;;x
 greenskin_power_4;Absolute Greenskin Control;;;;;;;;;;;;x
 greenskin_power_4_desc;The Greenskins now completely respect your authority.;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_strong_commander;He is Good Commander;;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_weak_commander;He is Weak Commander;;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_foreign_race;He is Different Race;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_strong_commander;He is a good commander.;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_weak_commander;He is a weak commander.;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_foreign_race;He is of a different race.;;;;;;;;;;;;;x
+tooltip_greenskin_purity_laws_1;Enables buildings of different Greenskins.;;;;;;;;;;;;;x
+tooltip_greenskin_purity_laws_2;Disables buildings of different Greenskins.;;;;;;;;;;;;;x
 succ_military_elective;Military Command;;;;;;;;;;;;;x
 military_elective;Military Command;;;;;;;;;;;;;x
-succ_military_elective_desc;The Ruler, Marshal and Generals can nominate successor from among themselves and Relatives of the Ruler, Advisors are Valid Electors in Kingdom and Empires. Military Command is very Popular among martial Societies.;;;;;;;;;;;;;x
+succ_military_elective_desc;The ruler, the marshal and the generals can nominate a successor from among themselves and relatives of the ruler. Advisors are valid electors in Kingdoms and Empires. Military command is very popular among martial societies.;;;;;;;;;;;;;x
 greenskin_racial_purity_laws;Racial Purity Laws;;;;;;;;;;;;;x
-greenskin_racial_purity_laws_desc;To Define the attitude towards other Greenskin races within your Personal Horde;;;;;;;;;;;;;x
-greenskin_purity_laws_0;Standard Purity Laws;;;;;;;;;;;;;x
-greenskin_purity_laws_0_desc;More Greenskin for the Horde;;;;;;;;;;;;;x
+greenskin_racial_purity_laws_desc;To define the attitude towards other Greenskin races within your personal horde.;;;;;;;;;;;;;x
+greenskin_purity_laws_0;Racial Purity Laws;;;;;;;;;;;;;x
+greenskin_purity_laws_0_desc;More Greenskins for the Horde!;;;;;;;;;;;;;x
 greenskin_purity_laws_1;Military Exempt;;;;;;;;;;;;;x
-greenskin_purity_laws_1_desc;Surely Best of the best of lesser greenskin can be used;;;;;;;;;;;;;x
-greenskin_purity_laws_2;Purest Purity Laws;;;;;;;;;;;;;x
-greenskin_purity_laws_2_desc;[Root.Holder.Culture.GetName]s are da best and only one Deserving to be part of da Horde!;;;;;;;;;;;;;x
-
+greenskin_purity_laws_1_desc;Surely the best of the best of lesser Greenskins can be used?;;;;;;;;;;;;;x
+greenskin_purity_laws_2;Racial Purity Laws;;;;;;;;;;;;;x
+greenskin_purity_laws_2_desc;[Root.Holder.Culture.GetName]s are da best and the only ones deserving to be part of da Horde!;;;;;;;;;;;;;x
 #
 # NOMAD LAWS
 #
 nomad_stability_law_desc;Nomad stability laws.;;;;;;;;;;;;;x
 nomad_stability_law_0;Low Cohesion of the Clans;;;;;;;;;;;;;x
-nomad_stability_law_0_desc;Nomadic Stability;;;;;;;;;;;;;x
+nomad_stability_law_0_desc;Low Nomadic Stability;;;;;;;;;;;;;x
 nomad_stability_law_1;Medium Cohesion of the Clans;;;;;;;;;;;;;x
-nomad_stability_law_1_desc;Nomadic Stability;;;;;;;;;;;;;x
+nomad_stability_law_1_desc;Medium Nomadic Stability;;;;;;;;;;;;;x
 nomad_stability_law_2;High Cohesion of the Clans;;;;;;;;;;;;;x
-nomad_stability_law_2_desc;Nomadic Stability;;;;;;;;;;;;;x
-
+nomad_stability_law_2_desc;High Nomadic Stability;;;;;;;;;;;;;x
 #
 # NORSCA
 #
 norse_tolerance_laws;The Norscan Pantheon;;;;;;;;;;;;;x
-norse_tolerance_laws_desc;;;;;;;;;;;;;;x
-sub_norse_tolerance;The Norscan Pantheon;;;;;;;;;;;;;x
+norse_tolerance_laws_desc;Controls thex
+norse_tolerance_laws_desc;Controls the tolerance of different religions within the realm.;;;;;;;;;;;;;x
 sub_norse_tolerance_desc;The Norscan;;;;;;;;;;;;;x
 sub_norse_tolerance_0;Order Aligned Pantheon;;;;;;;;;;;;;x
-sub_norse_tolerance_0_desc; ;;;;;;;;;;;;;x
+sub_norse_tolerance_0_desc;Favour the gods of the Old World and their customs. The Chaos gods won't be too happy...;;;;;;;;;;;;;x
 sub_norse_tolerance_1;Open Pantheon;;;;;;;;;;;;;x
-sub_norse_tolerance_1_desc; ;;;;;;;;;;;;;x
+sub_norse_tolerance_1_desc;Anyone may worship whatever god they wish within your realm. Your populace will be happy, but your vassals will not care...;;;;;;;;;;;;;x
 sub_norse_tolerance_2;Dark Gods Aligned Pantheon;;;;;;;;;;;;;x
-sub_norse_tolerance_2_desc; ;;;;;;;;;;;;;x
+sub_norse_tolerance_2_desc;Favour the Chaos Gods and their customs, like a true Norscan should.;;;;;;;;;;;;;x
 #
 # BRETONNIA
 #
 investiture_grail_law;Religious Tolerance;;;;;;;;;;;;;x
-investiture_grail_law_desc;Controls the Tolerance of Old World Religions within the realm and affects the Functionalities of the cult of the lady and her Damsels&Fay Enchantress;;;;;;;;;;;;;x
+investiture_grail_law_desc;Controls the tolerance of Old World religions within the realm and affects the functionalities of the Cult of the Lady and her Damsels and Fay Enchantress.;;;;;;;;;;;;;x
 investiture_grail_law_0;Tolerant Society;;;;;;;;;;;;;x
-TT_BRETONNIAN_INVST_0;The Peasantry are allowed to choose their Religion;;;;;;;;;;;;;x
-investiture_grail_law_0_desc;There has never been precedent to try and persuade the filthy peasants of religious matter as it is not an important factor for the Lady, so the peasantry have been left to their own devices as-long as they don't stray into the hands of chaos.;;;;;;;;;;;;;x
+TT_BRETONNIAN_INVST_0;The peasantry are allowed to choose their own religion;;;;;;;;;;;;;x
+investiture_grail_law_0_desc;There has never been precedent to try and persuade the filthy peasants of religious matters, as it is not an important factor for the Lady. The peasantry have been therefore left to their own devices, as long as they don't stray into the hands of Chaos.;;;;;;;;;;;;;x
 investiture_grail_law_1;Middling Toleration;;;;;;;;;;;;;x
-TT_BRETONNIAN_INVST_1;Allows control of Further conversion away from the Grail in events;;;;;;;;;;;;;x
-investiture_grail_law_1_desc;The Nobility has some differentiating opinions with the Fay Enchantress about the direction of worship within the realm resulting in clashes with the damsels and different old world religious cults.;;;;;;;;;;;;;x
+TT_BRETONNIAN_INVST_1;Allows control of further conversion away from the Grail in events;;;;;;;;;;;;;x
+investiture_grail_law_1_desc;The Nobility has some differentiating opinions with the Fay Enchantress about the direction of worship within the realm, resulting in clashes with the damsels and different Old World religious cults.;;;;;;;;;;;;;x
 investiture_grail_law_2;Intolerant Society;;;;;;;;;;;;;x
-investiture_grail_law_2_desc;The Ignorance of the peasantry is no long permissable, the bretonnia has finally unleashed the inquisition upon the unsuspecting innocent populace. may the gods have mercy on them.;;;;;;;;;;;;;x
-TT_BRETONNIAN_INVST_INQ;Allows access to religious conversion within old world religion group;;;;;;;;;;;;;x
+investiture_grail_law_2_desc;The ignorance of the peasantry is no long permissable, and Bretonnia has finally unleashed the inquisition upon the unsuspecting innocent populace. May the gods have mercy on them!;;;;;;;;;;;;;x
+TT_BRETONNIAN_INVST_INQ;Allows access to religious conversions within the Old World religion group;;;;;;;;;;;;;x
 sub_feudafication_0;Strict Tenure;;;;;;;;;;;;;x
 sub_feudafication_0_option;Strict;;;;;;;;;;;;;x
 sub_feudafication_0_desc;Only you are allowed to carve out new tenures by sub-letting part of your lands to tenants.;;;;;;;;;;;x
@@ -111,12 +111,33 @@ sub_feudafication_2_option;Open;;;;;;;;;;;;;x
 sub_feudafication_2_desc;Allow all vassals to carve out new tenures by sub-letting part of their lands to tenants.;;;;;;;;;;;;;x
 sub_feudafication;Subfeudification;;;;;;;;;;;;;x
 sub_feudafication_desc;Carve out new and distinct tenures by sub-letting land to tenants.\n\nTrades demesne size for more vassals and increased vassal opinion. Also controls Viceroyalty laws.;;;;;;;;;;;;;x
+lady_religious_elective;The Church of Lady;;;;;;;;;;;;;x
+lady_religious_elective_desc; ;;;;;;;;;;;;;x
+bretonnia_feudal_elective;Bretonnian Monarchy;;;;;;;;;;;;;x
+succ_bretonnia_elective_option;Bretonnian;;;;;;;;;;;;;x
+succ_bretonnia_elective_desc;The ruler and each Bretonnian Duke can nominate a successor from all the Grail Knights. Elective Succession is very popular with the vassals, but they will not approve if their liege personally holds too many elector titles.;;;;;;;;;;;;;x
 
 #
 # DWARF LAWS
 # 
+dwarf_clan_power_law;Clan Hierarchy;;;;;;;;;x
 dwarf_clan_power_law_desc;Dwarfs take their ancestry as seriously as they take their grudges. Each Dwarf belongs to a Clan — a group of Dwarfs who can trace their descent to a common point.;;;;;;;;;;;;;x
-dwarf_clan_power_law_1_desc;Favor the Warriors
-dwarf_clan_power_law_2_desc;Favor the Elite
-dwarf_clan_power_law_3_desc;Favor the Rangers
-dwarf_clan_power_law_4_desc;Favor the Slayers
+dwarf_clan_power_law_0;Warrior Clan;;;;;;;;;;;;;x
+dwarf_clan_power_law_0_desc;Favor the Warrior clan, providing you with more troops.;;;;;;;;;;;;;x
+dwarf_clan_power_law_1;Elite Clan;;;;;;;;;;;;;x
+dwarf_clan_power_law_1_desc;Favor the landholding Elite, boosting their opinion of you but reducing troop reinforcement rate.;;;;;;;;;;;;;x
+dwarf_clan_power_law_2;Ranger Clan;;;;;;;;;;;;;x
+dwarf_clan_power_law_2_desc;Favor the Rangers, boosting their opinion of you.;;;;;;;;;;;;;x
+dwarf_clan_power_law_3;Slayer Clan;;;;;;;;;;;;;x
+dwarf_clan_power_law_3_desc;Favor the Slayers, boosting their opinion of you.;;;;;;;;;;;;;x
+#
+# SKAVEN 
+#
+skaven_clan_power_law;Clan Hierarchy;;;;;;;;;x
+skaven_clan_power_law_desc;The skaven clans structure themselves how ever they wish at all times to represent the needs of their clan leader.;;;;;;;;;x
+skaven_clan_power_law_2;Scavanger Clan;;;;;;;;;x
+skaven_clan_power_law_1;Elite Clan;;;;;;;;;x
+skaven_clan_power_law_0;Skaven Clan;;;;;;;;;x
+skaven_clan_power_law_2_desc;This clan Partakes in scavenging the dead in any battle field they can find on the surface and the underground to strenghten their coffers.;;;;;;;;;x
+skaven_clan_power_law_1_desc;This clan Prides themselves in their elite warriors first and foremost.;;;;;;;;;x
+skaven_clan_power_law_0_desc;This clan is filled with cowardly skaven to the brim to maximize their numbers.;;;;;;;;;x

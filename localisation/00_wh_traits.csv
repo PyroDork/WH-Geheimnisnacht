@@ -130,9 +130,15 @@ knight_questing_desc;This knight is actively searching for the Grail.;;;;;;;;;;;
 green_knight;The Green Knight;;;;;;;;;;;;;x
 green_knight_desc;The Green Knight is the sacred protector of Bretonnia, and his spirit-essence is intertwined with the land and the Lady of the Lake. He has appeared to many Questing Knights. They speak of the sky clouding over to create the darkness of twilight, and a green mist seeping from the earth, slowly taking the shape of a figure riding a snorting steed. The warrior brandishes a glowing blade, his eyes ablaze with fey light.;;;;;;;;;;;;;x
 BretonDamsel;Grail Damsel;;;;;;;;;;;;;x
-BretonDamsel_desc;This character is a Grail Damsel.;;;;;;;;;;;;;x
+BretonDamsel_desc;This character is a Grail Damsel. Grail Damsels are powerful, female Bretonnian wizards and priestesses dedicated to the service of Bretonnia's patron goddess, the Lady of the Lake.;;;;;;;;;;;;;x
 fay_enchantress;Fay Enchantress;;;;;;;;;;;;;
 fay_enchantress_desc;The Fay Enchantress is the earthly representative of the Lady of the Lake and the overall and undisputed leader of her cult. She is the supreme political and spiritual authority of Bretonnia, it is she who crowns the King and has the power to depose and exile the monarch.;;;;;;;;;;;;;
+clergy;Clergy;;;;;;;;;;;;;x
+clergy_desc;This character belongs to the clergy class of Bretonnia.;;;;;;;;;;;;;x
+noble;Noble;;;;;;;;;;;;;x
+noble_desc;This character belongs to the aristocracy of Bretonnia.;;;;;;;;;;;;;x
+peasant;Peasant;;;;;;;;;;;;;x
+peasant_desc;This character is a filthy Bretonnian peasant, best be ignored.;;;;;;;;;;;;;x
 #
 # CHAOS TRAITS
 #

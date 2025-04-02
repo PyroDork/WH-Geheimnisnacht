@@ -314,8 +314,8 @@ EVTOPTBmarket.14;Elephants;;;;;;;;;;;;;x
 EVTOPTCmarket.14;Mammoths;;;;;;;;;;;;;x
 EVTTITLEmarket.15;Camels;;;;;;;;;;;;;x
 EVTOPTAmarket.15;An Arabyan Camel;;;;;;;;;;;;;x
-EVTTOOLTIPAmarket.15;§GArabyan Camels are well suited to traveling the harsh deserts of Araby, they are also quite fearless§!;;;;;;;;;;;;;x
-EVTOPTBmarket.15;An Cophic Camel;;;;;;;;;;;;;x
+EVTTOOLTIPAmarket.151;§GArabyan Camels are well suited to traveling the harsh deserts of Araby, they are also quite fearless§!;;;;;;;;;;;;;x
+EVTOPTBmarket.15;A Cophic Camel;;;;;;;;;;;;;x
 EVTTOOLTIPBmarket.15;§GCophic Camels are slow due to the rugged terrain around their homes, they are used mainly as pack animals§!;;;;;;;;;;;;;x
 EVTTITLEmarket.16;Elephants;;;;;;;;;;;;;x
 EVTOPTAmarket.16;An Indish Elephant;;;;;;;;;;;;;x
@@ -340,7 +340,7 @@ EVTTOOLTIPEmarket.18;§GVery rare are the few that are able to go in to the skys 
 EVTOPTFmarket.18;A War Bear;;;;;;;;;;;;;x
 EVTTOOLTIPFmarket.18;§GThese large bears make their homes in the cold forests of the north, making the effects of winter negligible§!;;;;;;;;;;;;;x
 EVTOPTPmarket.18;A Pegasus;;;;;;;;;;;;;x
-EVTTOOLTIPGmarket.18;§GThese Pegasus are accustomed to mountainous areas and known for their fast flight, making them hard to catch§!;;;;;;;;;;;;;x
+EVTTOOLTIPPmarket.18;§GThese Pegasus are accustomed to mountainous areas and known for their fast flight, making them hard to catch§!;;;;;;;;;;;;;x
 EVTOPTGmarket.18;A Griffon;;;;;;;;;;;;;x
 EVTTOOLTIPGmarket.18;§GThese Griffons are accustomed to mountainous areas and known for their prowess, making them hard to tame or acquire§!;;;;;;;;;;;;;x
 EVTOPTAmarket.19;A swift Stag;;;;;;;;;;;;;x

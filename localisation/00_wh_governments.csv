@@ -140,6 +140,11 @@ confucian_bureaucracy_desc;Confucian Bureaucracies rely on a set of strict imper
 #
 # OTHER GOVERNMENTS
 #
+gov_fimir_government;Fimir Clan;;;;;;;;;;;;;x
+fimir_government_feudal;Fimir Stronghold;;;;;;;;;;;;;x
+fimir_government_feudal_desc;Strong Fimir leader has risen into the leadership and established stronghold which is very hard to shake.;;;;;;;;;;;;;x
+gov_dwarf_guilds;Dawi Mercantile [PrimaryTitle.GetTier];;;;;;;;;;;;;x
+gov_chaosdwarf_guilds;Dawi Zharr Slaver's [PrimaryTitle.GetTier];;;;;;;;;;;;;x
 subfeudal_government;Subfeudal;;;;;;;;;;;;;x
 subfeudal_government_desc;Subfeudation is the practice by which a King, or other superior lord, allow vassals to carve out new and distinct tenures in their turn by sub-letting or alienating a part of their lands to tenants.;;;;;;;;;;;;;x
 confederation_government;Confederation;;;;;;;;;;;;;x

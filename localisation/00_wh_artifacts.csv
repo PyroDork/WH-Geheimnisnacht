@@ -199,6 +199,7 @@ asur_ithilmar_battleaxe;Ithilmar Battle-Axe;;;;;;;;;;;;;x
 asur_silverite_armour;Silverite Armour;;;;;;;;;;;;;x
 asur_steel_armour;Elven Steel Armour;;;;;;;;;;;;;x
 asur_artifact_ithilmar_armour;Ithilmar Armour;;;;;;;;;;;;;x
+asur_artifact_ithilmar_armour_desc;Light and durable, ithilmar mail represents the height of Elven capability in armoursmithing. While not magical, it’s rumoured that only the greatest of Elven wizards can forge it.;;;;;;;;;;;;;x
 asur_artifact_dragon_armour;Dragon Armour;;;;;;;;;;;;;x
 asur_artifact_shadow_armour;Shadow Armour;;;;;;;;;;;;;x
 #
@@ -424,7 +425,7 @@ druchii_bleaksword_2;Blade of Malice;;;;;;;;;;;;;x
 druchii_draich;Druchii Draich;;;;;;;;;;;;;x
 druchii_draich_2;Heavy Druchii Draich;;;;;;;;;;;;;x
 druchii_sea_dragon_cloak;Sea Dragon Cloak;;;;;;;;;;;;;x
-druchii_sea_dragon_cloak_descThe cloak can be drawn tightly around the body when fired at,acting as a shield against missile fire. The scales are skillfully joined together to give a cloak that is flexible,yet tough enough to deflect enemy blows. These scaled cloaks are light,flexible and incredibly tough.;;;;;;;;;;;;;x
+druchii_sea_dragon_cloak_desc;The cloak can be drawn tightly around the body when fired at,acting as a shield against missile fire. The scales are skillfully joined together to give a cloak that is flexible,yet tough enough to deflect enemy blows. These scaled cloaks are light,flexible and incredibly tough.;;;;;;;;;;;;;x
 druchii_armour_of_fortune;Armour of Fortune;;;;;;;;;;;;;x
 druchii_meteorite_armour;Meteorite Armour;;;;;;;;;;;;;x
 druchii_meteorite_armour_desc;Forged from meteoric steel,this suit is almost impossible to pierce.;;;;;;;;;;;;;x
@@ -586,23 +587,23 @@ boar_desc;The Boars of the Old World are exceptionally ill-tempered and vicious 
 boar_chariot;Boar Chariot;;;;;;;;;;;;;x
 boar_chariot_desc;The Boars of the Old World are exceptionally ill-tempered and vicious beasts, two traits that the Orcs admire greatly, which is probably why so many have been taken as mounts for the Greenskin hordes. The impact that a charging boar can produce is considerable. Left to their own devices, boars generally root the ground for grubs and menace any creatures foolish enough to interrupt their feeding. Many boars have become entirely carnivorous as a result of the Orcs breeding the trait into their mounts, and then releasing them to mate with other wild boars.;;;;;;;;;;;;;x
 club;Club;;;;;;;;;;;;;x
-club_desc;;;;;;;;;;;;;;x
+club_desc;This wooden cudgel is the simplest design, basically nothing more than a heavy wooden stick.;;;;;;;;;;;;;;x
 dirk;Dirk;;;;;;;;;;;;;x
-dirk_desc;;;;;;;;;;;;;;x
+dirk_desc;Similar to a dagger, a dirk has a slender long blade. The blade is steel, instead of iron, with a stitched grip instead of just being wrapped, and the pommel, though of the same metal as the rest of the knife, is carved to reflect a design like flames, or it features the maker’s mark or house insignia of the owner.;;;;;;;;;;;;;;x
 greenskin_ard_armour;'Ard Armour;;;;;;;;;;;;;x
-greenskin_ard_armour_desc;;;;;;;;;;;;;;x
+greenskin_ard_armour_desc;This is no ordinary armour, for it is ‘ard - really ‘ard.;;;;;;;;;;;;;x
 greenskin_ard_armour_2;'Ard Armour;;;;;;;;;;;;;x
-greenskin_ard_armour_2_desc;;;;;;;;;;;;;;x
+greenskin_ard_armour_2_desc;This is no ordinary armour, for it is ‘ard - really, really 'ard.;;;;;;;;;;;;;x
 greenskin_ard_armour_3;Ze 'Ardest Armour;;;;;;;;;;;;;x
-greenskin_ard_armour_3_desc;;;;;;;;;;;;;;x
+greenskin_ard_armour_3_desc;This is no ordinary armour, for it is ‘ard - really, really, REALLY ‘ard.;;;;;;;;;;;;;x
 greenskin_gnashas;Gnasher Helm;;;;;;;;;;;;;x
-greenskin_gnashas_desc;;;;;;;;;;;;;;x
+greenskin_gnashas_desc;A huge metal jaw plate that belonged to the infamous Imbad. Such is the excessive bloodlust displayed by any Orc who dons this artefact, many believe that Imbad's psychotic spirit lives on within, urging the wearer on.;;;;;;;;;;;;;;x
 ze_orc_choppa;Ze Choppa;;;;;;;;;;;;;x
-ze_orc_choppa_desc;;;;;;;;;;;;;;x
+ze_orc_choppa_desc;Wuz betta den one choppa? Two choppas! Two choppas is one more… is one times da… is lots more fun! Waaagh!;;;;;;;;;;;;;;x
 ze_greenskin_ax;Ze Ax;;;;;;;;;;;;;x
-ze_greenskin_ax_desc;;;;;;;;;;;;;;x
+ze_greenskin_ax_desc;This powerful weapon of brazen iron hisses with Orc magicks.;;;;;;;;;;;;;x
 back_stabba_blade;Backstabba Blade;;;;;;;;;;;;;x
-back_stabba_blade_desc;;;;;;;;;;;;;;x
+back_stabba_blade_desc;Whilst Orcs are happy to fight anyone, anywhere, anywhen, Goblins are much happier if they can wait until their target is facing the other way. When wielded, "Backstabber's Blade", always seems to strengthen the wielder, whilst also being poisonous.;;;;;;;;;;;;;;x
 
 #
 # KISLEVITE ARTIFACTS
@@ -1271,3 +1272,10 @@ can_hold_weapons_tt;Can Hold Weapons;;;;;;;;;;;;;x
 can_hold_shield_tt;Can Hold Shield;;;;;;;;;;;;;x
 can_wear_armor_tt;Can Wear Armor;;;;;;;;;;;;;x
 can_wear_helmet_tt;Can Wear Helmet;;;;;;;;;;;;;x
+#Engineered
+engineered_hand;Engineered Hand;;;;;;;;;;;;;x
+engineered_hand_desc;An mechanical hand created to help disabled person to be able to still use their limbs;;;;;;;;;;;;;x
+engineered_leg;Engineered Hand;;;;;;;;;;;;;x
+engineered_leg_desc;An mechanical leg created to help disabled person to be able to still use their limbs;;;;;;;;;;;;;x
+engineered_frame;Engineered Frame;;;;;;;;;;;;;x
+engineered_frame_desc;An mechanical frame created to help disabled person to be able to still use their limbs;;;;;;;;;;;;;x

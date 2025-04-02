@@ -292,7 +292,7 @@ badruk_desc;The Grey Dwarfs know him well. Actually, he has caused so many death
 gorbad_ironclaw;Tyrannical Ancestry of [This.GetTitledFirstName];;;;;;;;;x
 gorbad_ironclaw_desc;In his day, Gorbad led a massive invasion that almost crushed the Empire. His armies succeeded in slaying Emperor Sigismund and wiping the Imperial province of Solland off the map, but was grievously wounded at the Battle of Blood Peak.;;;;;;;;;;;;;x
 morglor_the_mangler;Morglor The Mangler;;;;;;;;;;;;;x
-morglor_the_mangler_desc;Morglor the Mangler is one of the most feared weapons ever to be wielded by an Orc warboss. Its thirst for mayhem and death matched only by htat of its owner.;;;;;;;;;;;;;x
+morglor_the_mangler_desc;Morglor the Mangler is one of the most feared weapons ever to be wielded by an Orc warboss. Its thirst for mayhem and death matched only by that of its owner.;;;;;;;;;;;;;x
 ##Wonder
 wonder_shrine_asuryan;Shrine of Asuryan;;;;;;;;;;;;;x
 wonder_shrine_asuryan_desc;The temple itself is not of Elven design. According to Teclis, the ziggurat echoes the patterns of ancient cities of the Slann. Some think it was they who first contacted Asuryan and taught his worship to the Elves. Up close, the ancient, weathered stones are covered in an ochre moss. For visitors, as the temple rises above them, it can be difficult to tell the real scale of the structure, seeming as though it were part of the cliffs, a mountain that had been partially sculpted by the ancient builders. It was as if the gods themselves had placed it there. Even non-mages can tell that there was a power contained within the Shrine, can sense the energy pulsating out through the very stone. When Teclis and Tyrion visited the Shrine, the former looked as though gazing upon some natural marvel: a mountain landscape, a perfect beach, a glorious sunset. The sixteen year old's face was transformed as if he were looking upon a wonder. Indeed, Teclis claimed he could see the Flame of Asuryan burning through the cliff. He then corrected himself in saying that he not so much saw as "perceived" its energy. In his own words, this was a place where a power from Outside touches the mortal world. Something vast and slow and terribly ancient.;;;;;;;;;;;;;x
@@ -314,8 +314,8 @@ wonder_greenskin_arachnid_lair;Arachnid Hive;;;;;;;;;;;;;x
 wonder_greenskin_arachnid_lair_desc;The Spider Kult's Hive is a major hive to gather and serve spiders. The largest among them are the Arachnok spiders, bolstered with numerous greenskin protecting them.;;;;;;;;;;;;;x
 wonder_greenskin_arachnid_lair_construction_desc;A Spider Kult's Hive is a major hive to gather and serve spiders, the largest among being the Arachnok spiders, bolstered with numerous greenskin protecting them.;;;;;;;;;;;;;x
 wonder_greenskin_stronghold;Greenskin Stronghold;;;;;;;;;;;;;x
-wonder_greenskin_stronghold_desc;Ranshackly built Stronghold by the infesting Greenskins to control the area with more brutal effiency in image of tyranny.;;;;;;;;;;;;;x
-wonder_greenskin_stronghold_construction_desc;Ranshackly built Stronghold by the infesting Greenskins to control the area with more brutal effiency in image of tyranny.;;;;;;;;;;;;;x
+wonder_greenskin_stronghold_desc;A haphazardly built stronghold by the infesting Greenskins to control the area with more brutal efficiency in the image of tyranny.;;;;;;;;;;;;;x
+wonder_greenskin_stronghold_construction_desc;A haphazardly built stronghold by the infesting Greenskins to control the area with more brutal efficiency in the image of tyranny.;;;;;;;;;;;;;x
 ###Laws
 tooltip_feudal_elector_vote_strong_commander;He is Good Commander;;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_weak_commander;He is Weak Commander;;;;;;;;;;;;;x
@@ -323,14 +323,6 @@ tooltip_feudal_elector_vote_foreign_race;He is Different Race;;;;;;;;;;;;;x
 succ_military_elective;Military Command;;;;;;;;;;;;;x
 military_elective;Military Command;;;;;;;;;;;;;x
 succ_military_elective_desc;The Ruler, Marshal and Generals can nominate successor from among themselves and Relatives of the Ruler, Advisors are Valid Electors in Kingdom and Empires. Military Command is very Popular among martial Societies.;;;;;;;;;;;;;x
-greenskin_racial_purity_laws;Racial Purity Laws;;;;;;;;;;;;;x
-greenskin_racial_purity_laws_desc;To Define the attitude towards other Greenskin races within your Personal Horde;;;;;;;;;;;;;x
-greenskin_purity_laws_0;Racial Purity Laws;;;;;;;;;;;;;x
-greenskin_purity_laws_0_desc;More Greenskin for the Horde;;;;;;;;;;;;;x
-greenskin_purity_laws_1;Military Exempt;;;;;;;;;;;;;x
-greenskin_purity_laws_1_desc;Surely Best of the best of lesser greenskin can be used;;;;;;;;;;;;;x
-greenskin_purity_laws_2;Racial Purity Laws;;;;;;;;;;;;;x
-greenskin_purity_laws_2_desc;[Root.Holder.Culture.GetName]s are da best and only one Deserving to be part of da Horde!;;;;;;;;;;;;;x
 ###Buildings
 ca_phoenix_guard_base;Phoenix Guard Barracks;;;;;;;;;;;;;x
 ct_phoenix_guard_base;Phoenix Guard Barracks;;;;;;;;;;;;;x

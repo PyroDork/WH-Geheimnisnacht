@@ -32,6 +32,7 @@ elvenspearmen;Elven Spearmen;;;;;;;;;;;;;x
 elvenarchers;Elven Archers;;;;;;;;;;;;;x
 silverhelms;Silver Helm Knights;;;;;;;;;;;;;x
 sistersofavelorn;Sisters Of Avelorn;;;;;;;;;;;;;x
+ithilmarchariots;Ithilmar Chariots;;;;;;;;;;;;;x
 #
 # ASRAI RETINUES
 #
@@ -274,6 +275,7 @@ bloodlegioncavalry;Blood Legion Cavalry;;;;;;;;;;;;;x
 #
 # VAMPIRE RETINUES
 #
+DOWRETSIMULACRA;Simulacra;;;;;;;;;;;;;x
 RETTYPE_UNDEADHORDE;Undead Horde;;;;;;;;;;;;;x
 RETTYPE_DIREWOLVES;Dire Wolves;;;;;;;;;;;;;x
 RETTYPE_V_CRYPTGHOULS;Crypt Ghouls;;;;;;;;;;;;;x
