@@ -916,6 +916,18 @@ character_event = {
 						factor = 1.4
 						trait = brilliant_strategist
 					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
+					}
 					immediate = {
 						random_list = {
 							15 = { #improving or add congenial trait that is appropriate
@@ -1097,6 +1109,18 @@ character_event = {
 					mult_modifier = {
 						factor = 1.4
 						trait = brilliant_strategist
+					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
 					}
 					immediate = {
 						character_event = { id = RS_offmapK.40501 }
@@ -1466,6 +1490,18 @@ character_event = {
 						factor = 1.4
 						trait = brilliant_strategist
 					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
+					}
 					random_list = {
 						15 = { #improving or add congenial trait that is appropriate
 							mult_modifier = {
@@ -1681,6 +1717,18 @@ character_event = {
 					mult_modifier = {
 						factor = 1.4
 						trait = brilliant_strategist
+					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
 					}
 					immediate = {
 						character_event = { id = RS_offmap.50501 }
@@ -2055,6 +2103,18 @@ character_event = {
 						factor = 1.4
 						trait = brilliant_strategist
 					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
+					}
 					random_list = {
 						15 = { #improving or add congenial trait that is appropriate
 							mult_modifier = {
@@ -2270,6 +2330,18 @@ character_event = {
 					mult_modifier = {
 						factor = 1.4
 						trait = brilliant_strategist
+					}
+					mult_modifier = {
+						factor = 1.2
+						trait = barbarian_2
+					}
+					mult_modifier = {
+						factor = 1.4
+						trait = barbarian_3
+					}
+					mult_modifier = {
+						factor = 1.5
+						trait = barbarian_4
 					}
 					immediate = {
 						character_event = { id = RS_offmapK.60501 }

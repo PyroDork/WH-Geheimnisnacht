@@ -83,7 +83,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 			}
 
@@ -102,7 +102,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 			}
 
@@ -187,7 +187,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -207,7 +207,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -294,7 +294,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -313,7 +313,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -398,7 +398,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -418,7 +418,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -504,7 +504,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -523,7 +523,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -608,7 +608,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -628,7 +628,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -714,7 +714,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -733,7 +733,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -818,7 +818,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -838,7 +838,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -924,7 +924,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -943,7 +943,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1028,7 +1028,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1048,7 +1048,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1134,7 +1134,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -1153,7 +1153,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1238,7 +1238,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1258,7 +1258,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1344,7 +1344,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -1363,7 +1363,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1448,7 +1448,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1468,7 +1468,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1554,7 +1554,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -1573,7 +1573,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1658,7 +1658,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1678,7 +1678,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1764,7 +1764,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -1783,7 +1783,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1868,7 +1868,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1888,7 +1888,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -1974,7 +1974,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -1993,7 +1993,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2078,7 +2078,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2098,7 +2098,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2150,216 +2150,6 @@ province_event = {
 			dynasty = random
 			religion = nurgle
 			culture = aghol
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				diplomacy = 7
-				stewardship = 10
-			}
-			trait = charitable
-			trait = kind
-			trait = has_nurgles_rot
-			trait = has_tomb_rot
-			trait = pneumonic
-			trait = champion_nurgle
-			trait = midas_touched
-		            }
-				}
-
-		15 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = chaos
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				diplomacy = 7
-				martial = 10
-			}
-			trait = brave
-			trait = ambitious
-			trait = skilled_tactician
-		            }
-				}
-
-			15 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = khorne
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				martial = 13
-			}
-			trait = brave
-			trait = wroth
-			trait = brilliant_strategist
-		            }
-				}
-
-			15 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tzeentch
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				intrigue = 7
-				learning = 10
-			}
-			trait = deceitful
-			trait = ambitious
-			trait = elusive_shadow
-		            }
-				}
-
-			15 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = slaanesh
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				diplomacy = 7
-				intrigue = 10
-			}
-			trait = lustful
-			trait = proud
-			trait = grey_eminence
-		            }
-				}
-
-			15 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = nurgle
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				diplomacy = 7
-				stewardship = 10
-			}
-			trait = kind
-			trait = charitable
-			trait = has_nurgles_rot
-			trait = midas_touched
-		            }
-			}
-
-		1 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = chaos
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				martial = 5
-				diplomacy = 3
-				stewardship = 2
-				learning = 3
-				intrigue = 3
-			}
-			trait = brave
-			trait = ambitious
-			trait = champion_undivided
-			trait = brilliant_strategist
-		            }
-				}
-
-			1 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = khorne
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				martial = 13
-			}
-			trait = brave
-			trait = wroth
-			trait = champion_khorne
-			trait = brilliant_strategist
-		            }
-				}
-
-			1 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tzeentch
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				intrigue = 13
-				learning = 13
-			}
-			trait = deceitful
-			trait = ambitious
-			trait = champion_tzeentch
-			trait = elusive_shadow
-		            }
-				}
-
-			1 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = slaanesh
-			culture = dolgan
-			female = no
-			age = 20
-			health = 7
-			fertility = 0.7
-			attributes = {
-				intrigue = 8
-				diplomacy = 9
-			}
-			trait = lustful
-			trait = proud
-			trait = champion_slaanesh
-			trait = grey_eminence
-		            }
-				}
-
-			1 = {
-		    create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = nurgle
-			culture = dolgan
 			female = no
 			age = 20
 			health = 7
@@ -2383,6 +2173,216 @@ province_event = {
 			random_traits = yes
 			dynasty = random
 			religion = chaos
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				diplomacy = 7
+				martial = 10
+			}
+			trait = brave
+			trait = ambitious
+			trait = barbarian_3
+		            }
+				}
+
+			15 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = khorne
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				martial = 13
+			}
+			trait = brave
+			trait = wroth
+			trait = barbarian_4
+		            }
+				}
+
+			15 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = tzeentch
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				intrigue = 7
+				learning = 10
+			}
+			trait = deceitful
+			trait = ambitious
+			trait = elusive_shadow
+		            }
+				}
+
+			15 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = slaanesh
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				diplomacy = 7
+				intrigue = 10
+			}
+			trait = lustful
+			trait = proud
+			trait = grey_eminence
+		            }
+				}
+
+			15 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = nurgle
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				diplomacy = 7
+				stewardship = 10
+			}
+			trait = kind
+			trait = charitable
+			trait = has_nurgles_rot
+			trait = midas_touched
+		            }
+			}
+
+		1 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = chaos
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				martial = 5
+				diplomacy = 3
+				stewardship = 2
+				learning = 3
+				intrigue = 3
+			}
+			trait = brave
+			trait = ambitious
+			trait = champion_undivided
+			trait = barbarian_4
+		            }
+				}
+
+			1 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = khorne
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				martial = 13
+			}
+			trait = brave
+			trait = wroth
+			trait = champion_khorne
+			trait = barbarian_4
+		            }
+				}
+
+			1 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = tzeentch
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				intrigue = 13
+				learning = 13
+			}
+			trait = deceitful
+			trait = ambitious
+			trait = champion_tzeentch
+			trait = elusive_shadow
+		            }
+				}
+
+			1 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = slaanesh
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				intrigue = 8
+				diplomacy = 9
+			}
+			trait = lustful
+			trait = proud
+			trait = champion_slaanesh
+			trait = grey_eminence
+		            }
+				}
+
+			1 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = nurgle
+			culture = dolgan
+			female = no
+			age = 20
+			health = 7
+			fertility = 0.7
+			attributes = {
+				diplomacy = 7
+				stewardship = 10
+			}
+			trait = charitable
+			trait = kind
+			trait = has_nurgles_rot
+			trait = has_tomb_rot
+			trait = pneumonic
+			trait = champion_nurgle
+			trait = midas_touched
+		            }
+				}
+
+		15 = {
+		    create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = chaos
 			culture = gharhar
 			female = no
 			age = 20
@@ -2394,7 +2394,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -2413,7 +2413,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2498,7 +2498,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2518,7 +2518,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2604,7 +2604,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -2623,7 +2623,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2708,7 +2708,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2728,7 +2728,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2814,7 +2814,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -2833,7 +2833,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2918,7 +2918,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -2938,7 +2938,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3024,7 +3024,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -3043,7 +3043,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3128,7 +3128,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3148,7 +3148,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3234,7 +3234,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -3253,7 +3253,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3338,7 +3338,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3358,7 +3358,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3441,7 +3441,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -3460,7 +3460,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3545,7 +3545,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3565,7 +3565,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3648,7 +3648,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -3667,7 +3667,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3752,7 +3752,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3772,7 +3772,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3855,7 +3855,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		            }
 				}
 
@@ -3874,7 +3874,7 @@ province_event = {
 			}
 			trait = brave
 			trait = wroth
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3959,7 +3959,7 @@ province_event = {
 			trait = brave
 			trait = ambitious
 			trait = champion_undivided
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -3979,7 +3979,7 @@ province_event = {
 			trait = brave
 			trait = wroth
 			trait = champion_khorne
-			trait = brilliant_strategist
+			trait = barbarian_4
 		            }
 				}
 
@@ -4069,7 +4069,7 @@ province_event = {
 			}
 			trait = brave
 			trait = ambitious
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 	}
 		new_character = {
@@ -4145,7 +4145,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4202,7 +4202,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4298,7 +4298,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4355,7 +4355,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4451,7 +4451,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4508,7 +4508,7 @@ province_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = barbarian_3
 					}
 					new_character = {
 						# Set Racial Trait
@@ -4694,7 +4694,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4722,7 +4722,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4751,7 +4751,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4782,7 +4782,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4810,7 +4810,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4839,7 +4839,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4870,7 +4870,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4898,7 +4898,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait
@@ -4927,7 +4927,7 @@ province_event = {
 									attributes = {
 										martial = 7
 									}
-									trait = skilled_tactician
+									trait = barbarian_3
 								}
 								new_character = {
 									# Set Racial Trait

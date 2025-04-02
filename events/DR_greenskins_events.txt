@@ -112,19 +112,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.01
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 1.06
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 1.11
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 1.16
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.01
@@ -297,19 +297,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.01
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 1.06
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 1.11
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 1.16
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.01
@@ -483,19 +483,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.01
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 1.06
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 1.11
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 1.16
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.01
@@ -618,19 +618,19 @@ character_event = {
 		# }
 		# modifier = {
 			# factor = 0.99
-			# trait = misguided_warrior
+			# trait = barbarian_1
 		# }
 		# modifier = {
 			# factor = 0.94
-			# trait = tough_soldier
+			# trait = barbarian_2
 		# }
 		# modifier = {
 			# factor = 0.89
-			# trait = skilled_tactician
+			# trait = barbarian_3
 		# }
 		# modifier = {
 			# factor = 0.84
-			# trait = brilliant_strategist
+			# trait = barbarian_4
 		# }
 		# modifier = {
 			# factor = 0.99
@@ -805,19 +805,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.01
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 1.06
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 1.11
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 1.16
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 1.01
@@ -1011,19 +1011,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.99
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 0.94
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 0.88
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 0.81
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 	}
 
@@ -1178,19 +1178,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.99
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 0.94
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 0.88
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 0.81
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 	}
 
@@ -1345,19 +1345,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.99
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 0.94
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 0.88
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 0.81
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 	}
 
@@ -1515,19 +1515,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.99
-			trait = misguided_warrior
+			trait = barbarian_1
 		}
 		modifier = {
 			factor = 0.94
-			trait = tough_soldier
+			trait = barbarian_2
 		}
 		modifier = {
 			factor = 0.88
-			trait = skilled_tactician
+			trait = barbarian_3
 		}
 		modifier = {
 			factor = 0.81
-			trait = brilliant_strategist
+			trait = barbarian_4
 		}
 	}
 
@@ -2240,7 +2240,7 @@ province_event = {
 									martial = 10
 									}
 							trait = creature_goblin
-							trait = misguided_warrior
+							trait = barbarian_1
 							trait = lore_waaagh
 							}
 						}
@@ -2295,7 +2295,7 @@ province_event = {
 									martial = 10
 									}
 							trait = creature_goblin
-							trait = misguided_warrior
+							trait = barbarian_1
 							trait = lore_waaagh
 							}
 						}
@@ -2350,7 +2350,7 @@ province_event = {
 									martial = 10
 									}
 							trait = creature_orc
-							trait = misguided_warrior
+							trait = barbarian_1
 							trait = lore_waaagh
 							}
 						}
@@ -2366,7 +2366,7 @@ province_event = {
 									martial = 10
 									}
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 							}
 						}
 					33 = {
@@ -2381,7 +2381,7 @@ province_event = {
 									martial = 10
 									}
 								trait = creature_orc
-								trait = tough_soldier
+								trait = barbarian_2
 								}
 						}
 				}
@@ -2413,7 +2413,7 @@ province_event = {
 									martial = 7
 									}
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 							}
 						}
 					20 = {
@@ -2428,7 +2428,7 @@ province_event = {
 									martial = 9
 									}
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 							trait = berserker
 							}
 						}
@@ -2444,7 +2444,7 @@ province_event = {
 									intrigue = 5
 									}
 							trait = creature_goblin
-							trait = misguided_warrior
+							trait = barbarian_1
 							trait = lore_waaagh
 							}
 						}
@@ -2460,7 +2460,7 @@ province_event = {
 									diplomacy = 5
 									}
 							trait = creature_orc
-							trait = misguided_warrior
+							trait = barbarian_1
 							trait = lore_waaagh
 							}
 						}
@@ -2541,7 +2541,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2566,7 +2566,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2606,7 +2606,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2631,7 +2631,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2671,7 +2671,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2696,7 +2696,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2736,7 +2736,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2761,7 +2761,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2800,7 +2800,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2824,7 +2824,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2862,7 +2862,7 @@ province_event = {
 						female = no
 						age = 30
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2886,7 +2886,7 @@ province_event = {
 						female = no
 						age = 31
 						trait = creature_orc
-						trait = tough_soldier
+						trait = barbarian_2
 					}
 					new_character = {
 						spawn_unit = {
@@ -2941,7 +2941,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -2965,7 +2965,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3003,7 +3003,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3027,7 +3027,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3065,7 +3065,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3089,7 +3089,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3127,7 +3127,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3151,7 +3151,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3189,7 +3189,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3213,7 +3213,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3251,7 +3251,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3275,7 +3275,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3331,7 +3331,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3355,7 +3355,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3393,7 +3393,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3417,7 +3417,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3455,7 +3455,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3479,7 +3479,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3517,7 +3517,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3541,7 +3541,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3579,7 +3579,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3603,7 +3603,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3641,7 +3641,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3665,7 +3665,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3721,7 +3721,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3746,7 +3746,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3786,7 +3786,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3811,7 +3811,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3851,7 +3851,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3876,7 +3876,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3916,7 +3916,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3941,7 +3941,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -3980,7 +3980,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4004,7 +4004,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4042,7 +4042,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4066,7 +4066,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_goblin
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4121,7 +4121,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4146,7 +4146,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4186,7 +4186,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4211,7 +4211,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4251,7 +4251,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4276,7 +4276,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4316,7 +4316,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4341,7 +4341,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4380,7 +4380,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4404,7 +4404,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4442,7 +4442,7 @@ province_event = {
 							female = no
 							age = 30
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -4466,7 +4466,7 @@ province_event = {
 							female = no
 							age = 31
 							trait = creature_orc
-							trait = tough_soldier
+							trait = barbarian_2
 						}
 						new_character = {
 							spawn_unit = {
@@ -7411,7 +7411,7 @@ character_event = {
 				stewardship = 5
 			}
 			trait = creature_orc
-			trait = brilliant_strategist
+			trait = barbarian_4
 			trait = orc_huge
 		}
 		new_character = {
@@ -9399,7 +9399,7 @@ character_event = {
 				intrigue = 10
 			}
 			add_trait = creature_snotling
-			add_trait = tough_soldier
+			add_trait = barbarian_2
 		}
 		new_character = {
 			set_character_flag = special_marshal

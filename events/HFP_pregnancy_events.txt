@@ -4514,19 +4514,31 @@ character_event = {
 					}
 					modifier = {
 						factor = 1.2
-						trait = misguided_warrior
+						OR = {
+							trait = misguided_warrior
+							trait = barbarian_1
+						}
 					}
 					modifier = {
 						factor = 1.3
-						trait = tough_soldier
+						OR = {
+							trait = tough_soldier
+							trait = barbarian_2
+						}
 					}
 					modifier = {
 						factor = 1.4
-						trait = skilled_tactician
+						OR = {
+							trait = skilled_tactician
+							trait = barbarian_3
+						}
 					}
 					modifier = {
 						factor = 1.5
-						trait = brilliant_strategist
+						OR = {
+							trait = brilliant_strategist
+							trait = barbarian_4
+						}
 					}
 					modifier = {
 						factor = 1.5

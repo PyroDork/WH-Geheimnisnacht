@@ -1012,8 +1012,10 @@ character_event = {
 			#correct education
 			remove_education_effect = yes
 			random_list = {
-				70 = { add_trait = skilled_tactician }
-				30 = { add_trait = brilliant_strategist }
+				35 = { add_trait = skilled_tactician }
+				15 = { add_trait = brilliant_strategist }
+				35 = { add_trait = barbarian_3 }
+				15 = { add_trait = barbarian_4 }
 			}
 
 			#increase martial

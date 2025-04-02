@@ -387,27 +387,7 @@ character_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		if = {
-			limit = {
-				trait = skilled_tactician
-			}
-			remove_trait = skilled_tactician
-			add_trait = brilliant_strategist
-		}
-		if = {
-			limit = {
-				trait = tough_soldier
-			}
-			remove_trait = tough_soldier
-			add_trait = skilled_tactician
-		}
-		if = {
-			limit = {
-				trait = misguided_warrior
-			}
-			remove_trait = misguided_warrior
-			add_trait = tough_soldier
-		}
+		upgrade_education_effect = yes
 	}
 }
 
@@ -860,12 +840,28 @@ character_event = {
 					trait = tough_soldier
 					}
 				modifier = {
-					factor = 2.0
+					factor = 1.5
 					trait = skilled_tactician
 					}
 				modifier = {
-					factor = 3.0
+					factor = 2.0
 					trait = brilliant_strategist
+					}
+				modifier = {
+					factor = 0.5
+					trait = barbarian_1
+					}
+				modifier = {
+					factor = 1.0
+					trait = barbarian_2
+					}
+				modifier = {
+					factor = 2.0
+					trait = barbarian_3
+					}
+				modifier = {
+					factor = 3.0
+					trait = barbarian_4
 					}
 				add_trait = maneater_leader
 			}

@@ -886,13 +886,7 @@ character_event = {
 							}
 							modifier = {
 								factor = 0
-								OR = {
-									trait = grey_eminence
-									trait = brilliant_strategist
-									trait = midas_touched
-									trait = elusive_shadow
-									trait = mastermind_theologian
-								}
+								has_top_tier_education_trait_trigger = yes
 							}
 							character_event = { id = MNM.1994 }
 						}

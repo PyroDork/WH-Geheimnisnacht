@@ -4672,23 +4672,13 @@ character_event = {
 				event_target:monastic_friend = {
 					if = {
 						limit = {
-							OR = {
-								trait = misguided_warrior
-								trait = tough_soldier
-								trait = skilled_tactician
-								trait = brilliant_strategist
-							}
+							has_education_martial_trigger = yes
 						}
 						character_event = { id = MNM.4438 days = 15 random = 15 }
 					}
 					if = {
 						limit = {
-							NOT = {
-								trait = misguided_warrior
-								trait = tough_soldier
-								trait = skilled_tactician
-								trait = brilliant_strategist
-							}
+							has_education_martial_trigger = no
 						}
 						character_event = { id = MNM.4442 days = 15 random = 15 }
 					}

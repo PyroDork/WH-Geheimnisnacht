@@ -924,6 +924,9 @@ character_event = {
 			trait = misguided_warrior
 			trait = tough_soldier
 			trait = skilled_tactician
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
 		}
 	}
 
@@ -1064,6 +1067,27 @@ character_event = {
 
 	option = {
 		name = EXCELLENT
+		if = {
+			limit = {
+				trait = barbarian_1
+			}
+			remove_trait = barbarian_1
+			add_trait = barbarian_2
+		}
+		if = {
+			limit = {
+				trait = barbarian_2
+			}
+			remove_trait = barbarian_2
+			add_trait = barbarian_3
+		}
+		if = {
+			limit = {
+				trait = barbarian_3
+			}
+			remove_trait = barbarian_3
+			add_trait = barbarian_4
+		}
 		if = {
 			limit = {
 				trait = skilled_tactician

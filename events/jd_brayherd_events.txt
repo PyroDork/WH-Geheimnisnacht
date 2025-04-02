@@ -2992,8 +2992,8 @@ character_event = {
                 set_character_flag = no_court_invites
                 set_character_flag = is_cathayan_strategist
                 random_list = {
-                    80 = { add_trait = skilled_tactician }
-                    20 = { add_trait = brilliant_strategist }
+                    80 = { add_trait = barbarian_3 }
+                    20 = { add_trait = barbarian_4 }
                 }
                 random_list = {
                     20 = { add_trait = brave }

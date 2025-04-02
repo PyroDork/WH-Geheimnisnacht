@@ -8276,12 +8276,7 @@ character_event = {
 				trait = feeble #Works for both.
 			}
 			combat_rating = 15
-			OR = {
-				trait = misguided_warrior
-				trait = tough_soldier
-				trait = skilled_tactician
-				trait = brilliant_strategist
-			}
+			has_education_martial_trigger = yes
 		}
 		tooltip_info = combat_rating
 		custom_tooltip = { text = tooltip_20663_A }

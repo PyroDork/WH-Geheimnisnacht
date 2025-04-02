@@ -476,6 +476,8 @@ character_event = {
 					OR = {
 						trait = brilliant_strategist
 						trait = skilled_tactician
+						trait = barbarian_3
+						trait = barbarian_4
 					}
 					event_target:home_capital_province = {
 						NOT = { has_province_modifier = war_knowledge }
@@ -2516,6 +2518,8 @@ character_event = {
 		is_landed = yes
 		OR = {
 			trait = brilliant_strategist
+			trait = barbarian_3
+			trait = barbarian_4
 			trait = skilled_tactician
 		}
 		event_target:home_capital_province = {

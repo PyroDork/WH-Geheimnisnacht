@@ -2981,6 +2981,22 @@ character_event = {
 						event_target:am_brawler_1 = { trait = brilliant_strategist }
 					}
 					modifier = {
+						factor = 1.1
+						event_target:am_brawler_1 = { trait = barbarian_1 }
+					}
+					modifier = {
+						factor = 1.35
+						event_target:am_brawler_1 = { trait = barbarian_2 }
+					}
+					modifier = {
+						factor = 1.5
+						event_target:am_brawler_1 = { trait = barbarian_3 }
+					}
+					modifier = {
+						factor = 1.75
+						event_target:am_brawler_1 = { trait = barbarian_4 }
+					}
+					modifier = {
 						factor = 1.35
 						event_target:am_brawler_1 = { trait = zealous }
 					}
@@ -3309,6 +3325,22 @@ character_event = {
 					modifier = {
 						factor = 1.75
 						event_target:am_brawler_2 = { trait = brilliant_strategist }
+					}
+					modifier = {
+						factor = 1.1
+						event_target:am_brawler_2 = { trait = barbarian_1 }
+					}
+					modifier = {
+						factor = 1.35
+						event_target:am_brawler_2 = { trait = barbarian_2 }
+					}
+					modifier = {
+						factor = 1.5
+						event_target:am_brawler_2 = { trait = barbarian_3 }
+					}
+					modifier = {
+						factor = 1.75
+						event_target:am_brawler_2 = { trait = barbarian_4 }
 					}
 					modifier = {
 						factor = 1.35
@@ -7376,15 +7408,26 @@ character_event = {
 				}
 				modifier = {
 					factor = 1.5
-					trait = tough_soldier
+					OR = {
+						trait = tough_soldier
+						trait = skilled_tactician
+						trait = brilliant_strategist
+					}
 				}
 				modifier = {
 					factor = 1.65
-					trait = skilled_tactician
+					OR = {
+						trait = barbarian_1
+						trait = barbarian_2
+					}
 				}
 				modifier = {
 					factor = 1.85
-					trait = brilliant_strategist
+					trait = barbarian_3
+				}
+				modifier = {
+					factor = 1.95
+					trait = barbarian_4
 				}
 				# You won the trial, now for the rite of passage
 				character_event = {

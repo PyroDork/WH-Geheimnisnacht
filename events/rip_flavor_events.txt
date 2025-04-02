@@ -12266,7 +12266,7 @@ character_event = {
 				}
 				health = 6
 				fertility = 0.8
-				trait = brilliant_strategist
+				trait = barbarian_4
 				trait = wroth
 				trait = immortal
 				trait = proud

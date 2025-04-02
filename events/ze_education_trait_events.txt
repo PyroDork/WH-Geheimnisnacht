@@ -821,7 +821,22 @@ character_event = {
 				50={}
 			}
 		}
-		add_trait = misguided_warrior
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_2
+		}
+		else = {
+			add_trait = misguided_warrior
+		}
 		clr_character_flag = education_outcome_level_1
 	}
 	option = {
@@ -837,7 +852,22 @@ character_event = {
 				50={}
 			}
 		}
-		add_trait = tough_soldier
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_2
+		}
+		else = {
+			add_trait = tough_soldier
+		}
 		clr_character_flag = education_outcome_level_2
 	}
 	option = {
@@ -845,7 +875,22 @@ character_event = {
 		trigger = {
 			has_character_flag = education_outcome_level_3
 		}
-		add_trait = skilled_tactician
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_3
+		}
+		else = {
+			add_trait = skilled_tactician
+		}
 		if={limit={trait=creature_ogre}
 			random_list={
 				50={
@@ -869,7 +914,22 @@ character_event = {
 				50={}
 			}
 		}
-		add_trait = brilliant_strategist
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_4
+		}
+		else = {
+			add_trait = brilliant_strategist
+		}
 		hidden_tooltip = {
 			random_list = {
 				10 = { add_trait = light_foot_leader }
@@ -2296,6 +2356,33 @@ character_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				trait = creature_halfling
+				culture = gnome
+			}
+			random_list = {
+				50 = {
+				}
+				25 = {
+					modifier = {
+						factor = 2
+						OR = {
+							has_character_flag = magic_potential_flag_1
+							has_character_flag = magic_potential_flag_2
+							has_character_flag = magic_potential_flag_3
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_1
+							trait = magic_potential_2
+							trait = magic_potential_3
+							trait = magic_potential_4
+						}
+					}
+					add_trait = lore_shadows
+					random_lore_mage_effect = yes
+				}
+			}
+		}
 		clr_character_flag = education_outcome_level_2
 	}
 	option = {
@@ -2309,6 +2396,15 @@ character_event = {
 			}
 			random_list = {
 				50 = {
+					modifier = {
+						factor = 1.2
+						NOR = {
+							has_character_flag = magic_potential_flag_3
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_3
+							trait = magic_potential_4
+						}
+					}
 				}
 				50 = {
 					if = {
@@ -2325,6 +2421,42 @@ character_event = {
 						add_trait = lore_fire
 						add_trait = ogre_firemouth
 					}
+					random_lore_mage_effect = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = creature_halfling
+				culture = gnome
+			}
+			random_list = {
+				40 = {
+					modifier = {
+						factor = 2
+						NOR = {
+							has_character_flag = magic_potential_flag_3
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_3
+							trait = magic_potential_4
+						}
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2
+						OR = {
+							has_character_flag = magic_potential_flag_1
+							has_character_flag = magic_potential_flag_2
+							has_character_flag = magic_potential_flag_3
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_1
+							trait = magic_potential_2
+							trait = magic_potential_3
+							trait = magic_potential_4
+						}
+					}
+					add_trait = lore_shadows
 					random_lore_mage_effect = yes
 				}
 			}
@@ -2359,6 +2491,40 @@ character_event = {
 						add_trait = lore_fire
 						add_trait = ogre_firemouth
 					}
+					random_lore_mage_effect = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = creature_halfling
+				culture = gnome
+			}
+			random_list = {
+				40 = {
+					modifier = {
+						factor = 2
+						NOR = {
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_4
+						}
+					}
+				}
+				25 = {
+					modifier = {
+						factor = 2
+						OR = {
+							has_character_flag = magic_potential_flag_1
+							has_character_flag = magic_potential_flag_2
+							has_character_flag = magic_potential_flag_3
+							has_character_flag = magic_potential_flag_4
+							trait = magic_potential_1
+							trait = magic_potential_2
+							trait = magic_potential_3
+							trait = magic_potential_4
+						}
+					}
+					add_trait = lore_shadows
 					random_lore_mage_effect = yes
 				}
 			}

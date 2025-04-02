@@ -48,11 +48,7 @@ character_event = {
 			mercenary = yes
 		}
 		has_character_flag = is_mercenary_leader
-		OR = {
-			trait = misguided_warrior
-			trait = tough_soldier
-			trait = skilled_tactician
-		}
+		has_lower_than_max_martial = yes
 	}
 
 	immediate = {
@@ -67,30 +63,7 @@ character_event = {
 				}
 			}
 		}
-		if = {	 # In case daddy is dead
-			limit = {
-				trait = misguided_warrior
-			}
-			remove_trait = misguided_warrior
-			add_trait = tough_soldier
-			break = yes
-		}
-		if = {
-			limit = {
-				trait = tough_soldier
-			}
-			remove_trait = tough_soldier
-			add_trait = skilled_tactician
-			break = yes
-		}
-		if = {
-			limit = {
-				trait = skilled_tactician
-			}
-			remove_trait = skilled_tactician
-			add_trait = brilliant_strategist
-			break = yes
-		}
+		upgrade_education_effect = yes
 	}
 }
 
@@ -106,30 +79,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA_HL_10101"
 		FROM = {
-			if = {
-				limit = {
-					trait = misguided_warrior
-				}
-				remove_trait = misguided_warrior
-				add_trait = tough_soldier
-				break = yes
-			}
-			if = {
-				limit = {
-					trait = tough_soldier
-				}
-				remove_trait = tough_soldier
-				add_trait = skilled_tactician
-				break = yes
-			}
-			if = {
-				limit = {
-					trait = skilled_tactician
-				}
-				remove_trait = skilled_tactician
-				add_trait = brilliant_strategist
-				break = yes
-			}
+			upgrade_education_effect = yes
 		}
 	}
 }

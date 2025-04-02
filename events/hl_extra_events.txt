@@ -414,7 +414,7 @@ character_event = {
 			age = 40
 			religion = ROOT
 			culture = ROOT
-			trait = brilliant_strategist
+			trait = barbarian_4
 			attributes = {
 				martial = 10
 			}

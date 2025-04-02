@@ -1618,14 +1618,22 @@ character_event = {
 									trait = fragile }
 							modifier = { factor = 0.75
 									trait = craven }
-							modifier = { factor = 1.25
+							modifier = { factor = 1.12
 									trait = misguided_warrior }
-							modifier = { factor = 1.5
+							modifier = { factor = 1.25
 									trait = tough_soldier }
-							modifier = { factor = 1.75
+							modifier = { factor = 1.5
 									trait = skilled_tactician }
-							modifier = { factor = 1.85
+							modifier = { factor = 1.7
 									trait = brilliant_strategist }
+							modifier = { factor = 1.25
+									trait = barbarian_1 }
+							modifier = { factor = 1.5
+									trait = barbarian_2 }
+							modifier = { factor = 1.75
+									trait = barbarian_3 }
+							modifier = { factor = 1.85
+									trait = barbarian_4 }
 							modifier = { factor = 0.75
 									trait = pregnant }
 							modifier = { factor = 0.15

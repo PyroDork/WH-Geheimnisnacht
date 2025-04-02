@@ -56,6 +56,8 @@ character_event = {
 				trait = duelist
 				trait = skilled_tactician
 				trait = brilliant_strategist
+				trait = barbarian_3
+				trait = barbarian_4
 				combat_rating = 60
 			}
 			any_society_member = {
@@ -106,6 +108,8 @@ character_event = {
 					trait = duelist
 					trait = skilled_tactician
 					trait = brilliant_strategist
+					trait = barbarian_3
+					trait = barbarian_4
 					combat_rating = 60
 				}
 			}

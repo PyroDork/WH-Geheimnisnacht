@@ -3541,6 +3541,9 @@ character_event = {
 			trait = misguided_warrior
 			trait = tough_soldier
 			trait = skilled_tactician
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
 		}
 	}
 
@@ -3579,27 +3582,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_WOL_11300
 
-		if = {
-			limit = {
-				trait = skilled_tactician
-			}
-			remove_trait = skilled_tactician
-			add_trait = brilliant_strategist
-		}
-		if = {
-			limit = {
-				trait = tough_soldier
-			}
-			remove_trait = tough_soldier
-			add_trait = skilled_tactician
-		}
-		if = {
-			limit = {
-				trait = misguided_warrior
-			}
-			remove_trait = misguided_warrior
-			add_trait = tough_soldier
-		}
+		upgrade_education_effect = yes
 	}
 }
 
@@ -3654,6 +3637,22 @@ character_event = {
 		modifier = {
 			factor = 3.0
 			trait = brilliant_strategist
+		}
+		modifier = {
+			factor = 1.25
+			trait = barbarian_1
+		}
+		modifier = {
+			factor = 1.5
+			trait = barbarian_2
+		}
+		modifier = {
+			factor = 2.0
+			trait = barbarian_3
+		}
+		modifier = {
+			factor = 3.0
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 0.1
@@ -4204,6 +4203,22 @@ character_event = {
 		modifier = {
 			factor = 3.0
 			trait = brilliant_strategist
+		}
+		modifier = {
+			factor = 1.25
+			trait = barbarian_1
+		}
+		modifier = {
+			factor = 1.5
+			trait = barbarian_2
+		}
+		modifier = {
+			factor = 2.0
+			trait = barbarian_3
+		}
+		modifier = {
+			factor = 3.0
+			trait = barbarian_4
 		}
 		modifier = {
 			factor = 0.1

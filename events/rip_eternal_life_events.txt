@@ -897,7 +897,7 @@ narrative_event = {
 				age = 36
 				health = 15
 				trait = creature_human
-				trait = brilliant_strategist
+				trait = barbarian_4
 				trait = mystic
 				trait = robust
 				trait = wroth
@@ -1218,7 +1218,7 @@ narrative_event = {
 				age = 36
 				health = 15
 				trait = creature_human
-				trait = brilliant_strategist
+				trait = barbarian_4
 				trait = mystic
 				trait = robust
 				trait = wroth
@@ -1479,7 +1479,7 @@ narrative_event = {
 		text = EVTDSC_RIP_21019_MARTIAL_A
 		trigger = {
 			FROM = {
-				trait = brilliant_strategist
+				trait = barbarian_4
 				religion = ROOT
 			}
 		}
@@ -1521,7 +1521,7 @@ narrative_event = {
 		text = EVTDSC_RIP_21019_MARTIAL_B
 		trigger = {
 			FROM = {
-				trait = brilliant_strategist
+				trait = barbarian_4
 				NOT = { religion = ROOT }
 			}
 		}
@@ -1694,7 +1694,7 @@ narrative_event = {
 			}
 		}
 		if = {
-			limit = { trait = brilliant_strategist }
+			limit = { trait = barbarian_4 }
 			FROM = {
 				narrative_event = { id = RIP.21200 days = 150 }
 			}
