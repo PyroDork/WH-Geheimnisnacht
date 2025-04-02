@@ -177,6 +177,7 @@
 # amazon.163	# The other girl shares your interests
 # amazon.164	# The other girl doesn't share your interests
 # amazon.165	# Notify mother of revealed sexuality
+# amazon.166	# Remove Lineage Trait
 #######################
 
 namespace = amazon
@@ -8542,5 +8543,24 @@ character_event = {
 	option = {
 		name = EVTOPTAsamazonchild18004
 		piety = 20
+	}
+}
+
+# on_character_convert_religion maintenance event remove kalith
+character_event = {
+	id = amazon.166
+	desc = ormazdian1desc
+	picture = GFX_evt_bishop
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { religion_group = old_ones_group }
+		trait = amazon_kalith
+	}
+
+	option = {
+		name = OK
+		remove_trait = amazon_kalith
 	}
 }

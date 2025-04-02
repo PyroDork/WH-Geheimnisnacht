@@ -84,7 +84,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6317
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		job_chancellor = {
 			opinion = {
 				modifier = opinion_fired_from_council

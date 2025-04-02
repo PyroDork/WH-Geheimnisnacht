@@ -4467,7 +4467,7 @@ letter_event = {
                 }
                 modifier = {
                     factor = 2
-                    FROM = { is_disliked_by_Cathay_trigger = yes }
+                    FROM = { is_disliked_by_cathay_trigger = yes }
                 }
                 modifier = {
                     factor = 1.2
@@ -4524,7 +4524,7 @@ letter_event = {
                 }
                 modifier = {
                     factor = 2
-                    FROM = { is_liked_by_Cathay_trigger = yes }
+                    FROM = { is_liked_by_cathay_trigger = yes }
                 }
                 modifier = {
                     factor = 1.2

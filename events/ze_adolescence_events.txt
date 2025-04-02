@@ -3136,7 +3136,7 @@ character_event = {
 			has_character_flag = playful_to_lunatic
 		}
 		remove_trait = playful
-		add_trait = lunatic
+		add_trait = lunatic_1
 		set_variable = { which = "lunatic_counter" value = 5 }
 		clr_character_flag = playful_to_lunatic
 	}

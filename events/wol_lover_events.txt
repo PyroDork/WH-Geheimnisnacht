@@ -4535,7 +4535,7 @@ character_event = {
 				trait = lunatic_3
 			}
 		}
-		tooltip_info = lunatic
+		tooltip_info_custom =  lunatic
 		ai_chance = {
 			factor = 1000
 		}

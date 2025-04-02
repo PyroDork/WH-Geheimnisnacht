@@ -55,7 +55,13 @@ character_event = {
 				limit = {
 					OR = {
 						trait = fay_enchantress
-						trait = heart_of_avelorn_everqueen
+						AND={
+							any_artifact={
+								artifact = heart_of_avelorn_everqueen
+								is_artifact_active = yes
+							}
+							NOT={ has_character_flag = exhausted_heart }
+						}
 					}
 				}
 				character_event = { id = snehekharan.2 days = 365 }
