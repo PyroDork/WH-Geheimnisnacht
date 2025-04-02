@@ -96,17 +96,17 @@
 #GetSeason #WIP
 
 #CHINA
-#GetLongChineseEmperorName
-#GetMediumChineseEmperorName
-#GetShortChineseEmperorName
+#GetLongCathayanEmperorName
+#GetMediumCathayanEmperorName
+#GetShortCathayanEmperorName
 #GetCouncillorLetterGreeting
 #GetRulerLetterGreeting
 #GetGovernorLetterGreeting
-#GetChineseLetterBlessing
-#GetChineseComplimentAdjective
-#GetChineseOffmapTributaryPrestigeCost
-#GetChineseForceOpenDemand
-#GetChineseForceOpenDemandChina
+#GetCathayanLetterBlessing
+#GetCathayanComplimentAdjective
+#GetCathayanOffmapTributaryPrestigeCost
+#GetCathayanForceOpenDemand
+#GetCathayanForceOpenDemandCathay
 
 #MISC
 #GetMatterOfImportance
@@ -3914,26 +3914,26 @@ defined_text = {
 
 #CHINA
 defined_text = {
-	name = GetLongChineseEmperorName
+	name = GetLongCathayanEmperorName
 	text = {
 		trigger = { always = yes }
-		localisation_key = GetLongChineseEmperorName_string
+		localisation_key = GetLongCathayanEmperorName_string
 	}
 }
 
 defined_text = {
-	name = GetMediumChineseEmperorName
+	name = GetMediumCathayanEmperorName
 	text = {
 		trigger = { always = yes }
-		localisation_key = GetMediumChineseEmperorName_string
+		localisation_key = GetMediumCathayanEmperorName_string
 	}
 }
 
 defined_text = {
-	name = GetShortChineseEmperorName
+	name = GetShortCathayanEmperorName
 	text = {
 		trigger = { always = yes }
-		localisation_key = GetShortChineseEmperorName_string
+		localisation_key = GetShortCathayanEmperorName_string
 	}
 }
 
@@ -3962,7 +3962,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetChineseLetterBlessing
+	name = GetCathayanLetterBlessing
 	text = {
 		trigger = { FROM = { has_job_title = job_chancellor } }
 		localisation_key = String_peace_and_unity
@@ -3990,7 +3990,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetChineseComplimentAdjective
+	name = GetCathayanComplimentAdjective
 	text = {
 		localisation_key = String_honored
 	}
@@ -4188,7 +4188,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetChineseOffmapTributaryPrestigeCost
+	name = GetCathayanOffmapTributaryPrestigeCost
 	text = {
 		trigger = { FROM = { tier = COUNT } }
 		localisation_key = String_offmap_cost_prestige_count
@@ -4216,66 +4216,66 @@ defined_text = {
 }
 
 defined_text = { #being ordered context
-	name = GetChineseForceOpenDemand
+	name = GetCathayanForceOpenDemand
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_tribute }
-		localisation_key = String_force_open_china_demands_tribute
+		trigger = { has_character_flag = force_open_cathay_demands_tribute }
+		localisation_key = String_force_open_cathay_demands_tribute
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_trade_post }
-		localisation_key = String_force_open_china_demands_trade_post
+		trigger = { has_character_flag = force_open_cathay_demands_trade_post }
+		localisation_key = String_force_open_cathay_demands_trade_post
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_wealth }
-		localisation_key = String_force_open_china_demands_wealth
+		trigger = { has_character_flag = force_open_cathay_demands_wealth }
+		localisation_key = String_force_open_cathay_demands_wealth
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_eunuch }
-		localisation_key = String_force_open_china_demands_eunuch
+		trigger = { has_character_flag = force_open_cathay_demands_eunuch }
+		localisation_key = String_force_open_cathay_demands_eunuch
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_concubine }
-		localisation_key = String_force_open_china_demands_concubine
+		trigger = { has_character_flag = force_open_cathay_demands_concubine }
+		localisation_key = String_force_open_cathay_demands_concubine
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_return_chinese }
-		localisation_key = String_force_open_china_demands_chinese
+		trigger = { has_character_flag = force_open_cathay_demands_return_cathayan }
+		localisation_key = String_force_open_cathay_demands_cathayan
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_backup }
-		localisation_key = String_force_open_china_demands_wealth #backup does reduced wealth
+		trigger = { has_character_flag = force_open_cathay_demands_backup }
+		localisation_key = String_force_open_cathay_demands_wealth #backup does reduced wealth
 	}
 }
 
 defined_text = { #third person context
-	name = GetChineseForceOpenDemandChina
+	name = GetCathayanForceOpenDemandCathay
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_tribute }
-		localisation_key = String_force_open_china_demands_tribute_china
+		trigger = { has_character_flag = force_open_cathay_demands_tribute }
+		localisation_key = String_force_open_cathay_demands_tribute_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_trade_post }
-		localisation_key = String_force_open_china_demands_trade_post_china
+		trigger = { has_character_flag = force_open_cathay_demands_trade_post }
+		localisation_key = String_force_open_cathay_demands_trade_post_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_wealth }
-		localisation_key = String_force_open_china_demands_wealth_china
+		trigger = { has_character_flag = force_open_cathay_demands_wealth }
+		localisation_key = String_force_open_cathay_demands_wealth_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_eunuch }
-		localisation_key = String_force_open_china_demands_eunuch_china
+		trigger = { has_character_flag = force_open_cathay_demands_eunuch }
+		localisation_key = String_force_open_cathay_demands_eunuch_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_concubine }
-		localisation_key = String_force_open_china_demands_concubine_china
+		trigger = { has_character_flag = force_open_cathay_demands_concubine }
+		localisation_key = String_force_open_cathay_demands_concubine_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_return_chinese }
-		localisation_key = String_force_open_china_demands_chinese_china
+		trigger = { has_character_flag = force_open_cathay_demands_return_cathayan }
+		localisation_key = String_force_open_cathay_demands_cathayan_cathay
 	}
 	text = { 
-		trigger = { has_character_flag = force_open_china_demands_backup }
-		localisation_key = String_force_open_china_demands_wealth_china #backup does reduced wealth
+		trigger = { has_character_flag = force_open_cathay_demands_backup }
+		localisation_key = String_force_open_cathay_demands_wealth_cathay #backup does reduced wealth
 	}
 }
 
@@ -7753,10 +7753,10 @@ defined_text = {
 	}
 }
 
-### Chinese flavor
+### Cathayan flavor
 defined_text = {
-	name = GetChineseConvoTopic #Note that these are a little dry sounding and don't necessarily mention China by name. How to use in a sentence: 
-	# "As we discuss [adventurous_spirit.GetHerHis] travels to the [the_protector_general.Offmap.GetFullName] [adventurous_spirit.GetSheHe] speaks passionately about [adventurous_spirit.GetChineseConvoTopic]"
+	name = GetCathayanConvoTopic #Note that these are a little dry sounding and don't necessarily mention Cathay by name. How to use in a sentence: 
+	# "As we discuss [adventurous_spirit.GetHerHis] travels to the [the_protector_general.Offmap.GetFullName] [adventurous_spirit.GetSheHe] speaks passionately about [adventurous_spirit.GetCathayanConvoTopic]"
 	text = {
 		localisation_key = String_such_a_wealthy_realm
 		trigger = { cathay_is_fine_trigger = yes }
@@ -7781,7 +7781,7 @@ defined_text = {
 		localisation_key = String_artisan_potters
 	}
 	text = {
-		localisation_key = String_the_melody_of_Chinese_language
+		localisation_key = String_the_melody_of_Cathayan_language
 		trigger = {
 			OR = {
 				has_character_modifier = multilingual
@@ -7800,21 +7800,21 @@ defined_text = {
 		localisation_key = String_a_pleasure_trip_on_a_lake
 	}
 	text = {
-		localisation_key = String_the_construction_of_Chinese_boats
+		localisation_key = String_the_construction_of_Cathayan_boats
 	}
 	text = {
-		localisation_key = String_the_Chinese_food
+		localisation_key = String_the_Cathayan_food
 	}
 	text = {
-		localisation_key = String_the_intricacies_of_Chinese_government
+		localisation_key = String_the_intricacies_of_Cathayan_government
 	}
 	text = {
 		localisation_key = String_the_artistic_sensibility
 	}
 }
 
-defined_text = { # Must only be used after having visited China, as it talks in past tense and uses pronouns, eg: "When asked about [From.GetHerHis] travels, [From.GetSheHe] just mutters about [adventurous_spirit.GetNegativeChineseConvoTopic]."
-	name = GetNegativeChineseConvoTopic
+defined_text = { # Must only be used after having visited Cathay, as it talks in past tense and uses pronouns, eg: "When asked about [From.GetHerHis] travels, [From.GetSheHe] just mutters about [adventurous_spirit.GetNegativeCathayanConvoTopic]."
+	name = GetNegativeCathayanConvoTopic
 	text = {
 		localisation_key = String_too_much_people
 	}
@@ -8444,7 +8444,7 @@ defined_text = {
 	}
 }
 
-#For sending a Eunuch/Concubine to China...
+#For sending a Eunuch/Concubine to Cathay...
 defined_text = {
 	name = GetImpressionOfTribute #gets general impression, depending on how much Grace you gained from it, essentially...
 
@@ -8925,9 +8925,9 @@ defined_text = {
 	}
 }
 
-# Description of Chinese activity when Isolationist
+# Description of Cathayan activity when Isolationist
 defined_text = {
-	name = GetChinaIsolationPastime
+	name = GetCathayIsolationPastime
 
 	text = {
 		localisation_key = String_Iso_Peach_Gardens
@@ -8949,85 +8949,85 @@ defined_text = {
 	}
 }
 
-# Description of the end of a Chinese Status
+# Description of the end of a Cathayan Status
 defined_text = {
-	name = GetChinaPreviousStatusEnd
+	name = GetCathayPreviousStatusEnd
 
 	text = {
 		localisation_key = String_End_Stable
 		trigger = {
-			prev_status = china_stable
+			prev_status = cathay_stable
 		}
 	}
 	text = {
 		localisation_key = String_End_Unrest
 		trigger = {
-			prev_status = china_unrest
+			prev_status = cathay_unrest
 			cathay_is_suffering_trigger = no
 		}
 	}
 	text = {
 		localisation_key = String_End_Unrest_Worsened
 		trigger = {
-			prev_status = china_unrest
+			prev_status = cathay_unrest
 			cathay_is_suffering_trigger = yes
 		}
 	}
 	text = {
 		localisation_key = String_End_Famine
 		trigger = {
-			prev_status = china_famine
+			prev_status = cathay_famine
 		}
 	}
 	text = {
 		localisation_key = String_End_Plague
 		trigger = {
-			prev_status = china_plague
+			prev_status = cathay_plague
 		}
 	}
 	text = {
 		localisation_key = String_End_Mongols
 		trigger = {
-			prev_status = china_mongol_invasion
+			prev_status = cathay_mongol_invasion
 		}
 	}
 	text = {
 		localisation_key = String_End_Jurchen
 		trigger = {
-			prev_status = china_jurchen_invasion
+			prev_status = cathay_jurchen_invasion
 		}
 	}
 	text = {
 		localisation_key = String_End_Civil_War
 		trigger = {
-			prev_status = china_civil_war
+			prev_status = cathay_civil_war
 			NOR = {
-				has_status = china_mongol_invasion
-				has_status = china_jurchen_invasion
+				has_status = cathay_mongol_invasion
+				has_status = cathay_jurchen_invasion
 			}
 		}
 	}
 	text = {
 		localisation_key = String_End_Civil_War_to_Invasion
 		trigger = {
-			prev_status = china_civil_war
+			prev_status = cathay_civil_war
 			OR = {
-				has_status = china_mongol_invasion
-				has_status = china_jurchen_invasion
+				has_status = cathay_mongol_invasion
+				has_status = cathay_jurchen_invasion
 			}
 		}
 	}
 	text = {
 		localisation_key = String_End_Golden_Age
 		trigger = {
-			prev_status = china_golden_age
+			prev_status = cathay_golden_age
 		}
 	}
 }
 
-# Names of important Chinese regions off-map
+# Names of important Cathayan regions off-map
 defined_text = {
-	name = GetRandomChineseRegion
+	name = GetRandomCathayanRegion
 
 	text = {
 		localisation_key = String_Luoyang
@@ -9055,9 +9055,9 @@ defined_text = {
 	}
 }
 
-# Names of typical Chinese troublemakers
+# Names of typical Cathayan troublemakers
 defined_text = {
-	name = GetRandomChineseFaction
+	name = GetRandomCathayanFaction
 
 	text = {
 		localisation_key = String_Militant_Monks
@@ -9073,28 +9073,28 @@ defined_text = {
 	}
 }
 
-# Chinese focus
-defined_text = { #Read like: we are busy focusing on the [GetRandomChineseFocus] so can not open the Silk Road.
-	name = GetRandomChineseFocus
+# Cathayan focus
+defined_text = { #Read like: we are busy focusing on the [GetRandomCathayanFocus] so can not open the Silk Road.
+	name = GetRandomCathayanFocus
 	text = {
 		localisation_key = String_random_region
 		trigger = {		
 			OR = {
-				has_status = china_stable
-				has_status = china_golden_age
+				has_status = cathay_stable
+				has_status = cathay_golden_age
 			}
 		}
 	}
 	text = {
 		localisation_key = String_random_faction
-		trigger = { has_status = china_unrest }
+		trigger = { has_status = cathay_unrest }
 	}
 	text = {
 		localisation_key = String_current_invasion
 		trigger = {
 			OR = {
-				has_status = china_mongol_invasion
-				has_status = china_jurchen_invasion
+				has_status = cathay_mongol_invasion
+				has_status = cathay_jurchen_invasion
 			}
 		}
 	}
@@ -9102,9 +9102,9 @@ defined_text = { #Read like: we are busy focusing on the [GetRandomChineseFocus]
 		localisation_key = String_current_status
 		trigger = {
 			OR = {
-				has_status = china_civil_war
-				has_status = china_famine
-				has_status = china_plague
+				has_status = cathay_civil_war
+				has_status = cathay_famine
+				has_status = cathay_plague
 			}
 		}
 	}
@@ -9202,81 +9202,81 @@ defined_text = {
 
 
 
-# Gets the name of the Chinese refugee's specialty
+# Gets the name of the Cathayan refugee's specialty
 defined_text = {
-	name = GetChineseProfession
+	name = GetCathayanProfession
 	
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_administrator
+			has_character_flag = is_cathayan_administrator
 		}
 		localisation_key = String_administrator
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_master_engineer
+			has_character_flag = is_cathayan_master_engineer
 		}
 		localisation_key = String_engineer
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_strategist
+			has_character_flag = is_cathayan_strategist
 		}
 		localisation_key = String_strategist
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_doctor
+			has_character_flag = is_cathayan_doctor
 		}
 		localisation_key = String_physician
 	}
 	fallback_text = {
-		localisation_key = String_chinese_profession_fallback #Chinese refugee
+		localisation_key = String_cathayan_profession_fallback #Cathayan refugee
 	}
 }
 
-# Gets the name of the Chinese courtier's invite reason (for when they die, mostly? Could be used elsewhere though.)
+# Gets the name of the Cathayan courtier's invite reason (for when they die, mostly? Could be used elsewhere though.)
 defined_text = {
-	name = GetChineseCharacterRole
+	name = GetCathayanCharacterRole
 	
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_administrator
+			has_character_flag = is_cathayan_administrator
 		}
 		localisation_key = String_administrator
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_master_engineer
+			has_character_flag = is_cathayan_master_engineer
 		}
 		localisation_key = String_engineer
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_siege_engineer
+			has_character_flag = is_cathayan_siege_engineer
 		}
 		localisation_key = String_siege_engineer
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_strategist
+			has_character_flag = is_cathayan_strategist
 		}
 		localisation_key = String_strategist
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_doctor
+			has_character_flag = is_cathayan_doctor
 		}
 		localisation_key = String_physician
 	}
 	text = {
 		trigger = {
-			has_character_flag = is_chinese_imperial_marriage
+			has_character_flag = is_cathayan_imperial_marriage
 		}
-		localisation_key = String_chinese_royalty
+		localisation_key = String_cathayan_royalty
 	}
 	fallback_text = {
-		localisation_key = String_chinese_character_role_fallback #courtier
+		localisation_key = String_cathayan_character_role_fallback #courtier
 	}
 }
 
@@ -9905,21 +9905,21 @@ defined_text = {
 	text = {
 		localisation_key = String_valuable
 		trigger = {
-			has_artifact_flag = chinese
+			has_artifact_flag = cathayan
 			has_artifact_flag = book
 		}
 	}
 	text = {
 		localisation_key = String_dangerous
 		trigger = {
-			has_artifact_flag = chinese
+			has_artifact_flag = cathayan
 			has_artifact_flag = combat_weapon
 		}
 	}
 	text = {
 		localisation_key = String_beautiful
 		trigger = {
-			has_artifact_flag = chinese
+			has_artifact_flag = cathayan
 			has_artifact_flag = decor
 		}
 	}
@@ -14900,6 +14900,18 @@ defined_text = {
 			has_character_flag = sword_tier_2
 		}
 		localisation_key = string_longsword
+	}
+	text = {
+		trigger = {
+			has_character_flag = sword_tier_2_new
+		}
+		localisation_key = string_longsword
+	}
+	text = {
+		trigger = {
+			has_character_flag = axe_tier_2_new
+		}
+		localisation_key = string_battleaxe
 	}
 
 	text = {
