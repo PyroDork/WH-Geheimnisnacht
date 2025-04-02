@@ -147,3 +147,14 @@
 79529 = { name = "Ihuacan" culture = miyan }
 79530 = { name = "Tlumala" culture = miyan }
 79531 = { name = "Praichalas" culture = miyan }
+79532 = { name = "Mekagon" culture = gnome } #
+79533 = { name = "Peddlar " culture = gnome }
+79534 = { name = "Annearil" culture = gnome }
+79535 = { name = "Frayne" culture = gnome }
+79536 = { name = "Hawken" culture = gnome }
+79537 = { name = "Landweth" culture = gnome }
+79538 = { name = "Scantleburn" culture = gnome }
+79539 = { name = "Thorne" culture = gnome }
+79540 = { name = "Trethewey" culture = gnome }
+79541 = { name = "Dratheway" culture = gnome } #
+
