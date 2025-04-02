@@ -1052,7 +1052,7 @@
 	martial = 8
 	stewardship = 5
 	intrigue = 4
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = goblin_huge
 	add_trait = creature_goblin
 	father = 60177
@@ -1104,7 +1104,7 @@
 	intrigue = 6
 	learning = 8
 	diplomacy = 6
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = creature_orc
 	add_trait = orc_large
 	add_trait = imbecile
@@ -1232,7 +1232,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_goblin
 	add_trait = goblin_huge
 	add_trait = holy_warrior
@@ -1260,7 +1260,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_large
 	add_trait = black_orc_trait
@@ -1309,7 +1309,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -1333,7 +1333,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -1360,7 +1360,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_huge
 	add_trait = black_orc_trait
@@ -1392,7 +1392,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_large
 	add_trait = greenskin_gods_gork
@@ -1421,7 +1421,7 @@
 	stewardship = 5
 	diplomacy = 6
 	intrigue = 3
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_gork
@@ -1443,7 +1443,7 @@
 	stewardship = 3
 	diplomacy = 7
 	intrigue = 6
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -1469,7 +1469,7 @@
 	diplomacy = 5
 	intrigue = 6
 	learning = 0
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_large
 	add_trait = robust
@@ -1499,7 +1499,7 @@
 	learning = 6
 	add_trait = creature_orc
 	add_trait = gardener
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = zealous
 	add_trait = ambitious
 	add_trait = orc_large
@@ -1529,7 +1529,7 @@
 	intrigue = 8
 	learning = 6
 	add_trait = creature_orc
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	father = 2057
 	1226.1.3 = {
 		birth = yes
@@ -1554,7 +1554,7 @@
 	learning = 6
 	add_trait = creature_orc
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = zealous
 	add_trait = ambitious
 	add_trait = orc_large
@@ -1600,7 +1600,7 @@
 	stewardship = 12
 	intrigue = 6
 	learning = 5
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_goblin
 	add_trait = goblin_huge
 	add_trait = is_fat
@@ -1716,7 +1716,7 @@
 	add_trait = creature_goblin
 	add_trait = goblin_large
 	add_trait = greenskin_gods_gork
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = zealous
 	add_trait = lore_waaagh
 	add_trait = lunatic_2
@@ -1803,7 +1803,7 @@
 	diplomacy = 5
 	learning = 5
 	intrigue = 8
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = creature_orc
 	add_trait = orc_huge
 	add_trait = disinherited
@@ -1853,7 +1853,7 @@
 	stewardship = 3
 	intrigue = 3
 	learning = 0
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = creature_orc
 	add_trait = orc_small
 	add_trait = greenskin_gods_mork
@@ -1940,7 +1940,7 @@
 	martial = 12
 	stewardship = 6
 	intrigue = 2
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -1972,7 +1972,7 @@
 	martial = 12
 	stewardship = 6
 	intrigue = 2
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -2001,7 +2001,7 @@
 	stewardship = 4
 	diplomacy = 6
 	intrigue = 2
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_goblin
 	add_trait = goblin_large
 	add_trait = quick
@@ -2037,7 +2037,7 @@
 	stewardship = 6
 	diplomacy = 6
 	intrigue = 6
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_large
 	1971.10.1 = {
@@ -2062,7 +2062,7 @@
 	stewardship = 6
 	diplomacy = 6
 	intrigue = 6
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_huge
 	1916.10.1 = {
@@ -2088,7 +2088,7 @@
 	stewardship = 6
 	diplomacy = 2
 	intrigue = 6
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_average
 	father = 2034
@@ -2110,7 +2110,7 @@
 	stewardship = 9
 	diplomacy = 3
 	intrigue = 6
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_average
 	father = 2034
@@ -2199,7 +2199,7 @@
 	stewardship = 0
 	diplomacy = 9
 	intrigue = 9
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_goblin
 	add_trait = goblin_huge
 	add_trait = sturdy
@@ -2300,7 +2300,7 @@
 	stewardship = 3
 	diplomacy = 3
 	intrigue = 9
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_average
 	add_trait = robust
@@ -2354,7 +2354,7 @@
 	stewardship = 7
 	diplomacy = 7
 	intrigue = 9
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_orc
 	add_trait = orc_large
 	add_trait = strong
@@ -2384,7 +2384,7 @@
 	martial = 8
 	stewardship = 4
 	intrigue = 4
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = black_orc_trait
 	add_trait = orc_huge
 	add_trait = robust
@@ -2407,7 +2407,7 @@
 	stewardship = 6
 	intrigue = 6
 	add_trait = creature_human
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = inspiring_leader
 	add_trait = strong
 	add_trait = fair
@@ -2446,7 +2446,7 @@
 	intrigue = 3
 	learning = 8
 	add_trait = creature_human
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = gamer
 	add_trait = brilliant
 	add_trait = erudite
@@ -2487,7 +2487,7 @@
 	learning = 3
 	add_trait = creature_goblin
 	add_trait = goblin_large
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = shrewd
 	add_trait = hardy
 	1834.6.21 = {
@@ -2510,7 +2510,7 @@
 	learning = 4
 	add_trait = creature_goblin
 	add_trait = goblin_huge
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = hardy
 	father = 60175
 	1883.4.12 = {
@@ -2566,7 +2566,7 @@
 	learning = 4
 	add_trait = creature_goblin
 	add_trait = goblin_small
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = idiot
 	1880.4.12 = {
 		birth = yes
@@ -2588,7 +2588,7 @@
 	learning = 4
 	add_trait = creature_goblin
 	add_trait = goblin_small
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = robust
 	1881.4.12 = {
 		birth = yes
@@ -2610,7 +2610,7 @@
 	learning = 4
 	add_trait = creature_goblin
 	add_trait = goblin_average
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = arbitrary
 	add_trait = quick
 	1880.4.12 = {

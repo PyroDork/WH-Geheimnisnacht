@@ -10,6 +10,10 @@ b_fortress_of_tamar = tribal
 #b_tamarra = tribal
 
 # Misc
-culture = albion_aeryn
-religion = old_faith
+culture = orc_main
+religion = greenskin_gods
 #History
+1.1.1={ 
+b_fortress_of_tamar = tb_greenskin_camp_1 
+b_fortress_of_tamar = tb_troll_pen_1
+}

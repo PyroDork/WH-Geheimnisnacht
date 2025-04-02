@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_beranbyrig = tribal
 #b_dubh_artach = city
-#b_cairnbarrow = temple
+b_cairnbarrow = temple
 
 # Misc
 culture = fimir

@@ -8,7 +8,7 @@ max_settlements = 2
 b_eight_bogs = tribal
 
 # Misc
-culture = albion_main
-religion = old_faith
+culture = gnome
+religion = halfling_gods
 terrain = marsh
 #History

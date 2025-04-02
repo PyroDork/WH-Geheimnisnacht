@@ -8,7 +8,7 @@ max_settlements = 3
 b_irost = tribal
 
 # Misc
-culture = albion_main
-religion = old_faith
+culture = fjarmann
+religion = norscan_gods
 terrain = hills
 #History

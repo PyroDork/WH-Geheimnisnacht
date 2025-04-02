@@ -13,7 +13,7 @@ b_gowaglen = temple
 # Misc
 culture = albion_albany
 religion = old_faith
-terrrain = farmlands
+terrain = farmlands
 #History
 
 1.1.1= {

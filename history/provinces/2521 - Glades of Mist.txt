@@ -11,5 +11,5 @@ b_glades_of_mist = tribal
 # Misc
 culture = albion_aeryn
 religion = old_faith
-terrrain = marsh
+terrain = marsh
 #History

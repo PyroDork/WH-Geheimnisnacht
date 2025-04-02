@@ -742,3 +742,181 @@
 		death = yes
 	}
 }
+
+226 = {
+	name = Mecharaz
+	dynasty = 79532
+	culture = gnome
+	religion = halfling_gods
+	martial = 8
+	diplomacy = 3
+	stewardship = 10
+	intrigue = 6
+	learning = 8
+	health = 10
+	disallow_random_traits = yes
+	add_trait = creature_halfling
+	add_trait = fortune_builder
+	add_trait = architect
+	add_trait = tinkerer_leader
+	add_trait = one_handed
+	add_trait = infirm
+	add_trait = erudite
+	add_trait = diligent
+	add_trait = zealous
+	add_trait = heresiarch
+	1969.3.24 = {
+		birth = yes
+	}
+	1989.3.3 = {
+		effect = {
+			create_retinue = DOWRETSIMULACRA
+			create_retinue = DOWRETSIMULACRA
+			set_character_flag = character_needs_frame
+			add_artifact = engineered_frame
+			add_artifact = engineered_hand
+		}
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}
+
+227 = {
+	name = Erazmmin
+	dynasty = 79532
+	culture = gnome
+	religion = halfling_gods
+	martial = 8
+	diplomacy = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 7
+	disallow_random_traits = yes
+	add_trait = creature_halfling
+	add_trait = naive_appeaser
+	add_trait = tinkerer_leader
+	add_trait = one_legged
+	add_trait = one_handed
+	add_trait = erudite
+	add_trait = kind
+	father = 226
+	1986.6.24 = {
+		birth = yes
+	}
+	2002.8.3 = {
+		effect = {
+			add_artifact = engineered_leg
+			add_artifact = engineered_hand
+		}
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}
+228 = {
+	name = Asoborn
+	dynasty = 79541
+	culture = gnome
+	religion = halfling_gods
+	martial = 6
+	diplomacy = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	add_trait = creature_halfling
+	add_trait = charismatic_negotiator
+	add_trait = is_fat
+	add_trait = clubfooted
+	add_trait = lore_shadows
+	1976.11.15 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}
+
+229 = {
+	name = Hartusch
+	dynasty = 79541
+	culture = gnome
+	religion = halfling_gods
+	martial = 6
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 6
+	add_trait = creature_halfling
+	add_trait = thrifty_clerk
+	add_trait = is_fat
+	add_trait = gluttonous
+	add_trait = magic_potential_1
+	father = 228
+	1996.11.15 = {
+		birth = yes
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}
+230 = {
+	name = Niclawes
+	dynasty = 79541
+	culture = gnome
+	religion = halfling_gods
+	martial = 9
+	diplomacy = 8
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	add_trait = creature_halfling
+	add_trait = charismatic_negotiator
+	add_trait = clubfooted
+	add_trait = temperate
+	add_trait = magic_potential_2
+	father = 228
+	1993.11.15 = {
+		birth = yes
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}
+231 = {
+	name = Meriasek
+	dynasty = 79541
+	culture = gnome
+	religion = halfling_gods
+	martial = 1
+	diplomacy = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	add_trait = creature_halfling
+	add_trait = martial_cleric
+	add_trait = sturdy
+	add_trait = quick
+	add_trait = temperate
+	add_trait = magic_potential_2
+	father = 228
+	add_trait = lore_shadows
+	1994.3.15 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2050.9.17 = {
+		death = yes
+	}
+}

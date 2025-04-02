@@ -526,7 +526,34 @@
 
 19031 = {
 	name = Sven
-	dynasty = 52002
+	dynasty = 52046
+	dna = cibkpjppafd
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 9
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = slothful
+	add_trait = inspiring_leader
+	add_trait = honest
+	add_trait = gregarious
+	add_trait = norscan_patron_ulric
+	add_trait = inspiring_leader
+	1968.1.1 = {
+		birth = yes
+	}
+	2020.9.5 = {
+		death = yes
+	}
+}
+19032 = {
+	name = Wigbald
+	dynasty = 52046
 	dna = cibkpjppafd
 	culture = fjarmann
 	religion = sigmarite
@@ -539,11 +566,336 @@
 	add_trait = skilled_tactician
 	add_trait = trusting
 	add_trait = just
+	add_trait = norscan_patron_ulric
 	add_trait = honest
-	2385.1.1 = {
+	father = 19031
+	1989.7.11 = {
 		birth = yes
 	}
-	2453.9.5 = {
+	2090.9.5 = {
 		death = yes
 	}
 }
+19033 = {
+	name = Wening
+	dynasty = 52026
+	dna = cibkpjppafd
+	culture = fjarmann
+	religion = sigmarite
+	martial = 1
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 6
+	learning = 5
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = norscan_patron_ulric
+	1966.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+19034 = {
+	name = "Róenhar"
+	dynasty = 87727
+	dna = cibkpjppafd
+	culture = albion_main
+	religion = old_faith
+	martial = 4
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 6
+	learning = 5
+	add_trait = creature_human
+	add_trait = flamboyant_schemer
+	add_trait = frugal
+	add_trait = lustful
+	1986.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+
+19035 = {
+	name = "Cenn-Fáelad"
+	dynasty = 87738
+	culture = albion_main
+	religion = chaos
+	martial = 4
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 6
+	learning = 5
+	add_trait = creature_human
+	add_trait = brilliant_strategist
+	add_trait = shrewd
+	add_trait = cynical
+	add_trait = honest
+	1983.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+
+19036 = {
+	name = "Gwylyddyn"
+	dynasty = 87819
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 4
+	diplomacy = 7
+	stewardship = 7
+	intrigue = 3
+	learning = 5
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = brilliant_strategist
+	add_trait = defensive_leader
+	add_trait = patient
+	add_trait = one_eyed
+	add_trait = scarred
+	1973.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+19037 = {
+	name = "Dána"
+	dynasty = 87819
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 4
+	diplomacy = 3
+	stewardship = 7
+	intrigue = 3
+	learning = 5
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = proud
+	father = 19036
+	1991.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+
+19038 = {
+	name = "Dállai"
+	dynasty = 87819
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 4
+	diplomacy = 6
+	stewardship = 3
+	intrigue = 7
+	learning = 5
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = proud
+	father = 19036
+	1992.7.11 = {
+		birth = yes
+	}
+	2090.9.5 = {
+		death = yes
+	}
+}
+19039 = {
+	name = Hengest 
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = norscan_patron_ursun
+	add_trait = shrewd
+	father = 19040
+	1974.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+19040 = {
+	name = Hvitserl 
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 9
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = norscan_patron_ursun
+	add_trait = adventurer
+	add_trait = shrewd
+	1954.7.1 = {
+		birth = yes
+	}
+	2010.11.26 = {
+		death = yes
+	}
+}
+
+19041 = {
+	name = Horsa 
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = norscan_patron_ursun
+	add_trait = shrewd
+	father = 19040
+	1973.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+19042 = {
+	name = Sif
+	female = yes
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = norscan_patron_ursun
+	add_trait = pretty
+	father = 19040
+	1983.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+19043 = {
+	name = "Njörğra"
+	dynasty = 52034
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = norscan_patron_ursun
+	add_trait = hardy
+	1967.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+19044 = {
+	name = Freyr
+	female = yes
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = norscan_patron_ursun
+	add_trait = twin
+	father = 19043
+	1987.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+19045 = {
+	name = Freyja
+	female = yes
+	dynasty = 52047
+	culture = fjarmann
+	religion = norscan_gods
+	martial = 5
+	diplomacy = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = norscan_patron_ursun
+	add_trait = twin
+	father = 19043
+	1987.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+
+19046 = {
+	name = Nintra
+	female = yes
+	dynasty = 87827
+	culture = ganethi
+	religion = anath_raema
+	martial = 5
+	diplomacy = 8
+	stewardship = 0
+	intrigue = 8
+	learning = 8
+	add_trait = creature_elf
+	add_trait = grey_eminence
+	add_trait = magic_potential_2
+	add_trait = stubborn
+	add_trait = brave
+	father = 19043
+	1737.7.1 = {
+		birth = yes
+	}
+	1757.1.1 = {
+		effect = {
+			add_trait = scarred_mid
+			immortal_age = 20
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+

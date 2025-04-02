@@ -36,7 +36,7 @@
 	stewardship = 9
 	intrigue = 9
 	learning = 9
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = orc_huge
 	add_trait = impaler
@@ -73,7 +73,7 @@
 	intrigue = 11
 	learning = 6
 	add_trait = creature_orc
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = proud
 	add_trait = cruel
 	add_trait = orc_huge
@@ -137,7 +137,7 @@
 	add_trait = orc_average
 	add_trait = impaler
 	add_trait = cruel
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = strong
 	add_trait = envious
 	prestige = 500
@@ -185,7 +185,7 @@
 	learning = 2
 	add_trait = creature_orc
 	add_trait = impaler
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = humble
 	add_trait = content
 	add_trait = temperate
@@ -212,7 +212,7 @@
 	learning = 2
 	add_trait = creature_orc
 	add_trait = duelist
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = aggressive_leader
 	add_trait = orc_large
 	1940.4.12 = {
@@ -235,7 +235,7 @@
 	learning = 2
 	add_trait = creature_orc
 	add_trait = duelist
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = aggressive_leader
 	add_trait = orc_large
 	father = 2212
@@ -260,7 +260,7 @@
 	learning = 6
 	add_trait = creature_orc
 	add_trait = orc_large
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = hunter
 	add_trait = cruel
 	add_trait = stubborn
@@ -369,7 +369,7 @@
 	father = 2205
 	add_trait = creature_orc
 	add_trait = orc_average
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = gregarious
 	add_trait = cruel
 	1932.1.20 = {
@@ -394,7 +394,7 @@
 	father = 2204
 	add_trait = creature_orc
 	add_trait = orc_average
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = wroth
 	add_trait = shy
 	1952.1.20 = {
@@ -466,7 +466,7 @@
 	learning = 5
 	add_trait = creature_orc
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = greedy
 	add_trait = honest
 	add_trait = orc_average
@@ -492,7 +492,7 @@
 	learning = 8
 	add_trait = creature_orc
 	add_trait = impaler
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = orc_small
 	add_trait = greedy
 	1968.3.17 = {
@@ -515,7 +515,7 @@
 	learning = 5
 	add_trait = creature_orc
 	add_trait = hunter
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = orc_large
 	add_trait = proud
 	add_trait = envious
@@ -953,7 +953,7 @@
 	intrigue = 6
 	learning = 2
 	add_trait = creature_orc
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = orc_large
 	father = 2056
 	1935.3.24 = {
@@ -1047,7 +1047,7 @@
 	learning = 9
 	add_trait = creature_orc
 	add_trait = poet
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = gregarious
 	add_trait = orc_average
 	1986.10.28 = {
@@ -1174,7 +1174,7 @@
 	learning = 9
 	add_trait = creature_orc
 	add_trait = duelist
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = greenskin_gods_gork
 	add_trait = orc_large
 	add_trait = strong
@@ -1227,7 +1227,7 @@
 	learning = 1
 	add_trait = creature_orc
 	add_trait = gardener
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = wroth
 	add_trait = humble
 	add_trait = orc_small
@@ -1394,7 +1394,7 @@
 	learning = 6
 	add_trait = creature_orc
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = zealous
 	add_trait = ambitious
 	add_trait = orc_average
@@ -1418,7 +1418,7 @@
 	learning = 8
 	add_trait = creature_orc
 	add_trait = poet
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = craven
 	add_trait = gregarious
 	add_trait = greedy
@@ -1473,7 +1473,7 @@
 	learning = 1
 	add_trait = creature_orc
 	add_trait = hunter
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = brave
 	add_trait = dim
 	add_trait = orc_large
@@ -1546,7 +1546,7 @@
 	intrigue = 6
 	learning = 6
 	add_trait = creature_orc
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = orc_large
 	add_trait = drunkard
 	father = 2219
@@ -1595,7 +1595,7 @@
 	learning = 7
 	add_trait = creature_orc
 	add_trait = gamer
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = orc_huge
 	add_trait = ambitious
 	add_trait = brave
@@ -1836,7 +1836,7 @@
 	martial = 8
 	stewardship = 8
 	intrigue = 8
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = black_orc_trait
 	add_trait = orc_average
 	add_trait = greenskin_gods_mork
@@ -1907,7 +1907,7 @@
 	stewardship = 8
 	intrigue = 6
 	learning = 9
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = creature_orc
 	add_trait = black_orc_trait
 	add_trait = orc_huge
@@ -1930,7 +1930,7 @@
 	martial = 8
 	stewardship = 8
 	intrigue = 8
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_goblin
 	add_trait = goblin_huge
 	add_trait = robust	#Inherently Larger
@@ -1951,7 +1951,7 @@
 	martial = 8
 	stewardship = 8
 	intrigue = 8
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = creature_goblin
 	add_trait = goblin_huge
 	add_trait = robust	#Inherently Larger
@@ -1975,7 +1975,7 @@
 
 	add_trait = creature_orc
 	add_trait = orc_huge
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = wroth
 	add_trait = duelist
 	add_trait = strong
@@ -2055,6 +2055,59 @@
 	add_trait = strong
 
 	1971.4.18 = {
+		birth = yes
+	}
+	2026.10.22 = {
+		death = yes
+	}
+}
+
+2317 = {
+	name = "Azog"
+	dynasty = 92640
+	culture = orc_main
+	religion = greenskin_gods
+	martial = 9
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	add_trait = creature_orc
+	add_trait = orc_huge
+	add_trait = barbarian_3
+	add_trait = hunter
+	add_trait = cruel
+	add_trait = psychopath
+	add_trait = albino
+	add_trait = hardy
+	1911.4.18 = {
+		birth = yes
+	}
+	2026.10.22 = {
+		death = yes
+	}
+}
+
+2318 = {
+	name = "Bolg"
+	dynasty = 92640
+	culture = orc_main
+	religion = greenskin_gods
+	martial = 9
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	add_trait = creature_orc
+	add_trait = orc_large
+	add_trait = barbarian_2
+	add_trait = cruel
+	add_trait = strong
+	add_trait = albino
+	add_trait = resilient
+	father = 2317
+
+	1957.4.18 = {
 		birth = yes
 	}
 	2026.10.22 = {

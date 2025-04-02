@@ -9,6 +9,6 @@ max_settlements = 4
 b_balebog = tribal
 b_baleful_ogham = temple
 # Misc
-culture = albion_morien
-religion = old_faith
+culture = goblin_main
+religion = greenskin_gods
 #History

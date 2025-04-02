@@ -8,7 +8,12 @@ max_settlements = 2
 b_muddy_point = tribal
 
 # Misc
-culture = orc_iron
+culture = goblin_main
 religion = greenskin_gods
 
 #History
+1.1.1= {
+	b_muddy_point = tb_greenskin_camp_1
+	b_muddy_point = tb_greenskin_camp_2
+	b_muddy_point = tb_goblin_wolf_pit_1
+}

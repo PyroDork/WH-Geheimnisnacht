@@ -352,3 +352,29 @@
 		death = yes
 	}
 }
+
+315 = {
+	name = "Brudda Bobb"
+	dynasty = 79531
+	culture = miyan
+	religion = kukaili
+	martial = 7
+	diplomacy = 7
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	add_trait = creature_halfling
+	add_trait = zealous
+	add_trait = humble
+	add_trait = brave
+	add_trait = proud
+	add_trait = skilled_tactician
+	add_trait = gregarious
+	add_trait = envious
+	1991.11.28 = {
+		birth = yes
+	}
+	2030.2.15 = {
+		death = yes
+	}
+}

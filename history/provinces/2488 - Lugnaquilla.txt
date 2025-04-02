@@ -13,3 +13,9 @@ culture = goblin_hill
 religion = greenskin_gods
 terrain = hills
 #History
+
+1.1.1={ 
+b_lugnaquilla = tb_greenskin_camp_1 
+b_lugnaquilla = tb_greenskin_camp_2
+b_lugnaquilla = tb_hill_goblin_camp_1
+}

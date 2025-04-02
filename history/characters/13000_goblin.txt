@@ -12,7 +12,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = goblin_huge
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = ambitious
 	add_trait = envious
 	add_trait = quick
@@ -45,7 +45,7 @@
 	add_trait = one_eyed
 	add_trait = feeble
 	add_trait = shrewd
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	1946.8.28 = {
 		birth = yes
 	}
@@ -97,7 +97,7 @@
 	learning = 0
 	add_trait = creature_goblin
 	add_trait = goblin_average
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	1723.8.28 = {
 		birth = yes
 	}
@@ -184,7 +184,7 @@
 	learning = 5
 	add_trait = creature_goblin
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = greedy
 	add_trait = craven
 	add_trait = honest
@@ -254,7 +254,7 @@
 	learning = 5
 	add_trait = creature_goblin
 	add_trait = goblin_average
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	father = 2108
 	1904.8.28 = {
 		birth = yes
@@ -302,7 +302,7 @@
 	learning = 1
 	add_trait = creature_goblin
 	add_trait = hunter
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = warband_ngboss
 	add_trait = chaste
 	add_trait = cruel
@@ -587,7 +587,7 @@
 	learning = 2
 	add_trait = creature_goblin
 	add_trait = scarred
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = goblin_large
 	1878.11.11 = {
 		birth = yes
@@ -814,7 +814,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = hedonist
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = goblin_average
 	add_trait = tall
 	add_trait = sturdy
@@ -937,7 +937,7 @@
 	learning = 2
 	add_trait = creature_goblin
 	add_trait = hedonist
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = humble
 	add_trait = content
 	add_trait = temperate
@@ -1029,7 +1029,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = duelist
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = fair
 	add_trait = goblin_average
 	add_trait = strong
@@ -1053,7 +1053,7 @@
 	learning = 5
 	add_trait = creature_hobgoblin
 	add_trait = hunter
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = goblin_average
 	add_trait = proud
 	add_trait = envious
@@ -1175,7 +1175,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = poet
-	add_trait = brilliant_strategist
+	add_trait = barbarian_4
 	add_trait = gregarious
 	add_trait = goblin_average
 	1986.10.28 = {
@@ -1270,7 +1270,7 @@
 	learning = 1
 	add_trait = creature_goblin
 	add_trait = gardener
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = wroth
 	add_trait = humble
 	add_trait = goblin_average
@@ -1319,7 +1319,7 @@
 	learning = 5
 	add_trait = creature_goblin
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = greedy
 	add_trait = honest
 	add_trait = goblin_average
@@ -1647,7 +1647,7 @@
 	learning = 6
 	add_trait = creature_goblin
 	add_trait = gardener
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = cynical
 	add_trait = ambitious
 	add_trait = goblin_small
@@ -1743,7 +1743,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = goblin_average
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = ambitious
 	add_trait = zealous
 	1975.8.28 = {
@@ -1815,7 +1815,7 @@
 	learning = 9
 	add_trait = creature_goblin
 	add_trait = goblin_small
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	1972.4.12 = {
 		birth = yes
 	}
@@ -1838,7 +1838,7 @@
 	add_trait = goblin_huge
 	add_trait = tall
 	add_trait = strong
-	add_trait = misguided_warrior
+	add_trait = barbarian_1
 	add_trait = lore_waaagh
 	add_trait = brilliant
 	add_trait = gregarious
@@ -1943,7 +1943,7 @@
 	religion = greenskin_gods
 	add_trait = creature_goblin
 	add_trait = goblin_huge
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	1981.8.28 = {
 		birth = yes
 	}
@@ -2034,12 +2034,123 @@
 
 	add_trait = creature_hobgoblin
 	add_trait = goblin_average
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = greedy
 	add_trait = sturdy
 	add_trait = gluttonous
 
 	1974.8.13 = {
+		birth = yes
+	}
+	2052.6.11 = {
+		death = yes
+	}
+}
+13075 = {
+	name = Deznut
+	dynasty = 92638
+	culture = goblin_hill
+	religion = greenskin_gods
+
+	martial = 10
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 3
+	learning = 10
+	disallow_random_traits = yes
+	add_trait = creature_goblin
+	add_trait = goblin_average
+	add_trait = barbarian_2
+	add_trait = greedy
+	add_trait = sturdy
+	add_trait = gluttonous
+	add_trait = brilliant
+	add_trait = greenskin_gods_mork
+
+	1934.8.13 = {
+		birth = yes
+	}
+	2052.6.11 = {
+		death = yes
+	}
+}
+
+13076 = {
+	name = Nutdez
+	dynasty = 92638
+	culture = goblin_hill
+	religion = greenskin_gods
+
+	martial = 8
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 3
+	learning = 10
+
+	add_trait = creature_goblin
+	add_trait = goblin_average
+	add_trait = skilled_tactician
+	add_trait = greedy
+	add_trait = robust
+	add_trait = quick
+	add_trait = gluttonous
+	add_trait = greenskin_gods_mork
+	father = 13075
+	1953.8.13 = {
+		birth = yes
+	}
+	2052.6.11 = {
+		death = yes
+	}
+}
+13077 = {
+	name = Nutgulba
+	dynasty = 92638
+	culture = goblin_hill
+	religion = greenskin_gods
+
+	martial = 8
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 3
+	learning = 10
+
+	add_trait = creature_goblin
+	add_trait = goblin_average
+	add_trait = barbarian_2
+	add_trait = greedy
+	add_trait = shrewd
+	add_trait = slothful
+	add_trait = greenskin_gods_mork
+	father = 13075
+	1951.8.13 = {
+		birth = yes
+	}
+	2052.6.11 = {
+		death = yes
+	}
+}
+13078 = {
+	name = Gulbnuta #Bolg c_callann c_meidhe c_tamarra
+	dynasty = 92638
+	culture = goblin_hill
+	religion = greenskin_gods
+
+	martial = 1
+	diplomacy = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 10
+
+	add_trait = creature_goblin
+	add_trait = goblin_small
+	add_trait = charismatic_negotiator
+	add_trait = greedy
+	add_trait = genius
+	add_trait = gluttonous
+	add_trait = greenskin_gods_mork
+	father = 13075
+	1971.8.13 = {
 		birth = yes
 	}
 	2052.6.11 = {

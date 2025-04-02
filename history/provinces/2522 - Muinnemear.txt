@@ -11,5 +11,5 @@ b_tarren_ogham = temple
 # Misc
 culture = albion_aeryn
 religion = old_faith
-terrrain = farmlands
+terrain = farmlands
 #History

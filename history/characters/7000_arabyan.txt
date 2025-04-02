@@ -996,6 +996,10 @@
 		birth = yes
 		effect = {
 			set_character_flag = magic_potential_flag_1
+			religion_authority = {
+				modifier = arabyan_crusades_humiliation
+				years = 3000
+			}
 		}
 	}
 	2009.3.15 = {

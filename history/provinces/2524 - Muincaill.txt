@@ -6,10 +6,11 @@ title = c_muincaill
 # Settlements
 max_settlements = 3
 
-b_muincaill = tribal
-
+b_muincaill = castle
+b_muinfenn = temple
+b_atolmorr = castle
 # Misc
 culture = fimir
 religion = chaos
-terrrain = woods
+terrain = woods
 #History

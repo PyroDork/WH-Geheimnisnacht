@@ -12,3 +12,12 @@ b_dubhlein = tribal
 culture = albion_aeryn
 religion = old_faith
 #History
+1.1.1={ 
+b_dubhlein = tb_hillfort_1 
+b_dubhlein = tb_hillfort_2
+b_dubhlein = tb_hillfort_3
+b_dubhlein = tb_market_town_1
+b_dubhlein = tb_training_grounds_1
+b_dubhlein = tb_war_camp_1
+b_dubhlein = tb_culture_albion_1
+}

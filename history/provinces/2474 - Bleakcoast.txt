@@ -9,6 +9,6 @@ max_settlements = 4
 b_bleakcoast = tribal
 
 # Misc
-culture = albion_main
+culture = strigany
 religion = vampiric
 #History

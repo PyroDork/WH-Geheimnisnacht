@@ -9,6 +9,6 @@ max_settlements = 2
 b_beast_peaks = tribal
 
 # Misc
-culture = albion_main
+culture = strigany
 religion = vampiric
 #History

@@ -5,7 +5,7 @@
 # 101 			# Morgana		# LANDED
 # 102			# Túathal		# LANDED
 # 103 			# Máel-Ruanaid	# LANDED
-# 104			# Indrechtach	# LANDED
+# 104			# Foirtchern	# LANDED
 # 105 			# Rowain		# LANDED
 # 106			# Isabel		# LANDED
 # 107 			# Dyrrig		# LANDED
@@ -158,7 +158,7 @@
 }
 
 104 = {
-	name = Indrechtach
+	name = Foirtchern
 	dynasty = 87704
 	culture = albion_main
 	religion = old_faith
@@ -168,16 +168,22 @@
 	intrigue = 2
 	learning = 8
 	add_trait = creature_human
-	add_trait = mastermind_theologian
-	add_trait = poet
+	add_trait = thrifty_clerk
+	add_trait = cruel
 	add_trait = tall
 	add_trait = chaste
 	add_trait = content
+	add_trait = quick
+	add_trait = wroth
 	1971.3.14 = {
 		birth = yes
 	}
-	1990.6.29 = {
+	1987.6.29 = {
 		add_spouse = 126
+		effect = {
+			add_rival = 156
+			add_rival = 158
+		}
 	}
 	2012.8.14 = {
 		death = yes
@@ -212,7 +218,7 @@
 106 = {
 	name = Isabel
 	dynasty = 87706
-	culture = albion_main
+	culture = albion_morien
 	religion = old_faith
 	female = yes
 	martial = 4
@@ -495,11 +501,9 @@
 
 116 = {
 	name = Oreth
-	dynasty = 87704
+	dynasty = 87708
 	culture = albion_main
-	religion = old_faith
-	father = 104
-	mother = 126
+	religion = chaos
 	martial = 8
 	diplomacy = 7
 	stewardship = 2
@@ -512,6 +516,8 @@
 	add_trait = cynical
 	add_trait = kind
 	add_trait = bastard
+	father = 132
+	mother = 133
 	1989.2.2 = {
 		birth = yes
 	}
@@ -792,7 +798,7 @@
 	1970.5.1 = {
 		birth = yes
 	}
-	1990.6.29 = {
+	1987.6.29 = {
 		add_spouse = 104
 	}
 	2039.3.12 = {
@@ -1306,7 +1312,7 @@
 	learning = 7
 	add_trait = creature_human
 	add_trait = skilled_tactician
-	add_trait = defender
+	add_trait = defensive_leader
 	add_trait = ambitious
 	add_trait = chaos_knight
 	add_trait = uncouth
@@ -1503,6 +1509,1049 @@
 		birth = yes
 	}
 	2067.11.26 = {
+		death = yes
+	}
+}
+156 = {
+	name = Uthyr 
+	dynasty = 87818
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = fortune_builder
+	add_trait = magic_potential_4
+	add_trait = lustful
+	add_trait = deceitful
+	add_trait = shrewd
+	add_trait = hardy
+	add_trait = gamer
+	add_trait = proud
+	add_trait = unyielding_leader
+	father = 160
+	1967.7.1 = {
+		birth = yes
+	}
+	1987.7.1 = {
+		add_spouse = 157
+		effect = {
+			add_twenty_five_duel_experience_modifier = yes
+			add_twenty_five_duel_experience_modifier = yes
+			set_character_flag = ai_flag_refuse_conversion
+			set_character_flag = no_wedding_event
+			spouse = {
+				set_character_flag = no_wedding_event
+				remove_spouse = spouse
+				add_spouse_matrilineal = ROOT
+				clr_character_flag = no_wedding_event
+			}
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+157 = {
+	name = Igraine
+	female = yes
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 5
+	diplomacy = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 0
+	add_trait = creature_human
+	add_trait = naive_appeaser
+	add_trait = magic_potential_4
+	add_trait = paranoid
+	add_trait = wroth
+	add_trait = pretty
+	1966.1.1 = {
+		birth = yes
+	}
+	1987.7.1 = {
+		add_spouse = 156
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+158 = {
+	name = Athrwys
+	dynasty = 87818
+	culture = armoric
+	culture = albion_aeryn
+	religion = grail
+	martial = 10
+	diplomacy = 10
+	stewardship = 1
+	intrigue = 1
+	learning = 3
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = magic_potential_4
+	add_trait = brave
+	add_trait = just
+	add_trait = kind
+	add_trait = hardy
+	add_trait = robust
+	add_trait = organizer
+	add_trait = inspiring_leader
+	add_trait = bastard
+	father = 156
+	mother = 157
+	1987.7.1 = {
+		birth = yes
+	}
+	2006.1.1 = {
+		effect = {
+			add_twenty_five_duel_experience_modifier = yes
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+159 = {
+	name = Moigne 
+	dynasty = 87818
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 0
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = zealous
+	add_trait = content
+	add_trait = organizer
+	father = 160
+	1971.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+160 = {
+	name = Consantec
+	dynasty = 87818
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 6
+	diplomacy = 12
+	stewardship = 6
+	intrigue = 5
+	learning = 0
+	add_trait = creature_human
+	add_trait = grey_eminence
+	add_trait = magic_potential_4
+	add_trait = paranoid
+	add_trait = deceitful
+	add_trait = genius
+	add_trait = organizer
+	father = 153
+	1947.7.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+161 = {
+	name = Constans 
+	dynasty = 87818
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 5
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = magic_potential_4
+	add_trait = genius
+	add_trait = proud
+	father = 160
+	1965.7.1 = {
+		birth = yes
+	}
+	1985.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+162 = {
+	name = Merdhyn
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = magic_potential_3
+	add_trait = smart
+	add_trait = lunatic_1
+	add_trait = mystic
+	add_trait = lore_heavens
+	add_trait = feeble
+	add_trait = immortal
+	health = 10
+	1981.7.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	1950.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+163 = {
+	name = Morgause
+	female = yes
+	dynasty = 87818
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = magic_potential_4
+	add_trait = kind
+	add_trait = erudite
+	add_trait = pretty
+	father = 156
+	mother = 157
+	1989.7.1 = {
+		birth = yes
+	}
+	2007.1.1 = { 
+		add_spouse = 187
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+164 = {
+	name = Guorthemir
+	dynasty = 87704
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = kind
+	add_trait = erudite
+	add_trait = quick
+	add_trait = patient
+	father = 104
+	mother = 126
+	1987.10.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+165 = {
+	name = Pascthmer
+	dynasty = 87704
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = kind
+	add_trait = psychopath
+	add_trait = tall
+	father = 104
+	mother = 126
+	1988.12.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+166 = {
+	name = Cattegirn
+	dynasty = 87704
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = brave
+	add_trait = stubborn
+	add_trait = quick
+	add_trait = wroth
+	add_trait = tall
+	father = 104
+	mother = 126
+	1990.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+167 = {
+	name = Faustemir
+	dynasty = 87704
+	dna = zbvlquwasup
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = kind
+	add_trait = erudite
+	add_trait = pretty
+	add_trait = tall
+	father = 104
+	mother = 126
+	1998.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+168 = {
+	name = "Thrashlaar"
+	dynasty = 87239
+	culture = strigoi_vampire
+	dna = zbvlquwasup
+	culture = strygan
+	religion = vampiric
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = vampire_strigoi_visible
+	add_trait = cruel
+	add_trait = psychopath
+	add_trait = hardy
+	add_trait = tall
+	give_nickname = nick_vile
+	1788.7.1 = {
+		birth = yes
+	}
+	2000.1.1 = {
+		effect = {
+			add_friend = 169
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+169 = {
+	name = "Rolinda"
+	female = yes
+	dynasty = 87239
+	dna = zbvlquwasup
+	culture = strigany
+	religion = vampiric
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = patient
+	add_trait = weak
+	add_trait = magic_potential_2
+	add_trait = lore_necromancy
+	add_trait = mystic
+	add_trait = smart
+	father = 168
+	health = 6
+	1981.7.1 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+170 = {
+	name = "Lomarghan"
+	dynasty = 87797
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = patient
+	add_trait = weak
+	add_trait = magic_potential_1
+	add_trait = frugal
+	1961.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+171 = {
+	name = "Comaghia"
+	dynasty = 87797
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 3
+	diplomacy = 5
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_1
+	add_trait = frugal
+	father = 170
+	1981.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+172 = {
+	name = "Lamaghar"
+	dynasty = 87797
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 7
+	diplomacy = 7
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = patient
+	add_trait = weak
+	add_trait = magic_potential_1
+	add_trait = paranoid
+	father = 170
+	1983.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+173 = {
+	name = "Lanadun"
+	dynasty = 87797
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 6
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	father = 172
+	1999.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+174 = {
+	name = "Ainlys"
+	dynasty = 87797
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 6
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	father = 171
+	1998.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+175 = {
+	name = "Máelcan"
+	dynasty = 87820
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 8
+	diplomacy = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	add_trait = creature_human
+	add_trait = underhanded_rogue
+	add_trait = resilient
+	add_trait = fluent
+	add_trait = romantic
+	1988.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+176 = {
+	name = "Leodogran"
+	dynasty = 87820
+	properties = gd0dla
+	dna = yqkhgznordd
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 8
+	stewardship = 8
+	intrigue = 3
+	learning = 8
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = midas_touched
+	add_trait = content
+	add_trait = craven
+	add_trait = shrewd
+	add_trait = kind
+	add_trait = fluent
+	add_trait = slothful
+	add_trait = tall
+	1971.7.1 = {
+		birth = yes
+	}
+	2006.1.1 = {
+		effect = {
+			add_friend = 158
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+177 = {
+	name = "Gwenhwyfar"
+	dynasty = 87820
+	female = yes
+	dna = yqkhgznordd
+	culture = albion_morien
+	religion = old_faith
+	martial = 3
+	diplomacy = 9
+	stewardship = 8
+	intrigue = 3
+	learning = 10
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = chaste
+	add_trait = temperate
+	add_trait = charitable
+	add_trait = kind
+	add_trait = fluent
+	add_trait = fair
+	father = 176
+	1991.7.1 = {
+		birth = yes
+	}
+	2000.1.1 = {
+		effect = {
+			add_rival = 178
+			add_lover = 158
+		}
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+178 = {
+	name = "Gwenhwyvach"
+	dynasty = 87820
+	female = yes
+	dna = yqkhgznordd
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 8
+	stewardship = 3
+	intrigue = 8
+	learning = 5
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = flamboyant_schemer
+	add_trait = ambitious
+	add_trait = cruel
+	add_trait = psychopath
+	add_trait = shrewd
+	add_trait = fluent
+	add_trait = fair
+	father = 176
+	1992.7.1 = {
+		birth = yes
+	}
+	2067.11.26 = {
+		death = yes
+	}
+}
+179 = {
+	name = Cathbad
+	dynasty = 87823
+	dna = cigjaccabaw
+	properties = ch0eek00000000
+	culture = albion_aeryn
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 8
+	diplomacy = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 10
+	add_trait = creature_human
+	add_trait = hedge_wizard
+	add_trait = intricate_webweaver
+	add_trait = magic_potential_3
+	add_trait = lore_metal
+	add_trait = fragile
+	add_trait = zealous
+	add_trait = bright
+	add_trait = proud
+	add_trait = gregarious
+	add_trait = patient
+	add_trait = diligent
+	health = 8
+	1960.11.28 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+180 = {
+	name = Conchobar
+	dynasty = 87823
+	dna = cigjaccabaw
+	properties = ch0eek00000000
+	culture = albion_aeryn
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 8
+	diplomacy = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 10
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = magic_potential_2
+	add_trait = fragile
+	add_trait = brave
+	add_trait = bright
+	add_trait = proud
+	add_trait = gregarious
+	father = 179
+	1986.11.28 = {
+		birth = yes
+	}
+	2010.1.1 = {
+		add_spouse = 181
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+181 = {
+	name = Medb
+	dynasty = 87819
+	female = yes
+	dna = cigjaccabaw
+	properties = ch0eek00000000
+	culture = albion_aeryn
+	religion = old_faith
+	disallow_random_traits = yes
+	martial = 8
+	diplomacy = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 10
+	add_trait = creature_human
+	add_trait = intricate_webweaver
+	add_trait = magic_potential_2
+	add_trait = fragile
+	add_trait = brave
+	add_trait = bright
+	add_trait = proud
+	add_trait = gregarious
+	father = 19036
+	health = 8
+	1989.11.28 = {
+		birth = yes
+	}
+	2010.1.1 = {
+		add_spouse = 180
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+182 = {
+	name = Maerghem
+	dynasty = 87792
+	culture = albion_aeryn
+	religion = old_faith
+	martial = 8
+	diplomacy = 5
+	stewardship = 1
+	intrigue = 1
+	learning = 5
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_1
+	add_trait = brave
+	add_trait = humble
+	add_trait = gregarious
+	health = 8
+	1972.11.28 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+183 = { #Wight
+	name = Leannán
+	female = yes
+	dynasty = 87824
+	culture = nehekharan
+	culture = albion_aeryn
+	religion = vampiric
+	martial = 8
+	diplomacy = 5
+	stewardship = 1
+	intrigue = 1
+	learning = 5
+	add_trait = creature_nehekharan
+	add_trait = elusive_shadow
+	add_trait = magic_potential_1
+	add_trait = lore_necromancy
+	add_trait = envious
+	add_trait = cruel
+	health = 8
+	1914.11.28 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+184 = {
+	name = Gruffydd
+	dynasty = 87791
+	culture = albion_morien
+	religion = chaos
+	martial = 8
+	diplomacy = 5
+	stewardship = 0
+	intrigue = 8
+	learning = 6
+	add_trait = creature_nehekharan
+	add_trait = elusive_shadow
+	add_trait = magic_potential_1
+	add_trait = lore_dark_magic
+	add_trait = envious
+	add_trait = cruel
+	add_trait = cynical
+	1976.11.28 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+185 = {
+	name = Grummod
+	dynasty = 87817
+	culture = albion_albany
+	religion = old_faith
+	martial = 8
+	diplomacy = 5
+	stewardship = 0
+	intrigue = 8
+	learning = 6
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_1
+	add_trait = envious
+	add_trait = cruel
+	add_trait = cynical
+	1976.11.28 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+186 = {
+	name = Arien
+	dynasty = 87815
+	culture = albion_albany
+	religion = old_faith
+	martial = 8
+	diplomacy = 5
+	stewardship = 0
+	intrigue = 8
+	learning = 6
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_1
+	add_trait = envious
+	add_trait = cruel
+	add_trait = cynical
+	1979.11.28 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+187 = {
+	name = Lothlleu
+	dynasty = 87825
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 5
+	stewardship = 0
+	intrigue = 8
+	learning = 6
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_1
+	add_trait = envious
+	add_trait = brave
+	add_trait = cynical
+	1973.11.28 = {
+		birth = yes
+	}
+	2007.1.1 = { 
+		add_spouse = 163
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+188 = {
+	name = Agrane
+	dynasty = 87825
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 3
+	stewardship = 0
+	intrigue = 8
+	learning = 3
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = brave
+	father = 187
+	1991.2.2 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+189 = {
+	name = Gawain
+	dynasty = 87825
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 8
+	stewardship = 0
+	intrigue = 8
+	learning = 3
+	add_trait = creature_human
+	add_trait = tough_soldier
+	add_trait = just
+	father = 187
+	1992.2.2 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+190 = {
+	name = Mordred #gawain gareth
+	dynasty = 87825
+	culture = albion_morien
+	religion = old_faith
+	martial = 12
+	diplomacy = 6
+	stewardship = 0
+	intrigue = 12
+	learning = 6
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_4
+	add_trait = envious
+	add_trait = cruel
+	add_trait = cynical
+	trait = strong
+	trait = bright
+	add_trait = envious
+	father = 187
+	mother = 163
+	2007.2.2 = {
+		birth = yes
+		effect = { add_rival = 158 }
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+191 = {
+	name = Guareth
+	dynasty = 87825
+	culture = albion_morien
+	religion = old_faith
+	martial = 8
+	diplomacy = 8
+	stewardship = 0
+	intrigue = 8
+	learning = 3
+	add_trait = creature_human
+	add_trait = thrifty_clerk
+	add_trait = just
+	add_trait = duelist
+	father = 187
+	1989.2.2 = {
+		birth = yes
+	}
+	2030.1.1 = {
+		death = yes
+	}
+}
+192 = {
+	name = "Dórgonch"
+	dynasty = 87826
+	culture = albion_main
+	religion = chaos
+	martial = 5
+	diplomacy = 0
+	stewardship = 0
+	intrigue = 8
+	learning = 10
+	disallow_random_traits = yes
+	add_trait = creature_human
+	add_trait = skilled_tactician
+	add_trait = magic_potential_4
+	add_trait = envious
+	add_trait = psychopath
+	add_trait = ugly
+	add_trait = stutter
+	add_trait = weak
+	fertility = -2
+	1943.11.28 = {
+		birth = yes
+	}
+	1999.1.1 = {
+		effect = {
+			add_trait = lore_dark_magic
+			add_trait = lore_shadows
+			add_trait = immortal
+			add_trait = bloodthirsty_gods_3
+			add_trait = scarred_mid
+			immortal_age = 25
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2030.1.1 = {
 		death = yes
 	}
 }

@@ -14,3 +14,13 @@ b_muchbarrow = temple
 culture = albion_main
 religion = chaos
 #History
+1.1.1={
+b_dunleadhe = ca_town_1
+b_dunleadhe = ca_keep_1
+b_dunleadhe = ca_keep_2
+b_dunleadhe = ca_wall_1
+b_dunleadhe = ca_wall_2
+b_dunleadhe = ca_norscan_training_grounds_1
+b_dunleadhe = ca_barracks_1
+b_dunleadhe = ca_culture_pictish_1
+}

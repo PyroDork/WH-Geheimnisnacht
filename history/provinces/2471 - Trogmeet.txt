@@ -13,3 +13,10 @@ culture = orc_iron
 religion = greenskin_gods
 terrain = hills
 #History
+
+1.1.1= {
+	b_trogmeet = tb_greenskin_camp_1
+	b_trogmeet = tb_greenskin_camp_2
+	b_trogmeet = tb_orc_boar_pit_1
+	b_trogmeet = tb_big_uns_1
+}

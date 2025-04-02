@@ -9,14 +9,17 @@
 	intrigue = 4
 	learning = 3
 	add_trait = creature_fimir
-	add_trait = fimir_noble
+	#add_trait = fimir_noble
 	add_trait = strong
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = cruel
 	add_trait = proud
 	add_trait = slothful
 	1989.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -34,12 +37,15 @@
 	intrigue = 4
 	learning = 3
 	add_trait = creature_fimir
-	add_trait = fimir_noble
-	add_trait = skilled_tactician
+	#add_trait = fimir_noble
+	add_trait = barbarian_3
 	add_trait = proud
 	add_trait = greedy
 	1989.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -57,7 +63,7 @@
 	intrigue = 4
 	learning = 3
 	add_trait = creature_fimir
-	add_trait = fimir_noble
+	#add_trait = fimir_noble
 	add_trait = quick
 	add_trait = paranoid
 	add_trait = midas_touched
@@ -66,6 +72,9 @@
 	add_trait = patient
 	1979.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -83,7 +92,7 @@
 	intrigue = 12
 	learning = 3
 	add_trait = creature_fimir
-	add_trait = fimir_noble
+	#add_trait = fimir_noble
 	add_trait = elusive_shadow
 	add_trait = temperate
 	add_trait = trusting
@@ -91,6 +100,9 @@
 	add_trait = zealous
 	1979.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -108,8 +120,8 @@
 	intrigue = 4
 	learning = 3
 	add_trait = creature_fimir
-	add_trait = fimir_noble
-	add_trait = skilled_tactician
+	#add_trait = fimir_noble
+	add_trait = barbarian_3
 	add_trait = cynical
 	add_trait = ambitious
 	add_trait = arbitrary
@@ -117,6 +129,9 @@
 	add_trait = shrewd
 	1989.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -137,7 +152,7 @@
 	add_trait = creature_fimir
 	add_trait = fimir_maergh
 	add_trait = lore_chaos
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = genius
 	add_trait = honest
 	add_trait = cynical
@@ -200,7 +215,7 @@
 	disallow_random_traits = yes
 	add_trait = creature_fimir
 	add_trait = special_char_throgg
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = slothful
 	add_trait = brilliant
 	add_trait = wroth
@@ -256,7 +271,7 @@
 	disallow_random_traits = yes
 	add_trait = creature_hobgoblin
 	add_trait = goblin_large
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = gregarious
 	add_trait = dim
 	add_trait = gladiator
@@ -282,7 +297,7 @@
 	disallow_random_traits = yes
 	add_trait = creature_hobgoblin
 	add_trait = goblin_large
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = gregarious
 	add_trait = one_eyed
 	add_trait = cannibal_trait
@@ -332,7 +347,7 @@
 	culture = miraglian
 	religion = myrmidian
 	add_trait = creature_human
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = dim
 	add_trait = greedy
 	add_trait = stubborn
@@ -375,14 +390,17 @@
 	intrigue = 4
 	learning = 4
 	add_trait = creature_fimir
-	add_trait = fimir_noble
+	#add_trait = fimir_noble
 	add_trait = strong
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = cruel
 	add_trait = proud
 	add_trait = slothful
 	1969.6.1 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2166.1.1 = {
 		death = yes
@@ -475,12 +493,15 @@
 	intrigue = 4
 	learning = 7
 	add_trait = creature_fimir
-	add_trait = fimir_noble
-	add_trait = skilled_tactician
+	#add_trait = fimir_noble
+	add_trait = barbarian_3
 	add_trait = immortal
 	mother = 5515
 	1880.2.22 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2544.6.30 = {
 		death = yes
@@ -590,7 +611,7 @@
 	learning = 12
 	add_trait = creature_goblin
 	add_trait = goblin_large
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = quick
 	add_trait = robust
 	add_trait = cavalry_leader
@@ -615,7 +636,7 @@
 	learning = 7
 	add_trait = creature_goblin
 	add_trait = goblin_large
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = shrewd
 	father = 5520
 	1931.2.22 = {
@@ -672,7 +693,7 @@
 	learning = 7
 	add_trait = creature_goblin
 	add_trait = goblin_huge
-	add_trait = skilled_tactician
+	add_trait = barbarian_3
 	add_trait = adventurer
 	add_trait = quick
 	add_trait = wroth
@@ -865,6 +886,7 @@
 	add_trait = arbitrary
 	add_trait = kind
 	add_trait = hardy
+	add_trait = fluent
 	1552.6.22 = {
 		birth = yes
 	}
@@ -890,6 +912,7 @@
 	add_trait = hardy
 	1970.6.22 = {
 		birth = yes
+		effect = { add_trait = fimir_noble }
 	}
 	2053.2.22 = {
 		death = yes
@@ -906,12 +929,16 @@
 	intrigue = 4
 	learning = 1
 	add_trait = creature_fimir
-	add_trait = tough_soldier
+	#add_trait = fimir_noble
+	add_trait = barbarian_2
 	add_trait = craven
 	add_trait = lustful
 	add_trait = psychopath
 	1970.6.22 = {
 		birth = yes
+	}
+	2010.1.1 = {
+		effect = { add_trait = fimir_noble }
 	}
 	2053.2.22 = {
 		death = yes
@@ -929,7 +956,7 @@
 	intrigue = 4
 	learning = 1
 	add_trait = creature_fimir
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = fimir_maergh
 	add_trait = lore_chaos
 	add_trait = magic_potential_2
@@ -951,3 +978,475 @@
 		death = yes
 	}
 }
+
+5534 = {
+	name = Borkgor
+	dynasty = 90332
+	culture = orc_iron
+	religion = greenskin_gods
+	martial = 6
+	diplomacy = 9
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	disallow_random_traits = yes
+	add_trait = creature_orc
+	add_trait = barbarian_2
+	add_trait = orc_large
+	add_trait = black_orc_trait
+	add_trait = slothful
+	add_trait = gregarious
+	add_trait = groomed
+	add_trait = slow
+	add_trait = tough
+	add_trait = wroth
+	add_trait = cannibal_trait
+	add_trait = greenskin_gods_gork
+	1913.2.22 = {
+		birth = yes
+	}
+	2544.6.30 = {
+		death = yes
+	}
+}
+5535 = {
+	name = Midrazz
+	dynasty = 90332
+	culture = goblin_main
+	religion = greenskin_gods
+	martial = 3
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 6
+	father = 5534
+	mother = 5536
+	add_trait = creature_goblin
+	add_trait = scholar
+	add_trait = martial_cleric
+	add_trait = brave
+	add_trait = stubborn
+	add_trait = sympathy_vampiric
+	add_trait = greenskin_shaman
+	add_trait = goblin_small
+	add_trait = lore_death
+	add_trait = greenskin_gods_gork
+	1937.11.14 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2066.12.17 = {
+		death = yes
+	}
+}
+5536 = {
+	name = Skablah
+	female = yes
+	culture = goblin_main
+	religion = greenskin_gods
+	add_trait = creature_snotling
+	add_trait = thrifty_clerk
+	1900.8.28 = {
+		birth = yes
+	}
+	2000.1.29 = {
+		death = yes
+	}
+}
+
+5537 = {
+	name = Zuggr
+	dynasty = 91588
+	culture = goblin_main
+	religion = greenskin_gods
+	martial = 8
+	intrigue = 3
+	add_trait = creature_goblin
+	add_trait = goblin_average
+	add_trait = elusive_shadow
+	add_trait = greenskin_gods_gork
+	add_trait = hardy
+	mother = 5536
+	1974.8.28 = {
+		birth = yes
+	}
+	2062.1.29 = {
+		death = yes
+	}
+}
+
+5538 = {
+	name = Boglog
+	dynasty = 92032
+	culture = goblin_main
+	religion = greenskin_gods
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 1
+	learning = 0
+	add_trait = creature_goblin
+	add_trait = goblin_average
+	add_trait = thrifty_clerk
+	add_trait = greenskin_gods_mork
+	1973.8.28 = {
+		birth = yes
+	}
+	2000.1.1 = {
+		effect = {
+			add_artifact = goblin_stabba
+			add_artifact = squig
+		}
+	}
+	2062.1.29 = {
+		death = yes
+	}
+}
+
+5539 = {
+	name = Mudflagg
+	dynasty = 92637
+	properties = 000j0b00000000000000000000000000
+	culture = goblin_seagit
+	religion = greenskin_gods
+	martial = 10
+	diplomacy = 4
+	stewardship = 9
+	intrigue = 1
+	learning = 5
+	disallow_random_traits = yes
+	add_trait = creature_goblin
+	add_trait = goblin_huge
+	add_trait = barbarian_4
+	add_trait = impaler
+	add_trait = trickster
+	add_trait = inspiring_leader
+	add_trait = imbecile
+	add_trait = lore_deep
+	add_trait = inbred
+	add_trait = zealous
+	add_trait = lefthanded
+	add_trait = greenskin_gods_gork
+	1937.11.14 = {
+		birth = yes
+	}
+	1966.4.29 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2000.1.1 = {
+		effect = {
+			create_retinue = snotling_swarm
+		}
+	}
+	2024.1.3 = {
+		death = yes
+	}
+}
+
+5540 = {
+	name = Firibol
+	culture = fimir
+	religion = chaos
+	martial = 3
+	diplomacy = 9
+	stewardship = 9
+	intrigue = 6
+	learning = 7
+	add_trait = creature_fimir
+	add_trait = fimir_dirach
+	add_trait = lore_chaos
+	add_trait = midas_touched
+	add_trait = arbitrary
+	add_trait = architect
+	add_trait = patient
+	add_trait = envious
+	1963.2.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2014.6.30 = {
+		death = yes
+	}
+}
+5541 = {
+	name = Ethnu
+	culture = fimir
+	religion = chaos
+	martial = 3
+	diplomacy = 3
+	stewardship = 9
+	intrigue = 6
+	learning = 10
+	add_trait = creature_fimir
+	add_trait = fimir_dirach
+	add_trait = lore_chaos
+	add_trait = martial_cleric
+	add_trait = erudite
+	add_trait = cruel
+	add_trait = lustful
+	1989.2.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_1
+				duration = -1
+			}
+		}
+	}
+	2014.6.30 = {
+		death = yes
+	}
+}
+
+5542 = {
+	name = Akiman
+	culture = fimir
+	religion = chaos
+	martial = 6
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 6
+	learning = 10
+	add_trait = creature_fimir
+	add_trait = fimir_dirach
+	add_trait = lore_chaos
+	add_trait = grey_eminence
+	add_trait = cruel
+	add_trait = gamer
+	add_trait = frugal
+	1986.2.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2014.6.30 = {
+		death = yes
+	}
+}
+
+5543 = {
+	name = Balimarr
+	culture = fimir
+	religion = chaos
+	martial = 6
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 6
+	learning = 10
+	add_trait = creature_fimir
+	add_trait = fimir_dirach
+	add_trait = lore_chaos
+	add_trait = grey_eminence
+	add_trait = gamer
+	add_trait = frugal
+	1986.2.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2014.6.30 = {
+		death = yes
+	}
+}
+5544 = {
+	name = Slythe
+	culture = fimir
+	dynasty = 97033
+	religion = chaos
+	martial = 6
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 6
+	learning = 10
+	disallow_random_traits = yes
+	add_trait = creature_fimir
+	add_trait = fimir_dirach
+	add_trait = lore_chaos
+	add_trait = intricate_webweaver
+	add_trait = sympathy_vampiric
+	add_trait = deceitful
+	add_trait = dim
+	add_trait = arbitrary
+	add_trait = wroth
+	1976.2.22 = {
+		birth = yes
+		effect = {
+			prestige = 200
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2010.1.1 = { 
+		effect = {
+			add_consort = 5545
+			add_consort = 5546
+		}
+	}
+	2014.6.30 = {
+		death = yes
+	}
+}
+5545 = {
+	name = Pumyrta
+	culture = albion_aeryn
+	religion = old_faith
+	female = yes
+	martial = 9
+	diplomacy = 6
+	stewardship = 3
+	intrigue = 11
+	learning = 10
+	add_trait = creature_human
+	add_trait = indulgent_wastrel
+	add_trait = diligent
+	add_trait = kind
+	add_trait = pretty
+	add_trait = physician
+	1991.12.22 = {
+		birth = yes
+	}
+	2057.7.19 = {
+		death = yes
+	}
+}
+5546 = {
+	name = Cheetarna
+	culture = albion_aeryn
+	religion = old_faith
+	female = yes
+	martial = 9
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 11
+	learning = 3
+	add_trait = creature_human
+	add_trait = barbarian_2
+	add_trait = diligent
+	add_trait = quick
+	1992.12.22 = {
+		birth = yes
+	}
+	2057.7.19 = {
+		death = yes
+	}
+}
+
+5547 = {
+	name = Indech
+	dynasty = 97034
+	culture = fimir
+	religion = chaos
+	martial = 9
+	diplomacy = 12
+	stewardship = 12
+	intrigue = 12
+	learning = 12
+	add_trait = creature_fimir
+	add_trait = barbarian_4
+	add_trait = diligent
+	add_trait = brave
+	add_trait = brilliant
+	add_trait = strong
+	1972.3.22 = {
+		birth = yes
+		effect = { add_trait = fimir_noble }
+	}
+	1988.12.22 = {
+		effect = {
+			add_consort = 5549
+		}
+	}
+	2010.1.1 = { 
+		effect = {
+			add_consort = 163
+			add_consort = 5549
+		}
+	}
+	2057.7.19 = {
+		death = yes
+	}
+}
+5548 = {
+	name = Octriallach
+	dynasty = 97034
+	culture = fimir
+	religion = chaos
+	martial = 9
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 11
+	learning = 3
+	add_trait = creature_human
+	add_trait = barbarian_2
+	add_trait = diligent
+	add_trait = brilliant
+	add_trait = hardy
+	father = 5547
+	mother = 5549
+	1988.12.22 = {
+		birth = yes
+		effect = { add_trait = fimir_noble }
+	}
+	2057.7.19 = {
+		death = yes
+	}
+}
+5549 = {
+	name = Malandier
+	female = yes
+	dynasty = 6164
+	dna = jomhdkndpcj
+	culture = loren
+	religion = asrai_cadai
+	martial = 6
+	diplomacy = 7
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	add_trait = creature_elf
+	add_trait = intricate_webweaver'
+	add_trait = humble
+	add_trait = kind
+	add_trait = greedy
+	1959.10.1 = {
+		birth = yes
+	}
+	2009.1.1 = {
+		immortal_age = 25
+	}
+	2057.10.1 = {
+		death = yes
+	}
+}
+
+

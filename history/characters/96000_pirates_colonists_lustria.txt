@@ -845,3 +845,93 @@ add_trait = lunatic_1
 	}
 	2030.3.7 = {death = yes}
 }
+
+2552 = {
+	name = Brummar
+	dynasty = 92033
+	culture = goblin_forest
+	religion = greenskin_gods
+	martial = 10
+	diplomacy = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 2
+	add_trait = tough_soldier
+	add_trait = creature_goblin
+	add_trait = goblin_huge
+	add_trait = stubborn
+	add_trait = paranoid
+	add_trait = wroth
+	1939.5.7 = {
+		birth = yes
+	}
+	2030.3.7 = {death = yes}
+}
+
+2553 = {
+	name = "Sjick Rippa"
+	dynasty = 92035
+	culture = goblin_forest
+	religion = greenskin_gods
+	martial = 6
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 6
+	add_trait = martial_cleric
+	add_trait = creature_goblin
+	add_trait = lore_beasts
+	add_trait = greenskin_shaman
+	add_trait = goblin_small
+	add_trait = stubborn
+	add_trait = paranoid
+	1919.5.7 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				name = magic_power_2
+				duration = -1
+			}
+		}
+	}
+	2030.3.7 = {death = yes}
+}
+2554 = {
+	name = "Grizkull"
+	dynasty = 90537
+	culture = orc_savage
+	religion = greenskin_gods
+	martial = 3
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 6
+	add_trait = skilled_tactician
+	add_trait = creature_orc
+	add_trait = orc_average
+	1917.5.7 = {
+		birth = yes
+	}
+	2030.3.7 = {death = yes}
+}
+2555 = {
+	name = "Bolg"
+	dynasty = 90567
+	culture = orc_savage
+	religion = greenskin_gods
+	martial = 4
+	diplomacy = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	add_trait = tough_soldier
+	add_trait = creature_orc
+	add_trait = orc_average
+	1929.5.7 = {
+		birth = yes
+	}
+	2030.3.7 = {death = yes}
+}
+
+
+

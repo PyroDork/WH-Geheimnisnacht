@@ -7,8 +7,9 @@ title = c_salt_barrows
 max_settlements = 2
 
 b_salt_barrows = tribal
+b_meargh_tothe = temple
 
 # Misc
-culture = albion_morien
-religion = old_faith
+culture = gnome
+religion = halfling_gods
 #History

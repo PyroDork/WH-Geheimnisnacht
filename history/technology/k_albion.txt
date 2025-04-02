@@ -45,7 +45,6 @@ technology = {
 technology = {
 	titles = {
 		d_muinnen
-		d_mede
 		d_connoch
 		d_ulain
 		d_daulster
@@ -87,6 +86,7 @@ technology = {
 #Albion Greenskins
 technology = {
 	titles = {
+		d_mede
 		d_troglands
 		d_callanoch
 	}

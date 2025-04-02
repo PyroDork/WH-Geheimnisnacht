@@ -29,7 +29,7 @@
 	culture = orc_savage
 	religion = greenskin_gods
 	add_trait = creature_orc
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = wroth
 	add_trait = duelist
 	add_trait = strong
@@ -73,7 +73,7 @@
 	culture = orc_savage
 	religion = greenskin_gods
 	add_trait = creature_orc
-	add_trait = tough_soldier
+	add_trait = barbarian_2
 	add_trait = orc_average
 	1975.3.24 = {
 		birth = yes
