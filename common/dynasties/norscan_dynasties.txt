@@ -1,8 +1,4 @@
 ###ÄNSI
-
-
-
-
 52000 = { name = "Mortenson" culture = fjarmann }
 52001 = { name = "Lindberg" culture = fjarmann }
 52002 = { name = "Lindström" culture = fjarmann }
@@ -49,8 +45,8 @@
 52043 = { name = "Kjerstad" culture = fjarmann }
 52044 = { name = "Ekdahl" culture = fjarmann }
 52045 = { name = "Losteriksson" culture = fjarmann }
-
-
+52046 = { name = "Redaxe" culture = fjarmann }
+52047 = { name = "Hvitterserl" culture = fjarmann }
 
 53000 = { name = "Eidbu" culture = sarl }
 53001 = { name = "Gersdorff" culture = sarl }
