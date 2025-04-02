@@ -1,5 +1,5 @@
 97000 = { name = "Balor" culture = fimir }
-97001 = { name = "FomÃ³ire" culture = fimir }
+97001 = { name = "Fomóire" culture = fimir }
 97002 = { name = "Bres" culture = fimir }
 97003 = { name = "Cethlenn" culture = fimir }
 97004 = { name = "Cichol" culture = fimir }
@@ -31,4 +31,4 @@
 97031 = { name = "Manglerfang" culture = naga }
 97032 = { name = "Manglerfang" culture = fimir }
 97033 = { name = "Muumra" culture = fimir }
-97034 = { name = "IndÃ©ragh" culture = fimir }
+97034 = { name = "Indéragh" culture = fimir }
