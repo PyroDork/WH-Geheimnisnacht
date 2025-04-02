@@ -2243,3 +2243,25 @@
 		death = yes
 	}
 }
+
+10116 = {
+	name = Vamakai
+	female = yes
+	dynasty = 1338
+	culture = lizardman
+	religion = old_ones
+	add_trait = creature_saurus
+	add_trait = kroxigor
+	add_trait = defender
+	add_trait = tough_soldier
+	1580.11.15 = {
+		birth = yes
+		effect = {
+			add_claim = c_gwangee
+			add_claim = c_tianquizco
+		}
+	}
+	3000.1.1 = {
+		death = yes
+	}
+}
