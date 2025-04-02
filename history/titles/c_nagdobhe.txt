@@ -1,0 +1,6 @@
+#d_ochness k_albion albion_expansion
+2002.1.1 = {
+    law = succ_tanistry
+    holder = 19035
+	liege = d_ochness
+}

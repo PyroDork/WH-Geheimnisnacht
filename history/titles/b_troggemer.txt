@@ -1,0 +1,5 @@
+#d_troglands k_albion albion_expansion
+1966.1.1 = {
+    holder = 5535
+	liege = c_trogmeet
+}

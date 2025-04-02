@@ -1,0 +1,5 @@
+#k_albion d_ochness
+1777.1.1 = {
+    law = succ_tanistry
+    holder = 19046
+}

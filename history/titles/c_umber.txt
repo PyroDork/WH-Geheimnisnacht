@@ -1,4 +1,5 @@
 2000.1.1 = {
     law = succ_tanistry
     holder = 132
+	liege = d_ochness
 }

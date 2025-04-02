@@ -1,0 +1,5 @@
+#k_aeryn albion_additions d_callanoch
+1961.1.1 = {
+    liege = d_callanoch
+    holder = 13075
+}

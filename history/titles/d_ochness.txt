@@ -1,0 +1,5 @@
+#k_albion albion_additions d_ochness
+1960.1.1 = {
+    law = succ_tanistry
+    holder = 192
+}

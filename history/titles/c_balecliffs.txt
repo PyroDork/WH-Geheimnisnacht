@@ -1,0 +1,6 @@
+#d_alawnuedha k_morien albion_expansion
+2009.1.1 = {
+    law = succ_tanistry
+    holder = 158
+	liege = d_alawnuedha
+}

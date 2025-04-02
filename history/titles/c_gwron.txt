@@ -1,4 +1,6 @@
-2000.1.1 = {
+#k_morien albion_additions d_morien
+1989.1.1 = {
     law = succ_tanistry
-    holder = 106    
+    holder = 187
+	liege = d_morien
 }

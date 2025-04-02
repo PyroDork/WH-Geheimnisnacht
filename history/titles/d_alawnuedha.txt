@@ -1,0 +1,5 @@
+#k_morien albion_additions d_alawnuedha
+1988.1.1 = {
+    law = succ_tanistry
+    holder = 176
+}

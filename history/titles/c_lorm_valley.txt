@@ -1,0 +1,5 @@
+#k_albany albion_additions d_lower_albany
+1999.1.1 = {
+    law = succ_tanistry
+    holder = 186
+}

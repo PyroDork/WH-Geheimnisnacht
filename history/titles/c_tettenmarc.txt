@@ -1,0 +1,5 @@
+#d_jordallen k_albany albion_expansion
+1987.1.1 = {
+    holder = 19043
+	liege = d_jordallen
+}

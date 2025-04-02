@@ -1,0 +1,8 @@
+#d_boghuedha k_albion albion_expansion
+1989.1.1 = {
+    holder = 19031
+	liege = d_eiremarc
+}
+2020.9.5 = {
+    holder = 19032
+}

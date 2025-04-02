@@ -1,0 +1,5 @@
+#d_troglands k_albion albion_expansion
+1990.11.1 = {
+    holder = 5537
+	liege = d_troglands
+}

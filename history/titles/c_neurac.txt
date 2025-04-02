@@ -1,0 +1,5 @@
+#d_boghuedha k_albion albion_expansion
+2006.1.1 = {
+    law = succ_tanistry
+    holder = 19034
+}

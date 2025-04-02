@@ -1,0 +1,5 @@
+#d_alawnuedha k_morien albion_expansion
+1989.1.1 = {
+	liege = d_alawnuedha
+    holder = 228
+}

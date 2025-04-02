@@ -1,0 +1,8 @@
+#d_muinnen k_aeryn albion_expansion
+1967.1.1 = {
+    law = succ_tanistry
+    holder = 160
+}
+1984.1.1 = {
+    holder = 161
+}

@@ -1,0 +1,6 @@
+#k_aeryn albion_additions d_ulain
+1980.1.1 = {
+    law = succ_tanistry
+    holder = 179
+	liege = d_ulain
+}

@@ -1,0 +1,5 @@
+#k_aeryn albion_additions d_connoch
+2005.1.1 = {
+    law = succ_tanistry
+    holder = 175
+}

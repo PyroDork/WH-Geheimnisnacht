@@ -1,0 +1,6 @@
+#k_aeryn albion_additions d_connoch
+1990.1.1 = {
+    law = succ_tanistry
+    holder = 19036
+	liege = d_connoch
+}
