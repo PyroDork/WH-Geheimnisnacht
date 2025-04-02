@@ -1011,6 +1011,9 @@ decisions = {
 					limit = {
 						tier = BARON
 						holding_type = tribal
+						ROOT = {
+							is_capital = PREV
+						}
 					}
 					convert_to = CASTLE
 					refill_holding_levy = yes
@@ -1190,9 +1193,31 @@ decisions = {
 				culture = miyan
 				religion = norscan_gods
 			}
+			liege = { #Not Really feudal Governments
+				NOR = {
+					government = norscan_government_feudal
+					government = fimir_government_feudal
+				}
+			}
 		}
 		allow = {
 			war = no
+			trigger_if = {
+				limit = { liege = {	culture_group = albion_group } }
+				capital_holding = {
+					OR = {
+						AND = {
+							holding_type = tribal
+							has_building = tb_hillfort_4
+						}
+						AND = {
+							holding_type = tribal
+							has_building = tb_norscan_fort_4
+						}
+						holding_type = castle
+					}
+				}
+			}
 			liege = {
 				OR = {
 					is_feudal = yes
@@ -1208,6 +1233,9 @@ decisions = {
 					limit = {
 						tier = BARON
 						holding_type = tribal
+						ROOT = {
+							is_capital = PREV
+						}
 					}
 					if = {
 						limit = {

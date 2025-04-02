@@ -340,6 +340,7 @@ targetted_decisions = {
 		potential = {
 			is_vampire_visible_trigger = yes
 			NOT = { dynasty = FROM }
+			trait = creature_human
 			OR = {
 				host = { character = FROM }
 				any_spouse = { character = FROM }
@@ -353,10 +354,8 @@ targetted_decisions = {
 
 		allow = {
 			is_vampire_visible_trigger = yes
-			has_opinion_modifier = { modifier = opinion_sired_me
-								who = FROM }
-			FROM = { NOT = { has_opinion_modifier = { modifier = opinion_v_rejected_adoption
-								who = ROOT } } }
+			has_opinion_modifier = { modifier=opinion_sired_me who=FROM }
+			FROM = { NOT = { has_opinion_modifier = { modifier=opinion_v_rejected_adoption who=ROOT } } }
 		}
 
 		effect = {
@@ -474,12 +473,20 @@ targetted_decisions = {
 			}
 			modifier = {
 				factor = 0.15
-				FROM = { NOT = { diplomacy = 15 }
-					NOT = { martial = 15 }
-					NOT = { stewardship = 15 }
-					NOT = { intrigue = 15 }
-					NOT = { learning = 15 }
-					NOT = { trait = proud } }
+				FROM = {
+					NAND = { 
+						diplomacy = 15 
+						martial = 15 
+						stewardship = 15 
+						intrigue = 15 
+						learning = 15 
+					}
+					NAND = { 
+						trait = ambitious
+						trait = proud
+						trait = cynical
+					}
+				}
 			}
 			modifier = {
 				factor = 0.85

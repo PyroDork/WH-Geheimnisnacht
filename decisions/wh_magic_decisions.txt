@@ -196,6 +196,7 @@ title_decisions = {
 			trigger_if = {
 				limit = {
 					FROM = {
+						true_religion = old_faith
 						true_religion = kislev_gods
 						true_religion = northern_gods
 						true_religion = northern_gods_reformed
@@ -2714,6 +2715,7 @@ offmap_decisions = {
 				host = { character = ROOT_FROM }
 				show_scope_change = no
 				prisoner = yes
+				NOT = { trait = creature_nehekharan }
 				is_invincible_trigger = no
 				is_heir = no
 			}

@@ -1158,6 +1158,10 @@ decisions = {
 				is_tribal = yes
 				is_nomadic = yes
 				is_inaccessible_trigger = yes
+				AND = {
+					capital_scope = { culture = nehekharan }
+					trait = khemri_tomb_king
+				}
 			}
 		}
 
@@ -1370,6 +1374,12 @@ decisions = {
 		potential = {
 			is_ruler = yes
 			has_character_modifier = in_seclusion
+			NOT ={ 
+				AND = {
+					capital_scope = { culture = nehekharan }
+					trait = khemri_tomb_king
+				}
+			}
 		}
 
 		allow = {
