@@ -1715,10 +1715,12 @@
 	health = 10
 	1950.7.1 = {
 		birth = yes
+		effect = {
 			add_character_modifier = {
 				name = magic_power_2
 				duration = -1
 			}
+		}
 	}
 	2067.11.26 = {
 		death = yes
