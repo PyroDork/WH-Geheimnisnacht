@@ -978,7 +978,7 @@ in_hiding = {
 
 	in_hiding = yes
 
-	customizer = yes
+	customizer = no
 	random = no
 
 	male_insult = INSULT_COWARD
