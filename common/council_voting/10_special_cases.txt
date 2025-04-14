@@ -9,10 +9,10 @@ special_case_for = {
 				OR = {
 					stored_token_trigger = viking_invasion
 					stored_token_trigger = new_crusade
-					AND = {
-						stored_token_trigger = settle_grudge
-						trait = creature_dwarf
-					}
+					#AND = {
+						#stored_token_trigger = settle_grudge
+						#trait = creature_dwarf
+					#}
 				}
 			}
 		}
