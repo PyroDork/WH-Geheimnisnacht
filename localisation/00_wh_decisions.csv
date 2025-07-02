@@ -16,6 +16,18 @@ exile_complacent_amazon;Exile Tame Amazon;;;;;;;;;;;;;
 exile_complacent_amazon_desc;Rigg teaches Amazons to be fierce and ruthelss, that is the only way for a woman to survive and be free. If [Root.GetFirstName] has grown complacent, there is only one way to have her find again her spirit or die trying.;;;;;;;;;;;;;
 amazon_brawling_tournament;Hold a Ritual to Rigg;;;;;;;;;;;;;
 amazon_brawling_tournament_desc;Invite your sisters to a great tournament organized to celebrate strength and skill in fighting and thus please the Goddesses of War. Be sure to have enough young, able-bodied Amazons in your court and amongst your vassals before issuing this command, since, if there are not enough participants willing to fight, you won't be able to issue another tournament for a few years.;;;;;;;;;;;;;
+have_twins;Have Twins;;;;;;
+have_twins_desc;Undergo the fertility ritual to have twins. The first time is free, afterwards costs society currency.;;;;;;
+have_twins_power_desc;Undergo the Amazon Fertility ritual to have Parthenogenic Twins with favorable traits.;;;;;;
+drink_fountain_youth;Drink from the Fountain of Youth;;;;;;
+drink_fountain_youth_desc;Drink from the fountain of youth to become 5 years younger, your adult family members in your court gain this benefit as well. Can be used once every 5 years, and is free once every 10 years.;;;;;;
+drink_fountain_youth_power_desc;Bring your family to Ganaina and drink from The Fountain of Youth together.;;;;;;
+learn_amazon_lore;Learn Lore of the Amazons;;;;;;
+learn_amazon_lore_desc;Recieve training in the Lore of Rigg and become a spellcaster.;;;;;;
+learn_amazon_lore_power_desc;Learn to call upon the powers of Rigg to defend yourself and your sisters.;;;;;;
+improved_diplomacy;Improved Diplomacy;;;;;;
+improved_diplomacy_desc;Forcibly end a war between two independant Amazon rulers.;;;;;;
+improved_diplomacy_power_desc;Be able to stop infighting among independant Amazon Rulers and have an easier time forming pacts with Lizardmen, Halflings, and other Amazons.;;;;;;
 #
 # FIMIR DECISIONS
 #

@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_have_twins"
+		texturefile = "gfx\\interface\\decision_icon_amazon.dds"
+	}
+	spriteType = {
+		name = "GFX_drink_fountain_youth"
+		texturefile = "gfx\\interface\\decision_icon_amazon.dds"
+	}
+	spriteType = {
+		name = "GFX_learn_amazon_lore"
+		texturefile = "gfx\\interface\\decision_icon_amazon_fight.dds"
+	}
+}

@@ -2934,6 +2934,18 @@ hermetics_rank_1_male;Neophyte;Néophyte;Neophyt;;Neófito;;;;;;;;;x
 hermetics_rank_2_male;Initiate;Initié;Novize;;Iniciado;;;;;;;;;x
 hermetics_rank_3_male;Adept;Adepte;Adept;;Adepto;;;;;;;;;x
 hermetics_rank_4_male;Magus;Mage;Magus;;Sabio;;;;;;;;;x
+#Amazon Sisterhood
+amazon_sisterhood;Amazon Sisterhood;;;;;;
+amazon_sisterhood_desc;The Amazon Sisterhood make up the priest class of the Amazons. They are the de-facto rulers and responsible for making decisions that affect all Amazon tribes as well as maintaining the artifacts left behind by the Old Ones.;;;;;;
+amazon_sisterhood_rank_1_female;Initiate;;;;;;
+amazon_sisterhood_rank_2_female;Novice;;;;;;
+amazon_sisterhood_rank_3_female;Adept;;;;;;
+amazon_sisterhood_rank_4_female;High Priestess;;;;;;
+amazon_sisterhood_rank_1_male;Disgrace;;;;;;
+amazon_sisterhood_rank_2_male;Disgrace;;;;;;
+amazon_sisterhood_rank_3_male;Disgrace;;;;;;
+amazon_sisterhood_rank_4_male;Disgrace;;;;;;
+
 EVTDESC_MNM_3920;I was in the middle of a conversation with the chef when [worried_secret_member.GetFirstName] appears from nowhere, grabs me by the arm and pulls me to a nearby room. With a wrinkled forehead and sweaty palms [worried_secret_member.GetSheHe] told me that [worried_secret_member.GetSheHe] intend to leave our society after being haunted too many times by shadows in the darkness.;Je suis au milieu d'une conversation avec le responsable des cuisines lorsque [worried_secret_member.GetFirstName] apparaît de nulle part, me saisit par le bras et m'amène dans une pièce voisine. Le front ridé et des paumes en sueur, [worried_secret_member.GetIlElle] me dit qu'[worried_secret_member.GetIlElle] a l'intention de quitter notre société après avoir été hanté[worried_secret_member.Get_E] trop souvent par les ombres dans l'obscurité.;Ich unterhielt mich gerade angeregt mit dem Koch, als [worried_secret_member.GetFirstName] urplötzlich auftauchte und mich hastig in einen Nebenraum zerrte. Mit sorgenvoller Miene eröffnete [worried_secret_member.GetSheHe] mir, dass [worried_secret_member.GetSheHe] vorhabe, unsere Gemeinschaft zu verlassen, nachdem die Visionen von Schatten, die in der Dunkelheit lauerten, immer häufiger geworden seien.;;Estaba en mitad de una conversación con el chef, cuando [worried_secret_member.GetFirstName] apareció de la nada, me agarró por el brazo y me llevó hasta una habitación cercana. Con el ceño fruncido y las manos sudorosas, me dijo que pretendía abandonar nuestra sociedad después de haber tenido que huir muchas veces.;;;;;;;;;x
 EVTOPTA_MNM_3920;Persuade by talking about solidarity.;[worried_secret_member.GetLeLaCap] persuader en parlant de solidarité.;Überreden mit dem Argument der Solidarität.;;Convence hablando sobre la solidaridad.;;;;;;;;;x
 EVTOPTB_MNM_3920;Explain the importance of devotion.;Lui expliquer l'importance de la dévotion.;Von der Bedeutung der Hingabe sprechen.;;Explica la importancia de la devoción.;;;;;;;;;x

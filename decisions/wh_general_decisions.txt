@@ -1187,6 +1187,12 @@ targetted_decisions = {
 				FROM={realm_diplomacy=40}
 				ROOT={NOT={realm_diplomacy=30}}
 			}
+			additive_modifier = {
+				value = 10
+				FROM={ AND = {society_member_of = amazon_sisterhood
+					society_rank >= 4
+				}}
+			}
 			#Martial realm Vs Everyone
 			additive_modifier = {
 				localisation_key = not_warmongering_nation
