@@ -12,6 +12,14 @@ special_case_for = {
 					#AND = {
 						#stored_token_trigger = settle_grudge
 						#trait = creature_dwarf
+						#NOT = {
+							#FROMFROM = {
+								#OR = {
+									#dynasty = ROOT
+									#is_close_relative = ROOT
+								#}
+							#}
+						#}
 					#}
 				}
 			}
