@@ -832,7 +832,7 @@ character_event = {
 					liege = { is_tribal = yes }
 				}
 			}
-			add_trait = barbarian_2
+			add_trait = barbarian_1
 		}
 		else = {
 			add_trait = misguided_warrior

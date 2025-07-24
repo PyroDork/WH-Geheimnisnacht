@@ -66,6 +66,13 @@ decisions = {
 			prisoner = no
 			custom_tooltip = { text = IS_NOT_INCAPACITATED
 					is_incapacitated_trigger = no }
+			top_liege = {
+				OR = {
+					has_law = sub_norse_tolerance_2
+					has_law = sub_norse_tolerance_1
+					has_law = sub_norse_tolerance_0
+				}
+			}
 		}
 		effect = {
 			if = {
