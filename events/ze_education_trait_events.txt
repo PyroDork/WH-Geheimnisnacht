@@ -1036,25 +1036,45 @@ character_event = {
 	desc = {
 		text = EVTDESCA_ZE_14210
 		trigger = {
-			FROM = { trait = misguided_warrior }
+			FROM = { 
+				OR = {
+					trait = misguided_warrior
+					trait = barbarian_1
+				}
+			}
 		}
 	}
 	desc = {
 		text = EVTDESCB_ZE_14210
 		trigger = {
-			FROM = { trait = tough_soldier }
+			FROM = { 
+				OR = {
+					trait = tough_soldier 
+					trait = barbarian_2
+				}
+			}
 		}
 	}
 	desc = {
 		text = EVTDESCC_ZE_14210
 		trigger = {
-			FROM = { trait = skilled_tactician }
+			FROM = { 
+				OR = {
+					trait = skilled_tactician 
+					trait = barbarian_3
+				}
+			}
 		}
 	}
 	desc = {
 		text = EVTDESCD_ZE_14210
 		trigger = {
-			FROM = { trait = brilliant_strategist }
+			FROM = { 
+				OR = {
+					trait = brilliant_strategist 
+					trait = barbarian_4
+				}
+			}
 		}
 	}
 
@@ -1068,11 +1088,25 @@ character_event = {
 		tooltip = { FROM = { add_trait = misguided_warrior } }
 	}
 	option = {
+		name = EVTOPTA_ZE_14110
+		trigger = {
+			FROM = { trait = barbarian_1 }
+		}
+		tooltip = { FROM = { add_trait = barbarian_1 } }
+	}
+	option = {
 		name = EVTOPTB_ZE_14110
 		trigger = {
 			FROM = { trait = tough_soldier }
 		}
 		tooltip = { FROM = { add_trait = tough_soldier } }
+	}
+	option = {
+		name = EVTOPTB_ZE_14110
+		trigger = {
+			FROM = { trait = barbarian_2 }
+		}
+		tooltip = { FROM = { add_trait = barbarian_2 } }
 	}
 	option = {
 		name = EVTOPTC_ZE_14110
@@ -1082,11 +1116,25 @@ character_event = {
 		tooltip = { FROM = { add_trait = skilled_tactician } }
 	}
 	option = {
+		name = EVTOPTC_ZE_14110
+		trigger = {
+			FROM = { trait = barbarian_3 }
+		}
+		tooltip = { FROM = { add_trait = barbarian_3 } }
+	}
+	option = {
 		name = EXCELLENT
 		trigger = {
 			FROM = { trait = brilliant_strategist }
 		}
 		tooltip = { FROM = { add_trait = brilliant_strategist } }
+	}
+	option = {
+		name = EXCELLENT
+		trigger = {
+			FROM = { trait = barbarian_4 }
+		}
+		tooltip = { FROM = { add_trait = barbarian_4 } }
 	}
 }
 
@@ -2705,6 +2753,11 @@ character_event = {
 			trait = martial_cleric
 			trait = scholarly_theologian
 			trait = mastermind_theologian
+			trait = barbarian_1
+			trait = barbarian_2
+			trait = barbarian_3
+			trait = barbarian_4
+			trait = mastermind_theologian
 		}
 		NOT ={
 			has_character_flag = is_child_of_destiny
@@ -2759,7 +2812,20 @@ character_event = {
 		trigger = {
 			has_character_flag = education_martial
 		}
-		add_trait = misguided_warrior
+		if = { 
+			limit =  {
+				OR = {
+					culture_group = norscan_group
+					culture_group = kurgan_group
+					culture_group = norscan_group
+					culture_group = hung_group
+					culture_group = beastman_group
+					liege = { is_tribal = yes }
+				}
+			}
+			add_trait = barbarian_1
+		}
+		else = { add_trait = misguided_warrior }
 		clr_character_flag = education_martial
 	}
 	option = {
@@ -2840,6 +2906,12 @@ character_event = {
 		text = EVTDESCB_ZE_14710
 		trigger = {
 			FROM = { trait = misguided_warrior }
+		}
+	}
+	desc = {
+		text = EVTDESCB_ZE_14710
+		trigger = {
+			FROM = { trait = barbarian_1 }
 		}
 	}
 	desc = {
