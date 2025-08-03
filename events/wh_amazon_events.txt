@@ -178,6 +178,7 @@
 # amazon.164	# The other girl doesn't share your interests
 # amazon.165	# Notify mother of revealed sexuality
 # amazon.166	# Remove Lineage Trait
+# amazon.200-300# Amazon Twins via society
 #######################
 
 namespace = amazon
@@ -8564,3 +8565,528 @@ character_event = {
 		remove_trait = amazon_kalith
 	}
 }
+
+#Ask player, Are you Sure? if yes, continue events, if no, remove flag.	
+	character_event = {
+	id = amazon.201
+		title = amazonbirthyn
+		desc = EVTDESCamazonbirthyn
+		picture = GFX_evt_amazon_girl
+		is_triggered_only = yes
+		option = { #Paid use
+			name = amazonpregloc1
+			trigger = {
+				AND = {
+					has_character_flag = amazonbirth
+					society_currency >= 1000
+				}
+			}
+			change_society_currency = -1000
+			impregnate = ROOT
+		}
+		
+		option = { #First use is free
+			name = amazonpregloc2
+			trigger = {
+					NOT = {has_character_flag = amazonbirth}
+			}
+			set_character_flag = amazonbirth
+			impregnate = ROOT
+		}
+		
+		option = {
+			name = Maybe_later
+			clr_character_flag = amazonpreg
+		}
+	}
+	
+	character_event = { #on birth upgrade bad traits 1 tier better, add twin trait and spawn twin with matching traits
+		id = amazon.204
+		hide_window = yes
+		is_triggered_only = yes	
+		trigger = {
+			mother = { has_character_flag = amazonpreg }
+		}
+		immediate = {
+			remove_trait = bastard
+			remove_trait = short
+			remove_trait = harelip
+			remove_trait = clubfooted
+			remove_trait = hunchback
+			remove_trait = inbred
+			remove_trait = stutter
+			remove_trait = lisp
+			add_trait = twin
+			set_gender = female
+			if = {
+				limit = {
+					trait = soft
+				}
+				remove_trait = soft
+			}
+			if = {
+				limit = {
+					trait = fragile
+				}
+				remove_trait = fragile
+				add_trait = soft
+			}
+			if = {
+				limit = {
+					trait = weak
+				}
+				remove_trait = weak
+				add_trait = fragile
+			}
+			if = {
+				limit = {
+					trait = plain
+				}
+				remove_trait = plain
+			}
+			if = {
+				limit = {
+					trait = ugly
+				}
+				remove_trait = ugly
+				add_trait = plain
+			}
+			if = {
+				limit = {
+					trait = unsightly
+				}
+				remove_trait = unsightly
+				add_trait = ugly
+			}
+			if = {
+				limit = {
+					trait = dim
+				}
+				remove_trait = dim
+			}
+			if = {
+				limit = {
+					trait = dumb
+				}
+				remove_trait = dumb
+				add_trait = dim
+			}
+			if = {
+				limit = {
+					trait = slow
+				}
+				remove_trait = slow
+				add_trait = dumb
+			}
+			if = {
+				limit = {
+					trait = idiot
+				}
+				remove_trait = idiot
+				add_trait = slow
+			}
+			if = {
+				limit = {
+					trait = imbecile
+				}
+				remove_trait = imbecile
+				add_trait = idiot
+			}
+			save_event_target_as = Amazon_Child
+			mother = {save_event_target_as = Amazon_Mother}
+			event_target:Amazon_Mother = {clr_character_flag = amazonpreg}
+			event_target:Amazon_Mother = {
+				character_event = {
+					id = amazon.203
+					days = 2 
+				}
+			}
+		}
+	}
+		
+		character_event = {
+			id = amazon.203
+			hide_window = yes
+			title = amazonbirthfix 
+			is_triggered_only = yes	
+			immediate = {
+				create_character = {
+					female = yes
+					age = 0
+					dynasty = event_target:Amazon_Mother
+				}
+				new_character = {
+					set_mother = event_target:Amazon_Mother
+					set_father = event_target:Amazon_Mother
+					add_trait = twin
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = genius
+						}
+					}
+					add_trait = genius
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = brilliant
+						}
+					}
+					add_trait = brilliant
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = quick
+						}
+					}
+					add_trait = quick
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = smart
+						}
+					}
+					add_trait = smart
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = bright
+						}
+					}
+					add_trait = bright
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = strong
+						}
+					}
+					add_trait = strong
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = tough
+						}
+					}
+					add_trait = tough
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = hardy
+						}
+					}
+					add_trait = hardy
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = pretty
+						}
+					}
+					add_trait = pretty
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = fair
+						}
+					}
+					add_trait = fair
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = beautiful
+						}
+					}
+					add_trait = beautiful
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = resilient
+						}
+					}
+					add_trait = resilient
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = melodious
+						}
+					}
+					add_trait = melodious
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = tall
+						}
+					}
+					add_trait = tall
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = fluent
+						}
+					}
+					add_trait = fluent
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = plain
+						}
+					}
+					add_trait = plain
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = ugly
+						}
+					}
+					add_trait = ugly
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = soft
+						}
+					}
+					add_trait = soft
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = fragile
+						}
+					}
+					add_trait = fragile
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = dim
+						}
+					}
+					add_trait = dim
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = slow
+						}
+					}
+					add_trait = slow
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = slow
+						}
+					}
+					add_trait = slow
+				}
+				if = {
+					limit = {
+						event_target:Amazon_Child = {
+							trait = dumb
+						}
+					}
+					add_trait = dumb
+				}
+				save_event_target_as = Amazon_Twin
+					#commented out since unable to get localization to work properly.
+					#prompt_name = { 
+					#	player = event_target:Amazon_Mother
+					#	type = NEWBORN
+					#	name_list = religion
+					#}
+					event_target:Amazon_Mother = {
+						character_event = {
+							id = amazon.202
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		character_event = {
+			id = amazon.202
+				title = amazontwinnotif
+				desc = EVTDESCamazontwinnotif
+				picture = GFX_evt_amazon_girl
+				is_triggered_only = yes
+				
+				option = {
+					name = OK
+					event_target:Amazon_Twin = {
+						opinion = {
+							name = opinion_amazon_twin
+							who = event_target:Amazon_Child
+							years = 1000
+						}
+						reverse_opinion = {
+							name = opinion_amazon_twin
+							who = event_target:Amazon_Child
+							years = 1000
+						}
+					}
+				}
+		}
+
+character_event = {
+	id = amazon.205
+		title = amazonlearnlore
+		desc = EVTDESCamazonlearnlore
+		picture = GFX_evt_amazon_casting
+		is_triggered_only = yes
+		
+		option = { #Lore Life
+			name = amazonlorelife
+			trigger = {
+				AND = {
+					society_currency >= 750
+				}
+			}
+			add_trait = lore_life
+			change_society_currency = -750
+			clr_character_flag = learning_lore
+			if = {
+				limit = { 
+					NOR = {
+						trait = magic_potential_1
+						trait = magic_potential_2
+						trait = magic_potential_3
+						trait = magic_potential_4
+					}
+				}
+				add_trait = magic_potential_1
+			}
+		}
+		
+		option = { #Lore Beasts
+			name = amazonlorebeast
+			trigger = {
+					society_currency >= 750
+			}
+			add_trait = lore_beasts
+			change_society_currency = -750
+			clr_character_flag = learning_lore
+			if = {
+				limit = { 
+					NOR = {
+						trait = magic_potential_1
+						trait = magic_potential_2
+						trait = magic_potential_3
+						trait = magic_potential_4
+					}
+				}
+				add_trait = magic_potential_1
+			}
+		}
+		
+		option = {
+			name = Maybe_later
+			clr_character_flag = learning_lore
+		}
+	}
+	character_event = { #Fountain of Youth
+		id = amazon.206
+			title = fountaindrink
+			desc = EVTDESCamazonfountaindrink
+			picture = GFX_evt_amazon_pool
+			is_triggered_only = yes
+			
+			option = {
+				name = fountainfree
+				trigger = { 
+					NOT = {has_character_modifier = 10yr_fountain_timer}
+					
+				}
+				add_character_modifier = {
+					modifier = 10yr_fountain_timer
+					duration = 3650
+				}
+				add_age = -5
+				any_courtier = {
+					limit = {
+						OR ={
+							is_close_relative = ROOT
+							dynasty = ROOT
+						}
+						is_ruler = no
+						age > 22
+					}
+					add_age = -5
+				}
+			}
+			option = {
+				name = fountainpaid
+				trigger = { 
+					has_character_modifier = 10yr_fountain_timer
+					society_currency >= 500
+				}
+				add_age = -5
+				change_society_currency = -500
+				any_courtier = {
+					limit = {
+						OR ={
+							is_close_relative = ROOT
+							dynasty = ROOT
+						}
+						is_ruler = no
+						age > 22
+					}
+					add_age = -5
+				}
+			}
+			option = {
+				name = Maybe_later
+				remove_character_modifier = 5yr_fountain_timer
+				
+			}
+	}
+	character_event = { #feedback that you have told your sisters to stop fighting
+		id = amazon.207
+		title = amazon_stop_fightingConf
+		desc = EVTDESCamazonStopFightConf
+		picture = GFX_evt_amazon_queen
+		is_triggered_only = yes
+		option = {
+			name = OK
+			trigger = {
+				always = yes
+			}
+			change_society_currency = -500
+		}
+	}
+	character_event = {#end the war, no option to refuse
+		id = amazon.208
+		title = amazon_stop_fighting_order
+		desc = EVTDESCamazonStopFightOrder
+		picture = GFX_evt_amazon_queen
+		is_triggered_only = yes
+		option = {
+			name = OK
+			any_war = { #only end wars between fellow Amazons
+				limit = {
+					war_with = {
+						any_ruler = {
+							religion = amazon
+						}
+					}
+				}
+				end_war = invalid
+			}
+		}
+	}
+	

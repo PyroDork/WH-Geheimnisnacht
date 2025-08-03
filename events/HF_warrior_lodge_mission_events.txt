@@ -20,7 +20,10 @@ character_event = {
 			same_society_as = ROOT
 			NOT={ has_character_flag = own_mission_tombola }
 		}
-		is_member_of_any_warrior_lodge_trigger = yes
+		OR = {
+			is_member_of_any_warrior_lodge_trigger = yes
+			society_member_of = amazon_sisterhood
+		}
 		has_any_quest = no
 		NOT = { has_character_modifier = quest_cooldown_timer }
 		NOT = { is_inaccessible_trigger = yes }
@@ -169,6 +172,10 @@ character_event = {
 				}
 			}
 			5 = {
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				trigger = {
 					ai = no
 					age = 16
@@ -229,6 +236,10 @@ character_event = {
 
 			}
 			20 = {
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				trigger = {
 					is_landed = yes
 					NOT={society_member_of=warriors_guild_dawi}
@@ -277,6 +288,10 @@ character_event = {
 				}
 			}
 			30 = {
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				trigger = {
 					independent=no
 					is_landed = yes
@@ -313,6 +328,10 @@ character_event = {
 					factor = 2.5
 					ai = yes
 				}
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				trigger = {
 					independent = yes
 					is_landed = yes
@@ -341,6 +360,10 @@ character_event = {
 				}
 			}
 			30 = {
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				trigger = {
 					independent = yes
 					is_landed = yes

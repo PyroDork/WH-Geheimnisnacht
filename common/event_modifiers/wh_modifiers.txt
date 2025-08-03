@@ -2423,5 +2423,10 @@ karakbuildsite ={
 	icon = 166
 }
 
-
+5yr_fountain_timer = {
+	icon = 79
+}
+10yr_fountain_timer = {
+	icon = 80
+}
 

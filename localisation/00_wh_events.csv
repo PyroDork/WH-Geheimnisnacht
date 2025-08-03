@@ -368,6 +368,28 @@ EVTOPTAsamazonchild18003;But.. what then?;;;;;;;;;;;;;;
 EVTDESCAsamazonchild18004;It appears your daughter [From.GetFirstName] has found her happiness with another girl, [FromFrom.GetFirstName]. She has proved once more, a true Amazon doesn't really need men for anything but breeding.;;;;;;;;;;;;;;
 EVTOPTAsamazonchild18004;I'm proud of her!;;;;;;;;;;;;;;
 EVTOPTBsamazonchild18;It's not a good idea.;;;;;;;;;;;;;;
+Maybe_later;Maybe later.;;;;;;
+currency_name_amazon_sisterhood;Rigg's Favor;;;;;;;
+amazonbirthyn;The Fertility Ritual;;;;;;
+EVTDESCamazonbirthyn;It is tradition that everyone undergo the fertility ritual and bear twins at least once to ensure the continuation of the tribe. Those who are permitted the ritual more than once must prove themselves able Amazons.;;;;;;
+amazonpregloc1;Lets do it again.;;;;;;
+amazonpregloc2;Lets do it.;;;;;;
+amazontwinnotif;Twins Have Been Born;;;;;;
+EVTDESCamazontwinnotif;I have now two identical and beautiful baby girls. I'll have to do my best to raise them to be proper Amazons.;;;;;;
+amazonlearnlore;Learning the Lore of Amazonia;;;;;;
+EVTDESCamazonlearnlore;Now that I have ascended to a high rank in the priesthood, it is only proper that I learn the Lore of Rigg.;;;;;;
+amazonlorelife;Learn Lore of Life;;;;;;
+amazonlorebeast;Learn Lore of Beasts;;;;;;
+fountaindrink;The Fountain of Youth;;;;;;
+EVTDESCamazonfountaindrink;Every five years or so it is recommended that an Amazon and her family drink from the fountain to maintain their ability to fight instead of growing old and infirm.;;;;;;
+fountainfree;Drink from the Fountain.;;;;;;
+fountainpaid;Drink from the Fountain.;;;;;;
+amazon_stop_fightingConf;Orders to cease fighting;;;;;;
+EVTDESCamazonStopFightConf;The order has been sent out, and a High Priestess will not be disobeyed.;;;;;;
+amazon_stop_fighting_order;Orders to cease fighting.;;;;;;
+EVTDESCamazonStopFightOrder;The high priesthood has demanded that we cease our infighting. We have no choice but to obey.;;;;;;
+
+
 #
 # ASRAI EVENTS
 #

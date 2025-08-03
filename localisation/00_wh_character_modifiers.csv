@@ -4,6 +4,10 @@
 ##########
 ###ÄNSI
 #
+#AMAZON CHARACTER MODIFIERS
+#
+5yr_fountain_timer;Fountain of Youth Cooldown;;;;;;
+10yr_fountain_timer;Fountain of Youth Free Use Cooldown;;;;;;
 # BEASTMAN CHARACTER MODIFIERS
 #
 scattered_beastmen;Scattered Beastmen;;;;;;;;;;;;;

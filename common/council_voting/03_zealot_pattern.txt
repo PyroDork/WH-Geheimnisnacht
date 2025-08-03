@@ -51,6 +51,21 @@ zealot_pattern_for = {
 					}
 				}
 			}
+			custom_tooltip = { 
+				text = Councilor_Vote_Grudge_War_Tooltip
+				AND = {
+					stored_token_trigger = settle_grudge
+					trait = creature_dwarf
+					NOT = {
+						FROMFROM = {
+							OR = {
+								dynasty = ROOT
+								is_close_relative = ROOT
+							}
+						}
+					}
+				}
+			}
 		}
 		custom_tooltip = {
 			text = pattern_zealot_not_other_religion_antipope_custom_tooltip

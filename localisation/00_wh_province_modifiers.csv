@@ -89,3 +89,11 @@ skaven_burrows;Skaven Burrows;;;;;;;;;;;;x
 skaven_burrows_desc;While this province's Skaven population is mostly leaderless and disorganized, they remain a threat, planning in their burrows for a chance to rise against the surfacers again. Marshal of this province's ruler will eventually try to organize an expedition to eradicate them.;;;;;;;;;;;;x
 skaven_unoptimized_demesne;Congested Province;;;;;;;;;;;;;
 skaven_unoptimized_demesne_desc;Aah! Too many Skaven, not enough Pawnleaders! Nobody knows what to do, great leader! Where are we going?! What are we supposed to eat-eat?!;;;;;;;;;;;;;
+#
+#Dwarf Province MODIFIERS
+#
+karakbuildsite;Karak Build Site;;;;;;
+ungdrin_ankor;Ungdrin Ankor;;;;;;
+ungdrin_ankor2;Ungdrin Ankor;;;;;;
+ungdrin_trains;Ungdrin Trains;;;;;;
+

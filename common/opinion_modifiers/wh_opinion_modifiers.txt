@@ -507,3 +507,6 @@ opinion_duped = {
 	months = 120
 	divorce_reason = yes
 }
+opinion_amazon_twin = {
+	opinion = 15
+}

@@ -1759,3 +1759,4 @@ SAME_POSITION_AS;has the same voting attitude ($POSITION$) as $TARGET|Y$;a la mê
 HAS_POSITION;has $POSITION|Y$ voting attitude;a une intention de vote de type : $POSITION|Y$;hat Wählerhaltung $POSITION|Y$;;tiene una actitud de votación de $POSITION|Y$ ;;;;;;;;;x
 HAS_MERCENARY_UNITS;$CHARACTER$ owns mercenary units;$CHARACTER$ possède des mercenaires;$CHARACTER$ besitzt Söldnereinheiten;;$CHARACTER$ posee unidades mercenarias;;;;;;;;;x
 COUNCILOR_VOTES;Votes for $ISSUE|Y$;Votes sur $ISSUE|Y$;Stimmt ab für $ISSUE|Y$;;Votos a favor de $ISSUE|Y$;;;;;;;;;x
+Councilor_Vote_Grudge_War_Tooltip;Glory Hound and Zealot Dwarves will vote for a Grudge War so long as it does not target them or their family members;;;;;;

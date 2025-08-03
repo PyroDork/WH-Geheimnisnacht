@@ -492,4 +492,8 @@ spriteTypes = {
 		name = "GFX_society_expansion_background_adventurers_druchii_corsairs"
 		texturefile = "gfx\\interface\\societies\\society_exp_bg_wolf_warriors.tga"
 	}
+	spriteType = {
+		name = "GFX_society_main_background_amazon_sisterhood"
+		texturefile = "gfx\\interface\\societies\\society_bg_amazon_sisterhood.dds"
+	}
 }

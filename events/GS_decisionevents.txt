@@ -141,7 +141,7 @@ character_event = {
 		trigger = {
 			top_liege = {
 				OR = {
-					has_law = sub_norse_tolerance_2v
+					has_law = sub_norse_tolerance_2
 					has_law = sub_norse_tolerance_1
 				}
 			}

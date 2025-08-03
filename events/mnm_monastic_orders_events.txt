@@ -96,6 +96,10 @@ character_event = {
 
 		random_list = {
 			10 = {
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				set_character_flag = monastic_orders_holy_seclusion
 			}
 			10 = {
@@ -107,6 +111,10 @@ character_event = {
 				modifier = { factor = 0 NOT = { has_dlc ="Way of Life" } }
 				modifier = { factor = 0 has_focus = focus_theology }
 				modifier = { factor = 0 is_playable = no } # Only playable characters get focuses
+				modifier = {
+					factor = 0
+					society_member_of = amazon_sisterhood
+				}
 				set_character_flag = monastic_orders_mission_theology
 			}
 			10 = {
@@ -116,6 +124,10 @@ character_event = {
 					factor = 0
 				}
 				modifier = {
+					modifier = {
+						factor = 0
+						society_member_of = amazon_sisterhood
+					}
 					trait = pilgrim
 					factor = 0
 				}
