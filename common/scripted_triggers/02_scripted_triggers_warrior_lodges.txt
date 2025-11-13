@@ -140,6 +140,13 @@ has_religion_matching_joined_warrior_society_trigger = {
 		text = has_religion_matching_joined_warrior_lodge_tt
 		OR = {
 			AND = {
+				religion_group = greenskin_gods_group
+				OR = {
+					society_member_of = warband_mork
+					society_member_of = warband_gork
+				}
+			}
+			AND = {
 				religion_tzeentch_worshipper_trigger = yes
 				society_member_of = warband_of_tzeentch
 			}
