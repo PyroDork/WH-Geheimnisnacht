@@ -1,20 +1,18 @@
 # e_lustria
-500.1.1={
-law=agnatic_succession
-law=succ_open_elective
-holder=10028
-effect={
-	location={
+500.1.1 = {
+	law = agnatic_succession
+	law = succ_open_elective
+	effect={
+		location={
 		add_province_modifier = {
 			name = quetza_wastes
 			duration = -1
 		}
 	}
-}
+	}
 }
 800.1.1={
-liege=d_quetza
+	liege=d_quetza
 }
-
 1992.1.1={
 }

@@ -1715,7 +1715,6 @@
 	add_trait = creature_human
 	add_trait = duelist
 	add_trait = flamboyant_schemer
-	add_trait = grail_knight
 	father = 49065
 	1939.3.23 = {
 		birth = yes

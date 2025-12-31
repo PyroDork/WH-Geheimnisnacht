@@ -1795,7 +1795,6 @@
 	learning = 3
 	add_trait = creature_human
 	add_trait = intricate_webweaver
-	add_trait = kind
 	add_trait = psychopath
 	add_trait = tall
 	father = 104
@@ -2477,7 +2476,7 @@
 	add_trait = cynical
 	trait = strong
 	trait = bright
-	add_trait = envious
+	
 	father = 187
 	mother = 163
 	2007.2.2 = {

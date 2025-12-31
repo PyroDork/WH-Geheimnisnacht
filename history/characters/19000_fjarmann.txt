@@ -543,7 +543,6 @@
 	add_trait = honest
 	add_trait = gregarious
 	add_trait = norscan_patron_ulric
-	add_trait = inspiring_leader
 	1968.1.1 = {
 		birth = yes
 	}
@@ -884,7 +883,6 @@
 	add_trait = magic_potential_2
 	add_trait = stubborn
 	add_trait = brave
-	father = 19043
 	1737.7.1 = {
 		birth = yes
 	}

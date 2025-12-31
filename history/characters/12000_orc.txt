@@ -2104,7 +2104,6 @@
 	add_trait = cruel
 	add_trait = strong
 	add_trait = albino
-	add_trait = resilient
 	father = 2317
 
 	1957.4.18 = {
