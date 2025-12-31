@@ -711,7 +711,7 @@
 	stewardship = 6
 	intrigue = 8
 	learning = 5
-	father = 31003
+	mother = 31003
 	add_trait = creature_human
 	add_trait = intricate_webweaver
 	add_trait = wroth
@@ -736,7 +736,7 @@
 	stewardship = 5
 	intrigue = 5
 	learning = 5
-	father = 31003
+	mother = 31003
 	add_trait = creature_human
 	add_trait = indulgent_wastrel
 	add_trait = arbitrary
@@ -888,7 +888,7 @@
 	stewardship = 7
 	intrigue = 2
 	learning = 5
-	father = 31003
+	mother = 31003
 	add_trait = creature_human
 	add_trait = charismatic_negotiator
 	add_trait = brave
