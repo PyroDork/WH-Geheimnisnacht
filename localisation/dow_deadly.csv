@@ -133,7 +133,7 @@ stormfels_group;Piratic;Piratic;Piratic;;Piratic;;;;;;;;;x
 upgrade_royal_trading_hall;Royal Trading Guild;;;;;;;;x
 upgrade_royal_trading_hall_desc;Long standing Royal Trading Guild ran by the Merchants of Marienburg, creating profits for the local lord.;;;;;;;;x
 wonder_norse_heorot;Fortress City Heorot;;;;;;;;x
-wonder_norse_heorot_desc;Greatest City in Norsca and the city that hosts the majestic treasures of High Kings of the old.Buildings and its protective walls in Heorot are made of the distinctive and durable blue-grey rock found only in the mountains north of the city.;;;;;;;;x
+wonder_norse_heorot_desc;Greatest City in Norsca and the city that hosts the majestic treasures of the High Kings of yore. Much of Heorots walls and homes are made of the distinctive and durable blue-grey rock found only in the mountains north of the city.;;;;;;;;x
 #Government
 gov_cathayan_realm;Cathayan [PrimaryTitle.GetTier] of [PrimaryTitle.GetName];;;;;;;;;;;;;x
 gov_cathayan_colony;Cathayan Colony of [PrimaryTitle.GetName];;;;;;;;;;;;;x

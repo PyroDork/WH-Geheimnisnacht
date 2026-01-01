@@ -65,6 +65,7 @@ CB_NAME_ATHELLOREN_RECONQUEST;Athel Loren Reconquest of [Title.GetBaseName];;;;;
 WAR_NAME_ATHELLOREN_RECONQUEST;$ORDER$$FIRST_ADJ$ Reconquest of $OTHER_TITLE$;;;;;;;;;;;;;
 bretonnian_forest_claim_desc;§Y$CLAIMANT$§!'s ancestors claim ownership of many of the now abandoned forest provinces. It might be the right time to retake one of them.;;;;;;;;;;;;;
 CB_NAME_FOREST_CLAIM;Claim [Title.GetBaseName];;;;;;;;;;;;;
+empire_forest_claim_desc;The forests of the old world are full of vile beasts and mysterious creatures. But of the Elven glades and hidden cities, was it not Sigmar who gave us the right to conquer?;;;;;;;;;;;;;;
 WAR_NAME_FOREST_CLAIM;$ORDER$$FIRST_ADJ$ Claiming of $OTHER_TITLE$;;;;;;;;;;;;;
 #
 # ASUR CB TYPES

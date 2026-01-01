@@ -506,6 +506,8 @@ Chose_option_B_a_startup;Only valid if option B was chosen at start-up;;;;;;;;;;
 use_potion_of_healing;Use Potion of Healing;;;;;;;;;;;x
 steal_artifact;Steal Artifact;;;;;;;;;;;;;x
 steal_artifact_desc;Take any and all artifacts of value in possession of [Root.GetFirstName].;;;;;;;;;;;;;x
+leave_for_the_colonies_human;Sail to the New World;;;;;;;;;;;;;x
+leave_for_the_colonies_human_desc;There's treasure to be had in Lustria, and opportunities open to those wily enough to seize it. Of course I'll have to abandon my current lands.;;;;;;;;;;;;;x
 #
 # SPELL DECISIONS
 #

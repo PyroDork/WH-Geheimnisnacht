@@ -245,7 +245,7 @@
 
 52009 = {
 	name = Mikkel
-	dynasty = 14046
+	dynasty = 14018
 	culture = nordlander
 	religion = ulrican
 	martial = 2
@@ -332,7 +332,8 @@
 	add_trait = fair
 	add_trait = diligent
 	add_trait = strong
-	1953.5.16 = {
+	father = 52064
+	1993.5.16 = {
 		birth = yes
 	}
 	2034.7.20 = {
@@ -1141,7 +1142,7 @@
 52044 = {
 	name = Cora
 	female = yes
-	dynasty = 14046
+	dynasty = 14018
 	dna = fdaopgooejf
 	culture = nordlander
 	religion = ulrican
@@ -1164,7 +1165,7 @@
 52045 = {
 	name = Erma
 	female = yes
-	dynasty = 14046
+	dynasty = 14018
 	dna = mkobigndidh
 	culture = nordlander
 	religion = ulrican
@@ -1189,7 +1190,7 @@
 52046 = {
 	name = Hanni
 	female = yes
-	dynasty = 14046
+	dynasty = 14018
 	dna = oopgbnbchpn
 	culture = nordlander
 	religion = ulrican
@@ -1675,7 +1676,7 @@
 
 52064 = {
 	name = Wulf
-	dynasty = 14046
+	dynasty = 14018
 	dna = hiaiohmmkfp
 	culture = nordlander
 	religion = ulrican

@@ -281,7 +281,7 @@ upgrade_black_orc_forge;Black Orc Forge;;;;;;;;;;;;;x
 upgrade_black_orc_forge_desc;Forges manned by the infamous black orcs, allways wary of war must learn how to forge their own armor.;;;;;;;;;;;;;x
 upgrade_goblin_workshop;Goblin Workshop;;;;;;;;;;;;;x
 upgrade_goblin_workshop_desc;The Goblin Tinkerers reside here and invent new ways mechanications to try and defeat their enemies, or themselves.;;;;;;;;;;;;;x
-upgrade_arachnid_hide;Arachnid Hive;;;;;;;;;;;;;x
+upgrade_arachnid_hive;Arachnid Hive;;;;;;;;;;;;;x
 upgrade_arachnid_hive_desc;Hundreds of large arachnid eggs lie dormant in this hive, ready for hatching and to be unleashed.;;;;;;;;;;;;;x
 grotbag_crooked_moon;Deceitful Ancestry of [This.GetTitledFirstName];;;;;;;;;x
 grotbag_crooked_moon_desc;Grotbag, the mighty goblin warlord machinated the downfall of the great hold of Azril Ungol, with help of the pincer attack of the skaven, eating the dwarfs present.;;;;;;;;;x
@@ -378,7 +378,7 @@ tb_ogre_tribe_2;Ogre Tribe;;;;;;;;;;;;;x
 tb_ogre_tribe_3;Ogre Tribalhold;;;;;;;;;;;;;x
 tb_ogre_tribe_4;Ogre Tribalhold;;;;;;;;;;;;;x
 tb_ogre_tribe_5;Ogre Tribalhold;;;;;;;;;;;;;x
-tb_ogre_tribe_desc;Ogre society is centered around two important aspects of their culture and way of life; eating and fighting.;;;;;;;;;;;;;x
+tb_ogre_tribe_desc;Ogre society is centered around two important aspects of their culture and way of life, eating and fighting.;;;;;;;;;;;;;x
 tb_mess_hall_1;Mess Hall;;;;;;;;;;;;;x
 tb_mess_hall_2;Mess Hall;;;;;;;;;;;;;x
 tb_mess_hall_3;Mess Hall;;;;;;;;;;;;;x
@@ -425,7 +425,7 @@ tb_ogre_mournfang_pit_1;Mournfang Pit;;;;;;;;;;;;;x
 tb_ogre_mournfang_pit_2;Mournfang Pit;;;;;;;;;;;;;x
 tb_ogre_mournfang_pit_3;Mournfang Pit;;;;;;;;;;;;;x
 tb_ogre_mournfang_pit_4;Mournfang Pit;;;;;;;;;;;;;x
-tb_ogre_mournfang_pit_desc;he Mournfang Cavalry are arguably the heaviest of their kind, the Ogre Kingdoms utilising them to brutal effect as a force of powerful shock cavalry that can literally mow down entire enemy formation in a great, thunderous charge.;;;;;;;;;;;;;x
+tb_ogre_mournfang_pit_desc;The Mournfang Cavalry are arguably the heaviest of their kind, the Ogre Kingdoms utilising them to brutal effect as a force of powerful shock cavalry that can literally mow down entire enemy formation in a great, thunderous charge.;;;;;;;;;;;;;x
 tb_leadbelcher_quarters_1;Leadbelcher Quarters;;;;;;;;;;;;;x
 tb_leadbelcher_quarters_2;Leadbelcher Quarters;;;;;;;;;;;;;x
 tb_leadbelcher_quarters_3;Leadbelcher Quarters;;;;;;;;;;;;;x

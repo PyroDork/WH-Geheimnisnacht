@@ -401,15 +401,15 @@ upgrade_slaanesh_altar_desc;Upon the altar of lust will the vessels of desire en
 daemon_summoners;;;;;;;;;;;;;;x
 daemon_summoners_desc;;;;;;;;;;;;;;x
 zanbaijin_arena;Zanbaijin Arena;;;;;;;;;;;;;x
-zanbaijin_arena_desc;Mortal followers of the Gods of Chaos have for many years used these ruins as a arena to combt each other and prove themselves to their patrons. Those that are defeated and survive must serve the victor whose fame will quickly spread through the northern Chaos Wastes.;;;;;;;;;;;;;;x
-khorne_quarter;;;;;;;;;;;;;;x
-khorne_quarter_desc;;;;;;;;;;;;;;x
-nurgle_quarter;;;;;;;;;;;;;;x
-nurgle_quarter_desc;;;;;;;;;;;;;;x
-tzeentch_quarter;;;;;;;;;;;;;;x
-tzeentch_quarter_desc;;;;;;;;;;;;;;x
-slaanesh_quarter;;;;;;;;;;;;;;x
-slaanesh_quarter_desc;;;;;;;;;;;;;;x
+zanbaijin_arena_desc;Mortal followers of the Gods of Chaos have for many years used these ruins as an arena to combat each other and prove themselves to their patrons. The defeated must serve the victor whose fame will quickly spread through the Chaos Wastes.;;;;;;;;;;;;;;x
+khorne_quarter;Icon to Khorne;;;;;;;;;;;;;x
+khorne_quarter_desc;An icon to the Blood God Khorne, here warriors and cultists may pay homage.;;;;;;;;;;;;;x
+nurgle_quarter;Icon to Nurgle;;;;;;;;;;;;;x
+nurgle_quarter_desc;An icon to the Plague God Nurgle, here warriors and cultists may pay homage.;;;;;;;;;;;;;x
+tzeentch_quarter;Icon to Tzeentch;;;;;;;;;;;;;x
+tzeentch_quarter_desc;An icon to the God Tzeentch, here sorcerers and cultists may pay homage.;;;;;;;;;;;;;x
+slaanesh_quarter;Icon to Slaanesh;;;;;;;;;;;;;x
+slaanesh_quarter_desc;An icon to the God Slaanesh, here warriors and cultists may pay homage.;;;;;;;;;;;;;x
 temple_horned_rat;The Great Temple of the Horned Rat;;;;;;;;;;;;;;;x
 temple_horned_rat_desc;At the centre of the Skaven city lies the Great Temple of the Horned Rat. It stretches for miles beneath the surface but above ground is marked by a single, cloud-piercing tower reaching high over the desolation of the ruins of the city of Tylos.;;;;;;;;;;;;;;x
 shattered_tower;Shattered Tower;;;;;;;;;;;;;;x
